@@ -92,14 +92,15 @@ def upload_audio_to_s3(output_audio_path, s3_bucket=S3_BUCKET_NAME):
 
 
 
+
 def main(youtube_id):
     filename = download_audio_from_youtube(youtube_id)
     upload_audio_to_s3(filename)
 
-    
+
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python script_name.py <youtube_id>")
+        print("Usage: python upload_youtube_to_s3.py <youtube_id>")
         sys.exit(1)
 
     youtube_id = sys.argv[1]
