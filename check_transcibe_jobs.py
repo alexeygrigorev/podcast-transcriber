@@ -12,9 +12,9 @@ S3_BUCKET = os.getenv("S3_BUCKET", "podcast-audio-storage")
 def convert_https_to_s3(http_url):
     parsed_url = urlparse(http_url)
 
-    split = parsed_url.path.split('/')
+    split = parsed_url.path.split("/")
     bucket_name = split[1]
-    s3_key = '/'.join(split[2:])
+    s3_key = "/".join(split[2:])
 
     return bucket_name, s3_key
 
@@ -35,7 +35,9 @@ def check_transcription_job(job_name):
 def download_transcript_file(http_url, local_file_path):
     s3 = boto3.client("s3")
     bucket_name, s3_key = convert_https_to_s3(http_url)
-    print(f"Downloading transcript file from s3://{bucket_name}/{s3_key} to {local_file_path}")
+    print(
+        f"Downloading transcript file from s3://{bucket_name}/{s3_key} to {local_file_path}"
+    )
     s3.download_file(bucket_name, s3_key, local_file_path)
 
 
@@ -81,7 +83,7 @@ def process_job(job_file):
 
     job_name = job_data["job_name"]
     youtube_id = job_data["youtube_id"]
-    local_file_path = f"podcast-{youtube_id}.json"
+    local_json_transcript_path = f"podcast-{youtube_id}.json"
     output_transcript_path = f"transcripts/raw/{youtube_id}.txt"
 
     print(f"Checking status of job {job_name}...")
@@ -91,9 +93,9 @@ def process_job(job_file):
         transcript_uri = result["https_url"]
         print(f"Transcription completed. Transcript available at: {transcript_uri}")
 
-        download_transcript_file(transcript_uri, local_file_path)
+        download_transcript_file(transcript_uri, local_json_transcript_path)
 
-        with open(local_file_path, "rt") as f_in:
+        with open(local_json_transcript_path, "rt") as f_in:
             transcript_job = json.load(f_in)
 
         results = transcript_job["results"]
@@ -104,7 +106,9 @@ def process_job(job_file):
             f_out.write(transcript_text)
 
         print(f"Transcript saved to {output_transcript_path}")
+
         os.remove(job_file)
+        os.remove(local_json_transcript_path)
 
     elif result["status"] == "FAILED":
         print(f"Transcription job {job_name} failed.")
