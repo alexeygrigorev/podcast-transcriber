@@ -11,9 +11,12 @@ S3_BUCKET = os.getenv("S3_BUCKET", "podcast-audio-storage")
 
 def convert_https_to_s3(http_url):
     parsed_url = urlparse(http_url)
-    bucket_name = parsed_url.netloc.split(".")[0]
-    s3_key = parsed_url.path.lstrip("/")
-    return f"s3://{bucket_name}/{s3_key}"
+
+    split = parsed_url.path.split('/')
+    bucket_name = split[1]
+    s3_key = '/'.join(split[2:])
+
+    return bucket_name, s3_key
 
 
 def check_transcription_job(job_name):
@@ -31,7 +34,8 @@ def check_transcription_job(job_name):
 
 def download_transcript_file(http_url, local_file_path):
     s3 = boto3.client("s3")
-    bucket_name, s3_key = convert_https_to_s3(http_url)[5:].split("/", 1)
+    bucket_name, s3_key = convert_https_to_s3(http_url)
+    print(f"Downloading transcript file from s3://{bucket_name}/{s3_key} to {local_file_path}")
     s3.download_file(bucket_name, s3_key, local_file_path)
 
 
@@ -115,6 +119,10 @@ def process_job(job_file):
 def main():
     job_dir = "jobs"
     for job_file in os.listdir(job_dir):
+        if not job_file.endswith(".json"):
+            print(f"Skipping non-JSON file: {job_file}")
+            continue
+
         job_file_path = os.path.join(job_dir, job_file)
         if os.path.isfile(job_file_path):
             process_job(job_file_path)

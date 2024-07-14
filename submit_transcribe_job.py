@@ -52,7 +52,11 @@ def download_audio_from_youtube_main(youtube_id):
         ydl.download([youtube_url])
 
     if actual_filename:
-        return actual_filename[0]
+        filename = actual_filename[0]
+        if filename.endswith(".webm"):
+            filename = filename.replace(".webm", ".mp3")
+        return filename
+
     return output_audio_path_template % "mp3"
 
 
@@ -132,7 +136,7 @@ def main(youtube_id):
     job_dir = "jobs"
     os.makedirs(job_dir, exist_ok=True)
     with open(f"{job_dir}/{job_name}.json", "w") as f_out:
-        json.dump(job_data, f_out)
+        json.dump(job_data, f_out, indent=2)
 
     print(f"Job submitted and details saved to {job_dir}/{job_name}.json")
 

@@ -1,0 +1,44 @@
+name: Submit Transcribe Job
+
+on:
+  workflow_dispatch:
+    inputs:
+      youtube_id:
+        description: "YouTube ID"
+        required: true
+        type: string
+
+jobs:
+  submit-transcribe-job:
+    runs-on: ubuntu-latest
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_REGION: ${{ secrets.AWS_REGION }}
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install boto3 yt-dlp
+
+    - name: Run submit_transcribe_job
+      run: |
+        python submit_and_upload.py ${{ github.event.inputs.youtube_id }}
+
+    - name: Commit job details
+      uses: EndBug/add-and-commit@v8
+      with:
+        author_name: github-actions[bot]
+        author_email: github-actions[bot]@users.noreply.github.com
+        message: "Add transcription job for YouTube ID: ${{ github.event.inputs.youtube_id }}"
+        add: "jobs/"
+        pull: --rebase

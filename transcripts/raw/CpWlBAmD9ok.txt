@@ -1,0 +1,727 @@
+0:00
+Host
+Hi, everyone. Welcome to Data Talks Club. This one is brought to you. I think I haven't done this in a while. Like usually I remember the line like I remember what you say without like thinking about this. And yeah, so we haven't had podcast introduced like in uh three weeks, maybe four. So now we are finally back. We are again looking for speakers. So if somebody wants to speak, let us know anyways. So welcome to our event. This event is brought to you by Data Do Club, which is a community of people who love data. We have weekly events or at least we try. And if you want to know more about our events, there is a link in the description, click on that link and check what we have in our pipeline and I need to update the number of subscribers I think now it's more so do not forget to subscribe to our youtube channel. Very important. This way you'll stay up to date with all our future streams like the one we have today and we have a great Slack community where you can hang out with other dating disa during today's interview, you can ask any question you want. There is a pint link in the live chat, click on that link, ask your questions and we will be covering these questions during the interview and I still remember something that's good. So I haven't forgotten completely. What does g quickly open the questions so I can monitor them, which I should have done before. 
+
+1:38
+Guest
+It's OK. I, I feel you. It's ok. It's also my first podcast on the other side of the podcast. So there you go. It's fine 
+
+1:46
+Host
+on the other side. So you interview people. 
+
+1:49
+Guest
+Mm I mean, everyone these days can have a podcast. My friends and I tried to do a Tango podcast like some time ago and yeah, there I interviewed like friends. Yeah. Yeah. Yeah. 
+
+2:03
+Host
+But like Tango is a very visual topic and podcast is typically audio only. How do you talk about tango? Like, how do you discuss different moves? 
+
+2:14
+Guest
+Well, we don't discuss moves. That's the thing we talk, we talk about the social aspect of tango. We talk about how uh interesting um the invitation in tango is um about our experiences leading and following in tango, like dancing with people, meeting people, going to events and being obsessed enough to like travel around the world just to do tango, those sorts of things like everything but the actual dance. 
+
+2:44
+Host
+Do you travel around the world to meet other people and dance? Tango? Yes, 
+
+2:49
+Guest
+actually. Well, around Europe. So, far. 
+
+2:54
+Host
+I only tried Bachata. I 
+
+2:56
+Guest
+haven't. Yeah, people, people do travel for Bach as well. So, 
+
+3:01
+Host
+yeah, I can imagine. Like, cuz it's also fun. 
+
+3:05
+Guest
+Yeah, it is. It is. 
+
+3:07
+Host
+I think I attended like, six sessions. Yeah, I, I only remember the basic one. But, 
+
+3:13
+Guest
+yeah, I mean, that's good enough, you know, like, you can already go down socially with just that 
+
+3:20
+Host
+anyways. This week we will not talk about tango, maybe a little bit. So we will talk about building a domestic risk assessment tool and we have a special guest today. Sabina, did I pronounce it correctly? Sabina or? 
+
+3:35
+Guest
+Yeah, it's perfect. Yeah. No, it's, it's Romanian pronunciation. Yeah. 
+
+3:42
+Host
+OK. So Sabina works on front lines. 100 A I product development. Front line 100 is a company name. So she's involved in all aspects of model development from data wrangling and visualization to statistical tests, model training and validation. She has a background in natural sciences and previously worked as a data analyst in finance and SAS companies as a freelance data list. She takes on challenging projects for mission driven companies being especially interested in social impact health care and accessibility. You are every lunch, right? 
+
+4:16
+Guest
+Yes. At the moment. Yes. Yes, at the 
+
+4:19
+Host
+moment. So welcome to our in Rio. 
+
+4:23
+Guest
+Nice to see you. Nice to see you again. I hope you have your silent with you. 
+
+4:30
+Host
+It's uh it's 
+
+4:31
+Guest
+island, right? 
+
+4:33
+Host
+It was um y food. 
+
+4:35
+Guest
+Why food? Yeah, that's the brand that they have here. The meal replacement because how we met. Right. 
+
+4:41
+Host
+Yeah, that's how we met. Yeah. So there like for background. So this is how we met. So there was a meet up. Uh I think it was actually co organized by Data Dos Club. But the only thing we did to co organize the event is place our logo there. It was mostly done by DLD Hub which is, which bought food. Mm What else did they provided the office? Mm And 
+
+5:08
+Guest
+food and drinks. Very important. 
+
+5:11
+Host
+Yeah. So basically they did the whole thing and they just asked me to show up like, how can I say no to that time? 
+
+5:17
+Guest
+Yeah. And it was so funny because I knew about data talks and after the event I was like, wait a second. Is this person that I met actually from data talk? Yeah. Yeah. 
+
+5:28
+Host
+So it was a bit noisy there like um they have uh how do you call it uh a room for meetups, right? It's not the largest room for meetups. And when many people start speaking there, it gets loud. So of course I was trying to hide in a room and then there was Sabina also hiding and um yeah, I had this white food bottle which is like a meal replacement. Uh Just you drink and then it has like 500 calories. And then your comment was like, I'm more like a he person, he person 
+
+6:07
+Guest
+Yeah, because I was very into meal replacement at some point. Like, I drank he for lunch every single day. 
+
+6:15
+Host
+Ah, so it was that, uh, into? 
+
+6:19
+Guest
+Yeah. Yeah. Yeah. I mean, I still have, like, heal at home but I just find it difficult to have it nowadays on a regular basis. Otherwise I would still love to have heel. It's great. Like time saver. Mhm. 
+
+6:34
+Host
+Yeah. I just drink it after the gym usually or when I don't have enough like II I want to consume a certain amount of protein per day and when I don't keep the number. So then I just drink this because like they have a lot of protein anyway. So this is how we met. Then we got, we, we talked a little bit about Sabina's work and that was pretty interesting. So when we connected later linkedin, I thought I have to interview her. So that's why we're here talking today. And yeah, as always, the questions for today's interview are prepared by Johanna Byron. Thanks Johanna for your help. So let's start. And before we go into our main topic, we start with your background. Can I, can you tell us about your career journey so far? 
+
+7:26
+Guest
+Yeah, I think the bio was quite uh well put already like I've been in the work workplace for very little time, but I've already had quite a few career switches. Um So yeah, I started, I studied um chemistry at the university of Cambridge started off with natural sciences and then specialized in organic chemistry. Afterwards, I decided that uh lab work was not really my thing. I was think I much more preferred the thinking work of organic chemistry compared to the grunt work of doing experiments and working in the wet lab. So then I thought that I would like to do uh something either in consulting. But then this opportunity appeared to work as a data analyst in Tenerife and I had to take it because it's uh quite rare to get to work on something very interesting also for mission driven companies and also in a lovely place to live in. Yeah. And then from finance, I realized I didn't like Excel that much. I didn't want to work all of my life in Excel. It wasn't really my thing. I was very keen on Python since the pandemic. I got like, I'm not sure if you know about hyper skill but uh they're super cool. Yeah. So, but you know about jet brains by any chance. Yeah. Yeah. So like they've worked with hyper skill on creating uh this learning platform for Python and lots of other programming languages. And I think it's one of the best I've seen and that's how I started learning Python and I knew I liked it since hyper skill 
+
+9:12
+Host
+skill. Uh hyper 
+
+9:13
+Guest
+skill. Yeah. Yeah, I highly recommend it. It is quite pricey, but I think they offer a lot of value as well. Um Yeah, so I started learning Python and I thought, hey, I mean, I've already worked in data analysis in finance and I already like know a bit of programming and then I sort of went for Iron hack, like um and study data analytics with them. And since I've been taking data analytics positions, switch to freelancing because I find it more suited to my interests. I like dipping my toes into multiple fields. And yeah, right now, my main focus is front line 100 because I think the work that we do is very important and very impactful. And I really, really love it. I think obviously the topic is quite heavy. So saying it very enthusiastically might come across as weird. But I think I really love having the opportunity to contribute to such a topic. 
+
+10:19
+Host
+And right now I want to ask you of course, the topic, but I want to give a warning, a disclaimer, not a disclaimer. Probably a warning would be a better word that we are going to talk about a sensitive topic which is domestic abuse and violence. Um And if you know somebody who is experiencing domestic abuse, you should seek for help. And if you live in Germany, there is a national helpline available at 116016. And if you live somewhere else, please find a number to contact. And um I think this is an important topic. That's why when I heard about what Sabina is doing. I have not heard about A I applications to that topic. So that's why we're here. I wanted to talk about that. So, yeah, please tell us about the front line 100 what you're trying to solve. 
+
+11:16
+Guest
+Right. So, well, the main purpose of front line 100 is to end domestic abuse sooner. And as you very correctly pointed out A I in this field is not something that's quite very common, which is why uh what we're bringing to domestic abuse uh prevention is quite relevant. Most of the domestic abuse risk assessments in the field are on paper only. So I think that's having um an A I tool involved in this, especially with all of the hype around A I and having in general um an application of A I into social issues is very relevant. So I was very excited when I first saw the front line website. I was like, this is incredible. Like I've never thought of using uh A I for such a cause. So I was very excited from the get go. 
+
+12:17
+Host
+How did you find them or did they find you? 
+
+12:21
+Guest
+It's very funny because I found them through a telegram group. So one of the previous uh data scientists joy, like he uh po posted in a te like the computer science university alumni telegram group. And then uh yeah, my, one of my friends who also studied that they sent me this uh this job job post. And I was like, wow, this is incredible. This is exactly what I want because I was looking for many positions at the time. So it's, yeah, it was very fun 
+
+13:02
+Host
+because I usually, well, I'm not actively looking for a job, but sometimes I come across different job descriptions positions. Typically it's in link on linkedin and usually it's like e-commerce or, you know, internet companies like tech or marketing or like the, the the usual thing, right? So I don't typically come across social initiatives like that one. So yeah, it's pretty interesting like how people can find it. Like, uh for example, if I want to also contribute to a similar project, where would you suggest to find for jobs in this area 
+
+13:47
+Guest
+to be fair? What I started doing now is simply to look for organizations that I'm interested in and see if they have openings because I think as you said, it's very rare that you would find these job adverts. And I remember I saw one, I follow our world in data quite a lot because they post very interesting reports and data visualizations. Um Yeah, and at some point, I just found a job post that was expiring the same day. So I was like, OK, I have to code something now so I can apply. Uh So yeah, I would suggest to actively look for organizations in the causes that you're interested in be it uh data transparency, be it, accessibility, social impact, whatever and follow them and look for updates or even uh message them because if they're small organizations, they're more likely to answer than if they're bigger. 
+
+14:46
+Host
+And uh I diverged a little bit. So we talked about uh domestic abuse and he said that it's very rare that A I is used to for risk assessment of domestic abuse. And I am wondering how is it done usually, like you said it's done on paper but how exactly what is the process and what the risk assessment of what like are they looking at a family and think like how likely that in this family there is this problem. Like I'm trying to figure out what's the how to put it correctly? Like typically in the usual settings, I would say business case but like it sounds very weird to say like that. 
+
+15:29
+Guest
+Yeah. Yeah. Yeah. A use case maybe 
+
+15:31
+Host
+use case. Yeah. Right. 
+
+15:34
+Guest
+Yeah. So or maybe a scenario 
+
+15:37
+Host
+scenario. 
+
+15:38
+Guest
+Yeah, I would say like what uh happens at the moment is um you have victims interacting with uh institutions, be it police be it uh health care practitioners, be it social workers and um the people that they're in contact with, they usually administer a survey which has been um studied previously and shows high correlation with abuse. Uh usually physical and sexual abuse that's uh typically what's um is being tested. Uh however, and it's usually just uh about the victims experience. There have been qualitative studies as well, but it's mostly very academic and what's currently used by uh police officers in Germany and uh in Germany, it's a mixture of um risk assessment tools that were built in North America for people uh in that demographic based on data that they've collected. Uh and it's used on the German population and it's usually, yeah, administered a set of question and then based on that, whether the person is at high risk or medium risk. 
+
+17:09
+Host
+But usually, so there is a victim, right? And somebody is talking to them, police health care personnel, social workers. But if the victim already approached them, they already know that there is a problem or they approach them with a different uh with something different. 
+
+17:30
+Guest
+What do you mean by approach them? 
+
+17:32
+Host
+If I already go to the police and say look like my husband is beating me up like they kind of already know that. 
+
+17:40
+Guest
+Yeah. So what can happen is that some people? Yes, like at that point, it already is quite a big problem. We have already uh our tool is also meant for cases that are not like that. But in that case, even then because a victim might still be in love with their partner, they might not disclose everything that has happened in the relationship. So for example, maybe they come because of financial abuse or maybe because of physical abuse, but they haven't disclosed that there has been sexual abuse happening as well. And this is uh what we're trying to predict you using our tools because yeah, even if they come, maybe they change their minds as well, right? Because it's a very high pressure environment that they're in. Right then being asked questions about the police, very personal questions as well and they might tone down on the things that they might disclose. So then it's quite important to have these risk assessments, not only to see uh what will happen in the future, but also what is likely happening right now that a person might not disclose in that moment. 
+
+18:53
+Host
+Yeah. So in this scenario, like if I'm a police officer, I would have something like that and with very serious face, ask tough, no, not tough but like these questions and maybe put some pressure on the victim, on the person. Like I can imagine like a room maybe without windows like and then if you put in this environment and then somebody with a piece of paper, serious face like taking notes. So this is how it's done right now. 
+
+19:24
+Guest
+Yes. Yes. Very, very much so. Yeah. 
+
+19:27
+Host
+Yeah. And how are you approaching it? 
+
+19:32
+Guest
+Right. So first off, we're taking things off paper, we already have an app built to uh for right now for uh people interacting with victims to also track cases of domestic abuse, which I think is also another plus added because besides having the paper tracking of what happened. You can also look over time uh at what cases uh occurred, like how many are high risk, how many are medium? You can also look at the person's history as well. Yeah, I mean, um I think in terms of interaction with the victim itself at the moment given that the survey is still administered by uh a social worker or police officer, there's still trainings that we do with the people so that they administer it in the way that it's meant to be. Uh we cannot eliminate that human part or make it better. But we can create the interface to help release, relieve the load of the social workers and police officers, which are obviously overworked as well, which might come into play when it comes to uh their interactions with victim. And hopefully in the future, it might uh work on that as well. 
+
+21:05
+Host
+So it would be a police officer sitting with a phone and talking to the victim and then taking maybe marking questions, right answer 
+
+21:16
+Guest
+to the question we have been thinking about uh maybe an LLM version of that given LL MS are so popular at the moment, you know, like where you'd have a chatbot uh that interacts directly with the victim and directly extract the answer. But that is already like a very high involvement and requires much more funding. Um But we would be very keen on doing that and make maybe making it easier for victims to come forward. 
+
+21:47
+Host
+Yeah. And you mentioned that currently what is happening is that there are these paper surveys with questions coming from the United States, from Canada, from North America, right? And they are applied to Germans and this is something you also change, right? So do you do something specific to geography to the company? 
+
+22:11
+Guest
+Yes. Yes. Yes. So, uh we already have uh done two surveys looking at domestic abuse first on a sample of 7400 people. So I would, which is nationally representative. And we also use waiting in order to ensure that we have uh all of the demographics are national representative as well. Uh And then we did a second survey looking only at uh people who have been victims in the first one and seeing whether they've re experienced abuse uh after three months. And this again is another innovation that we're doing because what happens at the moment is when people are looking at uh reoccurrence of domestic abuse, they are looking at reoccurrence after a year or more, like some tools are after seven years and imagine and looking at three months brings it in more immediate attention and makes it uh better for resource management as well because you can know like you have to act within three months, not within a year. 
+
+23:23
+Host
+And A I here means that you do some sort of machine learning or what? Exactly. 
+
+23:27
+Guest
+Exactly. Exactly. Yeah. I mean, obviously for the audience, like for a general audience, A I already means machine learning. But if you're a data audience, you know that A I is an if but 
+
+23:43
+Host
+because like now when I hear A I, to me it's like all this stuff, 
+
+23:49
+Guest
+right? 
+
+23:49
+Host
+So when you can actually feel like that this thing is somehow intelligent, right? I talked to cha GP T like it feels like I'm talking to a very smart person, 
+
+24:01
+Guest
+right? Yes, a very literate person maybe like, yeah, 
+
+24:07
+Host
+like because like the expression it uses are 
+
+24:11
+Guest
+much better than ones I use honestly. 
+
+24:15
+Host
+Well, I don't know if it's better but like is different. Like, I don't know if people speak like that. But yeah, 
+
+24:22
+Guest
+yeah, I think it's fantastic for writing text. I I find it so useful for writing text. 
+
+24:29
+Host
+So you use machine learning and then you said you had the survey with 740 people that you interviewed seven 
+
+24:36
+Guest
+1004 100. Very important. Yeah, this is, 
+
+24:46
+Host
+and this is what you use for your, your training data, 
+
+24:49
+Guest
+right? Yes. Yes. Yes. 
+
+24:51
+Host
+And uh so the target variable here was uh uh whether it was repeated like the the abuse happened again in three months, right? 
+
+25:04
+Guest
+That's one of them. 
+
+25:05
+Host
+Yes, that's one of them. They have multiple and I guess the features uh are the answers to questions. 
+
+25:13
+Guest
+Exactly. Yes. I mean, the features and the targets are answers to questions, right? So we're looking at uh five different types of abuse. So it's digital, emotional, financial, physical and sexual. And this again is another uh plus that we have compared to what's happening at the moment because perhaps some intervention tactics might need uh for you to look at uh the different types of abuse. And one example of that would be a person experiences physical abuse, uh intense physical abuse and then the immediate course of action would be leave your partner. However, if you're financially dependent on that partner, then that is very tricky to do. Um which is important to be able to dis distinguish between these categories. Um Sorry, I'm trying to remember where we're oh the targets. Yes, sorry. Uh Yes. So we have the, the targets for from digital to sexual abuse and we're using questions from um questions do not point directly to that type of abuse. So what we call proxy questions in order to figure out whether that abuse is happening or not at the current moment or whether it will happen in three months. So we have basically 10 targets. No, yes, 10 targets. So five types of abuse and identification and recidivism as we call it internally. 
+
+26:48
+Host
+Mm And I imagine like coming up with this survey was the most difficult part, right? Or, and then interviewing people because I can imagine if I as a data scientist try to come up with this survey, it will probably not be a very good survey. Wow. Like you have to have proper social scientists, right? Who know how to ask questions? 
+
+27:14
+Guest
+Yes. So, I mean for this, I wasn't part of the data collection because that happened before I joined the company. Uh but basically we took the literature for this because there's already a huge body of literature looking at surveys and uh creating these risk assessments. And we tried to use the questions that were most re relevant in those risk assessments. And in addition, some questions that we wanted to test out and to see whether they have any correlation with abuse. 
+
+27:49
+Host
+Mhm And I imagine you also need to work closely with police and social workers, right? 
+
+27:57
+Guest
+So at the moment, we're piloting and we're working closely with police and social workers. And we also have a lot of uh advisors on our team who work in uh criminal law and uh domestic abuse and also econometrics, like you name it. If you look at our website, I think we have around 12 people that have advised us along the way because our CEO like he's uh the main domain expert, he is also a domain expert as well. Uh a social scientist. So she's been my uh first point of contact when it came to technical and social science questions. But obviously like the CEO he has been working like in the field for 15 years and knows a lot of the nitty gritty that we should take into account when we create these tools because it can get very theoretic times. And I think of that as a data scientist, you can get very technical and very into your world of developing a lot of models and like looking at all of these features. But then in reality, you don't need as much technicality. 
+
+29:18
+Host
+So the Pounders. So it was CTO IC O, right? 
+
+29:25
+Guest
+Well, so we have CO CD O and co 
+
+29:30
+Host
+so there are three co founders, right? They do, they all come from this uh how to say business domain. Like it sounds, that doesn't sound very good but like do they all come from uh this um this domain? 
+
+29:46
+Guest
+So yes, the CEO definitely, like he's worked 15 years in the charity sector. Uh Balin, I think, I mean, she's been working mostly on front line and she's done research before toxic masculinity. If I remember correctly, that was her master thesis. And then Adam the CTO um I think his background is more in business. He takes care of all of the development aspects of Lizzie. 
+
+30:17
+Host
+Lizzy. We didn't talk what Lizzie means. I have it in my notes. 
+
+30:24
+Guest
+Right. Yes. Yes, yes, yes. 
+
+30:26
+Host
+Why it's called Lizzie. 
+
+30:29
+Guest
+Well, I will assume you don't know how the different risk assessments are called. They're just abbreviations ODA A dash D A and we thought we might make something a bit more humanizing in this area, especially as it's quite a grueling. Uh experience to go through. So this is why we went for Lizzie. 
+
+30:53
+Host
+Mhm So Liz is just her name. 
+
+30:56
+Guest
+Yes. 
+
+30:57
+Host
+It, it doesn't stand for anything. 
+
+31:00
+Guest
+Well, no, it's not an acronym. 
+
+31:03
+Host
+OK. Uh So coming back to like we were discussing the co-founders and you said that CEO is a minor expert and he's been in this area for quite some time, 15 years, you said, was it something that he noticed in his line of work that this could be optimized? That right now was just a paper survey and the pressure it puts on people, it's not working and we can make it better and he decided that it should be a company, right? Yeah. Like there should be a way to solve this problem differently. 
+
+31:40
+Guest
+Yes. Yes. Yes. And I mean, like uh yeah, so babs like he's uh he also has a background, some background in statistics and Berlin, like being the data scientist as well. Like you can see how these two fields can merge and come up with this idea. And especially in Germany, as you all know, in Berlin, you have to carry cash everywhere. Digital is probably not that bad of an idea. It's something that Germany is a bit behind on, in some sense, 
+
+32:16
+Host
+in some sense. Yeah. Well, right now even is like these late night shops start accepting cards. So 
+
+32:24
+Guest
+yeah, we're slowly getting there. 
+
+32:26
+Host
+It's moving in the right direction. But like, I remember, hm, in Poland, 12 years ago, it was already possible to pay everyone with just you know, touching your card to 
+
+32:40
+Guest
+12 years ago with the phone. 
+
+32:46
+Host
+And then like in Germany, it appeared only after Corona cause like you weren't supposed to touch the the this part, right? So only because of Corona in Germany, it was, it was, it started to be possible to pay with, you know, just 
+
+33:02
+Guest
+yeah, but it's still like I find it now I have a reverse culture shock when I go to different countries and I'm so surprised they accept card. I living in Berlin. 
+
+33:16
+Host
+Yeah, like I remember in France, in a village like I wanted to buy an ice cream and there was a terminal so I could just pay for this ice cream. It was like a just visual ice cream. 
+
+33:27
+Guest
+It's minimum €5.10 euros, something like that. Yeah. Yeah. 
+
+33:31
+Host
+Yeah. Anyways uh so and this is just one of the areas where digitalization is like in behind, right? But then other areas uh especially like this is consumer facing. So this is this kind of this one is kind of moving forward slowly but moving, right? But in the other it is like social areas police like it's probably behind, 
+
+33:58
+Guest
+right. Yes, yes. And there is obviously lots of skepticism, right when bringing in A I to uh yeah, to help officers. But that's the thing like I think um there has been lots of uh news criticizing the way that A I has been used in order to make decisions. And this is why we don't use, we haven't created Lizzie to make decisions for police officers, but to help them, it's a tool for them to make a decision. However, it has been shown in practice that risk assessments are more effective than uh an expert judgment. So this is why I think it's quite important to have these tools but not use them as the decision makers. 
+
+34:48
+Host
+Which means that instead of just saying the probability of abuse occurring again is very high, you also explain why, right? Or how, what does it mean in practice that you don't use it to make decisions but to guide 
+
+35:08
+Guest
+that we that we're looking at the risk of uh the abuse occurring. But the we are not social workers, we are not police officers, we're a research company. So we can tell you that's based on the research that we've done. This person is likely experiencing abuse. And you as an expert, you can say, OK, if they're experiencing high uh financial abuse and high physical abuse, this is what I should do in this scenario. We don't give recommendation like we give suggestions like, OK, this is something that may help but we are not there to make decisions. 
+
+35:52
+Host
+And the users like the police officers, the social workers, they go through the survey, then they see the results I imagine immediately, right? They don't need to send the results anywhere and wait for a month 
+
+36:05
+Guest
+to go, obviously, obviously, and they don't need to calculate it themselves. They don't need to put the points. Yeah. 
+
+36:14
+Host
+So like they go through the array, they get the results immediately and they see that like for these types of abuse, the probability that this abuse is happening in the sky and then there are some suggestions of what they can do next, right? And then it's up to them to decide what to do 
+
+36:34
+Guest
+like minimal suggestions because again, we're not the ones who are dealing with the victim. We're here to like say that from our research, we've seen that these are good indicators of abuse. And if these are happening at this frequency, then then it's likely it's very, very likely that this person is experiencing domestic abuse. 
+
+36:54
+Host
+Does it help to address the skepticism? You mentioned, 
+
+37:00
+Guest
+what do you mean? 
+
+37:00
+Host
+Oh, like you said that it was met with skepticism because people say like A I, no, it's not going to help. 
+
+37:07
+Guest
+Yes, obviously, like we're, we're transparent about the metrics we've used and we've been for many, many iterations in order to make this as good as possible, right? Like we've been looking at the typical standards in the in this like the A UC score, we've looked at false positives, false negatives. Obviously, we've tried to put the weight on uh removing false negatives as much as possible. But at the same time, if we don't uh reduce, if we say that everything is high risk, then that's not very useful. So we've tried to strike a balance as much as possible. Thinking about the typical metrics that are used and also thinking about the types of questions that we selected in our survey and what's more likely to be answered by someone in those situations. Uh 
+
+37:58
+Host
+So that it is also important because not like maybe there are good questions that can show you that this, that this sort of abuse is happening, but the victim might not answer them, right? 
+
+38:12
+Guest
+Yeah, might be less likely to answer. However we, yeah, we're hope the thing is like in different settings, you will have different answers. And this is also why like the survey that we did was uh online rather than in person. Because in person, you already have some biases occurring from like when the interviewer asked the questions to uh yeah, receiving the answer 
+
+38:39
+Host
+and these vices are. So here. It means that because a person is asking, there could be some pressure, like even even though the person might be like the friendliest person on earth still because like somebody is asking and then you might think, ok, like there's another person like, why are they asking that? Right? It might not give the, 
+
+39:01
+Guest
+I think humans are very complicated and have complicated emotions. So it's very difficult to predict that, right. So removing this intermediate rest step is likely to reduce such biases. There's also such a thing as social desirability bias. So for example, if uh you might not like if you're a man and you disclose that you've been experiencing abuse, that might not fare well, right? You might not want to be seen as a weak man. 
+
+39:33
+Host
+I see. And when it's online, there is less because like, I imagine if like there is this like big police officer because in Berlin, like the the infield police officers, they have to be quite strong and I see that they are like usually tall, like they have muscles and if this person is asking you, like you maybe don't want to admit that you're weak. 
+
+39:59
+Guest
+Yeah, but it means 
+
+40:01
+Host
+if it's just a screen and you tick boxes there, it's less likely that you if incorrect answers, this is what you're saying, right. 
+
+40:11
+Guest
+Yes, this is, this is what I would expect, right? Like you're, you're simply interacting online, you don't have your identity disclosed, right? We're also taking care to not have the identity of the people that uh we we have surveyed. So yes, we're hoping to reduce, we're to reduce that bias that is already happening. And this is also important uh because a lot of studies in domestic abuse sector are also based on police data, right? And be police data will be inherently biased because of the way it's been collected, right? So this is where the biases come and we hope to eliminate uh at least those biases through having this online survey. 
+
+41:00
+Host
+Like how do, how do people get to fill the survey? Is it something like they are in police? And then the police officer says, ok, there is this to I will leave now. But please, while I am away, can you please go through the website and answer the questions or how does it? 
+
+41:18
+Guest
+No, no, no. I think they asked the questions. So uh yeah, they asked the questions in the sur or are administered given a tablet where they can answer these questions. But yes, we're piloting and we're learning. 
+
+41:34
+Host
+Uh huh because a person is, if a person is asking, then you have these devices, right? Like even even if they are sitting with a tablet and then like I'm asking you and then making some notes here, it's still me asking you. 
+
+41:49
+Guest
+Yes. So actually I'm not completely sure about this because I've been kept very uh much in the development side of things. I would say uh Poten, it could be either or but uh yeah, I think I will stick with the data, I think. 
+
+42:07
+Host
+Well, yeah, maybe let's go into the development side of things then. Um Well, I imagine that um in order to like we talked about skepticism, right? And in my experience to reduce this level of skepticism, a person needs to understand what is happening inside. And usually you want to use simple models like usually, you can explain like linear regression logistic regression to like in lay terms to anyone if you're um if you have enough patience, uh typically, this is the case. So I imagine for you, you need to use uh models like decision trees maybe or linear models right on another day. 
+
+42:58
+Guest
+So actually, logistic regression works quite well. Like surprisingly. Uh yeah, we've tried a couple of model models. We've tried uh decision trees. we've tried boosting algorithms. We've tried support vector machines because it's like some somewhere in the middle of the data set. But we found that actually logistic regression has performed best like with the features that we selected and the number of features that we selected. And by best, I mean, both in terms of the overall performance and in um having a lower likelihood of overfitting because this is what typically happens with uh trees. If you go to random forests and XG boost and whatnot. 
+
+43:47
+Host
+Actually, there was now when you talk about that, I remember there was a competition on Google also on survey data. I don't remember what was the target, but it was some social also social sciences and their linear models uh worked best too like the obe solutions. They use linear models. So I'm actually not surprised but also like as a side effect or not maybe side effect but like as a benefit you can explain in simple terms. Yeah, why it works? Like why at the end, the result is high risk because you say like this answer has this sort of weight. This answer has this sort of sort of weight because like this person said, true to that statement and false to that statement. We think that maybe this is a financial abuse, right? Or maybe this is for the emotional abuse and then because they understand now how it works, then they are more likely to use the two trusts it, right? 
+
+44:51
+Guest
+Yeah. Yeah, this is, this is what we're hoping and we're trying to get like the uh some of the decision like we are. Yeah, it's much easier to explain for sure because you just have like the coefficients and you can get the odds ratio from that. 
+
+45:13
+Host
+And what else do you do on the development side of things 
+
+45:21
+Guest
+when it comes to model development? Like, yeah, it's funny because I started the MLS uh course that you do and I'm, I'm still, I'm still at the first homework because I built the ML Os workflow, let's say like with ML flow, I started with pie carrots and then I left it because it was too heavy like for the, the the app itself. Um Yeah, so I did like the whole model of development cycle obviously like with a lot of inputs from both Balin and babs in terms of like what outcomes we want. Like what statistical tests maybe we should focus on like when doing X and Y but in terms of, yeah, model development, it's kind of been like, yeah, and, and what's uh my previous colleague Joy did in the past like in terms of recoding data, the analysis he did and the initial models. 
+
+46:19
+Host
+So he you would say that your main focus is on the modeling side, 
+
+46:26
+Guest
+like my main and only focus. Really. Yeah. Yeah. My colleagues were laughing that I'm really bad at selling and that's because I haven't practice, 
+
+46:37
+Host
+right. Uh What is the most challenging thing for you? 
+
+46:45
+Guest
+I think um Yeah, I think the very pragmatic aspects of data are, is challenging in the sense that I can build all of these models and I can have all of these metrics and I can run thousands of models. I can put them on Aws LA LA, all of those stuff. But then what does that, that actually mean like what, what happens afterwards if a person answers xyz on a question, what happens? Right? And being able to test that and validate that I think is uh the testing of the final models, like having the real setting in mind is definitely the hardest thing because I think also like testing for NL models, I feel it's not as developed as unit testing or integration testing as it is in software development. So I found it quite difficult to like wrap my mind around that and figure out a way to do it. But uh yeah, I'm working on that and like making we're working on scenarios in order to uh make that happen and make sure that even like, sure, like our models work on the bulk of the data. But we also want to make sure that for each individual, we're getting answers in the range that we expect. So this is another thing that we do in addition to other tools because we're really our, our main goal is to be there and help every single victim of domestic abuse. 
+
+48:22
+Host
+And yeah, it was a bit packed. So I'm trying to like I'm a bit lost. So I, I took some notes. So you said, like you want every individual to answer in the range, we expect something like that now, so 
+
+48:39
+Guest
+we want that, that things make sense, right? Like if uh like the models, they output a probability, right? That's all they do. What that probability means is something that we interpret is that high, low medium risk. That's one thing. Second, it's uh regarding the severity of abuse, right? Because the machine learning model will not make the difference between someone controlling your finances and or checking your um Facebook account or hitting you. So this these are all things that we're, we're taking into consideration and we want to make sure. And I think this is a kind of a bit of data validation, you know, like the output of the model is within what we would expect as humans to see as a high or low probability, but the probability is outputted by a logistic regression. That's, they're just, they're just there to optimize for victim or non victim. They're not giving more detail than that. So that's what we need to do. 
+
+49:49
+Host
+I think I'm starting to understand. So here, the idea is that like a model just gives a number, but we need to also remember that. Uh Well, there is a human there to which we kind of to who we could create the number. But also like this number. What does it actually mean? Right. 
+
+50:12
+Guest
+Yeah, exactly. 
+
+50:13
+Host
+It is uh because like in the usual logistic regression case, like if it's 0.51 51 right, then you predict that this is like uh Y equals one, right? Otherwise, 
+
+50:34
+Guest
+yeah. And obviously, as you know, like when you do model optimization, you play with the thresholds, right? You see what gets you better results or not, but that doesn't really tell us like is this person like a high risk? Does this person need immediate intervention? So this is why we need all of this post modelling testing in 
+
+50:55
+Host
+order to uh what you're saying is there could be two people for one. The risk is zero point like 60% for other is 90. But it doesn't necessarily mean that the 90% case needs a more urgent help, right? 
+
+51:14
+Guest
+Mm No, no, I think like in terms of relative scale, that's definitely the case. But like at what point do you say? Is it high risk? I think that's more what I'm going with. Yes. 
+
+51:28
+Host
+Ok. So one thing is predictive, predicting positive. Ok, like there is an instance of, I don't know, digital abuse, but also like to what extent, like after which cut off point, we need to actually intervene as soon as possible. 
+
+51:44
+Guest
+Exactly. And also what types of abuse has the victim already um admitted to. So for example, if a victim has been choked at some point, that's already quite a severe thing. So in that sense, like that person is already high risk, even though it, a model might not see it like as uh fully high risk. But usually this this does happen fortunately. But the thing is you don't know until you test like all of these different scenarios, right? Like you have what model metrics give you is overall performance and I do trust that because, but it doesn't give you the individual um results and those tend to be more important and this is why we want to focus on them. So I think that's quite a difficult thing. I think it's very underdeveloped like in uh machine learning, but it's something that we're focusing on. 
+
+52:49
+Host
+Mhm How many data scientists are working on this? 
+
+52:53
+Guest
+It's me and Balin working on it. Yes. And a lot of advisors to help us like shape it in the right direction. 
+
+53:05
+Host
+And then like you mentioned envelopes and all that. But uh like I'm wondering to what extent you need these tools uh right now or more, it's more like right now it's more modeling heavy because there are so many unsolved problems or like, I mean, like maybe now your focus is on modeling side, but once you have a very good model, then you focus more on deploying this model. This is what I mean. 
+
+53:31
+Guest
+So we've already deployed the model and we're piloting and we're working on uh ensuring that the model is stable over time. But yeah, the analogs part and like setting up an experiment tracking has been very important for sure. 
+
+53:50
+Host
+You use something like che of four for that. 
+
+53:53
+Guest
+Yes. Yes. Mhm 
+
+53:54
+Host
+OK. And uh the, the survey that you mentioned, is it open the what the results of the survey like there are 7400 people who took part, like are the results open in any way or 
+
+54:10
+Guest
+no? 
+
+54:12
+Host
+OK. Like I'm, I, I'm just wondering like if it's OK to ask you about some things you found out in this survey, but maybe you can share. But if it was open, then you probably can share that. 
+
+54:26
+Guest
+Yes, I'm happy to uh Yeah, I'm happy to share what I've shared already. I think like with the flow of the conversation like uh yeah, everything has been like within the realms of what I can share. So more specific statements, I'm very happy to, 
+
+54:43
+Host
+yeah, I'm just curious, like, usually probably more women than men who have this problem. But, like other men who, like, because we talked about that, uh, there is this bias? Um, social disability bias. Was it 
+
+55:00
+Guest
+bias? Yes. 
+
+55:03
+Host
+How can you, can you say it again? 
+
+55:06
+Guest
+Social desirability, 
+
+55:07
+Host
+desirability. Yeah. So maybe men even, like, don't even think that they need to seek help. 
+
+55:17
+Guest
+Mm. I, I would say that it's the case for both women and men about seeking help just because it's intimate partner violence. That's like a very difficult topic. And I think one of the misconceptions is that the person can just leave the relationship, which is absolutely not true because they have become partners with this person because they love them. So maybe they think the person will change uh or that things will be different. So maybe they reach out at some point but then they change their minds and it's usually quite difficult for people who are close to them to intervene as well 
+
+55:57
+Host
+and wise, like in this data, do you remember how many men and women? 
+
+56:04
+Guest
+I I will tell you that. Uh So men typically experience more emotional abuse whereas women experience more physical and sexual abuse and overall women experience more abuse overall. Uh 
+
+56:19
+Host
+huh I see. Yeah. And for you as a person like must be quite difficult to work with this data. Like because like every line in this data is a person is a tragedy, right? Because, like, they have to live with this situation. 
+
+56:35
+Guest
+Yeah. I mean, it's, uh, I think it's, I would say it's a bit similar to, well, I don't want to compare myself to a doctor, but I think that as a medic, for example, you get to desensitize at some point based on the amount of, uh, things you see. And I won't say that I got desensitized. But I think sometimes, like, I just look at data, I don't look at what actually has happened. I look at numbers because at the end of the day, these models are fed with data. And I think about, OK, how can I get these metrics higher? So when I do the model development bits, I don't really think about it. I just think about how awesome it is that I get to help these people. Uh And yeah, but when I go into the analysis bit and starting to think about like, oh what correlates with physical abuse and you see like how abuse doesn't happen in isolation. And you're thinking about all of these experiences of victims when I go into the analysis. But that's when I feel it the most. 
+
+57:43
+Host
+Mhm OK. Yeah. Thanks for sharing it. Uh I think we should be wrapping up. Um So usually one question that I ask most guests is uh if there are any recommended literature or material around the topic. Um So maybe there is something that you can recommend. Not necessarily about domestic abuse. Um But maybe about social sciences or things that helped you in your career uh or something like that, like any book or other resource that you can recommend to the listeners. 
+
+58:17
+Guest
+Many I think I have databases of resources. So I think in terms of domestic abuse, actually, two Netflix shows that approach, this uh thing quite well would be the reindeer most recently. And um made looking at domestic abuse both well or abuse in general through both uh the lens of man and a woman. Then uh I think one of the recommended readings uh I still have on my reading list is look what you made me do in the area of domestic abuse. And then in the area of other areas of so many, I think the first thing that comes to mind is the networking website called the Portfolio Collective, which is quite niche. It's usually for people having uh multiple skills that they leverage, usually freelancers doing all sorts of different things, maybe in the same field, maybe in different fields. And they have great social events and obviously data talks, I think is actually a great resource. So I would recommend that. But I think it goes without saying because it's free and you can work and get a certificate at the end. So that's wonderful. And Iron hack because I know the teachers so just shameless promotion. 
+
+59:50
+Host
+Yeah. OK. How did it feel to be on that? Side of the podcast. 
+
+59:57
+Guest
+Good, I think. Uh Yeah, it's interesting and uh it's interesting when you get lost in the middle of the point and you're trying to take it back in. Uh It's a learning experience for sure. 
+
+60:11
+Host
+For me, it's easier because like I keep notes. 
+
+60:14
+Guest
+Oh, wow. There are so structured. Look at that. Do you have diagrams? Is that a decision tree? 
+
+60:22
+Host
+No, but like some sort of diagrams. Yeah. like I was also uh drawing that like there is a person who is asking a survey, 
+
+60:31
+Guest
+right? 
+
+60:33
+Host
+I was just trying to visualize like how it actually got. So for me, it's a bit easier because you do most of the talking and I just asking questions and then taking notes and then like based on the notes I took, I ask other questions and if I run out of ideas, I go back to other notes and then OK, I wanted to ask about that. OK. So thanks a lot for joining me today and thanks everyone too for joining us today for listening in and thanks for sharing, Sabina. Um 
+
+61:02
+Guest
+Thank 
+
+61:02
+Host
+you 
+
+61:02
+Guest
+for the invitation. 
+
+61:04
+Host
+Yeah. And with that, we should finish, should be finishing. So have a great rest of your day and of the weekend. See you soon. 
+
+61:14
+Guest
+Likewise. See you soon. Take care.
