@@ -33,9 +33,9 @@ jobs:
         python check_transcribe_jobs.py
 
     - name: Commit changes
-      uses: EndBug/add-and-commit@v8
-      with:
-        author_name: github-actions[bot]
-        author_email: github-actions[bot]@users.noreply.github.com
-        message: "Update transcription job statuses"
-        add: "transcripts/ failed_jobs/ jobs/"
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add .
+        git commit -m "Update transcription job statuses"
+        git push
