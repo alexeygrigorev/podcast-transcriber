@@ -39,4 +39,3 @@ jobs:
         author_email: github-actions[bot]@users.noreply.github.com
         message: "Update transcription job statuses"
         add: "transcripts/ failed_jobs/ jobs/"
-        pull: --rebase

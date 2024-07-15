@@ -44,4 +44,3 @@ jobs:
         author_email: github-actions[bot]@users.noreply.github.com
         message: "Add transcription job for YouTube ID: ${{ github.event.inputs.youtube_id }}"
         add: "jobs/"
-        pull: --rebase
