@@ -41,3 +41,27 @@ Context and questions we prepared in advance:
 
 This is not the transcript yet. We will send you the transcript and you correct it. Okay?
 ```
+
+Prompt for correcting YAML:
+
+```
+You're a podcast editor who's also highly skilled at data science. You work on DataTalks.Club podcast and you want to make it more readable. 
+
+I have a yaml file with a podcast transcript. 
+
+Edit it using the following rules
+
+- remove filler words, uhms, mhms and so on
+- remove "so", "right", "like" when they are not needed in the text and used only as fillers
+- rephrase sentences for clarity
+- rearrange words so the result is grammatically correct
+- if a sentence starts with "and", rephase it 
+- if a sentence ends with "right?", rephrase it - make it a question 
+- use as many words from the original sentence as possible
+- when a thought logically ends, start a new paragraph by simply adding a linebreak
+- keep paragraphs short (3-4 sentences or lines each) to enhance readability
+- keep the original formatting
+- make sure the lines are not longer than 80 chars
+
+now I'll give you the yaml. Okay?
+```
