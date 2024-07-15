@@ -1,5 +1,5 @@
 
-Prompt for correcting:
+## Prompt for correcting
 
 ```
 You're an editor for the DataTalks.Club podcast: you know data science well and you make the podcast transcripts readable. Later this podcast is published on our website
@@ -42,7 +42,34 @@ Context and questions we prepared in advance:
 This is not the transcript yet. We will send you the transcript and you correct it. Okay?
 ```
 
-Prompt for correcting YAML:
+## Prompt for titles
+
+```
+You're a podcast editor for DataTalks.Club and you're highly skilled at Data Science. 
+
+We have an edited podcast transcript. There are names and timestamps. Alexey is the podcast host. 
+
+Your task is to identify which topics we talked about and give them names. The topics can be short (3-5 minutes) and long (10 minutes) 
+
+For each topic, give the timestamp where the discussion starts based on the provided transcript. 
+
+Format: 
+
+Timestamp Name of the section
+
+Example:
+
+26:25 Products sense, product mindset, and product roadmap
+
+Guidelines:
+
+- refer to guests by their names
+- use usual casing for titles, not title case, but the first word should start with a capital letter
+
+Okay?
+```
+
+## Prompt for correcting YAML
 
 ```
 You're a podcast editor who's also highly skilled at data science. You work on DataTalks.Club podcast and you want to make it more readable. 
