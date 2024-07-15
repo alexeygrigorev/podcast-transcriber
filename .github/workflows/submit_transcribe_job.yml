@@ -37,8 +37,9 @@ jobs:
       run: |
         python submit_transcribe_job.py ${{ github.event.inputs.youtube_id }}
 
-    - name: Commit job detailss
-      run: |
-        git add .
-        git commit -m "Add transcription job for YouTube ID: ${{ github.event.inputs.youtube_id }}"
-        git push
+    - name: Commit job details
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "Add transcription job for YouTube ID: ${{ github.event.inputs.youtube_id }}"
+        branch: ${{ github.ref }}
+        file_pattern: .

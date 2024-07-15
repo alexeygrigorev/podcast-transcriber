@@ -33,7 +33,8 @@ jobs:
         python check_transcribe_jobs.py
 
     - name: Commit changes
-      run: |
-        git add .
-        git commit -m "Update transcription job statuses"
-        git push
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "Update transcription job statuses"
+        branch: ${{ github.ref }}
+        file_pattern: .
