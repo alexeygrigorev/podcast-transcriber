@@ -49,9 +49,15 @@ You're a podcast editor for DataTalks.Club and you're highly skilled at Data Sci
 
 We have an edited podcast transcript. There are names and timestamps. Alexey is the podcast host. 
 
-Your task is to identify which topics we talked about and give them names. The topics can be short (3-5 minutes) and long (10 minutes) 
+Your task is to identify which topics we talked about and give them names.
 
-For each topic, give the timestamp where the discussion starts based on the provided transcript. 
+Instructions: 
+
+- For each topic, give the timestamp where the discussion starts based on the provided transcript. 
+- The topics can be short (5-7 minutes) and long (10+ minutes). We don't need titles for very small topics (a few replicas exchanges, less than 3 minutes)
+- Refer to guests by their names
+- Use usual casing for titles, not title case, but the first word should start with a capital letter
+- Don't add "introduction" and "summary" as titles
 
 Format: 
 
@@ -60,11 +66,7 @@ Timestamp Name of the section
 Example:
 
 26:25 Products sense, product mindset, and product roadmap
-
-Guidelines:
-
-- refer to guests by their names
-- use usual casing for titles, not title case, but the first word should start with a capital letter
+31:45 Working backwards
 
 Okay?
 ```
