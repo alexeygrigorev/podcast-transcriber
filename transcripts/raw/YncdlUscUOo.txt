@@ -1,0 +1,395 @@
+0:00
+Host
+Hi, everyone. Welcome to our event. This event is brought to you by the rock club, which is a community of people who love data. We have weekly events and today is one of such events. If you want to find out more about the events we have, there is a link in the description, click on that link and you'll see what we have in our pipeline, which I don't think is a lot right now, but we will be adding more events in the future. So keep an eye on that link. Do not forget to subscribe to our youtube channel. This way you will stay up to date, you will get notified with all the future streams we have and do not forget to join our data community in Slack where you can hang out with other dating to us during today's interview. You can ask any question you want. There is a pinned link in the live chat, click on that link, ask your questions and we will be covering these questions during the interview. OK. My screen now. OK. Open the questions and I want to make sure I pronounce your name correctly. Is it Anita. 
+
+1:11
+Guest
+Yes, great. 
+
+1:15
+Host
+So they emphasis is right. 
+
+1:18
+Guest
+Yeah. And also make it shorter if it's hard. But yeah, it's Anna. 
+
+1:23
+Host
+OK. So then um OK, let me open the document. OK, I have the document and if you are ready, we can start. 
+
+1:38
+Guest
+Yeah, let's go shoot, 
+
+1:40
+Host
+let's go. So this week we will talk about knowledge, graphs and tel MS and how they are used in research in academia and industry. And we have a very special guest today, Anita. Anita is originated from Iran. She transitioned from mechanical engineering and specialized in applied mechanics in Sweden, then worked in automotive industry for five years. Then she shifted focus to pursuing a phd in applied A I in Germany. And yeah, she combines her love for life and learning with a passion for cognitive sciences and she likes dancing, painting, running. Yeah. So that is a summary of chat. So yeah, um I think it's doing a relatively good job in summarizing and yeah, as always, the questions for today's interview are prepared by Johanna Bayer. Thanks Johanna for your help and welcome Anita to our interview. 
+
+2:48
+Guest
+Hello, thanks for the invite and hope and also thanks for the intro. It was covering great. 
+
+2:56
+Host
+Mhm Yeah. And before we go into our main topic of knowledge, graphs, lamps and all that, um let's start with the other ground. I briefly mentioned the other ground, but probably you can go a little bit more details. So can you tell us about your career journey so far. 
+
+3:16
+Guest
+Yeah, it was always a bit tricky to know what is the next step. But I could, as a summary, you said it perfect as um studying mechanical engineering. It was, I think I really loved math, but I wanted to be practical. So that's like how you end up to be an engineer, I would say basically. And then I moved to Sweden because I was really curious to, to study a bit more and be a because in the Bachelor, I really felt I didn't learn much. I didn't really feel to be an engineer. And that's like why I went into the applied uh mechanics to really feeling it uh that it's, you can use it in the, in the different analysis and then started working and being, living in Gothenburg is a bit hard to be out of automotive industries. We started, everything was quite random, I would say with a bit of higher probability. And um and then uh starting at the automotive industry, it's a lot of demand on automation. And I was really lucky to be in this um company because it was a lot of un established uh uh coding automation. So usually you don't get this chance of doing a lot of coding in companies as a start uh graduate, a fresh graduate and then a lot of code. And also the plan was that after a couple of years, I would pick the topic that is interesting for my phd. But I thought it would be two years. But after two years, I had no clue what phd, I want to do it. And then after four years, I figured, OK, maybe I'm looking in the wrong domain because I spend most of my time in optimization in uh automation and a lot of semantic reporting for the company. Then I dare to feel that OK, maybe I should move to computer science and data science. And that's when I started to shape my phd proposal. And I had a tough time to get funding in Sweden. And that's why it took me to Germany to work in front of a guy in the topic. I like to do my phd and of course semantic reporting, the Nexus deposit for that to have a knowledge graph for price simulations. 
+
+5:37
+Host
+What do actually mechanical engineers do? I applied to me, hes 
+
+5:44
+Guest
+the program is so focused on finite element analysis and uh and CFD. And so it's like you uh small uh break, break down the physics into small elements and then to try to find the behavior of them. I mean a really basic explanation. So you have a lot of different physics that you want to predict the behavior. And then um you try to use different um um questions to find what is the response to that change to a force to a um vibration to a flow of uh fluids or uh to uh the formation of a crash as well. 
+
+6:28
+Host
+I guess the application of this would be in automotive industry, but the designing of a car, right. 
+
+6:38
+Guest
+Yeah, for sure. So like before in the past, it was making a lot of prototypes, physical prototypes and doing the test and since they were really wanted to shorten the development and also save a lot of money because making prototype is a lot more expensive than building a real car. And then they really, they are one of the leading industry in using finite element analysis. So like for example, truck uh development or any other developments, they are far, far behind compared to automotive because of the high demand of this kind of analysis, 
+
+7:17
+Host
+the system with, I don't know, different moving parts and then you want to change one of the parts of the system and you would, you want to predict the behavior after this change, right? And this is what you, 
+
+7:31
+Guest
+it's usually not like that. So you come with the design. So you say, OK, I want to have a car looking like this and then you say that I want to have these performances and then you try to for, for example, ourselves to see how we could fulfill all the requirements. So that usually the the the surface or the target of the market really defining uh how we should do the improvements. And so usually it comes with a targeted direction uh of the performance 
+
+8:05
+Host
+this finite element analysis. Is it in any way related to machine learning? Or it's a totally different thing? We 
+
+8:15
+Guest
+could say it's not that you, hm, you could say it's still numerical analysis. So it's not unrelated to uh differential equations, but you are not solving it based on uh uh cost functions and data. So that's the different thing. So you try to model the behavior and predict it. Uh So you really a lot of um investment, a lot of focus is on developing good material model to do the prediction. 
+
+8:50
+Host
+This is what you studied. And then you, you said there was no way for you to avoid the automotive industry and you were doing optimization and semantic reporting. What are these things like? What kind of optimization you were doing? What kind of what is semantic reporting? 
+
+9:08
+Guest
+So, so in which one could I start for with the semantic reporting? What I'm referring to is that like they are, it's, it's an interesting topic to have like fair data. I mean to, to have uh to be able to regenerate the analysis because what is seen in a, ahead of these all of tests and crash tests is that you don't need to do any physical test anymore. So it's kind of that and um and release a vehicle, maybe you release a model uh of finite elements and then all the tests will be done. And I don't know if you know, for example, all of these tests are you wearing caps? So when a vehicle comes to the market, you really need to rate the vehicle or you need to pass some legal requirements to have it sellable on the market. So, 
+
+9:55
+Host
+videos where they put mannequins inside a car and then the car drives to a lot of 
+
+10:05
+Guest
+different. Yeah, exactly. So like a lot of sensor measurements, looking at the injuries on the occupant on the driver and so on. So the main measure is actually the injuries. Exactly. And um I forgot the question, what was it that I end up 
+
+10:22
+Host
+here? I was asking about optimization and 
+
+10:23
+Guest
+semantic reporting. Yeah. And so yeah. So from the reporting, so I was in this point that we need to be able to re evaluate, we regenerate the results that we are reporting. And uh for that aspect, it was like also within analysis, we generate a lot of simulations. Like for example, for one vehicle, it could be more than 500 simulations. And with this semantic reporting was the main focus on reusing the data. And in the long run to be able to regenerate the results because like one crash simulation could have like 12 million elements and then it could take around the overnight analysis like 17 hours on like 100 and 92 CPU So it's really costly analysis. And with that, with these semantics was like really classifying all the measures we have like the sensor data and barriers and so on to be able to compare the results. So like to instead of and in the past, it was like generating powerpoint and Excel sheet. So it was a lot of scripts that were auto generating the powerpoints. But still you really couldn't compare. And with the compares, I have seen the engineers putting two powerpoint that are generated with scripts and try to compare curves. So that's uh like one of the real change was that you, you can click analysis and you can overlay all the sensor data. And after that, within the knowledge graph coming from the semantic reporting is to find the patterns in those. And within optimization is like a lot of time within engineering, you try to change thicknesses or adding holes and so on. So it was like trying to use this uh geometrical changes to be optimized the behavior we required what would be. So it's like a lot of topology optimization and the designs. So for example, uh for pedestrian analysis, one of the main uh components that is really important is the inner hood that because you hit the head there and then it's like how to cut the mass and have a still a good stiffness uh but not so hard for if you crash to a pedestrian. And um that's uh the target of the optimization. 
+
+12:40
+Host
+Mhm And all of that happens on a computer, right. So you don't do, like, I assume you don't actually crash into pedestrians to, to see 
+
+12:50
+Guest
+no luckily not. But, but it's all of these are also a bit of uh try to model it. So also in the computer, we don't really hit on a pedestrian. So we have a head or we have a leg impact. And then there are, there are sensors in them to measure the explorations to see if this is OK or not. And then after a while, we still do a really physical test but not on a real pedestrian. So on this model of head or legs to to do to evaluate how good our modelings are. 
+
+13:21
+Host
+Oh why it's called I understand why it's called reporting but why it's semantic reporting 
+
+13:27
+Guest
+because you define like with this defining all these measures. So it's kind of uh modeling of data behind it. So like before that, it's just it's also a bit of semantics on those generating the power points. But still to, to be able to compare these simulations, you need to have semantics to connect different analysis together. 
+
+13:51
+Host
+Yeah. Yeah, I think I more or less have a picture in mind. So yeah, there are different experiments and um yeah, so these experiments could be related. Mm So for example, there could be like, I don't know, maybe can you give an example of two experiments that are related uh could be like we are in a car and there is uh we want to see like we want to hit the ball and see how much the driver is injured. But another experiment is how much the uh the person who is sitting near by his injured, right? So this could be two different experiments that 
+
+14:33
+Guest
+no, I mean, it's like it's really sensitive analysis, I would say. So we I I with these relations with small staying a really, really much, much smaller changes. So it could be that for example, when you, for example, we make a lot of impact points and the hos and to see how uh uh good the performance of the whole vehicles and they are usually, for example, with distance of 100 millimeter. So quite a small still and then one of these relations could be that like uh how much the area around it like for example, if it's small slide a bit on the impact, how much robust is that and how much they are still staying with the same behavior of uh of the acceleration. Because acceleration curves, they are really sensitive, they could, it's also hard to model them to get the correct acceleration curve. And uh so I would say from driver to passenger, it's a lot of change to, to say how much they relay because most of vehicles are not really symmetric either like you have an engine there and you have like a cooler there. So it's a lot of we try to have a symmetric uh impact, I mean symmetric uh intrusion, but it's really tricky still to have it. And in a real life, most of the impacts are not symmetric either. 
+
+15:58
+Host
+So do I understand correctly that this is something you started doing while still working at uh the automotive industry? And then this is what led you to do graphs now uh research because uh like you were talking that uh about this impact points that are close to each other, right? And this this means that you can build a graph of all this sensors, right? Or in bucket points somehow. Yeah. And this is how you write photograph. 
+
+16:31
+Guest
+Yes, exactly. I mean, this is also like when I was trying to develop this web based reporting or semantic reporting uh since it was many a analysis, it was really old fashioned old web technology. And then it was quite necessary to have a back end and a database to improve the port performance and also front end. And at that time when we started to decide what kind of database we need to use and we decided to skip uh relational databases. And that's like I would say when looking into graph databases started because automotive industry has so many changes that if you want to have a relational database, it's really time consuming to maintain it. It's like when I started with my company, we were looking into implementing um data management systems because this is like an old topic with an automotive to maintain the part because like one vehicle has a lot of different parts, a lot of different models, how to connect these, like the input data, how to be related. And um and they are looking into relational databases and like to really establish it, it's time consuming. So that's why uh my mentor advised to use this um Neo four J or any other uh graph databases. And that is where it started, but it's not also easy to just store crash simulations or any fe analysis in a graph database because you can't store all, all of them, all the data. 
+
+18:10
+Host
+No, I'm trying to visualize this graph and yeah, II I don't think I can like what could, what are the notes, what are the ages in this graph? What kind of relationships do we can we model there if we talk about semantic reporting? 
+
+18:27
+Guest
+Yeah. So like one of basic start is like that you, you we follow the R and D development. So like from a vehicle that is supposed to be on the market and if we stay with crash because it could be any different analysis and requirements like durability and so on within the crash, we know what is the year of the release of the vehicle and then what are the required performance. So this is like some kind of kind of semantics to connect the current vehicle to the vehicles on the market and be able to aim to compare the performance of the uh uh this um so kind of benchmarking to see how we could perform. So like from the weight of the vehicle size of the vehicle and so on and then coming from vehicles, then one vehicle that has, it has like a platform and uh and also um uh upper body of like how the vehicle looks like. And then in this, so it's like really capturing the the structure of the company, how they are developing because these relations also help to relate the the analysis and the behaviors. So what why for example, this platform, an upper upper body is important is because could compare the siblings vehicle. So you see the cars that look like the same but they have different right height or a bit uh bigger trunk size or stuff, these vehicles are still could be related. And it was a topic of interest to see if we could predict uh simulations based on one platform and upper body to another platform and upper body. And if we go a bit more detail between simulation, it was like to convert the physics of the problem to a graph. So like what is really important from a crash simulation engineers to detect a behavior of a crash. To say this simulation is similar to another simulation from this analysis con concepts 
+
+20:32
+Host
+while you were talking, I was taking notes and then I drew a graph in this graph, I have a note with year when the car was made, let's say 2020 right? So this is the car, uh this is the year and then we can have notes of individual cars and the connection between the car and 2020 could be the year when it's made. Then the how do I say it correctly? The body type or upper body type? Right. And then I guess there are other different characteristics of a car, right? And all of these are nodes and which car is also node and the relationship between uh then all the agencies like OK, made in type of the body or I don't know engine type like different 
+
+21:20
+Guest
+characteristics, different 
+
+21:21
+Host
+pictures. OK. And to why is it a useful representation? Because if I think about machine learning, so machine learning quite often we have tabler data, right? And then it could be uh we can have rows, each row would be an experiment and then we can have uh different mm features, right? Features could be ear type of the body, upper body type of the engine, other things and the result like the target they think we want to predict could be I don't know what do we usually predict like impact on the bus or on the pedestrian or whatever? Right. So like why do we actually need graphs here? What kind of food express with table? 
+
+22:12
+Guest
+I mean a lot of things that you have it as a graph, you can express it with table. But then it's mo mostly an abstraction that is nice and also in into finding a bit more complex relations between them. So for example, one of the main games I have in my phd is to have a visualization that you can uh have a look over 300 simulations. So if you want to compare 300 simulations in a table with visual look, I think it would be a bit tricky. And uh and with like using weighted graph and uh visualizing the simulations. And then there are parts that have been involved mostly in the crash. It's uh was simply clustering the simulations and also showing what are the important parts for those crash simulation or what is the common parts in those. And uh and also like, for example, to detect a load pass. Uh So it's like when you really transfer the physics of the problem into the graph, you can also answer different questions like load pass uh uh detection. So it's like load pass is like where is that if you walk if you transfer a structure of the vehicle to the graph and like each part is one N and then if they are connected, they have an edge between them, so connected to another part and then you try to get the, how much each part has absorbed or been involved in a crash. And then you try to find what is the main path of the load transfer within the structure. So kind of the longest path used. And that is also a highlight that I don't know of a way to really sit in a table. 
+
+23:59
+Host
+So that's what you do in your phd research, right? 
+
+24:03
+Guest
+Yeah, exactly. 
+
+24:05
+Host
+And as I understood, so you have a system, it's based on Neo J and then you have different graphs and then, oh like you have a graph, different nodes and then it allows you to do this exploration. So you can click on the node and then OK, like let's say we want to look at cars that were made in 2020. Then you can maybe click on the 2020 note and then like explore different models and how they perform and experiments, right? And see like all this lot path passes or paths um and other things, right? 
+
+24:41
+Guest
+That's a bit of, I would say a lot of some part of this knowledge graph is in uh data engineering. And I think most of the things you can do within knowledge graph, maybe I am not really that experienced to comment it, but I feel you can also do it with a relational database. It's just a lot overhead of maintenance and so on between these two. But what is quite interesting for myself is that when you can extract a computational graph from a knowledge graph and then do further analysis on that. And this, that I referred to they are mostly on graph data science specifically compared to a knowledge graph 
+
+25:22
+Host
+knowledge graph is. Um so we have a car and the car to the parts of the car, they have different relationships between each other. So they are connected and then all these sensors um like then also different characteristics of a car like here uh type of the upper body, all these things. So this is the knowledge graph, right. 
+
+25:46
+Guest
+Yes, exactly. And then you get the no degrees there. So you can do a query there. So what are the other cars related to this one? What are the parts and so on? So you can do a lot of query in that level. 
+
+26:00
+Host
+So this is how we express what we know about the cars. But then we do this sim simulation, right? Simulation and somehow also record the results in this graph or mhm. And this is the computational graph that we have like I I think I don't understand. 
+
+26:20
+Guest
+OK. So yeah, so for the canal that's not the car. I mean this is so we have the knowledge graph that includes a lot of simulations. So it's like it hold the market different cars, but then it also have a lot of simulations of that vehicle included. And then we pick for example, simulations and parts as the input data. And then we make like a graph like network Higgs graph or whatever of graph data science. And then that is the one I'm calling the computational graph. So then it's not related to fe analysis directly anymore. So it's just graph data science or machine learning. 
+
+27:00
+Host
+Yeah. And what do you actually mean by grave data graph, data science or machine learning? What kind of things you can do with these graphs? So you mentioned network Higgs which is a library in Python, right, which can work with graphs. So once we express this graph on network Higgs, what can we do with 
+
+27:16
+Guest
+this one is like predicting the similarity of the simulations or like this longest past analysis I told you or a lot of uh visualizations with uh as a uh because like when you load the whole knowledge graph to for example, having this um uh weight as a weighted graph and especially it's also not easy to have weight on all the edges, then it will be a bit tricky to have a good visualization. So that's why I call it like a computation that you always look at the part of your whole knowledge graph to visualize it and find a pattern. But it is still the whole um data is coming from the knowledge graph. 
+
+27:59
+Host
+I I'm curious. So, so you mentioned that uh graph data, you mentioned two terms graph data science and graph machine learning. Mm So if I understand correctly, the distinction here is like in one case, it's more like doing some sort of analytics, right? Or doing this analysis exploring the graph and in the other case making predictions, what's the difference between these two? 
+
+28:21
+Guest
+I think graph data science and graph machine learning are the same. So it's like saying, what's the difference of data science and machine learning? Yeah, same, same difference. I would say 
+
+28:30
+Host
+OK, so what kind of things you can like? OK, we you you mentioned actually things that we can do but I'm curious when it comes to machine learning, when it comes to predicting something. Yeah, we can see if two things are similar using different similarity metrics. They are more like graph similarity metrics. Yeah, I don't remember like I remember that there are different measures. 
+
+28:55
+Guest
+It's like s same rank is the method I use. So that's like items that are referred by similar items are similar. And uh so that's like how you predict the similarities of items because you really don't have uh any ranking uh for the simulation similar. So you give us the input, for example, on simulations and rank what are the related other analysis to, to that? 
+
+29:24
+Host
+So it's more like unsupervised machine learning. So here you don't really have any target. OK. I see. And then like your task is to understand the similarity and you use different uh in your case, it's Iran to understand how similar to experiments are to simulations are. Do you use any supervised machine learning? 
+
+29:48
+Guest
+I tried uh a part of it and that was on a really, really small uh toy example. Uh so not really on a complete vehicle and that was what I relate to siblings vehicle. So then you have the same, the idea was that for example, when we have um uh a one platform, but two different vehicles to be able to predict the uh the behavior of them. And that was like uh that I had a toy Fe model and then I was trying to see if I have a set of uh data. Uh like a development tree means that your simulations are related based on the changes because you always do a small change. So for example, you pick one part and do a thickness change, you pick another part and do a hole, adding a hole in that. So considering this uh tree and then the physical changes relation to see if we could um uh transfer these uh behaviors to another uh uh sibling vehicle. And with that, it means that the design changes are the same. It's just the impact mass is different. So, and that means we have more kinetic energy in, in that one. And uh and like uh since we are in a high nonlinearity with crash the formations, it's like when you add a lot of more uh um mass in that you increase the, the formations and it's really get hard and are harder when the difference of this mass is huge. But in a smaller level, it was quite uh interesting results. But still, since we had limited number of simulations, because I wanted to have it like connected to reality, maybe you have like 300 simulations that you want to transfer it. And uh so what I was doing and was quite interesting, it was pair learning. So I was trying to connect my uh use the connection of simulations and use the relation of the edges between the relations to predict the le level of absorption in the. 
+
+32:03
+Host
+Do I understand correctly that graphs give us not only the way of expressing knowledge, story knowledge in them, but also when it comes to actually making these simulations, we can also express like a note could be a different experiment and the connection between them and each would be the change that we make right somehow. Because like if you make a small change, these two experiments are quite related and then you can observe or you can also express that you can express that in a graph database that these are very related. There was only one small change between these two experiments and also you can record the outcome. Yeah. Uh this change which would be quite difficult in a table database, I guess. Yes. 
+
+32:54
+Guest
+Yes. 
+
+32:56
+Host
+Yeah. It would be like I, I imagine if I again talk about the table or format, it would be I guess changing one of the features and then seeing what happens at the end 
+
+33:07
+Guest
+I think in this scenario, it could also be that uh because we, we were looking at simulations where compared to all of the simulations. So you can still think you have it kind of tab in the, in the, in the that framework. But I think what was quite um interesting is that when the simulations have an edge real connection, we know they are closer than the one. So like um it's kind of additional information in uh in having a development tree included. 
+
+33:42
+Host
+And you also work on LL MS, right? And you see how these knowledge graphs or graphs are, the L MS can work together. So can you tell us more about that? 
+
+33:56
+Guest
+I, I think it's a, it's a quite a niche topic now with L MS and knowledge graphs and that's, that's really focused in text data. And with my phd, I really didn't focus much on text data and LP. Uh So that's like star, it's a quite new journey for me and it started from summer after the boot camp that I did some more of A MS and, and within A MS and Knowledge graph. A lot of uh focus is on grounding dancer. So it's like really in this part of hallucination of uh L MS and to see how you could fit in um uh indexes that would make more reliable answers. And also I, I am like um it's also I think a quite fun uh domain because I think that a lot of people again say knowledge graph and lens, but it's also a lot I feel graph data science is also uh could support it because on this uh selecting what is the most similar node to feed in from a knowledge graph to a lens. It could be also relations uh that comes from um uh graph data science on age predictions and so on. 
+
+35:15
+Host
+Well, to be honest, I still didn't really understand the connection. So L MS work on text data and graphs, work on graph data on notes and edges, right? And it doesn't mean that um OK, we have different features or characteristics of our experiments of cars or whatever, which are text based and we can use the lamps for these features or how does exactly the connection look like? 
+
+35:46
+Guest
+Yeah, I mean one of the funny example was that like this, the questions that LL MS can answer. So one of them is like, I think it was like uh person a give birth to her child in Canada. And uh and then what was it? Uh And then the father was there? No, what was it? I don't remember the example really good. Mm But uh the the thing is what I wanted to, I now should come up with my own example because I don't remember that would be a bit fun. But the the thing is that like within the relations you have within the because when we do LL MS, we have a part of text, like we do a chunks in them. And then based on these chunks, you don't have um uh you don't have all the data connections to each other. And then, and since also the Lambs are not good into having huge amount of input together, then we would miss some of these relations of data to each other. And the thing is that when we build knowledge graph based on the text data, we are transferring, we are generating semantics and add those relations in the knowledge graph. So and based on that you could feed into LLM. So it's a bit more of prompt engineering in that direction that what you should feed in to get the good answers from LLM. So within knowledge graphs, you feed in some more of relations. So for example, with this example that I was trying to say is that for example, you don't know about uh who is the mother of a child, for example, but when you have the relations of the people in a graph and transfer that and get all the chunks of information about the mother and the father and the child itself, you, you enrich the data to answer the questions. 
+
+37:38
+Host
+Do I understand it correctly? That we have a piece of text that expresses different relationships between entities. And what we use an A lamp for is actually extracting these relationships from the text and then once these relationships are extracted, we can put them in the graph and then use a graph database or a graph for library to further analyze the relationship extract. No, 
+
+38:10
+Guest
+this is just use of LLM with vector databases. So you make chunks and for each chunk, you use LLM to do embedding to extract features and then you store them in the vectors database. And then, and this is like you have the trunk base. So like you don't have much of, you don't have any knowledge graph on that. But when, when it's a one of the basic one is that for example, to build a knowledge graph on that is that for example, you are getting a book and instead of having uh just this, for example, 400 tokens store in a note, you also have what are the what are the chapters of the book? So you store the chapters as extra nodes and then you say for example, chapter two owns these chunks and then you, you also add the relation that these chapters come after the other chapter. So you when you are just having chunks in a vector database, you are missing the relations and and also you are missing the semantics. So these two are coming these extra generations and semantics are coming with knowledge graph. 
+
+39:21
+Host
+Yeah. So now and I think I understood what you said. So you mentioned prompt engineering and when we come up with a prompt. And we want an LM to answer a question about something we want to include. Also mm some semantic information about that. Like in your example about the book, you can say that uh OK. This paragraph comes from this page, this page comes from this chapter. This chapter comes from this section, right? Just sort of extra semantic information that will help them to an to give a better answer, right? Yeah. 
+
+39:56
+Guest
+And, and like for example, when you do a template for your prompt, you can define the that are important. So and then since it for example, and you can for example, put it like a cipher query as an example for one of the use case. And since it has access to the whole of knowledge graph, it could make similar uh cipher query to find information about its own use case. 
+
+40:23
+Host
+So there is a question from Roast in Chestnut. That's a very interesting nickname. So the Roasting Chestnut is asking or yeah, that this is a question. It sounds like transfer learning. Is it the same idea used on the relationship 
+
+40:41
+Guest
+in which content he is asking? Is it about the because the only time we are learning I have been doing, it's about the predictions on automotive. And I, I am not sure if that's the question I guess 
+
+40:52
+Host
+like uh so you mentioned embeddings making embeddings from using LLM, right? So we kind of use the knowledge that is already in LLM to make embeddings, maybe this is it. 
+
+41:06
+Guest
+I don't think so because like in transfer learning, it's a lot of time when you are uh having some layers. So because like with these LL MS content, it's not any, it's more of rogue, I would say retrieve that generations that you use the embedding, you use a model that exists and you try to do the embedding on them and within the transfer learning, I, I think it's, if I look at it from window of deep learning is always that you have a model and architecture and you try to transfer it from uh one data set to another data set. And uh and that's in more of level of fine tuning I would say. 
+
+41:49
+Host
+And um so the reason I thought about the example I mentioned like when there is a piece of text and uh I don't know an example could be that this is the mother or different. I don't know relationship between things in text. And we want to ask another to extract this graph because recently I was doing something a little bit similar. I was not, I, I had a piece of text and I needed to create Jason from this text. So I needed to structure, to give it some structure. And then of course, instead of doing it myself, I just asked to do this and cha PT did it pretty well. Um So that's why I thought maybe we can actually also use it for in not just only extracting Jason from that, but also extracting relationship context. 
+
+42:41
+Guest
+Mhm Yeah. It's uh it's quite, I have tested it a bit. Uh Also, it's like with the uh L chain, I would say that it's kind of a tree of thoughts that you ask a question and give you some items and you go further down. The only tricky thing in that is a bit like um you need uh setups to work because uh because if it is just a couple of uh um uh a limited amount of questions and depths to work, I would say it's easy to check it. But when you want to extract a lot of uh content from your text is quite tricky to trust it. And a lot of time that knowledge graphs come with LL MS it's exactly the opposite. You want to have something that you can trust. And that's why I think it's still the, the old process of building knowledge graph is more is required because if you have it with am you are in a loop? You, you can never validate it. Maybe it can help you but still to verify it is quite tricky. And uh va GP T you can also see that if you ask it for an output today, it could have different kind of result uh after a while or with a bit different uh content before uh of uh so the history of it is affecting on the answer that it's providing. 
+
+44:13
+Host
+And right now I'm looking at one of your github projects. So this project is called AD PTLRN Fhy. Yes, I guess it's adaptive learning physics, right. 
+
+44:31
+Guest
+Yes. Yeah. Fat tricky name. 
+
+44:36
+Host
+So, can you tell us more about this project? 
+
+44:39
+Guest
+That's uh OK. That's actually, it's interesting, but it's quite connected to what we just discussed because this was a bootcamp project. So like first time that I uh we tried to con for myself also to connect knowledge graph with a lens. And that was the idea of thinking that like nowadays, you can ask a lot of questions from GP T and how it could be to have a platform or a code piece of code that you can, it can make you uh learning material. So, and our first target was to have it on physics. And uh but as it is with a lot of projects, you aim for something and you end up on something else. So, and that was exactly because we had just two weeks to finish this project. And um and then a lot of hallucination and untrustworthy after GP T on generating the concept. So like how we were doing it, it was saying that OK. Um So we had the L chain with breaking down a topic and we wanted to make a knowledge graph for physics that you can uh uh uh provide material to users. So like first users comes and then you ask some questions about the interest, the levels and so on. And then it provides you step by step uh content question and answer that supports you to learn a new domain. And that was the initial idea. But since it was building the knowledge graph really hard and really not good results out of touch GP T 2.5 turbo. And that's like when we decided to change the project a bit. And instead of having um um learning platform for uh for physics, uh we moved it to support still in a learning direction, but like supporting people to read papers. So like uh if you are not a researcher or if you are a researcher, how we could have a platform that you give a paper and it break it down to you and it could support you with the same consequence that you feel comfortable to read paper and domains you have never read. And uh that was like breaking down uh the paper to the sections, find the relation of them and also connected to other papers and the references and so on. So like um that was the final result of it. 
+
+47:10
+Host
+I I'm looking right now at visualization. So what happens there is that uh there is this um part where you upload a file is all you need in this example. So you, you track it or you upload this and then what it's doing it's extracting text from the PDF and looks at different uh terms there different words, right? And then it builds a graph from these words and explains each of them, right? Or how does that work? 
+
+47:44
+Guest
+It says we have two tracks. So first tracks, it's like uh doing semantics. So it's like extract each section of the paper and then do em bedding on them and, and finding the relations between them. Another track is that it get its section and use in uh some steps with GP T that what are the keywords for these sections and then defining the keywords of them. So it's independent of the graph. So it's with several proms to extract more knowledge. So then I think at the end of this, you see that when you hover over some keywords, it show uh show you a small uh um box that is describing that. So it's more of having all in one place that you don't need to move around to uh to read a paper. And uh and also with this uh sections and this graph and you like click on the edges of them, you can explode it and see what is common between two sections and what are the differences. And this is more interesting when you have two different papers because for example, you want to compare the method development and then uh when you click on the edge, it explodes and summarizes the differences and similarities of those ones. And this work is working only on archive papers because really extracting semantic with PDF and getting these sections, it's not so simple. So because it could really differ how people are publishing and generating their PDF. And with archive is good that they always get in the text and generate it themselves. So it's more trustworthy to extract the PDF from them. And then what you do, we do is that like when you also upload the paper, we could uh get all the references out and then uh make a summary of the paper and its references and show what is for example, the most relevant reference to that. Because also on visualization, we are using page rank that like this size of the nodes are referring on how important that node is in the whole uh network that you see. And then we could see that OK, what is the mass most important reference within this domain? And this is a help a bit more for people who used to read papers because for them, it's uh quite uh time saving to find the most relevant uh related work to looking to dive in. 
+
+50:19
+Host
+I wish I had that tool like that when I was doing my master's like uh I was doing information with people on mathematics on mathematical formula. And um yeah, just like reading uh especially at the beginning like doing the uh state of the art research understanding what is there and like reading just random papers that are potentially about the topic and then feeling completely lost there. Uh Yeah, that uh like I think I would have been more effective with a tool like that. And III, I wish I had something like that. Yeah. Yeah. 
+
+51:06
+Guest
+Hear you. Sorry. I just didn't hear you. So I just asked, what did you say? 
+
+51:14
+Host
+So, like all everything I was saying, you didn't hear. 
+
+51:16
+Guest
+No, just the last part because I started to talk and then yeah, 
+
+51:20
+Host
+so I also wanted to mention that like I was, I was taking a German test last week and I was preparing for this German test. And there are some like there are so many grammar concepts that are related mm some connectors, right? So there can be um I know connectors that connect sentences. Then there could be I don't know how much German you know, like some connectors. Therefore, how do you call them dependent sentences? Sometimes these two sentences are independent and sometimes the connectors are actually adverbs not real connectors. Like there are different sorts of connectors and there are different sorts of different grammar, grammatical things. And for me, like when I try to comprehend all that, this is just my mind blows and having this graph structure where you know some sort of mind map where you can zoom in different concept and see how they are connected could be quite useful. And I think like with a little bit of, uh, tweaking if I understand correctly, this project can also do that. Right. 
+
+52:35
+Guest
+Yes, I think, I mean, it's a lot of time with this finding relation is if it's rely on LLM, then it's like how well it's described and so on. But I think chunking all uh grammatic pieces into a note and then finding the relations between them, it could be a great start. And for me it is the same all the time. It's like uh learning new things, needs to find the relations between them and that helps to. So OK, this is the same as this one and, and when you have no clue and just walk around, it's hard to summarize everything and learn it. And, and, and that's like the main reason I think we, we came here. But what was the first goal of the project was I think even more interesting in this direction that you can have a uh chain of questions going down that really uh uh make uh teaching material I would say. And then, and the reason we call we were calling it adaptive is that based on how is your pace of learning these paths will differ? Because I think people have different uh uh techniques or different preferences. And that's like in this direction of instead of having one for all uh teaching uh processes that the platform can learn you uh while providing more contact uh content for you but without the scope was too big for two weeks, I would say maybe later on, we could work more on that. 
+
+54:19
+Host
+What was the most difficult part in this project? 
+
+54:23
+Guest
+I think that we couldn't automate generating the graph. That was the more biggest challenge. And then also uh to find to change the project topic to something that it's really tangible. So it's like not domain specific that it will be interesting uh for people with no background of research and so on. Um Because that was one of the demands to find a problem that matter for a lot of people, 
+
+54:56
+Host
+like, for example, if I think about something that is not related to research and has a lot of different complex relationships, relations between things, I think of Game of Thrones. Have you watched it? Yes. And like all these people who do different things, they're like they belong to different houses and what not, right? And like when you watch this and do you think like, what's happening there? It's so having a graph there that explains what's going on would really be helpful. 
+
+55:31
+Guest
+Yeah. Yeah. Or rich people are in these chapters and like things like that. 
+
+55:36
+Host
+Yeah. Exactly. Mm OK. Was the deployment part? Uh Also difficult. I see you used to fly IO or it was something 
+
+55:48
+Guest
+that extremely, it's um we had fun on the demo day stream lead did not work. So it's like if we deployed it on the ST extremely. And exactly at the time, we started to show our demo live stream lead crashed. And I would say it's hard to, to develop it extremely when you go to more complex visualization. So I think if you go back the graph is, is still OK. But like when you have a sequence of uh dynamics, so you click here. And so it's like mostly of state management and front end development because when you have a lot of dynamics and interconnections, then it's getting quite uh so much time consuming to solve this uh state uh within stream still is great that it supports it. So you can do still quite uh complicated the visualizations but it will take time. 
+
+56:46
+Host
+Mhm But yeah, it's the interface is still pretty advanced from what I see, like there is a, a piece of text and then you hover over a term and then it explains what this term is. And I also see this graph structure and then you can explore it, which is pretty impressive for a two week project. Super impressive. 
+
+57:10
+Guest
+I think it was uh we were two. So it was I wasn't alone and we were both having experience it in web development. And uh and also my other uh the other team member, Yan, he had a great uh web development experience. And uh so together it was a lot to do I would say even though we failed on the first uh topic So we've lost some time. So I would say, 
+
+57:38
+Host
+and it's part of the process, right? Um If um maybe do you know any books or other resources for people to learn more about uh graph, machine learning knowledge, graphs and how the lamps can be used for that? I, I don't know if there are many books about L LS uh yet, maybe not, but like in general, maybe there are some good resources that you can recommend. 
+
+58:07
+Guest
+I never learned with books. So that's like I, that's kind of tricky things to recommend really. But uh I could recommend courses. So I really enjoyed the courses from Stanford uh for Graph Data Science. And also uh recently Deep learning A I, they had a really cool short course for Knowledge Graph and LM. So I, I really find it uh inspiring and uh within am to be honest, I think it's still, I mean to, to, to learn the basics, I assume, I think I, I like the course of Sebastian. Um It's not also yet complete, I think because I, I really like the content. He's uh uh contributing. I also don't remember his last name. Sorry, my memory is never super duper. Um I'm just trying to uh find the last name, but maybe I could give the full name later on. And yeah, and I think that's uh quite looking uh interesting. I think uh the, the material because the report is not complete yet. For them either. And uh more than that, it's always digging in and finding new content. So tricky to have it as a old fashioned domain, like mechanical engineering that you read a book. And, you know, it's only because it's uh I think it's part of learning is in this domain is to always have a head or ear out to look for new things and uh and also learning how to navigate with all of these information, not to feel overwhelmed and still moving forward. 
+
+60:03
+Host
+And the course from Stanford um that you mentioned is called machine learning with graphs, right? Yes. So by Ya Lesko. Yes. OK. He's quite a well known person in the graph community, right? 
+
+60:18
+Guest
+Yeah. Yeah. And I really also recommend to follow uh the graph conference uh that is uh uh he's taking care of it. Mhm And I think it's uh it has been so far a free conference to attend because the the research exchange there is really great 
+
+60:40
+Host
+tip. Yeah, that's um we should be wrapping up. That's all we have time for today. So thanks a lot an Nahida for joining us today for sharing your experience um with us answering all the questions. Um And thanks everyone for joining us today too. Being active for asking questions too. So, yeah, 
+
+61:00
+Guest
+it was, thanks a lot. It was fun. 
+
+61:03
+Host
+Yeah. OK. See you around.
