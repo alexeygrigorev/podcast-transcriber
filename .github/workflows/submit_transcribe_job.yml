@@ -37,11 +37,4 @@ jobs:
       run: |
         python submit_transcribe_job.py ${{ github.event.inputs.youtube_id }}
 
-    - name: Commit job details
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: "Add transcription job for YouTube ID: ${{ github.event.inputs.youtube_id }}"
-        branch: ${{ github.ref }}
-        file_pattern: .
-      env:
-        GITHUB_TOKEN: ${{ secrets.ACTIONS_PUSH_TOKEN }}
+    - uses: EndBug/add-and-commit@v8
