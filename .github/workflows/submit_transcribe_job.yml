@@ -41,6 +41,3 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: "Add transcription job for YouTube ID: ${{ github.event.inputs.youtube_id }}"
-        file_pattern: .
-      env:
-        GITHUB_TOKEN: ${{ secrets.ACTIONS_PUSH_TOKEN }}
