@@ -38,3 +38,5 @@ jobs:
         commit_message: "Update transcription job statuses"
         branch: ${{ github.ref }}
         file_pattern: .
+      env:
+        GITHUB_TOKEN: ${{ secrets.ACTIONS_PUSH_TOKEN }}
