@@ -15,15 +15,15 @@ The Podcast Transcriber project is designed to automate the process of transcrib
 
 1. **Submit a Transcription Job**: Use the `submit_transcribe_job.py` script to submit a new transcription job. This script downloads an audio file from YouTube using the provided YouTube video ID, uploads it to an S3 bucket, and starts a transcription job.
    
-```bash
-python submit_transcribe_job.py <youtube_video_id>
-```
+   ```bash
+   python submit_transcribe_job.py <youtube_video_id>
+   ```
 
 2. **Check Transcription Job Status**: Use the `check_transcribe_jobs.py` script to check the status of ongoing transcription jobs. This helps you monitor whether your submitted jobs are complete and ready for processing.
     
-```bash
-python check_transcribe_jobs.py
-```
+   ```bash
+   python check_transcribe_jobs.py
+   ```
 
 3. **Process Transcripts**: Once transcripts are ready, they are stored in the `transcripts/raw` directory. These files are plain text with time-coded entries to synchronize with the podcast audio.
 
@@ -33,20 +33,20 @@ After transcription jobs are completed, the resulting transcripts are saved in t
 
 1. **Editing with ChatGPT**:
 
-Open each transcript file and use ChatGPT to refine and edit the text. Follow the "Prompt for Correcting" in the `prompt.md` file to:
-
-- Remove unnecessary filler words.
-- Correct grammatical errors and improve sentence clarity.
-- Use specific names for the host and guest.
-- Keep the structure with timestamps for synchronization.
-    
-Refer to the **Prompt for Correcting** section in the `prompt.md` file for detailed instructions on how to use this prompt.
+   Open each transcript file and use ChatGPT to refine and edit the text. Follow the "Prompt for Correcting" in the `prompt.md` file to:
+   
+   - Remove unnecessary filler words.
+   - Correct grammatical errors and improve sentence clarity.
+   - Use specific names for the host and guest.
+   - Keep the structure with timestamps for synchronization.
+       
+   Refer to the **Prompt for Correcting** section in the `prompt.md` file for detailed instructions on how to use this prompt.
 
 2. **Creating Titles and Sections**:
 
-- Use ChatGPT to generate a structured outline with titles for key topics discussed in the podcast. Follow the "Prompt for Titles" in the `prompt.md` file to create topic titles and provide timestamps.
-
-Refer to the **Prompt for Titles** section in the `prompt.md` file for detailed instructions on how to use this prompt.
+   - Use ChatGPT to generate a structured outline with titles for key topics discussed in the podcast. Follow the "Prompt for Titles" in the `prompt.md` file to create topic titles and provide timestamps.
+   
+   Refer to the **Prompt for Titles** section in the `prompt.md` file for detailed instructions on how to use this prompt.
 
 ### Using GitHub Actions
 
@@ -54,20 +54,20 @@ This project supports automation through GitHub Actions, allowing users to submi
 
 1. **Submit a Transcription Job via GitHub Actions**:
 
-- Navigate to the "Actions" tab in your GitHub repository.
-- Select the "Submit Transcribe Job" workflow from the list of available workflows.
-- Click on the "Run workflow" button.
-- Provide the required `YouTube ID` for the audio file you wish to transcribe and start the workflow.
+   - Navigate to the "Actions" tab in your GitHub repository.
+   - Select the "Submit Transcribe Job" workflow from the list of available workflows.
+   - Click on the "Run workflow" button.
+   - Provide the required `YouTube ID` for the audio file you wish to transcribe and start the workflow.
 
-The workflow is defined in `.github/workflows/submit_transcribe_job.yml` and will automatically handle the submission of a new transcription job using the provided YouTube ID.
+   The workflow is defined in `.github/workflows/submit_transcribe_job.yml` and will automatically handle the submission of a new transcription job using the provided YouTube ID.
 
 2. **Check Transcription Job Status via GitHub Actions**:
 
-- Navigate to the "Actions" tab in your GitHub repository.
-- Select the "Check Transcribe Jobs" workflow.
-- Click on the "Run workflow" button to manually trigger a check on the transcription job statuses.
-
-The workflow is defined in `.github/workflows/check_transcribe_jobs.yml` and will run the `check_transcribe_jobs.py` script to update the status of ongoing jobs.
+   - Navigate to the "Actions" tab in your GitHub repository.
+   - Select the "Check Transcribe Jobs" workflow.
+   - Click on the "Run workflow" button to manually trigger a check on the transcription job statuses.
+   
+   The workflow is defined in `.github/workflows/check_transcribe_jobs.yml` and will run the `check_transcribe_jobs.py` script to update the status of ongoing jobs.
 
 ### Environment Variables
 
@@ -96,16 +96,16 @@ These are used to authenticate and interact with the cloud services handling the
 
 1. Clone the repository:
    
-```bash
-git clone <repository_url>
-cd podcast-transcriber-main
-```
+   ```bash
+   git clone <repository_url>
+   cd podcast-transcriber-main
+   ```
 
 2. Install dependencies using Pipenv:
     
-```bash
-pipenv install
-```
+   ```bash
+   pipenv install
+   ```
 
 3. Set up environment variables by copying `.envrc_template` to `.envrc` and filling in the required API keys and settings.
 
