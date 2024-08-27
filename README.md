@@ -4,6 +4,11 @@
 
 The Podcast Transcriber project is designed to automate the process of transcribing podcast episodes and managing those transcripts. It allows users to submit transcription jobs, check their statuses, and handle the resulting transcripts. This tool is particularly useful for podcast creators who need to efficiently manage transcripts, synchronize them with audio, or edit content.
 
+## Technologies
+
+* AWS Transcribe - for transcriptions
+* ChatGPT for polishing the results
+
 ## How to Use
 
 ### Programmatic Approach
