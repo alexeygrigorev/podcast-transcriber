@@ -1,0 +1,50 @@
+name: Submit Drive MP3 Transcription Job
+
+on:
+  workflow_dispatch:
+    inputs:
+      file_id:
+        description: "Google Drive File ID"
+        required: true
+        type: string
+      youtube_id:
+        description: "YouTube ID"
+        required: true
+        type: string
+
+jobs:
+  submit-drive-mp3-job:
+    runs-on: ubuntu-latest
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+      AWS_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y wget
+        python -m pip install --upgrade pip
+        pip install boto3
+
+    - name: Run submit_drive_mp3
+      run: |
+        python submit_drive_mp3.py ${{ github.event.inputs.file_id }} ${{ github.event.inputs.youtube_id }}
+
+    - name: Commit job details
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "Add transcription job for Drive File ID: ${{ github.event.inputs.file_id }}, YouTube ID: ${{ github.event.inputs.youtube_id }}"

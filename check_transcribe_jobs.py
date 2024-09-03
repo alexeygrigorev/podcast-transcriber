@@ -40,27 +40,29 @@ def download_transcript_file(http_url, local_file_path):
     )
     s3.download_file(bucket_name, s3_key, local_file_path)
 
-
 def format_timestamp(seconds):
     minutes = int(seconds // 60)
     seconds = int(seconds % 60)
     return f"{minutes}:{seconds:02d}"
 
-
-def parse_transcript(results):
+def parse_transcript(results, pause_threshold=2.0):
     transcript_text = ""
     current_speaker = None
     timestamp = "0:00"
+    previous_end_time = 0.0
 
     names = {"spk_0": "Host", "spk_1": "Guest"}
 
     for item in results["items"]:
-        if "speaker_label" in item:
-            speaker = item["speaker_label"]
-
         if "start_time" in item:
             start_time = float(item["start_time"])
             timestamp = format_timestamp(start_time)
+
+        if "end_time" in item:
+            previous_end_time = float(item["end_time"])
+
+        if "speaker_label" in item:
+            speaker = item["speaker_label"]
 
         if speaker != current_speaker:
             current_speaker = speaker
@@ -68,6 +70,10 @@ def parse_transcript(results):
             transcript_text += f"\n\n{timestamp}\n{speaker_name}\n"
 
         if item["type"] == "pronunciation":
+            if start_time - previous_end_time > pause_threshold:
+                speaker_name = names.get(current_speaker, current_speaker)
+                transcript_text += f"\n\n{timestamp}\n{speaker_name}\n"
+            
             word = item["alternatives"][0]["content"]
             transcript_text += word + " "
         elif item["type"] == "punctuation":
