@@ -1,0 +1,443 @@
+0:00
+Host
+Hi, everyone. Welcome to our event. This event is brought to you by Data Docks Club, which is a community of people who love data and we have weekly events and today is one of such events and I guess we are also a community of people who like to wake up early if you're from the States, right? Christopher, maybe not so much because this is the time we usually have uh uh our events uh for our guests and presenters from the States. We usually do it in the evening of Berlin time. But yes, unfortunately, it kind of slipped my mind. But anyways, we have a lot of events, you can check them in the description like there is a link. Um I don't think there are a lot of them right now on that link, but we will be adding more and more. I think we have like five or six interviews scheduled. So um keep an eye on that, do not forget to subscribe to our youtube channel. This way you will get notified about all our future streams. That will be as awesome as the one today. And of course, very important. Do not forget to join our community where you can hang out with other data enthusiasts during today's interview, you can ask any question, there's a pinned link in the live chat. So click on that link, ask your question and we will be covering these questions during the interview. Now, I will stop sharing my screen. And uh there is a, a message in uh uh Christopher's from you. So we actually have this on youtube. But so they have not seen what you wrote. But there is a message from, to anyone who is watching this right now from Christopher saying hello, everyone. Can I call you or you prefer to go? 
+
+1:48
+Guest
+I should uh I should look on youtube then. OK. 
+
+1:50
+Host
+Yeah. But anyways I'll, you don't need like you will need to focus on answering questions and I'll keep an eye. I'll be keeping an eye on all the questions. So um yeah, if you're ready, we can start. 
+
+2:07
+Guest
+I'm ready. Yeah. 
+
+2:08
+Host
+And uh you prefer Christopher not Chris, right? Chris 
+
+2:11
+Guest
+is fine. 
+
+2:12
+Host
+Chris is fine. It's a bit shorter. Um OK, so this week we talk about data ops again, maybe it's a tradition that we talk about data ops every like once per year, but we actually skipped one year. So because we did not have, we haven't had crisp for some time. So today we have a very special guest. Christopher Christopher is the co founder, CEO and head chef or head cook at data kitchen with 25 years of experience, maybe this is outdated uh because probably now you have more and uh maybe you stopped counting, I don't know, but like with tons of years of experience in analytics and software engineering, Christopher is known as the co-author of the data ops cookbook and data ops Manifesto. And it's not the first time we have Christopher here on the podcast. We interviewed him two years ago, also about data ops and this one will be about data ops. So we'll catch up and see what actually changed in, in these two years. And yeah, so welcome to the interview. 
+
+3:18
+Guest
+Well, thank you for having me. I'm I'm happy to be here talking all things related to data ops and why, why, why bother with data ops and happy to talk about the company or or what's changed and uh excited. 
+
+3:31
+Host
+Yeah. So let's dive in. So the questions for today's interview are prepared by Johanna Bayer. As always, thanks Johanna for your help. So before we start with our main topic for today, data ops, uh let's start with the ground. Can you tell us about your career journey so far? And also for those who have not heard, have not listened to the previous podcast if you can um talk about yourself. And also for those who did listen to the previous, you can also maybe give a summary of what has changed in the last two years. 
+
+4:05
+Guest
+So will do. Yeah. So, um my name is Chris. So I guess I'm a sort of an engineer. So I spent about the 1st 15 years of my career in, in software, sort of working and building some A I systems, some non A I systems uh at uh US is uh NASA and MIT Lincoln lab and then some start ups and then um Microsoft and then about 2005, I got, I got the data bug. Uh I think, you know, my kids were small and I thought, oh, this data thing was easy and I'd be able to go home uh for dinner at five and life would be fine. Um Because I was a big, 
+
+4:43
+Host
+you started your own company, right? 
+
+4:47
+Guest
+And uh it didn't work out that way. And um and, and what was interesting is, is for me, it, the problem wasn't doing the data. Like I, we had smart people who did data science and data engineering, the act of creating things. It was like the systems around the data that were hard um things, it was really hard to not have errors in production. And I was sort of driving to work and I had a blackberry at the time and I would not look at my blackberry all m all morning. I had this long drive to work and I'd sit in the parking lot and take a deep breath and look at my blackberry and go 00, is there gonna be any problems today and I'd be, and if there wasn't, I'd walk in very happy. Um And if there was, I'd have to like Grace myself. Um And you know, and then the second problem is the team I work for, we just couldn't go fast. Enough customers were super demanding. They didn't care. They al they always thought things should be faster and we, we were always behind. And so, um how do you, you know how, how do you live in that world where things are breaking left and right? You, you, you're terrified of making errors. Um And then second, you, you just can't go fast enough. Um And it's 
+
+6:01
+Host
+Hadoop era, right? It's like before all these big data tech 
+
+6:06
+Guest
+before this was we were using a SQL server. Um And we actually, you know, we have smart people. So we, we, we built an engine in SQL server that made SQL server a column or database. So we built a columnar database inside of SQL server. Um So uh in order to make certain things fast and, and uh yeah, it was, it, it was really uh it's not bad. I mean, the principles are the same right before Hadoop. It's, it's still a database, there's still indexes, there's still queries. Um Things like that. We, we uh at the time, uh you would use a engines, we didn't use those but you know, those reports, you know, are for models. It's, it's not that different. Um You know, we had a rack of servers instead of the cloud. Um So, yeah, and I think so what, what I took from that was, uh it's just hard to run a team of people who do, do da data and analytics and it's not really, I, I took it from a manager's perspective. I started to read Demming and think about the work that we do as a factory, you know, and, and in a factory that produces inside and not automobiles. Um And so how do you run that factory? So it produces things that are good of good quality. And then second, since I had come from software, I've been very influenced by the DEV OPS movement, how you automate deployment, how you run in an agile way, how you produce, um how you, how you change things quickly and how you innovate. And so those two things of like running, you know, running a really good solid production line that has very low errors. Um And then second, changing that production line at, at very, very often they're kind of opposite, right? Um And so how do you, how do you as a manager? How do you technically approach that? And then, um 10 years ago when we started data kitchen, um we've always been a profitable company. And so we started off uh with some customers, we started building some software and realized that we couldn't work any other way. And that the way we work wasn't understood by a lot of people. So we had to write a book in a manifesto to kind of share our, our method. And then so yeah, we've been in, so we've been in business now about uh uh a little over 10 years. 
+
+8:29
+Host
+Oh, that's cool. And uh like what uh so let's talk about de S and you mentioned DE S and how you were inspired by that. And by the way, like, do you remember roughly when Devops as a thing started to appear, like when did people start calling these principles and like tools around them as 
+
+8:53
+Guest
+so agile Manifesto? Well, first of all, the, I mean, I had a boss and 1990 at NASA who had this idea, build a little test, a little learn a lot, right? That was his mantra and then, which made, made a lot of sense. Um And, and so, and then the sort of agile sophomore manifesto came out which is very similar in 2001. And then um the sort of first real DEV ops was a guy at Twitter started to do automa automated deployment, you know, push a button and that was like 2009 ish. And so the first I think Dev ops meet up was around that. So it's just, it's, it's been 15 years, I guess because 
+
+9:38
+Host
+like I was trying to, so I started my career in 2010. So I my first job was at a Java developer and like, I remember for some things like we would just uh S FTP to the machine and then put the jar archive there and then like, keep our fingers crossed that it doesn't break. Uh Like it was not really the uh I wouldn't call it this way, 
+
+10:03
+Guest
+right? You were right? Was that, so that was documented too? It was like put the jar on production, cross your fingers. 
+
+10:18
+Host
+I think there was uh like a page on uh some journal. Vy uh Yeah, that describes like it's pass forward and like what you should do. 
+
+10:29
+Guest
+Yeah, that was, and, and I think what's interesting is why that changed. Right. And, and we laugh at it now, but that was why didn't you invest in automating deployment or a whole bunch of automated regression tests? Right. That would run because I think in software now that would be rare that people wouldn't use. Yeah, C inc D they wouldn't have some automated tests, you know, functional regression tests. That would be the exception whereas that was the norm at the beginning of their career. And so that's what's interesting. And I think, uh you know, if we, if we talk about what's changed in the last 23 years, I, I think it is getting more standard. There are uh there's a lot more companies who are talking data ops or data observable. Um There's a lot more tools that are a lot more people are using G in data and analytics than ever before I think. Thanks to DVT. Um And there's a lot of tools that are, I think getting more code centric, right, that they're not treating their configuration like a black box. There, there's several B I tools that tout the fact that they, that they are uh you know, they're, they're get centric, you know, and, and so, and that they're testable and that they have API S. So things like that, I think people 
+
+11:53
+Host
+maybe let's take a step back and to just do a quick summary of what data s data S is. And then we can talk about like what changed in the last two years, 
+
+12:03
+Guest
+I'm sure. So I, I guess it starts with a problem and that it's, it sort of admits some dark things about data and analytics and that we're not really successful and we're not really happy. Um And if you look at the statistics on sort of projects and problems and even the psychology, like, uh I think about a year or two, we did a survey of data engineers, 700 data engineers and 78% of them wanted their job to come with a therapist and 50% were thinking of leaving the career altogether. And so why, why is everyone sort of unhappy? Well, II, I think what happens is teams either fall into two buckets, they're sort of heroic teams who are doing their, they're working night and day, they're trying really hard for their customer. Um, and then they get burnt out and then they quit honestly. And then the second team have wrapped their projects up in so much process and proceduralism and steps that doing anything is sort of so slow and boring that they again leave in frustration. Um, or, or live in cynicism and, and that 
+
+13:22
+Host
+like, the only outcome is quiet and start the woodwork. Yeah. 
+
+13:27
+Guest
+The only outcome really is quit and start working. And, um, as a, as a manager, I always hated that. Right. Because when, when your team is either full of heroes or proceduralism, you always have people who have the whole system in their head, they're certainly key people and then when they leave, they take all that knowledge with them and then that creates a bottleneck. And so both of which are, aren't, aren't. And I think the main idea of data ops is there's a balance between fear and heroism that you can live. You don't, you know, you don't have to be fearful. 95% of the time, maybe one or 2% is good to be fearful and you don't have to be a hero. Maybe again, maybe one or 2%. It's good to be a hero. But there's a balance. Um, and, and in that balance you actually are much more productive as a team. 
+
+14:17
+Host
+Mhm. And fear is maybe, like if I go back to my example of SS SSH and S FTP to like a production machine and then, uh, uploading the jar file and then keeping my fingers crossed. That would be the fear part. Right. So, like, uh, maybe I shouldn't deploy it today because, like, I'm not really sure, like, if it will work fine or not. Right. That's the fear. 
+
+14:43
+Guest
+Yeah, I think, I, I think teams who have a lot of fear, what they do is they have checklists and then they have reviews and they have, and so, um, heroic teams will like, oh, go, you know, go, go make the change and then hope it 
+
+14:58
+Host
+fine. Don't be fine. 
+
+15:00
+Guest
+That would be fine. You're a hero. If, if it breaks you're gonna, you're gonna call up and fix it right away, aren't you? That's the assumption is like, it doesn't matter if it's Saturday, it's your kids birthday party. Like, I've talked to people at conferences where a guy was fixing a problem in data, sitting on the toilet during his kid's birthday party. And, like, that's a hero as a hero. And it's, and, uh, it's good that he's doing that. But on the other hand, that should be the exception. Right? You shouldn't, you should, that, that should be. And as a, as a manager, I had to learn to sort of praise that behavior in public and then in private say, well, how can we never have this happen again? You know, I don't want you on Saturday fixing bugs. Like, how do, how can we find that bug before you deploy? And how can we do that in a way that's repeatable and automated? 
+
+15:52
+Host
+But data ops is a bunch of processes and procedures and tools that help us move without, without fear. Right. And what was the second thing? And also, like, don't be a hero, right. Don't fix the things on Saturday. 
+
+16:10
+Guest
+Yeah. Yeah. I think that's emotionally where it works to be. It's really about from a concrete standpoint is about the reduction of errors in production. So in errors could be caused from you've got some bad data or somebody introduced some new code that you didn't know about or a server went down or you're late. Everything. There's lots of sources of error in production and trying to drive the rate of errors down in production. That's, that's one part of it. 
+
+16:44
+Host
+It's automation testing uh things. So 
+
+16:49
+Guest
+I 
+
+16:49
+Host
+think it, 
+
+16:49
+Guest
+I think it's observable and monitoring um uh data quality in production. A lot of those, those ideas are in there and the reduction of error. Um I think the second part is is this notion of cycle time, which is how fast you can change something. And so the real benefit of cycle time I think is the increase in the rate of learning of your teams and the maximizing of the work that you do not have to do. And so what happens with teams who are fearful is they spend three months building something. They talk to the customer. Customer says, well, they hear the customer says, I want 10 thanks. So they go and build those 10 things and then they present it to the customer and the customer says, great, you know, four of those are valuable, but you know what, I don't need six. And by the way, here's another 10 things you should do. And so what happens is you get this waste, right? Um You have an error in production. Well, you have to fix it and sometimes emergency fix it, that's time, that's wasted. You've built something that you think is right? But not as right, you've wasted time. And so uh by focusing on cycle time and error rate, you take out waste um and you improve your relations with your customer. And so that leads to really huge productivity gains. And uh in the last a year ago, Gartner put a report saying uh teams who use data ops tools and follow data ops processes are 10 times more productive. And I actually, I've seen that right. Um They are just much more productive because of the fact that um they've invested in testing and observable and deployment and source control, a bunch of technical things. 
+
+18:46
+Host
+Mm And um so I also, I was started talking about what has changed in the last two years and to me what changed is like if you look from uh the, all the OP SML ops, the SLL MS something else ops um over the last, I don't know, five years. So there was a rise of Ee Lopes and it was quite um how to say there was a lot of hype around that. And to me because of that, I started to notice other ops like data s for example. So for me, I only found out about data ops because MLS was, I think everyone was talking about and then it was interesting like, OK, what is uh what are the other things that are also useful? But now with MLS, um like there is much less hype there, right? So because now the new hype is in A I and A is whatever like uh M MS and to me it feels like um I don't see much data loops these days on social media, on podcasts uh uh on conferences like people talk these days like two years ago, people were talking about he lopes these days. I only not only but mostly see LL ma I all these things. And to me it feels like um well, people don't talk about data s maybe nothing is really happening in there and I'm sure this is not the case like, so what actually happened in the last two years you started talking about like uh 
+
+20:24
+Guest
+we can talk about the last two years. So let, let me talk about terms and, and tech. And so I'm an engineer and I like well defined terms because I think it, it helps. And so we spend a lot of time having a definition of ops, data ops. And I think the definition of data ops is a rip off of principles that were created by people who were working in the Toyota factory. Uh you know, 5080 years ago, it's, you know where the Toyota Toyota like lean techniques, um total quality management. Um damming those ideas on how to run a factory. They've been around for 5070 years. And then this idea of how to run how to make changes to software. The idea of automation and DEV ops, they've been around for over 15 years, maybe 20 years, right? But uh on some counts, so these ideas are there and um you know, you use the term ops LL MS and so applying them to, to, to data, data ops, I think um whether you call it data ops or model S or LLM ops, they're kind of the same idea, right? And, and it's just um and they are all sort of based in the same intellectual history. So that's one thing. Um Second is the pollution in tech terms is so the marketing people get a hold of any term and then basically they, they'll write a white paper saying insert latest buzzword here and then our stuff. It'll be a paragraph saying that says in the middle says in order for you to do that cool buzzword, you gotta buy our stuff, of course. And like I, I've read, I read these things and I'm like that the front has nothing to do with the back. And so what happens is terms get are really distorted and like um all these s terms and it happened and there's been more what I consider crossover terms from software, like data mesh or data products or data observ ability. All these terms are really crossed over from original software ideas and have kind of they're starting to lose their meaning, right? Like data mesh was domain driven design. But it also had this term of data products in which to me, data products is about a process methodology, not about a thing. And so, you know, I, I think it's, I don't think we do a service to anyone in the industry by distorting all these terms. I think we should stick to them in a more precise engineering way. Um And people should be upset every time, but we keep doing it right now. It's Lake House, right? And like it's, it's so these everyone wants to implement the latest thing, data product Lakehouse Data Mesh. And then two years, it'll be another set of terms and it doesn't really do our industry any service. And so um you gotta look at what the core ideas are. And so to me, there's a core ops set of related ideas around agility and, and, and thinking and systems that I think we need to work on and whether it's a, whether it's a large language model or a data science model or data, it doesn't really matter. The principles are the same. 
+
+23:56
+Host
+So I like how you the term you just used core ops, which is like anything ops, right? Where the agility is, one thing is like um moving in small steps and then like uh seeing what happens being a child, right? And then the other part you mentioned was thinking in systems. What exactly does this mean? Like what does it mean to think in systems? 
+
+24:24
+Guest
+Um Well, I think we focus a lot and data and analytic teams on the the day one problem, I've got a customer, I've got to build something for them to solve their problems and you have a day two problem. Once you've done that, I want to run that with new data in it on the second day. And how do I know metaphorically if day two is gonna work? Right? Because people could give you new data. And then the day three problem is that customer is gonna change their mind and want something more. And so the systems to focus, we focus a lot on day one but day two and day three um monitoring something for low errors, changing some things quickly with low risk, those systemic tasks need to be done and, and in some ways, you need to build a system around next to or around or supporting your day one work to do that. And so, um and it's hard for people in data and analytics because functionally, a lot of times people are, I'm a, you know, I'm a, I'm a data scientist. I work in Python. I get my data from someone else. I deliver my model to someone else, you know, data people or I'm an inju person or I'm an analytic engineer or I'm A B I person, our roles are very separate. And so that also hurts when people don't think in systems because um you know, I think what one sort of one did that answer your question? 
+
+26:13
+Host
+Uh Partly uh I'm still a bit ambiguous. So let's talk about these data scientists, right? The data scientist wants to pull data from one data source process it in some way, create a machine learning model or some prediction or some analysis, right? And then like there is some artifact even, right? So there is some pipeline that they uh that they create, right? And the data comes from some, I don't know, data lake or data warehouse that some data engineers put there. Um So in this case, day, one problem would be um I guess helping this data scientist or like somehow figure out like what exactly they need or I I 
+
+26:54
+Guest
+I think the day one problem is the data scientist um doing, pulling the data, doing the transformation and building the model and, and getting it ready. Saying here, I've, I've done my job. We have the prediction, 
+
+27:08
+Host
+this Jupiter notebook right. Here's 
+
+27:09
+Guest
+this, here's this notebook. OK. My job's done right. And then, and then OK. Uh The, every data scientist is really interested in the next Jupiter notebook, they're not really interested in the last five or 10 that they did. And so, um the day two problem is you've got to take those Jupiter notebooks and insert them into a system where they can run easily and they can, and they can tell you if they got bad data going into it, they can tell you if it's the predictions wrong. So someone can then run that Jupiter notebook day in and day out and not have to have the brain of a data scientist, right? The, the, the, the um and, and then second is like you have, you wanna hire a 23 year old into your team and when there's a bug in that notebook, you wanna take that 23 year old who has a master's or a Bachelor's in CS and Hammer her is really smart. They know Jupiter notebooks, they, but they don't know anything about your company, your data, your environment, you want them to be able to go in and fix a bug, change one line of code and then be able to, to deploy that change with really high confidence that that is not going to break something for the customer or sometimes notebooks are used as interim points and maybe there's a visualization or maybe there's an export or maybe there's some other process. And so how do you, how do you take a 23 year old who's really smart, really loves data and they do, but they don't understand all the complexities of your environment. 
+
+28:54
+Host
+Like I said, it could be coordinative, right? But it could be some other thing, right? 
+
+29:00
+Guest
+How can you give a button? So you have a son? So I have a son. Uh he, when he was 23 he got a degree in computer science, surprised. Um and uh you know, he was a typical son of a nerd father. His um room was covered in Legos when he was eight like a mouse. And then when he, when he was 16, it was covered in something that I don't know what. Um and so he got this job at 23 at Amazon working on business to business transactions, right? And I'm proud of him, but like in his first week, he made a code change and deployed it to production and I like there 
+
+29:40
+Host
+is a gigantic company, right? 
+
+29:42
+Guest
+Yeah, a jig and it's, it's business transactions and like, I wouldn't trust my son to do that. I mean, I love my son but I would not trust him to do that. And so what did they do? They had a system next to my son. That's a 23 year old. You made a change, your one line code change, big red light. You broke something. Right. And that's what we need. We need to be able to inject 23 year olds into our, into our company who can make small changes with a big, right. And that's a systems problem. We need a, we need a system if you do that. And uh and I think that's, and, and actually good software development teams benchmarks themselves on that, you know, can, can, can we hire someone that can fix a bug and deploy to production the first week? A and, and, and what's underneath it that they do that with um a lot of automation and deployment, a lot of testing, regression functional testing to make sure that that happens. I mean, any company can have a 23 year old deploy something, right? But it's deployed with, with knowing that it's gonna work. Yeah. 
+
+30:55
+Host
+All right. So here thinking in systems means you have, you need to have a platform with all the bells and whistles like the regression test component, the optic deployment component, whatever component, right? Which are there, they are integrated to your platform and then all you need to do or all the this 23 years old needs to do is just do a little tweak, press a button or an execute a command and then like it goes through all this, uh, all this set of systems and then there is confidence that this thing, like, it either breaks in the middle and we see, ok, something is wrong and it doesn't reach production or if it reaches production then it's good. 
+
+31:45
+Guest
+Exactly. Exactly. Yeah, I think that's, that's really, it, it's like just find problems before they reach the production. Right. And, and we can talk a lot about how you do that, but that involves number one sort of the railroad tracks to move something from development to production and then signals on those railroad tracks to tell you if something's wrong. And those are usually based on tests based on infrastructure as code based on using version control, based on uh having good test data that's reflective of, of customers. Um And just that act is like, if you can, if you can deploy quick, quickly with low risk, if you can plug in a 23 year old, you're then much more likely to say no, I do. You're much more likely not to say it's gonna take me three months to get something done. You'll say I wanna do this in a week and I'll get you one of your requirements and we'll take a look at it and see if you really need this and then they'll go, oh, you know what, I don't really need this. You're right. And then all that, all that three months of work, you just saved because you've gotten something earlier and I, I guess I've gotten very humbled about what I, I think I know customers want and giving them a little bit, giving them something 70%. Right. That's imperfect and getting it early to them is so much better than, than sitting back and, you know, we all love to code. Right. I'd love to code for three months and not have to interact with anyone but, like, and I've done that but it's just you get it wrong. And so I think that's um and then there's, you know, the, the the similar problem of you have something in production and your data provider is giving you some weird data, right? That they changed the data. And how can that? Or Docker Hub is, we've had some problems with Docker Hub, not deploying images or um you know, something has gone wrong and one of your servers is running out of memory. How can you know these things before your customer says, hey, the reports blank or hey, my numbers, these numbers look funny and I think that's similar. It's, it's a, it's sort of the Ortho it's the opposite part. We call it the top of the T versus the bottom of the t you know, the production versus deployment. 
+
+34:13
+Host
+And one of the things you said, like when you try to understand what the customer wants, you already know that it will be very hard to actually know what they want 100% correct. You will spend a lot of time and probably you will not actually have what they want. So it's better to ship something that is 70% correct. But early quickly and then start get getting feedback. So I was wondering what uh what tools now we have in place. Yeah, that we started using tools and processes that we started using over the last two years that support rolling out something quickly this 70% right? So you started talking about more D BT, right? So more and more teams start using D BT. There is more focus on git and even more focus on observable. So I think um when I was exploring the data ops part uh two years ago, mm there was a lot of s around data observable. So it was already quite uh a part of the ops part. Uh There were many tools around that. Mm But yeah, so I'm wondering what exactly is new now these days? Like did it change the way we do things or it's mostly the same as just becoming more mature? 
+
+35:36
+Guest
+I don't know, you know, I, I I've been saying basically the same thing for a decade. And so um it's to be honest, it's slower than I would like uh on the adoption. And it really, and you know, on my definition, it doesn't matter if it's a data process or a visualization process or a model process or an MLLM deployment, they're all the principles all apply and the ideas are are there. Um And so I think it's kidding, better and worse at the same time. And so, um I find that people are starting to use, like I would talk at conferences a decade ago and ask people how many people knew what git was and literally one out of 100 would know what it was and people are using like 
+
+36:31
+Host
+analytics uh analysts. 
+
+36:33
+Guest
+Yeah, this was people who were in data engineer and data analyst roles. 
+
+36:39
+Host
+OK. Interesting. So they use the Mercurio or SCN or what? 
+
+36:45
+Guest
+Yeah, I had, I had a slide in a deck. I had to explain what it was and, and why you want to use it 
+
+36:50
+Host
+because like that was already quite popular back then, right? 
+
+36:53
+Guest
+Oh It was, yeah. And it's not good. I just said version control but it was on CN or you know, CBS or the even the old cell gets. I think it's um it and why, why was that? Well, most data people were using gooey based tools to do their work because the data career 
+
+37:14
+Host
+like Informatica, right? This sort of stuff, 
+
+37:16
+Guest
+Informatica which, which is it, it does sort of version control but it's not really code. So it's really hard to diff uh uh uh you know, when, when you um oh this 
+
+37:29
+Host
+the Microsoft integration service, right? 
+
+37:32
+Guest
+Yeah, like S si si mean, they all you can all persist workflows to something but they're, they're hard, very hard to read. And so, you know, if anything, what D BT brought us is a legible way to store your data integration code. And the same thing with airflow, it's, it's code, right? And, and then there's, you know, because I, you know, I wrote the manifesto and one of the things is analytics is code. Um and it's, it's, that's the intellectual property that your organization is creating is code or configuration and, and that sh that code should be and get and stored and versioned. And I think so what, what's kind of happened in the last two years? I think it's going slower than I'd like. I still think there's a lot of heroism. I still think. Uh you know, maybe I, I'm, I'm a little surprised how, how much because it happened in auto man happened. Maybe you don't run a factory today without using Toyota and Lean manufacturing techniques. You don't run a software project without doing DEV ops and agile. But lots of people start and continue to do data and analytics projects where they throw a bunch of stuff up in production and kind of hope it works. And like, so to me, I'm, I, I guess I'm, I'm perplexed as to why it's taking longer than I thought it would, to be honest. 
+
+39:04
+Host
+And it's like everyone is busy using Judge GP T. Right. 
+
+39:09
+Guest
+Yeah, everyone's busy. Everyone focuses on day one. I mean, that's what, what does an LLM do it, it's, it generates things for you. And so, uh it's great. You can gener, you can go into, you know, you can open up AJ and you got all these icons and you can generate a lot of things. It's cool. There's all sorts of all sorts of tools to generate things and look what I did. I built, you know, I, I built a predictive model or look what I did. I built a dashboard. Um But look what I did, I, I used the, I used chat GP T to help me write some ETL code. Fantastic. Yeah, that, that, you know, if 70% of data and analytic team time is wasted, we're focused on 30% where it doesn't matter. The incremental margin of improvement on 30% is even if you increase everyone's productivity by 20% you still haven't made a dent in the overall problem. 70% of the time in data teams is waste. Focus on the waste. That's where you're gonna, that's where you're gonna drive productivity. 
+
+40:20
+Host
+So like I am a bit lost like here with 70 30%. Um So what you're saying is let's take an analytics team. So what they do, 70% of the time is going to end nowhere, right? So it's going to be waste, right? And only 30% of what they produce is actually going to be used by. I don't know, business customers, whatever, whatever is this, what you say? 
+
+40:47
+Guest
+Yeah. Yeah. If you look at their daily time, right. The time, like, I'm on a keyboard, I'm creating something and building something 30% is generous in that amount of time. I've, we've had, um, customers and, uh, well, sort of like Harinder Rawal, who's a CD O and wrote a book on data ops. He did surveys of his team and he found it to be 15% of the time people were actually doing something and, and the other sort of 85% well, they were in meetings, they were reworking something that's in production. Um They were waiting on someone else, right? They were fixing something that had, was, was broken already. Um And so I, you know, that and this sort of time is not what we love. Like the reason, you know, we've been given these gifts to be able to create and code and do analytics is that not everyone can do it right. It's, it's nice that we have these weird gifts with, you know, 5 10% of the population is really good at it. And so we're, you know, the, and so, you know, most data and analytic peoples can't join the Olympics and, you know, run a, run a, run a sprint. But like, you know, we can, we can code, we can think. And so I like to do that and I would rather not fix something that's broken. Uh I would rather, I would rather not like people, we have war rooms when something goes wrong and we all go, we all meet and fix it. That's just wasted time. Um So I think to me the big gains is to focus on the waste and decrease the waste and increase the funds. 
+
+42:39
+Host
+Yeah, and how does data ops help? So data ops is processes, right? Tools processes and mainly processes. How exactly you work? So how does data ops? What kind of processes from the from data ops can help us reduce this waste? Like can't we just say, OK, like now I stick to datas principles. I'm not attending any meetings. Why? 
+
+43:02
+Guest
+Maybe. Yeah, I mean that that happened in software and and yeah, you have these uh sort of fake agile projects, right? Where they do Dev, sprint, Dev, sprint, Dev, sprint Q A, sprint Q A. They, they follow all the rituals but they miss the, they missed the entire point of it. And so um it, it's, it is like AAA culture change. However, I think how can you get something 70% right? How can you have a 23 year old, make a small change and get into production with confidence? Like those, if you start thinking about it, there's a couple of tasks that you need to do. One is you need to be able to use it uh automate deployment with scripts or C I and CD. Um And So you need to say, OK, I and, and use version control. So I've used V control. Um and I've automated a way to deploy and then you need tasks that run in development before production. And sometimes there's different classifications of those tasks. Sometimes they're called unit tests. Other times they're called impact tests or uh what you don't want to do is have someone who knows your day, eye it up and say, oh, this looks right. You want to have it scripted and all this happen, it happens all the time. In fact, that's the majority of the way people do it 
+
+44:30
+Host
+probably leave the bubble. Cause like to me, what do you say? Sounds like common sense. Like why wouldn't you not have C I CD these days? Like it's not 2010 right now, right? Like you have all these github actions, github uh github C I CD, github actions like even Jenkins, whatever, right? Like why would you not use git? Why? Like why would you not have a different 
+
+44:55
+Guest
+there? There's degree. So some people will use git but they'll have, they'll use get and they'll use github actions but they won't uh and they'll have a unit test or two. And so they'll say OK, we're doing this and then they still find problems. Well, unit tests, even if you do all that unit tests are meant to be quick checks, but they're not, you need to have functional test and to end test, you need to pour test data into your system and run it. And so it's um that's also part of it. And then also because teams are so largely separate, maybe the data engineers do it but the data scientists don't. And so you deploy your ETL code, but the scientist code is, is up there and data bricks putting their notebook into production by flicking a switch. And the same thing with Tableau, they, they, they had it in production through the U I and so it's not uh done. End to end, maybe there's pockets of it. But, um, people who come from the software world where this is somehow taught. And II, I think software engineers are very judgmental and they'll like, go, they'll look at stuff and go, ew, that's disgusting. And they'll be very, they'll like, really go. Uh like you just did, you went and like, I, I think we need to do that more as, as data analy teams go. You're doing what? Oh, so 
+
+46:27
+Host
+judge more like judge people more, 
+
+46:31
+Guest
+I think. Yeah, we need to be judged, not, we don't need to judge people but judge the system and we 
+
+46:36
+Host
+judge the call. Yeah. Well, I remember once so I joined the team and then I said, yeah, like the kind of code is that like who even thought of writing this? And then of course the person who wrote was in the same chat and then the manager approached me saying like, hey, don't this is rude, don't say that. 
+
+46:57
+Guest
+Yeah. Yeah. Well, you've got to find the business place, which is, instead of saying, oh, you say, well, I think there's opportunities for us to improve this guy. Right. Right. 
+
+47:07
+Host
+But I was young. And, um, how do you, do you call these people who are, like, I, my favorite book was Clean Code. And like, if something was not Halloween, the principles from this book was like, ah, now I'm much more pragmatic and it's OK for me to have like a two screen function, right? But like back then it was like, oh, like people didn't like when I was expressing my opinion about their God. 
+
+47:37
+Guest
+Yeah. Yeah. Well, there's when you get older you find um business euphemisms to say, oh, yeah. Right. So anyway, it still ii I um something is we've accepted the chaos as a data. We, like, we're more inclined to think that this stuff doesn't apply to us or date is an exception. Um, or I don't know, like, uh to me this stuff, but I feel the same way it makes total sense, right? Don't run your production systems without checking that the input data is good or checking that the output data is good. Like, just know if there's problems before your customer sees them. And so what happened to us as a company is we focus for many years on trying to help people deploy faster. So we built software and tools uh on trying to kind of help in the development process first, right? If you know, if, if you put something in this, you'll see the change right away, create integrations and tools and, and what I found was almost everyone would open up Aws and start building and then they have stuff in production and it was too hard to retrofit all the stuff that they already built when they weren't using git or version control. And it was too hard to find people who were starting early. And so about 2.5 years ago, we realized that the best place to start for most teams is in production. Hm. It's to start and to start observing the production systems. And then for us, the second thing that we, we learned was that, um I thought I had gone to six or seven years ago. I went to the DEV Ops Enterprise Summit in Las Vegas. It's the Gene, you know, um Gene Kim, the guy who wrote the Phoenix project, it's like a, it's a conference for enterprises who, who are trying to adopt DEV OPS principles. And it's really good. People are really joyful. They do presentations and, you know, they talk about how to get their teams to adopt agile and Dev ops. And I'm like, oh, we're gonna do that. We're gonna have, that's what's gonna happen at some point. Data. And analytic teams are gonna say we're gonna, we're gonna need to adopt DEV ops or data ops or whatever ops term you wanna use and we're gonna have a conference and so you should get the senior most leader involved. So we spend a lot of time talking to chief data officers, um, and trying to educate them. It turns out that the average, um, life of an employment of a chief data officer is like two years and they get fired so quickly. Like they, they 
+
+50:29
+Host
+don't believe voluntarily. 
+
+50:31
+Guest
+Yeah, they don't leave voluntarily. They're, they're quitting because it's, uh, there's such a mess out there. And so they get in and they come in and say we're gonna do insert Gartner, insert Gartner buzzword 123. And then they find out they can't run. They don't know how many pipelines they're running. They can't tell if things are breaking. Their customers are unhappy. Their data teams are inward focused and process living in a fearful way and they, they can't, um, they can't do anything. And so then they get frost, they quit. And so, um, what we've decided is to focus on, instead of focusing on development, we're focusing on production as the place to start. Instead of focusing on chief data officers, we're focusing on individual contributors. And so that we've also, from our standpoint, we've, um, we've always been a profitable company. We've never had investors. So we spent, um, of millions of dollars building new products that we've completely open sourced about you to open source. And um the challenge that individual con, so let's say you're an individual contributor, data engineer and a data team. You, you hear this and you say, oh, this sounds good. And what do I do next? Well, I think the first thing that you do as a data engineer is you add data quality validation tests, you test your data, you check and that's actually a little hard to do because a most data engineers are very busy and B they don't have like the context of the business. So we wrote an engine to um scan your data, use some smarts a little A I and algorithms to automatically build data quality validation tests for data engineers. So that way 
+
+52:24
+Host
+and you'll send us link for, for us to read more. There are questions that uh before we finish, maybe we can answer. So the first question is how important is learning Kernes uh has industry adapted it yet. Well, I think it is, but like maybe that's 
+
+52:42
+Guest
+probably important, but I hate Gubernatis. God, I hate Kernes. It's so complicated. Um OK, you probably should learn, learn Kubernetes because people do it. But you should also say if your team is like two or three people, do you really need Kubernetes? Can't you just run something on a Linux system? Um And so like Kubernetes is very good. If you uh are, are gonna run hundreds of processes. If you're gonna run 10 processes, you probably don't need Kubernetes. So it is, it is, it is good to learn. 
+
+53:13
+Host
+Yeah. 
+
+53:14
+Guest
+And learn doctor first then co 
+
+53:17
+Host
+yeah, because like this, the question was not over. There are a bunch of questions in one. So we'll knowing we just know in traditional uh V MS technologies, I assume this is like Docker, is it sufficient? And this is what you just said, like just learn that and then like maybe instead of using certis, there will be something else, maybe something lightweight or I know there are so many alternatives these days. So in the clouds like Google cloud run or like P CS or whatever. 
+
+53:49
+Guest
+Yeah. Yeah, there's like elastic, there's K, there's Kubernetes, there's learning kubernetes, the ins and outs and then there's being a user of Kubernetes, right? To be a user of Kubernetes. Don't learn to be a DEV ops engineer of Kubert. And I 
+
+54:05
+Host
+remember I was speaking. So the problem I had was as a data scientist uh when I wanted to deploy something I needed to use certs for that, right? And like, we didn't really have uh like it's not something data scientists would do typically, but I needed to deploy something. And then uh platform engineers were always busy. So I then uh spoke with one of the platform engineers saying like, look, you're always busy, just teach me how to use certis. And then what he said, just install mini cube on your machine, try to play with this and then like you figure it out and this was a great piece of advice because like it took me just a couple of days to figure it out. And now with J GP T and now you have kind which is Cerna and Docker, which is like even lightweight, light, lighter weight version of like mini cube, not version but like slight the weight Cerna that you can just deploy locally. 
+
+55:05
+Guest
+Yeah, like you just a couple of days. And I think uh I, I think what's interesting is you said there was a platform engineer, right? So there's somebody was in charge of your team and making sure that things deploy. And I think data and analytic teams need to have someone because like data, people are interested in the nuggets of cool code that they've created a model of visualization, a transformation and GE they're really and somebody's got to take those nuggets of cool code and build the system around it, build the platform around it. Yeah. And so that's, that's what I, that's what I'm talking about because like who is, who does that role? Well, it's a platform engineer. It's an SRE it's a dev ops engineer. We have different terms of software but we need to, we need to assign someone to do that and, and not just, you know, I I in the in the analytics world. 
+
+56:02
+Host
+Mhm OK. Yeah, that's a very useful role, very useful profile. So another question, how data is versioned in the industry these days, which tools methodologies are used? And uh what uh what is your advice regarding that? 
+
+56:17
+Guest
+Um uh OK. My advice is not to version data but the version the code that's acting upon data. I don't think data needs to be versioned. I'm a more uh and and so why is that? Because the processes that act upon data are more important than the data itself? And so um I tend to think you should have because storage is cheap, you should have immutable data sources. So every time you get data, you never change it. And so I'm a, I'm a fan of um I been potency and functional programming. And so from a design standpoint, I, I like that. So I don't believe in versioning data, I believe in immutable data with functional ways to access it. Um And I'm I'm a big believer in versioning the processes that act in the data because code is more important than data 
+
+57:17
+Host
+actually, which reminds me of uh functional programming and functional programming, immutability is a big thing because when your data is immutable, like all of the concurrency issues go away, right? And here it's the same, right? So like you just know which, well it's still kind of version you have, right? If your data is beautiful, you need to know like how exactly to refer to this particular state data. Yeah, 
+
+57:43
+Guest
+it's not literally version but like, yeah, you have to, it's it's time based versioning or something, you know, at this time 
+
+57:50
+Host
+like data Delta Lake is one of those things that do it, right? Or a 
+
+57:56
+Guest
+data. I I think a data, yeah, you could say a Data lake sometimes is like that. It depends on your version of the term but like 
+
+58:05
+Host
+there are some technologies that, that are immutable inside but it doesn't look like that outside. 
+
+58:15
+Guest
+Yeah, I, I'm not aware of that. Yeah, I mean, I don't remember the name. I, I just like putting it in the bucket store. 
+
+58:24
+Host
+Yeah. Right. Question from Adonis. Shouldn't they quitting teams? Cure, be in the mindset and culture rather than tooling and date. S 
+
+58:34
+Guest
+Yes. Yes, it is. It's both. And that's the hard part is 
+
+58:38
+Host
+also cultural. Right? 
+
+58:42
+Guest
+Well, iii, I believe so. Yeah, I think, um, I think the culture has to come from the team saying enough is enough. I'm sick of quitting every 18 months. I'm sick of being unhappy. I'm sick of my customers looking at me funny because I'm going too slow. Right. And, and I think, and I'm sick of hiding from customers. I wanna be, I wanna, I wanna be involved with customers and deliver value. And so I think that is, um, it's just that it's a better way to work and I think it is a cultural change and I think, um, I think it has to come from the bottom because the people at the top are only going to be there for 1824 months before they get fired. 
+
+59:25
+Host
+Well, hopefully not everyone uh is changing jobs that quickly because like if everyone is just, is, is not there already in a year then like 
+
+59:37
+Guest
+all I know, I think that people build all the code and that's, yeah. And that's it. It's unfortunate that that happens. But you, you do get a lot of job hopping in data and analytics. 
+
+59:50
+Host
+I mean, that's how it is these days. 
+
+59:53
+Guest
+Yeah. If you've ever run a team and you've got that person who knows everything. Yeah. And they quit. 
+
+60:01
+Host
+It's a, that's a problem. 
+
+60:02
+Guest
+Yeah, it's awful. Yeah. Yeah. And then as a manager I've like, be, I've done that. I've sort of like back 2006 and seven. I'm like, begging that person to stay and they're like, I'm really good. All I'm doing here is fixing broken stuff. 
+
+60:16
+Host
+Yeah, I was that person. Yeah, like another fun. The uh like bus time. Let's see. 
+
+60:25
+Guest
+It's not a fun time. Well, but at the other hand, they, they created it right. They, if you go ahead and you, and you try to be a hero and you build all your, this stuff that isn't automated and tested and deployable in version control and all things you build. I, I think of it as a, like a cat, like a hairball you build a hairball and you're leaving that for other people. It's, it's not a good one, 
+
+60:51
+Host
+but also sometimes you just stand near the person who builds it and then that person leaves and you kind of just because you were looking over the shoulder, you kind of know what's happening there. And now all the knowledge about this tool is in, in you and also about like other things because like all the other people live and like all of a sudden you find yourself responsible for all, for maintaining all these tools in three years. And like, OK, like, do I really want to stay here? 
+
+61:20
+Guest
+Exactly. Exactly. Then you're like, oh, there's another job. I make more money. Oh, the recruiter called. Yeah, II, I hear you. It's uh it's not, it's not a uh unreason as an individual contributor. It is not unreasonable to, to have those thoughts. And I think whose fault is that? I think it's the leadership fault. I think the biggest cultural changes is in the leaders of teams and they have to realize that these things like I did 15 in 2006. It's my fault, right? And so it's not. So what happened for me is I was reading this guy Deming and he had this rule that said 96% of the problems in a factory are due to the processes in the factory and not the people he called them special causes for people. Cause Yeah, 4% of the time. Yeah. Somebody screwed up. Or they're, they're being an idiot. But 96% of the time you haven't built the factory in the right way. And if you take that to heart, like, a lot of times when things go wrong, our first action as a leader is to find someone to blame and fire heads will roll. And really what it means is when things go wrong. As a leader, you haven't built the system around people, you haven't thought in systems, you haven't focused on day two or day three, you haven't focused on cycle time and er rates and that's really where I think the leadership needs. But I think the only way leadership is gonna get there is if individual, the individuals on the team start pulling them. 
+
+62:58
+Host
+Yeah, so we can go on and talk about that for ages. And I think most of the questions we actually prepared and Johan prepared for this interview, we didn't cover them because like we had so much fun talking about other things. Um So Christopher thanks a lot for joining us today for waking up at uh what's what that uh 6 a.m. right AM 
+
+63:21
+Guest
+6 a.m. which is hard for me. So feel sorry for me. It's like my life is, I appreciate that I have to get up at 6 a.m. 
+
+63:31
+Host
+but you still like talking even if it's early for you and you shared so many things with us. So we appreciate that. Thanks a lot for joining us today and also thanks everyone for joining us today too. So I see I wasn't really like I was so excited about talking, so I missed a few comments. But um yeah, so thanks everyone for joining us today. Hope you had a lot of fun like me and uh Christopher, I'm looking forward to speaking to you with you again, maybe in a couple of years. 
+
+64:04
+Guest
+So the opportunity I enjoyed it. 
+
+64:07
+Host
+They aren't and by.
