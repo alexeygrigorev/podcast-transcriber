@@ -1,0 +1,475 @@
+0:00
+Host
+Everyone. Welcome to our event. This event is brought to you by Data Talks Club, which is a community of people who love data. We have week events and today today is one of such events. It's been a while since we had our last podcast interview. I think it was in June or July. Yeah, so we had a summer break. So now we're finally uh kids went to school today in Germany, listen in Berlin. And we are starting to continue our interviews and other events. So welcome everyone. And uh if you want to find out more about the events, we have, we have a few in our pipeline in particular. Today, I will host a Q and A stream about, of course, we start in a couple of weeks. So you want, if you want to see all the events we have in our pipeline, there is a link in the description uh go there, click on that link and you will see the events we have. Then of course, if you have not subscribed to our youtube channel, do it now. So there this subscribe button, I think I need to update um this number here because it's almost 50,000, right? Anyways last but not least, do not forget to join our Slack community. This way you um what do I usually say here? You will stay in touch with other data ens Yeah. Usually I remember this uh from the top of my head, but it's been a while I need to revise what is actually the script. Anyways, you can ask any question you want. So there is a link in the live chat, click on that link, ask your questions and we will be covering these questions during the interview. And right now, I am going to stop sharing my screen. I will open the questions we prepared and yeah, one thing before we start, I want to make sure I pronounce your name correctly. It's Rachel. 
+
+1:55
+Guest
+Yeah, Rachel. 
+
+1:56
+Host
+Rachel. OK, Rachel. So let's start. Um So this week we'll talk about using data to create livable cities. And we have a special guest today, Rachel and Rachel is an urban data scientist who is dedicated to creating livable cities through innovative use of data. And uh excuse me. Yeah, so welcome Rachel to our interview. 
+
+2:31
+Guest
+Thank you. Hi, happy to be here today. I've benefited greatly from the data talks clubs causes and I'm happy to be here to share my experience. 
+
+2:41
+Host
+Yeah, we're happy to have you. So let's start before we go into our main topic. Let's start with y ground. Can you tell us about your career? Journey so far. 
+
+2:52
+Guest
+Yes, I am currently working as a data engineer in Singapore and I'm dedicated to creating livable cities through the use of data. I combine my background in geography. I have a bachelor's in geography and a master's in urban data science where I blend qualitative and quantitative analysis to tackle urban challenges. I started my career in data science, applying my skills in analytics and machine learning to various transport problems projects I have worked on include but sharing analytics to indiscriminate parking as well as road defect detection using computer vision. And through these use cases, I've had the opportunity to make a real impact in C DS. And the satisfaction of seeing my my work leading to tangible solutions motivated me to become a transport scientist where I focus on analyzing travel patterns to shape long term planning in Singapore and to further enhance my impact. I recently transited to data engineering after taking on the data talks club, data engineering course and by diving into data foundations and building data platforms, I ultimately aim to optimize A I applications for creating liveable cities. 
+
+4:02
+Host
+Yeah, amazing. So how was the course? 
+
+4:05
+Guest
+It was good? Really? I think it do it do a lot about building data pipelines and using me as well, which was quite an eye opener and I think it was quite relevant in helping me transit into this current road. 
+
+4:20
+Host
+Mhm You said you were a transport scientist, right? Did I hear the name correctly. So what do you like? It's not. Uh So for example, I used to work at an E commerce company. There was no such a role as transport scientists. So I imagine there are certain types of institutions that need this role. So I'm wondering what the role is and who actually needs transport scientists. 
+
+4:47
+Guest
+Um I think predominantly in the in the government sector where I'm working in where we do uh transportation planning and really transportation scientist is combining data science but doing it in a very applied manner in the public transport or like transport planning field. Another field I would imagine would be transport consultancy, for example, like Sam Schwartz. Yeah. So I think there's two key fields mainly but really it's about applying data science in a urban context. 
+
+5:23
+Host
+So which which means like planning where to put bus stops or how often buses should go or things like that. 
+
+5:34
+Guest
+Yeah, that's part of the things but we we separate it into more short term and long term planning. So in the short term, we look at bus routes, we look at uh uh frequency, what is the travel patterns? How are, how are the services holding up? How well is it serving the the the transport users? And in the long term, we also use uh travel patterns, we do projections and use this to do long term planning in the form of whether additional roads will be required, whether additional rail lines will be required and what would the alignment be? 
+
+6:14
+Host
+Mhm Interesting. So, I guess um so let's say there are a bunch of buses in Singapore. Each bus, I assume has a sensor, right? And you track this, you track delays. Uh You also track how many people are on that bus, right? Uh Things like that and through with this information, then you can see, ok, like this bus uh is always occupied like there there are too many people in the bus, maybe you should go more often, right? Things like that. 
+
+6:47
+Guest
+Yes, for sure. There's a combination of data that we look at. So we have transponders on the bus that tracks the the location of the bus by GPS. So this way we know whether there are the buses, what time the buses are reaching the bus stop, whether there are issues related to bus bunching, which is essentially two buses of the same service number hitting the same bus stop at the same time. So this way, ideally, we would want it to be to be spaced out in a in a frequency rather than having multiple buses reaching the same stop at the same time. That way we are not really optimizing the other side of things would be. So that's more of like the supply side and more from the demand side, we look at fair cut data which we trap where people are tapping in and tapping out. So this way we get a better sense of travel demand. 
+
+7:36
+Host
+What do you mean by taping in and 
+
+7:40
+Guest
+in Singapore? We use a fair card data. I think in many cities, like for example, in London, you have the Oyster card in New York, you have the metro card. So in Singapore we have, we have a fair card system as well. So go away into a public transport system. Whether is it going into the train station? You have to tap in and when you get out, you have to tap out same for 
+
+7:59
+Host
+you have a card and then there is like some sort of reader, right? Transport. Interestingly in Berlin, like people can just hop on the bus without doing anything and then just sit and like sometimes there's control. Sometimes there's not, 
+
+8:20
+Guest
+you don't get to collect the information. 
+
+8:23
+Host
+Oh maybe like there are there are cameras in the bus but it makes the collection process way more difficult because you need to like look at the data at the videos, 
+
+8:35
+Guest
+then you need to apply computer vision on it. 
+
+8:38
+Host
+Yeah. Instead of just looking at the events and then doing count and that's it. Mm Interesting. And what did actually motivate you to uh work on this intersection and work on geography and data science. 
+
+8:55
+Guest
+Um Growing up in Singapore, I was very fascinated by the intricate systems that shaped cities. And I also witnessed firsthand how Singapore developed from this. We had this very rapid expansion of the MRT network as well as the development of new housing estates. And I became very intrigued by these forces. So this motivated me to go more into the study of geography. And on top of that, I did an internship in the Center for Livable Cities, which deepened my understanding of the complexities involved in creating sustainable urban environments. And through the internship, I also had the opportunity to attend the World City Summit, which was really inspired by a global community that is united in the pursuit of creating better cities. So through this summit, city leaders from all over the world would come together and share ideas on how to make cities better. And then I began my academic journey focusing on geography, more specifically focusing on urban design, geo computation as well as geospatial analytics. And then this led on to quite naturally actually going more into data science, which I then pursued a master's in urban informatics at New York University. So it was a course that specialized in applying data science in the urban context. So interesting kind of let me into my current role. 
+
+10:19
+Host
+Mhm Yeah, because like my views on uh what I know about geography is super limited because uh it's limited to school and at school, we were mostly studying like what is the capital of what and uh you know, things like that um different, I think types of, I don't even remember like oceans and whatnot. And I wasn't the best student. So like this kind of passed by me without staying in my head. Much. So. Yeah, that's why for me it's always interesting to know like what actually geographists do. And then you mentioned one of the things is urban design, which I guess means like, OK, we need to put, we need to maybe build a new uh a new district, right? And then some houses and then of course, there should be a school, there should be kindergarten, how large should be the school or how many schools? This is things like that, right? So this is what you mean by urban sign or did something, it's something else, 
+
+11:26
+Guest
+it is dead but on top of it to make the, to design it in a way that it is um livable for people to live in. So how yeah, parks, how do you make streets more walkable? How do you design streets like certain width of streets? How do you, do you put like a side? Where do you put a sidewalk? Do you add another like row of like planter boxes around? Keep it away from traffic? Do you make a area safe? How do you make an area safer? And how do you make people want to linger on the streets rather than just walk through it? How do you create communities through the design of streets? 
+
+12:06
+Host
+Ok. Understand why is it called geographic geography? Like what does it have to do with, like, all the things we studied at school. 
+
+12:19
+Guest
+I'm just curious. 
+
+12:20
+Host
+No, I'm just curious. Like, what does it have to do with, like, all the things we studied at school? Like, why is it still called? Geography? Like, why is it a part of geography? That's what I'm wondering. 
+
+12:31
+Guest
+I think geography beyond the physical sense, there's also the, the human aspect of things. So in the physical sense includes things that we study in school, like plate tectonics about volcanoes and earthquakes. But the other side of geography is about the human geography where we study things like people, migration, population changes. And these are very are things that we see around us every day. So I think that's what, that's what makes geography so fascinating because whatever you study, you see it happening in the real world and things that you do can directly feed back into, into changes. And 
+
+13:12
+Host
+uh yeah, so I I was just taking notes of things that we talked about. So we talked about like um things that make a city more livable, which are parks, like different lines for pedestrians, uh for cars, traffic signs. And then you also mentioned communities like somehow you want to create space for people to feel like belong, that they belong, things like that. So what else do we need for a livable city? Like how would you define a livable city? 
+
+13:49
+Guest
+To me, a livable city is a place where people feel connected to their community and have the opportunities to thrive. So physically in the built environment, this can translate into a multitude and combination of things. So firstly, more like efficient public transport where you have a well connected network of buses, trains as well as bike share programs and production, friendly streets. Um good safe and cycling, cycling and walking infrastructure where we could see dedicated bike lanes, pedestrian walkways and crosswalks, infrastructure that can accommodate to different needs such as people with disabilities. It can also translate into affordable housing, proximity to amenities where homes are located near essential services as well as green spaces. So all this creates a built environment where where people say people can connect to their neighbors and people are happy to live in essentially. And I think beyond this increasingly also trans it goes beyond the physical infrastructure space and to also the digital realm in the form of a city with strong digital infrastructure that supports the needs of its residents and businesses. So digitally could include things like access to online, access to government services, um digital safety and being able to connect residents on digital platforms as well. Since we now know that a lot of people are actually spending more time in the digital space. So there's a need to merge these two spaces. 
+
+15:30
+Host
+How well is Singapore doing when it comes to liable city? I must admit I have never been to Singapore. I want to visit it at some point. But I definitely should. Yeah, but like how well, how livable it is. How would you say? 
+
+15:48
+Guest
+I think we have grown a lot over time. Essentially, we had a phase whereby we were very focused on, on growing and developing housing estates. And increasingly there's a lot more focus on place making, creating spaces where people can linger and enjoy. And also we have a movement whereby we are converting streets or districts into car free zones. So this increases uh the the environment improves the environment for people to walk to cycle. And we are also creating dedicated bike lanes. So I think it is a journey. There are parts of the cities that are better, more livable than others and we are working on it to to make it to make more spaces like this. 
+
+16:35
+Host
+Mhm You know, and um what's unique about Singapore is uh it's geographically quite small, right? So and it's very densely populated. So you have to be very how to say effective about how you use land, right? That's why you need to think about these things. 
+
+16:55
+Guest
+It's a very conscious planning process and land planning in Singapore there is this process called Master planning where we plan a hit like 15, some 15 years in advance. So we know where certain amenities should be. How do things come together across different time points? 
+
+17:16
+Host
+Ok. Interesting because like I was thinking since I live in Berlin of course, I was thinking like how livable it is. I think it is doing pretty well. Like there is good public transport. Uh I wouldn't say cycling is really great here ta up areas where there are more um bike paths, there are areas with fewer of them. Um Like, and I can compare it to Moscow, for example, in Moscow for people with disabilities, it's super difficult to move around. Like in Berlin, I can see quite a few of them on the streets. So the city is pretty accommodating. And that's amazing because I actually, I did not think that this is actually I think that people study and then go implement and then actually it's not just go to sea, it's very practical in the sense that there are data scientists, there are data engineers. So I'm really curious to know what you do, what you did there as a data scientist or transport scientist and what you do now as a data engineer, 
+
+18:24
+Guest
+I think in in data science and transport science planning for a city requires very deliberate effort. And data science can play a very pivotal role in enhancing the city livability by providing valuable insights and enabling it in a data driven manner. Because by by leveraging on the data that we collect in different parts of the city, we can know where to optimize where we can improve and then lead to better public services and environmental sustainability. So um in Singapore, we collect quite a bit of public data. And we also and we also share this openly on open data platforms. So this allows for citizen developers or students or research bodies to leverage on the data. And there's some cross exchange of ideas. So public data in government agencies, we collect things like transportation data, like fair card data as mentioned before, as well as census and survey data. So using this information, we can be better able to understand travel patterns. And this translate in the long term. When we do population projections, we can also use this information to project future travel patterns by knowing where people are moving, we can then plan out and conduct transport modeling to see what would be the possible alignment of rail lines to bring people to places that they need to get to. And increasingly actually, we are also collecting data from from private sector which includes things like mobility data from ride sharing apps. So this gives us a picture apart from the public transport perspective, it includes information on how taxis are moving, how are right hailing apps, how are people moving using like red hailing? So this kind of gives us a glimpse of another dimension of people movement. 
+
+20:31
+Host
+OK. And this is interesting because you said you also want to predict where people will move like which means if I understood correctly, let's say people are moving from one part from Singapore to another slowly. Maybe there is a district that is more conveniently located and there's it slowly, this district is slowly getting more populated. So you want to predict these patterns and understand? Ok, because there are more and more people who live there, we need uh maybe a new bus line or this bus should go more often now, things like that. Right. 
+
+21:09
+Guest
+Yes, something like that. But from because Singapore is really small. So we plan out how housing estates will develop over time, whether is it through a new injection of a new housing estate or whether is it housing renewal whereby we rejuvenate a certain area? So this way we know how many people are living in a certain district. And from there, we can rely on past travel patterns and and and new modes of transport to predict how will people be moving in the future potentially. So it's a it's a projection but we can use that to to plan ahead whether it is it for for new bus lines or for new bus lines. If we put in a new housing estate, we will need to make sure that it is connected to the rest of Singapore. So then the new bus lines or new bus stops location would be planned out that way. 
+
+22:02
+Host
+Mhm You tell, I know as a data scientist like you cannot do much without data. So data needs to be there. And all this data that you mentioned like sensors uh moving patterns, right? Hailing data like it has to be there with the scientists to use and actually discover patterns and then give suggestions and this is probably the most difficult part, right? So like buses need to have like all the sensors, all the like all the physical means of collecting the data. And then from there it needs to go like the data needs to go to some platform where you aggregate it somehow process it and then put it in a table. Perhaps the data warehouse where data scientists use it. Can you like you as a data engineer uh are probably doing these things now. So can you tell us more about what's happening there behind under the hood? 
+
+23:01
+Guest
+Yes, we ingest a combination of data. So from right, hailing companies, we collect all this GPS location from public transport data. We also collect um the tap in and tap out information as well as GPS coordinates. So in our data entry in our data pipelines, we have a end to end pipeline whereby we aggregate all this information store in the data warehouse process it in a way that is suitable for data analysis downstream. So this allows us to to have information across a long period of time because for data science to work, we do not just need real time data but rather in order to do projections, we need data across a long period of time. So this allows us to track patterns over time, which is very important to have stable information and reliable data in that sense. 
+
+24:02
+Host
+Do you also need the other also use cases where you actually need real time data. 
+
+24:09
+Guest
+Um For real time data is a lot more for managing operations. So for example, if we want to know how reliable um services are, then real time data would be a lot more important. Um One potential use cases is also for the tracking of traffic flow during specific events. So in Singapore, we host the F one night race. So it is because it is a street circuit, parts of the roads are closed off. So we need to know how ah how our traffic flow around the area being impacted. So we use um taxi data is a proxy because through that, we know how, how fast the GPS coordinates are moving, whether there is congestion on the ground. So this gives us an additional, it's one of the data points that give us information on what is how traffic flow is like on the ground when we host large scale events like that in the city. 
+
+25:07
+Host
+And what happens if there is a traffic jam? 
+
+25:10
+Guest
+It depends. So if the traffic jam is happening on an expressway, we have cameras on the road that track this incident. So we know exactly where it's happening and recovery services will come in to either to the service or to to manage the situation on ground. 
+
+25:29
+Host
+So like maybe policeman to handle traffic right? To arrange 
+
+25:35
+Guest
+combination of traffic marshals and also services to, to remove the blockage so that traffic can flow again. 
+
+25:45
+Host
+Do I'm just wondering now, like I know in Berlin, it's pretty common to do some sort of running events like health marathons, marathons where they block like a large street for half a day and then like, it's probably quite inconvenient for the drivers because they need to find a different route and cause these events like half marathon or marathon. The distance is quite large, like it's like 21 or 42 kilometers. It means like a large, very large road or multiple roads actually have to be locked. Do you do anything like that in Singapore might be a nightmare for like for, for you to organize these sort of things 
+
+26:30
+Guest
+similar as well. We host marathons, we host like races in Singapore. So uh for marathons, actually we hosted on a combination of roads, we do close off some roads, but actually we have a network of park connectors in Singapore which connects different parks. There are places that are actually completely free of vehicles. So most part of, yeah, most part of the marathons can be conducted through like the network of park connectors and some portions of roads. So actually the impact of these events on on traffic is not as significant. 
+
+27:06
+Host
+Mhm. Ok. So this is uh what it actually means for a city to be livable. Right. Because these things are thought through and like, of course, if there are parks that are connected, you can run without, like, ever stepping across. Uh, like having to wait for traffic sign to go red or go go green. Right. That's amazing. And that makes a city definitely livable because I'm, I'm into running around sometimes and finding the route that does not have any. Um, like, I don't need to wait for a traffic light, right? Or I don't need to cross the road. It's not that easy. Uh Yeah, so that's, that's pretty cool. Uh Do you take part in any of these things or you mostly take care now of um transportation 
+
+27:59
+Guest
+in managing these events? 
+
+28:01
+Host
+Yeah. Yeah, like uh your role right now, you probably, so you you, you used to be a transportation scientist and now you're a data engineer within the same area. You also work with transport. 
+
+28:15
+Guest
+Yes, I still work in transport, but I'm working a lot more on data prep data pipelines on the upstream portion. And also increasingly um finding ways to enable generative A I and the space of data engineering. Whether is it to allow users to query databases without actual actually having knowledge of SQL for example, 
+
+28:43
+Host
+how often is it needed? 
+
+28:48
+Guest
+Often as data engineers or data scientists would get requests from users to either extract data or help perform a certain analysis. So it can happen quite frequently. So hence, creating tools to enable users to extract insights on their own. We would help free up data engineers time to, to do other other more innovative things. And actually, I always believe that data science or analysis should come from the users because they have the best idea of what do they want. Essentially they have clarity on the on the problem statements. And a lot of analysis will need to be, will require formulating well defined problem statements with a clear purpose before diving into deeper analysis. And when this gets transferred from person to person, sometimes the real essence of what you want to find out could be diluted. So problems need to be effectively framed in order for it to be solved effectively. 
+
+29:53
+Host
+Mhm And who are these people who don't have uh SQ SQL knowledge but need to get this data? I assume they are like subject matter experts who are not necessarily super technical, right? Yes. 
+
+30:09
+Guest
+Yeah, subject matter. But it could range from like people that work in policy, they need information in order to to come up with data driven policies. For example, 
+
+30:21
+Host
+the policy could be, can you give an example of policy? 
+
+30:27
+Guest
+Um It could be like how for example, for like f cut information um um or things like how do you adequately um price transportation, how many people are using concession cards in order to know whether a policy that you wrote out? How effectively is it being, how effectively is it affecting the end users? 
+
+30:58
+Host
+What is the concession cut? A 
+
+31:00
+Guest
+concession card is a, is a fair cut that gives you discounts. So like in Singapore for senior citizens or students, you pay our fare? 
+
+31:11
+Host
+Ok, I see. So my question could be what happens if we now make the price higher, right? Or come up with a new ticket? So for example, in Berlin, there are bundles like you can buy four tickets and then it's cheaper like maybe a question would be like to get the data to analyze potential impact of things like that. 
+
+31:37
+Guest
+Yeah, in Singapore as well. So we have things like monthly passes that gives you like unlimited travel for a certain price. So these are specifically for there are passes specifically for students. So like we possible questions would be how many students actually use this passes? How effective are there? Um Does it how what's the percentage of students that are using this? 
+
+32:05
+Host
+Mhm And because they need to actually touch this thing to tap in, right? You have all this data but what this policy specialists do not know how to query this data, how to get the data they need. OK. And what you do is you probably have some sort of like uh chat interface where they can just type in the thing and then it gets translated to a SQL query and they get the answer or how does it work? 
+
+32:35
+Guest
+Um This is something that we are looking to build, I think um we're not there yet. So there's a lot of effort currently to help, help extract information or like do analysis. So this is something that we are hoping that would help. 
+
+32:53
+Host
+Is it something you're working on right now? Yes. Mhm. What do you, what do you use if it's not a secret? Like what kind of technologies, what kind of approaches you try? Uh It's, it's a pretty interesting and we, because also we right now have this uh LLM Zoom camp and perhaps this would be interesting for our students to also know what are the potential applications of LLM. And A I 
+
+33:19
+Guest
+I think the, the LLM space, the text to SQL space is very, is quite well established. So that is kind of what we are trying to do now uh being able to use meta data from data warehouses and data catalog, information from data catalog. We we chunk them, we create a vector database from that and then apply on top of it, a large language model to be able to take in user queries in plain English and translate it into SQL statements before returning uh an output to the users. 
+
+34:00
+Host
+So it's uh some sort of uh R application where instead of so you give extra information. So like you have a plain English query that is a subject matter expert creates. And then from that you create a prompt that this is the question from our user that need you need to answer using the following context and the context you give is all the relevant metadata information you get from the data house from catalog. Like this is the information about the tables. And using this information, the LLM can create a SQL query which is then you execute and then you return the answer to the user. Is this how it works? 
+
+34:43
+Guest
+Yes. Um Essentially yes. It's the process of using red. 
+
+34:48
+Host
+So rock. In this case, the database that you query with um like the, the the our part in the rock is the meta data information, right? Yes. 
+
+35:00
+Guest
+So it allows the RM to, to understand which table to refer to in order to extract the right information. 
+
+35:09
+Host
+OK? How often the queries you it produces the queries are not working. 
+
+35:18
+Guest
+I don't have a fixed number for for now, but 
+
+35:21
+Host
+it 
+
+35:21
+Guest
+happens, it happens for sure. It happens. I found that it goes a lot more with it. Apart from the red portion, there's also the element of pro engineering whereby you need to expose either expose the model to sufficient examples of text to SKL combinations. So it knows for what type of query, what what is the relevant SQL query that you can make reference to and also being able to, when you are querying a database, you want users to just be able to query. You don't want to include things like insert statements update statements or delete statements for sure. Yeah. So there are additional safeguards that you need to make sure that doesn't get, doesn't get invoked. 
+
+36:12
+Host
+Yeah, that's a very interesting project. Um, yeah. And for me, I'm right now, uh, interested in, uh maybe not collecting but learning about as many use cases as possible because this is uh fin in the area. Like there are so many things we can do now with LM. Uh Yeah, that's pretty cool that you're doing that too. Uh Right now it's in a sort of some sort of uh alpha or early development state, right? Mm Yeah. Um But in general how big the data sets like this is not the only project you work on, right? So there are probably other more established projects that you need to work on. Like all the things we talked about like the those like to when it comes to transportation, collecting this tape tapping out data, right? Y are this uh data sets large or how large they are? 
+
+37:11
+Guest
+Uh Yes, we have ah we collect a lot of information. So for fair card data alone in Singapore, we collect like uh millions of data per day of passenger flow. So this gives us a lot of data points because by analyzing fair card data, we can track passenger flows between stations, identify the peak travel times and also access the popularity of different routes, routes. So then this allows us to to go more in depth into things like rock optimization or like fair structure optimization. So back to the topic about policy, right, by analyzing fair cut data, we can help determine what is the optimal fare structure. So for example, in Singapore, we have the Public Transport Council where we one of the policies that was implemented was um morning prepak far which allow commuters to enjoy savings if they p in before 745 in the morning. So this essentially the intent is to shift travel demand away from the peak hours and a train loading because everyone is gonna want to hit the station at like 8:39 a.m. and get to work. So by introducing this policy, we encourage people to travel early and pay less 
+
+38:34
+Host
+and this um millions of data points that you collect. How exactly are they processed? Like do you use like the usual tools like Kafka and uh I don't know uh like a data lake, data warehouse or you have something specific and like how even data comes from the bus. Like, do you have some sort of transmitters there uh Before they end up in your Kafka or whatever? 
+
+39:04
+Guest
+Yes, we have sensors on the bus that collects location information and from the, the the fair cut systems, the gentries, we collect those data and it's stored 
+
+39:14
+Host
+in a real time. Like the moment I tap in, I already have an event somewhere or like at the end of the day you get the data from the bus, 
+
+39:27
+Guest
+the data is stored. But um the aggregation happens afterwards because in Singapore, we have the concept of a right and a journey. So for rights, we we allow our fair structure is such that we allow commuters to have multiple rights and make transfers between trips within a 45 minute period. And we consider that a journey. So then we compute the fast using distance. So hence we do not process it in real time. It happens after a time lag. So this allows us to like aggregate all this information before storing it in a data warehouse. And we use a combination of like Kafka and and P spark to process the information. 
+
+40:17
+Host
+But there's probably a thing that sends the events from the bus immediately to your system, right? Uh OK. So you don't need to wait till the shift of a bus is over to actually I don't know, connect to the bus and download the data. 
+
+40:36
+Guest
+Yes. Oh, 
+
+40:37
+Host
+that's 
+
+40:38
+Guest
+cool. 
+
+40:40
+Host
+Mhm. And then it's like Kafka P Park, all the usual tools that we use in data engineering, right. Mhm. And you work there with this infrastructure? Yes. Yes. Did you ever need to go like on a bus to fix uh a sensor? 
+
+41:00
+Guest
+No, I haven't had the had the need to 
+
+41:04
+Host
+like it's uh pretty, really reliable, right? 
+
+41:08
+Guest
+Yes, generally it is reliable. But um I think in data engineering there's also the aspect of being able to, to detect data quality issues and or like detect data anomalies. So I think that's another another aspect of the engineering whereby we want to be able to know if a certain transporter on the transmitter on a bus is not sending data correctly. Yeah, so I haven't had to go down to a bus specifically, but I think that is one aspect whereby we are always as data engineers, you always have to enhance in order to ensure that data quality is there. 
+
+41:46
+Host
+Mhm uh Yeah, I'm just thinking what else to ask? Cause like I'm kind of torn apart between uh like going down to the like traditional data engineering, but I'm also interested in the gen A I applications. Um So what do you want to maybe go deeper into 
+
+42:11
+Guest
+we could go more into how A I into more into the A I aspect of things? 
+
+42:17
+Host
+Yeah. So do you have any other applications apart from that question? Two sequel, what I think 
+
+42:28
+Guest
+um that is the main thing that I'm currently working on. But I think increasingly there are there are generative A I applications that can be applied whether is it to, to help create synthe synthetic data for? Because there are certain certain types of projects whereby we do not have the full scope of data and generative A I can potentially be applied to, to create synthetic data for these purposes. Uh On top of that, I think increasingly we may be able to think of generative A I as the new UI in terms of how people search for things, how people um look for information. Because we may be increasingly more accustomed to using a chat interface rather than going to a website and clicking on multiple tabs to find the information you need and moving away from keyword search into more into semantic search. So I think there are a lot of applications for for generative A I, whether is it in the e-commerce space or elsewhere, it could shape the way we search for, search for things to buy in the future. We may not need to key in keywords. We could use a chat interface to to discuss and get ideas on what to buy for like maybe my niece's birthday next month. 
+
+43:55
+Host
+Yeah, I'm getting so lazy these days with like the judge GP T and the like because um I can just use voice recognition. So I take my phone, I start speaking, then I click the button and then it started answering my question. Like I don't even need to type it's so convenient. Yeah, I'm curious about the synthetic data that you mentioned. Uh like my experience with uh LL MS when it comes to synthetic data. Like I didn't experiment a lot. So I'm wondering how actually good it is when it comes to to generate data. Like I don't know numerical data, like kind of do time series or what kind of data you need. 
+
+44:42
+Guest
+Um I think II I talked about this in quite a, a general sense, but I just thought of ja I in being able to create synthetic data, especially when it comes to, to more complex or nuanced data sets. Um And also from a data sharing perspective, sometimes there are, there is a need to, to either mask information and gen A I might be one potential way to share the information but generate it in a sense that it is the the the sensitive or confidential information is being ma 
+
+45:26
+Host
+because you release the city of Singapore, releases a lot of public data to like this open data platforms, right? And sometimes you need to edit this data before publishing. 
+
+45:40
+Guest
+Um the current data that we share are data that is collected from systems. Of course, we must things like oh card numbers. 
+
+45:52
+Host
+Mhm What do they actually share like and how to find this information? 
+
+46:00
+Guest
+Um There are two key platforms. One is data.gov dot SG, the other one is called data more. So data.gov dot SG aggregates information across different government bodies in Singapore and it ranges from things like rainfall to air pollution figures. 
+
+46:20
+Host
+So there are categories like art and culture, education, economy, environment, give special housing, health, social transport, real time A P. So I guess I need to go to transport to see your data sets, right? OK. So I go to transport and there is quite a lot of things. 
+
+46:41
+Guest
+Yes, it includes like air travel geospatial data of like paths network. 
+
+46:50
+Host
+And um let's say somebody also in January will start the next cohort of data engineering. What kind of projects would you recommend for them to try using these data sets? 
+
+47:05
+Guest
+I think one useful data set could be car parking data because we collect car parking figures. I think, I think if I'm not wrong, it's real time. So you get gentry transactions. So I think transaction data is quite a useful and large data set for data engineering projects whereby you can ingest the data in real time, store it store it in a data warehouse data link and then process it later on for analysis. 
+
+47:36
+Host
+Car parking. How do I find it? So I just uh look for car parking. I don't think I can find anything. 
+
+47:47
+Guest
+I think car parking is a dynamic data set. 
+
+47:51
+Host
+Uh uh There is there is a real time API S maybe this is what I I am interested in. OK. And I guess I would be interested in. I cannot find, maybe you can send it later. This is not something I can just find right now 
+
+48:08
+Guest
+I can send to you later. Another one would be real time, taxi data. Also another dynamic data set because I think the last data engineering zoom can we were using the the New York taxi data set? It is it is an aggregated data set. But I think it would be useful to also look at real time data and like push through the process on on how to to store this information. So 
+
+48:35
+Host
+I put taxi there in the search bar and then I see public transport capacity monthly, taxi population and there is data from January 2005 to December. Uh This is not the super up to date but like it's up to December 2017. So there is quite a lot of data but I see like that there are many data sets with that are constantly updated, right? You sent me something. Yeah, 
+
+49:03
+Guest
+I just sent it to you. There's another, there's another link specifically for transportation so that under the dynamic data sets, you would find real time cup availability or things like parking. 
+
+49:16
+Host
+Yeah, what I'm doing right now is I'll I'm putting this to our uh to the description so you can check the description right now. I have put the link. Yeah, thank you. Um Yeah, I don't see actually any questions from anyone. Mm So I let me check Ghost. So yeah, I I run out of questions. I don't see any questions from uh anywhere. Uh I'm just wondering, no, I have a few lost ones. So if somebody wants to study what you do, are there any books or courses that you would recommend on um on this uh on uh transportation uh geographical um uh transport, on learning more about transport scientists, what kind of work they do? Um things like that like other courses or books. 
+
+50:22
+Guest
+Um I think the causes by the to cam is a good primer but also going more into specifically into because 
+
+50:32
+Host
+we use. 
+
+50:34
+Guest
+Yes. So I think there is one very rare example on how to work with data and how to apply it in a real world context. So I think those are good use cases. Um but also understanding more about the the why behind why we do this kind of analysis. I think there are two books that kind of shaped the way I think about cities. One is The Death and Life of Great American Cities by Jane Jacobs. So this is a very classic book that provides a critique of urban planning and as well as her vision on creating how to create vibrant and livable cities through community based approaches and also paying attention to human skill design. Another book is about is titled Happy Cities Transforming Our Life through Urban Design. So this book blends urban planning with psychology and sociology and it explores how cities can be designed to improve our happiness and well being. And I think this provides a very good backdrop into why we even bother to study taxi movement in the city. 
+
+51:42
+Host
+Yeah, interesting. So the first one is that Life of American Cities and the other one is Happy Cities, right? Yes. OK. Interesting. Well, I remember being in the States and it's very difficult to get around without a car. Well, apart from New York and Boston maybe. Uh, so, yeah, I hope they implement some of the things we do in Europe or in Singapore. So then it's, uh, was, I, I remember actually I was picked up by a, by a police car when I was, uh going there. So I was just walking. I, since I'm from Europe, I'm not used to, you know, having to have a car to get around. So I was just walking and it was a road without any guide lines or pedestrians. So I was just walking down the road and then the police will stop me saying, hey, what are you doing here? Why are you walking? Why are you not in the car? 
+
+52:40
+Guest
+It's funny. Yeah. 
+
+52:42
+Host
+Well, anyways, uh Rachel, thanks a lot for um joining us today for sharing your experience with us. Uh And yeah, I learned a lot new things. I had no idea that these things existed. So that was very interesting. So thanks for joining us today and thanks everyone for joining us today too. It's been our first episode after a break. So yeah, it was great. Thanks. 
+
+53:09
+Guest
+Yeah, thank you for having me. 
+
+53:11
+Host
+And yeah, happy to hear about your transition to data engineering and that our course helped. That means uh a lot to me personally to hear success studies like that. So, yeah, thank you. Thanks 
+
+53:26
+Guest
+for Thanks for this. 
+
+53:28
+Host
+Yeah. Well, have a wonderful rest of the day and, um, to you Rachel to everyone else and see you around.
