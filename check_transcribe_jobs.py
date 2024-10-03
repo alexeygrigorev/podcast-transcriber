@@ -23,13 +23,19 @@ def check_transcription_job(job_name):
     transcribe = boto3.client("transcribe")
 
     response = transcribe.get_transcription_job(TranscriptionJobName=job_name)
-    status = response["TranscriptionJob"]["TranscriptionJobStatus"]
+    transcript_results = response["TranscriptionJob"]
+    status = transcript_results["TranscriptionJobStatus"]
+    print("status:", status)
 
-    if status in ["COMPLETED", "FAILED"]:
-        https_url = response["TranscriptionJob"]["Transcript"]["TranscriptFileUri"]
+    if status == "COMPLETED":
+        transcript = transcript_results["Transcript"]
+        
+        https_url = transcript["TranscriptFileUri"]
         return {"status": status, "https_url": https_url}
 
-    return {"status": status}
+    if status == "FAILED":
+        print("Failure reason:", transcript_results["FailureReason"])
+        return {"status": status}
 
 
 def download_transcript_file(http_url, local_file_path):

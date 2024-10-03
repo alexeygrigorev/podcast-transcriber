@@ -16,7 +16,8 @@ def download_from_drive(file_id, output_filename):
         print(f"File {output_filename} already exists. Skipping download.")
         return
 
-    url = f"https://drive.google.com/uc?id={file_id}"
+    # url = f"https://drive.google.com/uc?id={file_id}"
+    url = f"https://drive.usercontent.google.com/uc?id={file_id}&export=download"
     subprocess.run(["wget", "-O", output_filename, url], check=True)
 
 
