@@ -1,0 +1,747 @@
+0:59
+Host
+Hello. Hi. 
+
+1:01
+Guest
+Um, I am, am like, we're, we're not yet live but I think we will. No, we should be live already. 
+
+1:10
+Host
+Yeah. Hello. 
+
+1:12
+Guest
+Yeah. Hi. Um, so I need to do a few things while we start. 
+
+1:19
+Host
+Yes. 
+
+1:19
+Guest
+Um, multitasking right now. Where are you currently in right now? Which city 
+
+1:27
+Host
+in Warsaw? Warsaw for everybody in, in the sunny Warsaw today? 
+
+1:36
+Guest
+Sunny. 
+
+1:38
+Host
+Yeah. 
+
+1:39
+Guest
+Oh, we don't get this thing in Berlin anymore. 
+
+1:43
+Host
+Maybe it will come from our direction. 
+
+1:47
+Guest
+Yeah. Maybe. Ok. Um, do you know any tongue twisters? 
+
+1:57
+Host
+Do I know any, what I asked? Twisters in Polish or in, uh, in any language? Yeah. Or in English? In, uh, what language would you prefer just to train before our talk? Yeah. To, 
+
+2:12
+Guest
+so which ones do you know in Polish? 
+
+2:15
+Host
+The most famous one I think is, um, stitch with a lot of consonant clusters. Well, let 
+
+2:25
+Guest
+me say 
+
+2:29
+Host
+that it's overwhelming. You're too good. You are too prepared. Uh, that, ok, 
+
+2:36
+Guest
+like there is a, a story behind that. So, like I lived in Pond and my colleague said that there is no way somebody who's not. Polish can say that and they wanted to prove him wrong. 
+
+2:49
+Host
+You did that. You did that. Uh Also today once again. So, but if we can say that you were prepared, years of preparation, years of practice. 
+
+2:59
+Guest
+It was 1012 years ago. Like it was 2012. I think I still remember it. 
+
+3:07
+Host
+Fantastic. Congratulations. I'm, I'm impressed. 
+
+3:12
+Guest
+Yeah. Yeah, I still like the thing is with. So I lived in Poland. I didn't really learn Polish. You just learned itself because I'm originally from Russia and it's such a similar language. So I don't need, didn't need to do much. But then I lived in France and I tried the same approach and it didn't work and now I cannot even count to 10. I may, maybe I can if I, like, I really try to remember. But, like French is, like, gone forever from my mind. 
+
+3:47
+Host
+It's a different language family. So, probably that's the reason. But with our languages, I, I think it, sometimes it can be risky because we think it's so close. It's so similar that we take things for granted and then it, um, uh, we understand that it's not always, um, the same thing pronounced with a slightly different accent. 
+
+4:11
+Guest
+Yeah, that's right. Um, I almost finished. So we, we should be starting right now. But, um, so I will go get some water after I, like, I need to do one thing before we start. 
+
+4:28
+Host
+Just let's do it in a relaxed way. Mm. 
+
+4:37
+Guest
+Ok. 
+
+4:40
+Host
+Uh, from my side, I think technically. Always fine. I hear you. Well, I see you. Uh, and, and, 
+
+4:47
+Guest
+yeah, me too. 
+
+4:48
+Host
+I 
+
+4:48
+Guest
+can hear 
+
+4:49
+Host
+you pretty well. My, my neighbor is not drilling, so. 
+
+4:53
+Guest
+Oh, yeah, that's good. Ok. So I just need to do one last thing which is getting a glass of water. I'll be right back. 
+
+5:03
+Host
+That's important. 
+
+5:25
+Guest
+Do you have water? 
+
+5:27
+Host
+Yes, I have mine prepared. So, 
+
+5:30
+Guest
+you'll be doing most of the talking. I'll be just asking questions. 
+
+5:34
+Host
+I need more water probably but maybe no, maybe I will ask you, ask you about something we never know it will develop in. 
+
+5:45
+Guest
+OK. So right now I'll just do a short introduction and then we will start on the way like zoom keeps changing the interface like OK. No F but 
+
+5:58
+Host
+mine also 
+
+6:02
+Guest
+hi everyone. Welcome to our event. This event is brought to you by Data Dos Club, which is a community of people who data data. We have weekly events and today is one of such events. If you want to find out more about the events we have, there is a link in the description. So yeah, check it out then uh very important. Do not forget to subscribe to our youtube channel. This way you will stay up to date. You will receive notifications about all the features, themes like the one we have today and last but not least we have an amazing Slack community where you can hang out with other data enthusiasts. So check it out here during today's interview, you can ask any question you want. There is a pinned link in the live chat, click on that link, ask your question and we will be covering these questions during the interview. Now, I will stop sharing my screen. Make sure I have the question open. OK. Mm And we can start if you're ready. It's uh Kasha, right? Or Kina, 
+
+7:05
+Host
+you can call me like that. 
+
+7:07
+Guest
+So, so if I call you Kasha on record, it's fine. Right? 
+
+7:11
+Host
+Yeah, both are fine. So please just choose the one that is more comfortable with. 
+
+7:17
+Guest
+Well, since in the bio, bio, I have Cartagena, then this is what I'll stick to. 
+
+7:22
+Host
+So informal. Yeah. 
+
+7:25
+Guest
+Um And with Polish names, it's always difficult to like for me it's OK because I know Polish a little bit but usually it's hard to map letters to songs. Um 
+
+7:37
+Host
+You learn what is, what it becomes more predictable and easier. But I, but I understand it. 
+
+7:44
+Guest
+And I think for my, so when I was working in Poland, we had colleagues from London and for them, the most difficult name was like that was like impossible three times 
+
+7:54
+Host
+or uh made of consonants. Yeah. For Italians. Yeah. Um OK. Yes. Yes. 
+
+8:06
+Guest
+This week we'll talk about Human Centered A I for disordered speech recognition. And we have a special guest today, Katina Kina is uh a computational linguist with over over 10 years of experience, experience in N LP and speech recognition. She has developed language models for automotive brands like Audi and Porsche and specializes in phonetics. Morpho Syntex and sentiment analysis. Katarina also teaches at the University of Ps so and she's passionate about human centered A I and Multilingual N LP. Now, welcome to the show. 
+
+8:41
+Host
+Thank you. I am very happy and honored to be here with you today. 
+
+8:47
+Guest
+How accurate was the bio? Because actually I asked a GP T to summarize uh your longer bio. So I hope it was pretty accurate. 
+
+8:56
+Host
+Yeah, it was accurate. It was quite rich. Uh If it was a summary, it's still quite, quite rich. So, yeah. Oh, fine. 
+
+9:06
+Guest
+So before we go into our main topic of Human Center, T I and speech recognition, let's start with the ground. I think already charge PT gave us a lot of good ideas of what he did, but maybe you can tell us more about your career journey. 
+
+9:21
+Host
+Yeah, it did. Uh It's uh it, its job. But uh yeah, that's true. I uh I'm a computational linguist if I have to uh give you a, a short answer. Um On one hand, a researcher at the University of Warsaw, also a teacher at the Department of Italian Studies, Faculty of Modern Languages. Uh On the other hand, uh I uh I also worked and work on um uh and p projects uh for industry, for automotive industry, as you mentioned, uh for uh high tech electronics uh And in general, um I collaborate with data handling uh companies. Uh mm My background is mainly linguistics. So this was the starting point. Um uh Italian and Polish at the same time uh in, in parallel uh then with some technical skills added, uh I started my uh adventure, my journey uh as a computational linguist. Um And my main uh field of uh interests are sounds, let's call them like that. Uh, that's why phonetics and that's why, uh, the topic or o of our, uh, today's, uh, meeting. Sorry for being too long. 
+
+10:42
+Guest
+Mhm. No, it was not long. And, like, I, I, I'm just wondering, like, in order to be a linguist in Italian, do you have to speak Italian perfectly. 
+
+10:55
+Host
+It helps. It helps. Yeah. Yeah. 
+
+10:58
+Guest
+You speak of that end, 
+
+10:58
+Host
+do you? Yes, I do. 
+
+11:00
+Guest
+Mhm. Like, I usually go to Italy as a tourist. And, uh, yeah, funny thing is, like, I live in Germany and usually they just look at me and start speaking German. Like I, for example, if I go to Garda, which is one of the default locations like vacation destinations, let's say for Germans, I go there and people just speak German with me, 
+
+11:21
+Host
+maybe that's why because in general, Italians are usually very open and are very happy when you speak their language and, and at one moment it will, it will work. 
+
+11:38
+Guest
+I'm just curious, like, how difficult for you was a transition from a linguist to a computational linguist because linguistics, I might be wrong. I might be. 
+
+11:47
+Host
+There was a, there was an audio problem. I, I heard only the first part of the question, how difficult it was for me, 
+
+11:53
+Guest
+how difficult was it for you to become a computational linguist? Because I know that uh maybe I'm wrong but linguistics is more um how to say it's not as mathematical heavy as other disciplines. So when you switch to computational linguistics now, instead of language and words and all that, you have math, how difficult was it for you to, to become a computational linguist, 
+
+12:25
+Host
+you touch two points. Um And both are interesting the first that it's uh far, that linguistic is far away from mathematics and not really uh it depends on the approach uh uh literature can be far far away from mathematics. Linguistics if you uh if you are concentrated on data and the relation between your uh data sets, uh mm not necessarily. Uh And uh mm a second thing uh is that being computational linguist, linguist is not being only, it's not only the first part of the expression. So linguistics is still my superpower. Uh And I want to keep this uh this, this approach uh to be very careful to be very attentive uh about uh about the language itself. 
+
+13:22
+Guest
+Mhm So you were saying that it was like a natural continuation of your um let's say, linguist career, 
+
+13:30
+Host
+it's always a bit of hard work and that's obvious. But at the same time, I think it's easier to uh look for common points to things that, that can, can help 11 another and not to, to, to see only difficulties and new things 
+
+13:47
+Guest
+li like now, when you say that, depending on how you look, linguistics might not be too far from mathematics. I remember reading it was about like creating this uh syntax tree. And like, if you think about that, like this syntax trees, uh the structure when you get like sentence and then what you produce at the end, if you think about that, let's you kind of have some sort of like algebra there where you try to represent language with something more concrete, like I'm very concrete, I mean, like something more mathematical, right? And then you operate with these mathematical abstractions rather than letters and characters. 
+
+14:32
+Host
+Indeed. And it's one of one of the main uh linguistics perspective to see uh the language as a structure. And if we do it, it it it becomes quite close to, to the approach that you described. 
+
+14:47
+Guest
+So when you were doing this linguistics in Italian, did you first learn Italian? And then you started doing linguistics or you first uh learned, learned the language from the linguist point of view and then started learning it more and more like as a user, 
+
+15:04
+Host
+I started, I started learning, learning Italian first. So uh first I uh managed to communicate in Italian and then I continued at this path uh already being concentrated on this language. Uh But I also, I'm also specialize in Polish linguistics and this was much more natural as this is my first language. 
+
+15:25
+Guest
+Yeah. And uh like in your bio, in your biography and that was summarized by JP D. It is that you specialize in phonetics. Morpho syntax and sentiment analysis while I can recognize one sentiment, sentiment analysis is, I don't know much about the other two things like phonetics and morpho syntax. Like what are they? Can you tell 
+
+15:47
+Host
+us more when I started talking about myself? I uh I, I said that uh what's uh what's very interesting for me are sounds and phonetics is this part of linguistic language system? Uh That is all about sounds uh about speech. I will talk today about speech. Uh And uh it usually goes with uh phonology uh which uh mm it can explain the uh sounds on a mental level on a level that we uh have it in our uh minds. Um and morphology uh is all about words uh how they work uh one with another, how they are built. So the if we think about um uh morphologically rich languages as Polish, for example, um it's all about inflection uh about uh prefixes, suffixes. So uh the, the structure uh if we want to um use the same word that we already used. Um uh So, yes. And uh I think it's uh extremely important to consider these both perspectives because many um um things that uh um we produce, we articulate uh when we speak uh um a definite language uh is connected with the um with, with morphology. So um a lot of uh I think that we can observe um uh our result one from another. 
+
+17:28
+Guest
+So we have linguistics and in linguistics, we have morphology and phonetics, right? 
+
+17:34
+Host
+Yeah, we can, we can go uh go much further and talk about uh uh lexical things, the, the the semantics, the meaning. Uh we can talk about pragmatics. So the use of language. But for today, I think phonetics, speech is the most important uh uh level um of uh representation. 
+
+17:58
+Guest
+And I'm not sure if you answered this question or not, but what is morpho syntax, 
+
+18:03
+Host
+morpho syntax uh its morphology. So the um knowledge about how um mm uh words are built with syntax. So uh syntax is all about sentences, uh a bigger segments of the texts. Uh And also uh here also we can see a very strict link um how we use words, uh how they like or don't like each other. Um It has a strong influence on the uh text itself. 
+
+18:34
+Guest
+Mhm So how is it related to grammar or it's like basically the same thing? 
+
+18:39
+Host
+Grammar uh is uh uh linked with both. But when we use the word grammar, we U we usually start from a word uh and we talk how it, how it is built and how it is inflected. Uh um If it's a verb or um we talk about the tension. 
+
+19:00
+Guest
+So syntax is more higher level, I think, right? So we have words, each of them, each of them is like correctly inclined and like it correctly used. And then the, the syntax is overall thing like how we put them together in, in sentence 
+
+19:18
+Host
+and you create sentences. Yeah, the syntax is all about sentence syntactic is connected with that. 
+
+19:24
+Guest
+Is it also related to the order of words? Like for example, in German, the verb should always, must always go to the second position, right? So that syntax, right? That's 
+
+19:34
+Host
+that is that, that's a syntax pattern. That that's a thing that by uh that's true 
+
+19:41
+Guest
+because for me, Syntex was always um syntax of a programming language. Like, like for example, in Java, you have to use curly braces, that's Synex. And if you have, if you want to have like the condition, then it's if, then parenthesis. So this is syntax and like I to me, I had no idea that actually it comes from linguistics 
+
+20:03
+Host
+indeed. And this is a common point. Uh That's a great, great uh example of what we talked about before. Uh we, we see the same um the same pattern and say what comes first, what comes after, what should I use here? Like in linguistics. In, in the natural language, what preposition after a verb and in, uh, in syntax of programming language, uh, what, uh, character, what, uh, what pattern 
+
+20:33
+Guest
+and when it comes to phonetics. So, phonetics is how we pronounce words, right? How we pronounce sounds 
+
+20:40
+Host
+and we produce, 
+
+20:41
+Guest
+produce. 
+
+20:42
+Host
+Mhm. 
+
+20:42
+Guest
+Yeah. And, um, we also want to talk about speech disorder. So, how are these two connected, 
+
+20:51
+Host
+uh, great to it. If, yeah, if we speak, we can uh speak in a standard manner or uh in a non-standard uh a typical manner. Uh speech disorders uh are uh example of in general communication disorders. Um mm speech disorder, speech impairment, uh speech uh mm uh imperfection. Uh It's all connected with uh articulation. So pronunciation of uh different sounds and sounds clusters uh but also with fluency uh also with our voice. Uh So we can uh artic art uh a sound uh in a incorrect or non-standard manner. Uh We can think about uh different pronunciation of the sound R uh that uh we can think now about different languages. Polish is much different than the German one, the French one that you mentioned before uh and English one. and they are all OK in their language. But if we, if we use a French R uh in a in Polish language, it would be uh a typical um uh a typical uh pronunciation. Uh some of these speech disorders uh can lead to mistakes uh to uh difficulties in uh understanding. Uh not only these uh connected with uh articulation uh but also those connected with fluency uh when we think about uh fluent speaking. So we think about uh mm speaking with uh no interruptions or not too many interruptions um uh rhythmically uh with not too many repetitions and uh or fluency disorders like stammering, stuttering. In other words, um are affecting the, the fluency and then uh something can go wrong with our voice. Uh And uh it also results in abnormal uh production of speech uh so called um speech disorders, disordered speech. 
+
+23:19
+Guest
+And um like did I understand correctly that accent can also be seen as a speech disorder or it's more like just a typical Mike? Is it correct to call accent disorder? 
+
+23:34
+Host
+Uh If we, if we are talking about foreign accent, for 
+
+23:40
+Guest
+example, right now, both of us speak with accents, right? One of us are native speakers. 
+
+23:46
+Host
+We would not call it a species order always fine with us. Um uh it's just uh foreign accent, foreigner speech. It also can result in uh difficulties in comprehension. Uh But uh in uh in another way when we speak about um speech disorders, we usually speak uh about uh um uh disorders that are caused by universal biological or neurological uh causes. Uh So we, we, we just cannot produce normal speech. Sometimes we know how it sounds, uh how it should sound. Uh but we are not able to do it. Uh Sometimes we are not aware uh how it should be produced because of hearing problems, for example. 
+
+24:41
+Guest
+Yeah. Interesting. But like, even with accents, I remember like, even five years ago, if not less many voice recognition systems would not be able to uh correctly transcribe what I say. Right? Like even youtube, like this channel has been around for four years, maybe around that. Yeah. At the beginning it wasn't really good. But like now things like whisper, it works really well with my accent. Maybe my accent also improved. I don't know, uh could be the case too. I think this systems improved more than my accent. So 
+
+25:23
+Host
+the models to themselves um that's also true. Uh Everything that is non-standard uh can cause problems. Uh We usually do not treat uh foreign accent, we can work on it if we want or we can just be happy with it uh and be proud of our mother tongue accent. Uh But that's true that uh talking about uh speech recognition for disordered speech uh is very close uh to talking about um uh speech recognition for any atypical speech, uh child um speech included foreigner speech uh included or all our uh idiosyncratic uh productions. So things that we say that we pronounce a bit differently because we are used to do that. Uh It's also a case of uh dialects, variants of 
+
+26:22
+Guest
+Scottish accent. For example, 
+
+26:26
+Host
+some languages have very, very rich uh regional varieties. Um not so much. Uh but in general, we know, well, uh on this example of Scottish that the local regional variant can be far, far away from the ST so called Standard one. 
+
+26:46
+Guest
+And there was a video uh from the British Parliament or whatever it's called, I don't know, like there was somebody a representative of Scotland and he was trying to say something and then nobody could understand what he's saying and like, like they apologized, they ask him to repeat like three times. It was funny, like I didn't know if 
+
+27:06
+Host
+in these cases, we should, we should try to use the standard version just for the uh the purpose of good communication but not always, it's, it's possible. On the other hand, sometimes, maybe it's better not to um uh transmit everything to, not to be understood fully. I can imagine some advantages of such. 
+
+27:31
+Guest
+Yeah. Right. So can we talk about speech recognition? Like, how does it work in general? And uh before we talk about like speech recognition for a typical speech or disorder of speech, maybe we can talk about speech recognition for like how could you call it canonical speech or like standard or whatever? Like, I don't know what's the right way of saying that 
+
+27:54
+Host
+it's a very good mo moment or these are very good times to talk about it because too much is uh changing in also in this sector. Um We have uh large language models with uh generative A I. Uh And uh mm traditionally, the models uh were trained on a uh a concrete, precise uh uh data set and then uh the uh production of it 
+
+28:24
+Guest
+from BBC. For example, like if we talk about uh I don't know British English, like for example, if we just take people from BBC, that would be this right. 
+
+28:35
+Host
+Uh Usually uh data collected uh collected uh according to a prepared scenario. But that's a good example of standards that that's a perfect example of standard speech. Uh And uh uh the system was prepared to map the um uh the output of the uh the production of the speaker, the, the words articulated to, to the um uh model, to the, to the model phrases that it was trained on. Uh mm Now with LL MS, we can add uh some context training, we can improve recognition. And there is also um mm uh hope there is also uh um a huge improvement for uh let's not call it uh disordered speech, let's just call it uh atypical uh speech because we all sometimes uh speak uh not really fluently. Uh We can uh we can have uh different problems, we can speak very fast or being very slow. Uh So we can all speak atypically. Uh And in this speech disorders are all these atypical um and productions can significantly interfere with automatic speech recognition uh leading to, to, to poor accuracy leading to uh mm uh lack of uh uh recognition. Um because uh a sr systems, uh automatic speech recognition systems are uh usually are typically uh trained on large amounts of data from speakers without speech disorders. Um mm uh So handling this uh mm variations handling this uh not uh standard patterns um can um uh can be problematic. Um We mentioned some uh speech disorders uh that can influence this recognition. We talked about articulation disorders uh like uh substitutions, omission distortions of uh phones, speech sounds. Uh mm So uh such mispronouncing uh replacing one phone uh with another can transform. I don't know uh risky with whiskey if we come back once again to this r uh if we pronounce it um in an correct manner um then uh dropping the final sounds and here we are coming once again uh to uh to the point where a normal standard speaker uh is close to uh to the one that has uh some speech empowerments. Uh We sometimes all speak in this way that we drop final sounds because we are 
+
+31:36
+Guest
+like if we like now, I, I think about Cockney, which is like a dialect of people who live in London, like the way they speak the like I saw a video to how to speak Cockney and they said, just don't bother pronouncing like the half, the second half of the word, right? So they basically drop it right? And then 
+
+31:55
+Host
+yes, that's typical for many dialects. Yeah, this informal informal varieties. 
+
+32:01
+Guest
+Like we, we don't call it a disorder. We call it maybe 
+
+32:05
+Host
+not at all. 
+
+32:07
+Guest
+Even like, I don't know if we should call it a typical, like if half the London, half the city speak that, right? Like, is it a typical? I don't know. But I remember, like, there was a colleague from London and I couldn't understand. Like I asked, can you type me please? 
+
+32:23
+Host
+It's a variant. It said it's a, in many cases, is an informal variant. But it's also the everyday speech that the, the, the just a tool for the, for the communication that most useful and the most frequent. Uh So that's also the, I think the very good uh uh point to remember from our today's talk just not to be concentrated on this order because sometimes we are all uh um far away from, from standard. Uh Then we can ask ourselves, what is the standard? Yeah, it's also difficult to um um to, to, to, to define uh but such uh difficulties uh coming back to disorders, speech in a, in a straight understanding of its definition uh like uh motor speech disorder uh called dysarthria uh mm which uh result in uh slurred, slow, uh sometimes mumbled speech uh just because of this um uh of, of this weak or uh uh poorly coordinating muscles. Uh So here it's another thing. Yeah, it's uh mm it's a speech that sometimes it's really, really difficult to, uh, uh, to recognize and it's also difficult to recognize, uh, by, um, by an A sr model. Uh, then, uh, when we come to voice, uh, all of us has, sometimes has runny nose, uh, and, uh, other, um, 
+
+34:05
+Guest
+my nose is blocked right now. So I don't know if you can hear that. Uh, but, uh, yeah, 
+
+34:11
+Host
+it's, I would say your voice sounds very nice. It's, uh it has this vas toity. Uh uh I, I wouldn't call it hyper or something that's, that's perfectly fine. But indeed, these voice problems can also affect with uh uh difficulties in distinguishing uh speech from background noises. For example, because that's also a problem for, for a sr if we sound far um enough from the, from the model from the standard. Uh So it um it can be uh treated as uh as a noise as a background noise. So these key challenges for uh uh for er are linked to um mm articulation problems also inconsistent pronunciations. Um uh All these things that are far away from uh uh from the uh from the model. Uh And why it causes problems we can ask uh probably because of lack of diverse training data. That's the, that's the main problem that uh we should uh uh handle. Uh other thing uh If we, if we try to use such data mixed with uh a standard ones, so called standard ones, it can lead lead to error production, uh error propagation in the uh in the model. Um uh And also um uh the uh be an obstacle in improper uh uh recognition. Uh So these are main, the main uh mm problems that disordered speech as, as we observed, not only uh mm disordered because of health reasons um encounter. 
+
+36:10
+Guest
+So if I try to make a summary, so what you said is like usually these a sr automatic speech recognition systems, uh they are trained on standard speech, right? Whatever, however you define standard and, and we all know like people who know machine learning that if your test, if you train and test data are sufficiently different than the model was trained on train and like if hasn't seen this kind of data, right? So then it produces something else, not what you expect. So this is the problem, right? 
+
+36:53
+Host
+I would not put a full stop here because we can do something with that. We can uh 
+
+36:59
+Guest
+we can, that was my question. Yeah, like what do we do with that? 
+
+37:02
+Host
+Yeah, that's quite uh quite natural question at this moment. We have a problem. So what should we do with that? Uh And there are um and there are different uh mm strategies to um uh to handle uh um this problem. Uh we can uh uh collect and uh mm uh curate specialized uh da data sets uh like collect speech from individuals with uh various uh disorders. Uh and uh then use it uh as a uh mm uh subset as a uh a set that is included uh in the hm uh uh in the, in the training. So use a transfer learning method uh and find tune the model. Uh We have a model that has been already on the uh so called standard data uh not affected by, by speech disorders. Uh And we would like to adapt it to the uh to the, to a speaker with uh with speech disorders. We can use this transfer learning uh uh strategy. Um Then if we don't have uh such data because it's not easy to collect them, uh We can also uh introduce um uh data augmentation, so we can expand the training data set. Uh We've artificially uh mm simulated uh disordered uh speech. Uh If, if we know what we, what we are uh aiming uh to we are we have problems, for example, with this consonant cosmetic clusters, we can use um they use artificial augmentation of data. Uh Then another strategy that can be introduced uh is the uh this multimodal output because of course, we can uh learn and understand uh from what we hear. Uh But if we add a visual uh data to our audio data, uh we can add the lip reading, we can add uh gesture recognition. We mentioned Italian before this gesture recognition would be useful not only for disordered speech, but in general uh it would, it would uh help a lot uh with uh with Italians and probably uh not only uh so there are several uh there are several um techniques, several things that uh we can do uh to, to improve the um uh the, the, the understanding the, the recognition bills itself. 
+
+40:06
+Guest
+Sure. Yeah. Interesting. So like I have never worked with speech or like sound at all in general. 
+
+40:15
+Host
+Not yet. Mhm 
+
+40:17
+Guest
+Yeah, not yet, of course. Um But like I worked with images and like a very typical station, like you have image net neural network trained on image net. And then you have your own data that is could be tractors or whatever that is not in the image net. And then you just there are probably tractors but like I don't know something else. Uh And then you just take this, I don't know 1000 examples and fine tune your network that was trained before on image net. And the same thing you do with speech, right? So the like there is a a model that is trained on standard data and then you collect uh disorder speech, right? Maybe it shouldn't be, it doesn't have to be like a very large sample I assume like with images and you, you transfer learning, you fine tune your model, right? 
+
+41:10
+Host
+Uh You mentioned this data collection and I also said that it's not always easy uh because of uh very different speech disorders. Firstly, uh because of uh the um sometimes like for people with these motor speech disorders, uh it's just difficult to, to organize the whole um mm uh collection process. Uh But also because we are talking about health issues because of GDPR. Uh And uh it would be perfect also for the research purpose to have huge corpora uh of such uh disordered speech. How 
+
+41:55
+Guest
+should it be like because in case of I transfer learning, like we don't need a lot of data. A few hundreds is already sufficient to at least images. Um It's sufficient to have a decent model to, to get started with. 
+
+42:09
+Host
+Indeed. But if we, if we, if we think about different disorders and different languages and also non English languages, uh it becomes huge. Uh mm Because you 
+
+42:18
+Guest
+need to like for each subset OK. Maybe summary is uh stammering and this is probably uh more or less common disorder, right? Maybe compared to other disorders. Um Then maybe it's not a difficult thing to, let's say get American English and get people who summer to. But if we talk about some particular dialect or maybe even not English language, but some less common language, 
+
+42:47
+Host
+for 
+
+42:48
+Guest
+example, 
+
+42:48
+Host
+it's not the most common language. So that's always a good example. But t is also a good example. Uh an interesting example uh because uh there are studies uh showing that, for example, in bilingual uh individuals um it can occur in one language. Uh And uh not in the second one. It's connected, for example, that you stop at um some con semantic clusters, some syllables uh and they may be more frequent in one language and less frequent in another. Uh So there are such differences. Uh and also summary uh that as you, as you mentioned, it's quite common. Um Like 
+
+43:31
+Guest
+it also happens sometimes to me, I don't know how it works. Like I just, maybe because I'm thinking about what to say next. And then I start stammering. It's not like I'm doing this um often but sometimes it happens and I see that it happened to other people. So I guess it's uh it happens, right? 
+
+43:53
+Host
+Usually fluency problems or issues or just uh normal flu fluency behaviors, human behaviors. Uh but stammering is something that should be diagnosed and uh usually uh is a bit different from what happened, happens to all of us. So, yeah, fluency, this fluency that is normal and it's more normal if we can use this word uh when we are using a foreign language that we just need time to to go on, just need time to find the right. 
+
+44:31
+Guest
+And with this disorder, it's more like they know what to say. But uh there is a certain sequence of sounds that is difficult to pronounce and they have to, 
+
+44:43
+Host
+yeah, there is this block on the sometimes it it affects, for example, the beginning of the sentence and then everything is fine. Sometimes it, it's connected with uh um with the specific uh and cluster. Yeah, the combination of consonants that it is so difficult to, to overcome. So it blocks you and you cannot uh you cannot go uh go over. So if English has a lot of them, like Polish, it's difficult. If it has less like Spanish or Italian, it may 
+
+45:16
+Guest
+be in Polish, you have a lot of concerns, right? And also like difficult to pronounce letters that uh are together. I remember like I now remember a funny story like in Krakow, where is a street, one of the central streets called Cina and it's touch, it's touch, it's so many like consonants together. And it was always funny when somebody like from uh from Britain approaches me and says, I am looking for this street and they try to read it like, 
+
+45:51
+Host
+yeah, because there is, there is also a trick to make it a little bit easier that we have. This sounds that we write with two consonants, but it's one sound like s and uh that makes make one sound together. So these are not so many consonants together, these are just, this is just post or gray that makes the whole thing a bit more difficult. 
+
+46:17
+Guest
+And by the way, I use automatic speech recognition for podcast episodes too after we record it and edit it, I also use, I think it's called Amazon Transcribe that does speak English. 
+
+46:32
+Host
+We are after we see the transcript. 
+
+46:34
+Guest
+Yeah, but not only that like it expects English. And now all of a sudden I speak, I use a Polish word which is Sensa. But also I think one of the things you mentioned that right now um what happens also in this area in this domain that you start using L MS more and more often. And this is what I do too. So there is output from um Amazon transcribe and then I added this output with an LM and probably an LLM like even though maybe the transcriber could not figure out some things, but LLM using the context around might actually do that. Is it something that uh when you mentioned that LL MS are used more and more these days? Is it something, is it how it used these days? So first you do a sr and then, and I ate it? 
+
+47:28
+Host
+Indeed. Yeah. Uh So uh anal MS can help uh on different uh um different levels. But adding this context is uh I is crucial for the, for the recognition for the um mm uh uh both at this story. Now, I'm studying that that was on purpose, of course, uh example, what we talked about uh both at the beginning uh when we train and when we want to show the context and also uh it did um stage of transcription and error recognition. Uh So uh with LAL, I think we can talk uh not about the traditional metrics that were used for uh a sr uh like this word error rate, uh like um word accuracy, but we're more concentrated uh or the uh on the mm meaning preservation. Yeah, we are more concentrated uh on uh the semantic distance from the model phrase that should be uh pronounced uh or that, that is expected to be pronounced uh and the one that uh has been pronounced. So instead of this uh WW uh er word error rate um as research studies uh mentioned, for example, third score um uh as um as the metric that that can help um uh to, to uh assess uh better uh such uh models uh where uh LL MS uh are used uh and can and can help to guess. Yeah, thanks to the context can help to guess uh what uh what has been uh said. So yeah, that's, that's a very, very good question and a very good uh very important aspect of the whole thing. 
+
+49:19
+Guest
+And uh like in my particular case, in this particular application of voice recognition and LLM, so there was a interview about psychic learn, right? Psychic learn. Um Yeah, everyone, like many people in the machine learning community know what it is, but for a voice speech recognition. And maybe also because I was interviewing a guy from France, France and I also speak with accent, like the voice recognition system wasn't able to correctly identify that we are talking about secular. But LLM, because we also gave the context, we gave the description of the event. I'm curious, this is what we plan to talk about plant to talk about. This is what we actually talked about. Please use the context this text uh to actually like correct and then it correctly would take it learn where each where it should be, right? This is amazing. And I was wondering like is it also how it's used like as a two step process? First, there is a speech recognition process and then LM or right now there are models that are kinda do this in one go 
+
+50:29
+Host
+uh at uh it can be used at any uh stage of the uh mm uh of the uh whole process. So uh both at the um at the training part. And uh also uh mm then uh when we, when we talk about this contextual understanding and the proper names are a very good example that uh we have to give uh the context the, the, the specific uh hm uh hm part of the uh um extra language reality to uh to make it clear and only then it can be, it can be recognized. So proper name. Uh It's not a uh it's not pronounced, it's not a speech disorder but it's a um I think that uh probably uh it's unexpected, anything that is unexpected um creates problems. 
+
+51:27
+Guest
+Like I if I think, I don't know if it's actually true. But if I think how these voice recognition systems work. So there is a certain how do they call it phone or like when I say a word, right? So there is this utterance, right? There is this faith, 
+
+51:44
+Host
+it can be anything, it can be word, it can be a phrase phone is what 
+
+51:50
+Guest
+one is sound, but like a word that I say utterance, right? Um And I say, for example, I have uh a disorder, I say whiskey instead of whiskey, right? And if I already have a language model in my voice recognition system, it can understand when it from the contents context that I'm not talking about the alcoholic beverage, but rather like it's there's a lot of risk, right? Because it has access to the other words. And the goal of a language model is to predict the next word based using the context. We can somehow utilize language models and we probably do in voice recognition systems, right? 
+
+52:31
+Host
+Both it can be trained to predict it uh or it in, in post processing. Uh it can, it can uh say, OK, it's strange that it's in this context. Uh it should be something else. Uh all data, all our predictions. What happens next as LL MS do um uh it, it say that um here should come, should come risky and not the beverage uh from, from your example. So it can be uh it can be done before and it can be uh also done at the, at the second step. Um One thing that came to my mind now, uh if we still have time um mm this uh a sr um models uh can be also personalized. So can be uh used for uh uh mm specific person with a specific disorders. And in this case, this first uh stages, this first step. So training uh and preparing the model to expect uh such uh hm atypical productions, articulations uh can be done. Uh It's a bit different uh if we want to have a model that uh uh recognizes both the so called standard speech and uh atypical um uh productions, atypical articulations, regional disorder and other, 
+
+54:05
+Guest
+I guess this one is personalized, the way it works is I first need to train it as a user, meaning that it asks me, hey, hey, can you pronounce the descendant and I record myself pronouncing this sentence and then it asks me to pronounce something else. And then I do this for like, I don't know 10 sentences and then it does stand for learning. And then I have a model that is for me specifically tailored to my um the way I speak 
+
+54:35
+Host
+individual uh speaking features. Yeah. Uh to your, to your uh your style of speaking, I think 
+
+54:42
+Guest
+that it was a system like that like before, before whisper existed. I, I think I even tried that but now with whisper, it's, it's doing such a good job of, like, I use it in charge GP. T when I just dictate whatever I want and then it recognizes and even if it's miss how to say, like it thinks, I said that I said something else still judge GP. T figures out what I want. Yeah. So it's quite convenient. Seems 
+
+55:13
+Host
+amazing. But did they say I know? It's terrifying. Yeah. He knows me so well. Maybe he knows me better than I know myself. Yeah, that, that's what you think in at this moment 
+
+55:23
+Guest
+was probably, I assume like if we talk about speech disorders, not accents and stuff, mm then having this personalized uh think personalized model is quite useful, right? 
+
+55:39
+Host
+It can be of course, um in this case, especially when you, when you, when, when it's difficult for you to use uh uh ST so called standard models. Uh the the personalized one can be a tool to communicate mm with, talk to today about the speech disorders, but there are also so called language disorders. Uh when you have problems with uh um especially uh as a result of neurological diseases uh with finding the right word uh with uh using the word in the, in the context. So these are more uh the problems more connected to the content is itself than to the way of, of articulation. 
+
+56:25
+Guest
+How does it work? It's like I cannot pronounce, if I have this disorder, I cannot pronounce a word. A specific word, 
+
+56:33
+Host
+you cannot find the right word context. You don't remember it. For example, 
+
+56:39
+Guest
+what happens to me all the time in terms. 
+
+56:42
+Host
+Yeah, it happens to all of us from time to time. But like 
+
+56:46
+Guest
+in foreign languages, 
+
+56:47
+Host
+especially if it happens too often, it's, 
+
+56:52
+Guest
+well, when, when it happens in your native language and it kind of interferes with, uh, your day to day, then it's a problem. Right. 
+
+56:59
+Host
+Yeah, of course. then, then it's a real problem because as uh stuttering, as influences as other um problems with speech can occur to all of us. And that's absolutely natural thing. Uh If it uh if it is ex excessive, it, it just becomes uh a problem communication 
+
+57:24
+Guest
+and maybe this is something I should have asked you at the beginning. But like, how do we actually use this? Like, what is the application? I might have a guess because you also um have done some work with automotive industry. Probably what we talk about might be used in cars. But like maybe, can you give us an example of words used? 
+
+57:50
+Host
+Uh w when uh you are asking me about where a speech recognition model can be used, 
+
+57:58
+Guest
+uh Especially if we talk about disorder, 
+
+58:00
+Host
+speech. Uh of course, in cars. Uh But uh this is th this would not be my uh first answer uh for uh mm uh people with speech disorders, uh it can be used as a tool to communicate uh because uh uh sometimes it's difficult, it's difficult for a human to understand this very, affected, very atypical speech. Uh And it's easier for uh for a model, pre trained, uh personalized model to, to do it. So this uh would be my first answer because uh that's, I think the, the most important and uh our today is, yeah, 
+
+58:47
+Guest
+how does it look in practice? Like, let's say I have an app on my phone and then I speak to the app and then I show the result to somebody who I want to speak to, to communicate. 
+
+59:00
+Host
+For example, it's not common yet common enough yet. We are talking today about, 
+
+59:04
+Guest
+I do this all the time with the German 
+
+59:09
+Host
+but we are not, I think you see any serious uh pronunciation problems in your case. We are talking about uh human I today. And uh yeah, the A I that should uh shouldn't be the obvious one but the number of centers that dedicate their work to human Centered A I just prove that that's important topic and that's not obvious for everyone. So human needs should be at the first place. Um It's not uh a standard uh yet to, to uh to, to give uh each person with a serious disorders such too. Uh But I think that uh can be a, a hope 
+
+59:55
+Guest
+what you're working on right now to make it possible. 
+
+59:58
+Host
+Yes, that, that's one small step. But um 
+
+60:02
+Guest
+is it uh like are these models heavy. Like because if we want, especially if it comes when it comes to personalized uh models and fine tuning. And if we talk about model device, um mobile devices, then this uh apps need to run on devices and that not everyone has the latest iphone Pro right then like it has to be um conservative when it comes to resource consumption. So I guess that's quite challenging to have 
+
+60:34
+Host
+a challenge. Uh uh One is creating a personalized model for uh for a, for a person uh that's quite doable, but then creating one that can be universal for many speech disorders that uh that makes things uh I think it's much more complicated. Uh We'll probably put some uh readings in the description of uh of the episode. And there are some studies uh Asian studies for Korean uh for Chinese uh that managed to um uh to create such tools we will put, put them uh in the description. We are talking uh all the time about European languages, but let's not forget about uh what's happening a bit far away from us. 
+
+61:23
+Guest
+And when it comes to cars, like how is it used? And uh like in general, how is voice recognition used for cars? Like play Spotify, like with Alexa or? 
+
+61:36
+Host
+Yeah, you can uh you can ask her to, to uh to do uh to behave in a certain manner. Uh For example, if it can uh if it, 
+
+61:48
+Guest
+if I cannot pronounce. R then please park and the car has no idea what I'm talking about 
+
+61:53
+Host
+and it's packing and it's packing. Um uh Yeah, but the everything, what you, what you need and what is uh uh planned by the producers uh by the, by the car designers like uh opening the window, uh air conditioning, uh seat heating, uh uh steering wheel heating, radio, uh calling uh et cetera. Uh that's uh uh that's also an interesting example, not for disordered speech but recognition in general. Um uh for years, it was uh the part of uh IR systems that was developing a bit slower because uh mm the, the, the purpose that the, the plan was to make it uh work um all by itself. Yeah. Also when it's not connected to internet, uh so this um uh built in systems uh were uh more traditional uh ones based on end grams. Now things are changing and uh all LS are also introduced. So, uh recognition uh becomes better and better. Still, there are many videos youtube. Uh we have uh Porsche drivers and other drivers trying to convince their, their cars in uh Polish Italian Spanish um to do something and the car is doing completely different things. Uh So there is so much work to be done. 
+
+63:27
+Guest
+There is this hilarious video uh with two Scottish guys trying to go to 11th floor on an elevator using voice recognition. Have you seen that 
+
+63:37
+Host
+in the elevator. No, you have to send it to me. 
+
+63:40
+Guest
+I'll send it if you just Google 
+
+63:42
+Host
+Alex, we'll put it in the post like the icing on the cake. Hm. 
+
+63:52
+Guest
+So if I just Googled 11 elevator, yeah, then there is a video um I'll include this in the description. It's amazing. Um So I think we'll run out of time. Um So 
+
+64:10
+Host
+sorry, but it was fantastic. 
+
+64:13
+Guest
+Like I think we covered only like three questions out of. Uh I don't know how many that we prepared, but it was, 
+
+64:18
+Host
+I think that's good. Yeah, because there's still something to think about. There is still something to read to, to, to, to dive deeper. 
+
+64:27
+Guest
+So I'm going to ST the video to you right now. So, and then for the rest, I'll send it to Zoom and I will put it also to youtube and then uh this should be a good um I say um way of ending this interview today. So there's still much to like, I think this is like 10 years old, if not more, you probably now the systems are better, 
+
+64:58
+Host
+10 years old and it's still valid and we still have the same problems now. I think the situation is a bit better but probably uh probably uh uh such thing happen still. 
+
+65:13
+Guest
+So thanks Kasha for joining us today for answering questions for sharing your experience. And uh what do you work on? That was amazing. I really enjoyed this and I'm sure everyone enjoyed it too. 
+
+65:25
+Host
+Thank you. Thank you for the invitation and really congratulations for the, for, for the great, great uh series of podcasts, but also for the great uh platform that, that you created. Uh mm I, I feel really impressed and as I said, at the beginning, I feel honored to be here. 
+
+65:42
+Guest
+Yeah. Thank you. So, if you happen to be in Berlin, please let me know. And if I also go to Warsaw, I'll say 
+
+65:48
+Host
+hi. Please do. Please come to San.
