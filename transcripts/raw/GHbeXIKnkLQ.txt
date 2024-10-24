@@ -1,0 +1,455 @@
+0:00
+Host
+Hi, everyone. Welcome to our event. This event is brought to you by Data Do Club, which is a community of people who love data. We have weekly events but today this is a very special event because this is not our usual event because usually we don't have anything on Thursdays. This is an anniversary, ask me anything podcast and uh Johanna will be asking me, but this is a bit later right now, I'll just go through the usual slides, but Data Talks Club turn four. So thanks everyone for being with us and especially Johanna. Thank you for being with the podcast so long. It's like, yeah, amazing. Anyways. Um So if you want to find out about the events we have, there is a link in the description. Click on that link. Do not forget to subscribe to our youtube channel soon. We'll have 50 K subscribers. So I'm really looking forward to that and join our Slack where you can hang out with other dating with us during today's interview, you can ask any question and since this is ask me anything, you should ask me questions, hopefully. Uh So the more questions, the better there is a link in the live chat. It's been or I don't know if I pin it. Um, but there's a link, I'll make sure it's pinned. Click on that link, ask your questions and yeah, uh we will be talking about these questions in the podcast. And right now we have a very special host today. Johanna. Johanna is the mastermind behind all the podcast episodes since I know you've been doing this for two or three years. 
+
+1:35
+Guest
+Almost three, I think, 2.5 or something. I thought about it. Yeah, I thought about it. Yeah. Yeah. Yeah. And the fun fact, I just now got my official data dot email address. I, I'm, I'm in the, you know, in the, in on the inside. Yeah. Um Yeah. So um welcome everyone. Um I see we have some uh people on youtube um also some familiar faces. So, um the idea of this podcast uh similar to what we did last year. So we're going to turn the chair around and we're going to have Alexei in the guest chair basically. Um And we'll give you the answer, the opportunity to ask questions um and uh similar to what we usually do. Um is that I'm going to ask the guest to introduce himself and don't make it too long, please. 
+
+2:29
+Host
+Ok, so hi everyone. So my name is Alexei or Alexei. So actually in Russian it's Alexei. So the inclination is different, but in English somehow when I was in the States for the first time, everyone just called me Alexi and this is, I, I got used to it. Maybe it's similar to Alexi, which is a female name, I think. But anyways, you can call me whatever you want. So this is my name. And uh I started data talk club accidentally four years ago. So I remember it was uh September 19th of uh 2020. It was um when everyone thought that COVID was over, but it wasn't. So I remember so there was this first wave and then there was summer and everyone relaxed. So OK, finally, now we can go like we can travel. I remember going to the seaside in Germany and thinking, oh, finally this COVID is over but then September starts and then restrictions and yeah, we're sitting at home and I thought maybe I should do something. So this is how David started and it's been four years and I'm really thankful for everyone who got involved who I talked to over these years. And I don't know if I should tell anything else about myself. I have not prepared to answer this question. 
+
+3:52
+Guest
+No, I think that's, that's a good danger. I mean, most people probably also know you. Um but yeah, you did uh mostly Java work before you went full time, right? Like with Data dot club and now you're doing full time. Data do club. 
+
+4:06
+Host
+So yeah, so I was a data scientist at Helix. And in April 2023 more than one year ago, I decided now I need to focus on one thing only and it was data do club because for me back then, it was having two jobs and to difficult jobs, jobs that require attention and time. And it was not possible to actually give both what they deserve. And I thought, OK, now, finally I should focus on data Dos Club and besides it was already profitable. So I did some calculation and figured out that if I quit the money we have from the DOS club should be enough to actually cover the life in Berlin, which is actually not that cheap, to be honest. Unfortunately, it's an expensive 
+
+4:53
+Guest
+city. Yeah, it hasn't, it hasn't gotten cheaper. Right? I guess. 
+
+4:57
+Host
+Yeah, it's only becoming more expensive. 
+
+4:58
+Guest
+Exactly. Yeah. Well, cool. Um So yeah, how has the year been for you? Um Since we talked last time? 
+
+5:07
+Host
+Well, I think uh it's been a very good year. So we got two new sponsors. Uh The courses are doing pretty fine and actually our data engineering course that um maybe II I should talk a bit about courses. We have like five courses. Last time we talked it was free courses. So it was machine learning engineering course, ML Zoom Camp. It was data engineering zoom camp and it was ML OP Zoom camp. So this year um many things happened over the this uh since we spoke last time. So our D Engine course, it got so popular unexpectedly. So the thing is with D engine course, we almost don't promote it. So there is just um I call it like when people recommend the course to each other. Um So this is what happens, right? So everyone just recommends it and we don't need to do any promotion. Unlike other courses. It's so cool. And by far it's the most popular course, it had 24,000 registrations. And if you compare it to 8000 registrations, which is already a huge number for like ML course, this is insane. Like we did not expect such interest and it was very pleasing to see that it's taken off and it was the third edition, third time we launched it. So at the beginning, it was like the usual eight K, then maybe 12 K and then it's like almost doubling. So that was one of the things. Then we launched two new courses. We launched a course about LL MS. It was about time this year to finally do something about LL MS. Everyone was, was asking like, hey, uh why you're not doing anything about LL MS? Like everyone was talking about L MS, you don't. So now we joined the hype also did something LL MS and we had another course which is a bit maybe unusual for what we typically do. It was a course about stock market and markets analytics. Uh It uh is less popular maybe because also, typically we focus more on engineering things rather than analytics. But nevertheless, it was quite well received. So it finished. And uh the, the unusual thing let's say about this course was that I was completely out of the course. So I was not the instructor, I almost did not get involved. So Ivan who is the course instructor, the lead instructor took care of that. So it was an interesting experiment for us to do to see if a course can happen without my involvement, which proved uh that it's possible. So that's um that was cool. And there were main maybe thousands of smaller things, but that was probably the the main things that happened. 
+
+8:13
+Guest
+Yeah. Yeah, I mean, like uh regarding the non promotion, I do think that the courses are like well set up in a way that people actually have to post about them, right? Like people basically do the promotion, you kind of soft force them to talk about the courses, which is good, 
+
+8:30
+Host
+but also outside the outside of the cohort. So for example, when on radio, somebody asks to recommend the data engineering course, can you guess what they recommend? It's our course, of course. So this is super cool. So they are not getting any points for that. Like when it happens during the course, yes, we incentivize people to do that by by giving them virtual points. But that is happening before the course even starts, which is super cool. 
+
+8:58
+Guest
+Yeah. Yeah, so cool. Um So um what has been the most surprising or fun thing you've learned this year when running the community? Does anything come to mind? I remember last year we were talking about like people trying to date each other. Um Do you remember that? Yeah, we just kind of Yeah, 
+
+9:22
+Host
+right now maybe dating is still happening but because people don't mind, I don't hear about that. I don't know. Uh mm I mean, there is a lot of scum uh lately. Um So people and maybe like for everyone who is listening, if you get a mail or ad m direct message saying, hey, like I'm not based in the States and I want to uh and I experience programmer, I want to use your app uh Upwork account. So please create an account in upwork. I will work for you on your behalf and you will get to keep like 20% and I'll keep the 80%. So this is uh this is called upwork scam. And um this is illegal and there could be some implications. Uh So I don't know what exactly what they can do bad about that, but I think they can somehow misuse the account and I think all the communities are struggling with that, with people who join the community and they start the aiming everyone saying, hey, like uh are you, where are you from and then if it's say Europe or the UK or Australia or United States or Canada, they say, ok, please set up an account and I'll be using your account. So if you notice anything like that, please report to me. And if, um usually if somebody reaches um you out in DM, this is already suspicious because we typically ask not to do that. We ask people to use public channels. So there should be a good reason why somebody at the MC O if it's promotion, if it's some sort of like weird stuff like this, uh using your app for account, um Please report and of course, use your judgment. Maybe if uh I don't know, you're looking for a partner and somebody go on a date. No, no, no, I shouldn't say that like this is a professional community. So there are dating websites not use it for dating. 
+
+11:34
+Guest
+Yeah. Yeah. II I think you're right. It can have a really bad consequences for you. So, yeah. Wow. I didn't even know that. Um Yeah. Um Maybe I'll also ask some questions from the community. Um So we have one. Why do you um do you choose to create a free to learn community? What motivation keeps you going and have you thought about stopping or leaving the com community or the courses at any time? 
+
+12:04
+Host
+This one question? Um Well, luckily I have it open in front of me too. So why do I choose to create a free to learn community. There are many things but one of them is uh I first benefited a lot when I was starting my career in data science, I benefited a lot from free courses. And this is my way of paying on, on giving back um to the community, on paying back. And one of these um um so on Coursera, it used to be like Coursera used to have free courses right now. I don't think it's the case anymore. But apart from Coursera, I was a part of a community called Open Data Science. It's uh it was a Russian speaking community based out of Moscow. It does not exist anymore. Uh because like uh cause all the workspaces in Russia, I think. Um so this community as a whole does not exist. But surprisingly, right now, there are so many people who still associate with this community. So for example, in Berlin, there is a uh a telegram group which is called Todes Bertin in Munich. There is Sode Munich in Paris. Like even though the community does not exist anymore, it got decentralized, it got fragmented. So which is like to me, it's a good example of real community where things just happen themselves. And the community gave people the platform to do that and they self organized and did something more. Even when the community stopped existing things still happen anyways, coming back to this, a open data science. At some point, they run a course which was called ML course. Yeah, it was just machine learning course, but it was a community effort. So I think like five or six people came together and decided to do a course together. And there was a lead in factor who organized all that. Um And this course was free and I liked it so much that the, this idea of openness and everything that oo open data science was doing was open. So all the activities for free, for people. And that course was amazing, right? And I thought I want to do something like that, but not in Russian, in English. And when I had a chance, I finally decided to do this and the course, but the machine learning course was so successful. And also, but it was just me, right? So that was uh just me, the instructor back then. So right now I have uh there is teamwork who's helping me with the machine learning course back then. It was just me recording this. So it was pretty difficult. But one of the students of that course reached out to me, it was Ankush saying, hey, let's make a course on data engineering and with the two other community members uh sa and um uh Victoria, we put together a course where each of us has covered like one or two modules. So that was like very similar to that machine learning course that we did and because it's a community course and the idea there was to also do this for free from the very beginning. Um, and yeah, it just kind of became its own thing, I guess, like, uh, bigger, way bigger than myself. Mm. And I just like the, the idea that when people give me feedback on how amazing what we do, it keeps me going. Right. And I believe in free education and it's very cool to see when people from, let's say Nigeria, all they have is a tablet, right? And they ask, can we complete this course on a tablet? And the answer is yes, they can. And they, I don't know how many of them are actually complete. But this making it possible for people uh from countries where they cannot pay for paid, paid, paid courses to get the same education, right? And actually people say that our data engineering course is the best course, not just among free courses but in JR and this is like when, when I get a question like that, hey, like I cannot afford a laptop, can I do this from tablet? This is so motivating. 
+
+16:25
+Guest
+It's true. Yeah. Yeah. 
+
+16:27
+Host
+And I think uh so what motivation, what motivates me? Keep keeping going. I think I answered that right. So this feedback from the community and like seeing how many people sign up seeing, especially cool when somebody after finishing the course says, hey, your course changed my life, how cool. Is that right? Because like they found a job after that and now they have a good salary and sometimes people, it was one once only but uh one of the students, she finished the course, she found a job on that job. There was training budget and she decided to donate to data to club this training. 
+
+17:07
+Guest
+That's so cool. 
+
+17:09
+Host
+And that was like, it was not a lot of money, money compared to what our sponsors typically give us. But it was so nice like this uh was 500. Felt so much like getting this 500 felt so much better than getting other money from sponsors, right? So that was, that was cool. Um Well, the the sad thing is like we have to pay taxes, which is half of that 500 like basically 250 taxes, but that's the cost of living in Germany. 
+
+17:42
+Guest
+That's uh yeah. Yeah, it's very cool. Like it's so many people that are now basically in the broader community, right? Around 100,000 people that signed up to the newsletter. That's, that's insane. Like, yeah, 
+
+17:56
+Host
+then there was a question if I thought of stopping it anytime, so it might happen and I actually thought about that. So unfortunately, the time I decided to leave for Elis and focus on data do club coincided with the not necessarily good market conditions and it was already a recession when I decided to leave. And uh back then what happened is many sponsors actually canceled the sponsorship, right? So I was expecting to get a certain amount of money, but then the sponsors just canceled, they say, ok, like some of them fire the people. Um some of them cut the expenses and usually when something like that is happening, the first thing the company is cutting is the marketing budget, which is what we usually the sponsorship money. This is where it comes from. So then uh back then I think the first month was um like minus two or 3000. So imagine like after leaving the company and trying to focus, it was just, yeah, expenses. Wow. And yeah, and I thought ok, yeah, maybe, maybe that was not a good idea, but luckily it worked out. But uh I never know. Right. So if the money stops coming, then I'll have to find a different way of earning and uh which will mean that I will not be able to give my full attention to the club. Of course, having two jobs like it was when uh I was working at a is very difficult. So I hope it does not happen. And I try to. So only today I had two calls with potential sponsors. I don't know, you never know if it works out or not. Um Often times it happens that uh I think it's working out but then they just stop replying at all. So you never know. But yeah, right now, I'm optimistic. So this year, definitely next year. Um like we will definitely have the data engine course, probably start in a course. So we have runway for more than a half a year and then we'll see. 
+
+20:14
+Guest
+Yeah. Wow. Um I think, can you tell me like a little bit of that you had to pay like a lot of taxes in advance or something around that period was, 
+
+20:22
+Host
+yeah, like in Germany, there's this weird concept of uh prepaid taxes. So they calculate the, so let's say they take the profit for the first. This is what happened to me last uh last year. So they looked at the profits for the first three months and which is was the time when all the companies who did not pay finally paid. So it was the, the 30 months, it was good amount of money. So they multiplied it by four and say, ok, this is your expected annual income. So now every quarter you need to pay us uh basically 50% of that, right? So they think this is what I will earn based on the calculations. So every quarter I will need to pay half of that. Uh The problem was that uh it was not correctly calculated. So basically finans, the, the tax office was taking almost all the money I was earning. And I had to basically at the, they say we, they canceled the fourth, the fourth quarter payment and I think at the end, they even returned some money. So they were very optimistic in their calculations. Uh Right now, it's not as bad because they used the profit from the last year to calculate the expected profit for this year. But still, like when I see that, um half of my money is gone because the tax office, I gave them the possibility of just taking money. So then I don't accidentally forget because if I accidentally forget to pay taxes, I have a huge problem. So what typically happens is I gave them permission to take money from my bank account. And when I wake up and see that half the money is going on, like, 
+
+22:11
+Guest
+yeah, taxes are so much fun. Like 
+
+22:13
+Host
+in Germany, maybe it's not the best in business. But on the other hand, it's actually like, I see that the taxes are, mm, I see where the money goes. Right. So, like the roads are fixed, uh, uh, my kid goes to school which is, uh, completely free. Like the food there and they, they have organic food there, right. Organic food is free and the education is like, I also got education for being in Germany. It was like 300 per semester. But like 
+
+22:47
+Guest
+it's, 
+
+22:48
+Host
+and then, uh, like with the Ukrainians coming to Germany, uh Germany invested so much money in upscaling them. So now people who came two years ago, many of them already work and now repaying what the the government spent on them repaying back in taxes. Um, so I'm pretty happy to see that this money is not just spent on some, I don't know, some, uh, it does not go to some people's pockets but rather goes to back to those who pay taxes, those who need. Yeah. Well, I don't know the whole story. Right. But from what I see, um, I'm happy, of course, like now the, I don't want to talk too much about the politics. Now in Germany, the situation will be great, 
+
+23:38
+Guest
+but that's the state of the world at the moment, right? OK. So maybe let's return to um uh some of the questions. Um One is um are you still active in um ML slash DS like actively working on projects aside from the course? Um How do you stay relevant and up to date? 
+
+24:03
+Host
+Yeah, that's a good question cause it's pretty difficult. So I have pet projects and this is how I try to stand to stay up to date. But like with pet projects, it's uh it's not the same as working on real product, right? I still get some skills. Um But yeah, it's not the same as uh when, for example, I was working at Alix and my system for detecting fraud was used like uh on millions of items per day, right? It's not, it's nowhere close to that, but still I try to do my best. So one of the pet projects I recently did was about generating uh horror stories. And um so what we did is my son loves horror stories and sometimes he, so when we walk and he says, hey, I want to uh I want you to tell me a horror story about this tree or I want you to tell me a horror story about this. Uh I don't know, construction site or just random things that he just points. Hey, tell me a horror story about that and it's just too difficult to have so many horror stories about random things, right? So what we did is like first I thought, let me just take a picture of that. Put it to judge GP T and task judge GP T to make a horror story. And it was insanely good. Like the stories, it was GP T for all the stories were so good that I thought, wow, like it would be a pity if this just disappears like if it just stays on my um on my phone. So first thing I did was put in this uh stories on a small um github pages website, just the stories, the text. But then I thought it would be cool to have some illustrations for these stories, right? So then of course, I used to, I dally to generate the illustrations. Then I thought it would be cool to actually have like um um text to speech, think there, right? So then instead of me reading these stories that it could be like you just play and then a voice is telling the story, right? And then eventually what happened is uh I, I automated the whole thing. So I take a picture, upload it to an SD bucket and I can take as many pictures as I want. And then periodically there is a github, github C I CD job github action that pulls one of the images creates a story based on that creates an illustration, creates an audio file and then publishes it as a podcast. 
+
+26:37
+Guest
+Wow, that's amazing. So you basically hosting a second podcast now. 
+
+26:43
+Host
+So let's see how popular it becomes. Maybe I'll stop working with people. So I don't know. But uh it's actually like all of that is open source, you can find it on my github and even though the content is Russian, then it's Python Steel, right? So you can, don't worry it. So, yeah, so I, I try to do things like that to stay up to date or like for example, with courses like the course, for example, the LM course we did mm It actually required some preparation, right? So some research and then I also did um for course uh kind of uh an example project which was pretty cool about it was about um uh gym exercises, fitness exercises. Like for example, if you go to gym and you want to replace certain exercise with something else, you can chat with the system and ask, hey, I want a replacement for, I don't know, shops, right? And then it will tell you what you can do instead. So that was a cool project too. Yeah. So I tried doing things like that and then um it's not related to A I, but I also try to not forget how to program by doing different things. Like sometimes it's just simple things like simple scripts, simple automation scripts, sometimes it's larger things like, for example, for courses right now, we have a course management platform which is project written in Django. So there is no A I no machine learning, simply engineering project. But still I try to uh spent uh time there. So I have muscle memory of writing code because one of the problems for me was that when I worked at oil leaks uh last year, I was sort of in a managerial role and data do club was not also a place where I would write code. So eventually with time, I realized that uh yeah, my coding skills are not so good anymore. So then I forcing myself to uh to do things here and there to actually remember how the program. Yeah. 
+
+28:56
+Guest
+Yeah, I think that's kind of a general uh the general faith of someone who moves up the ladder, right? That you get more managerial roles unless um happens to everyone, I guess. Um But I wanted to ask you is like, actually how did the LLM course go? Because I know you were like, a bit skeptical at the beginning or 
+
+29:14
+Host
+like, yeah, like for me, LLM was this thing that was like, I thought it would, it would be something like Web 30 or Blockchain or, you know, this thing that all of a sudden everyone is talking about that, but one month later nobody is talking about that anymore. So I was kind of skeptical about all this LLM stuff. It was cool like that. I remember the first time I learned about Judge GP T it was on one of our courses, somebody asked to write it a poem. It was GP T three. Back then, somebody asked it to write a poem about machine learning zoom camp. And the poem was actually good. And then I thought, OK, well, there might be something to this. And then uh like I started seeing more and more of that. And last year, like it was just a I all over the place. And this year I thought, OK, yeah, maybe it's time we also did something because um like actually when I look at these LL MS and uh even though I did not work at Eli LL MS. Um So when I worked at a weeks, we didn't, I did not have any alarm projects, but surprisingly many things from my personal experience still apply, right? So for example, Rock, which is three generation, the core component of R is search and I have been doing search for, I don't know, more than 10 years. Like, for me it was, ah, ok. Here search and then now all of a sudden, like to me it's ok. Now I know how to do it. So, hopefully, like, luckily I have all these concepts from my past that really helped me to understand this thing. And the course went really well. I am really happy with the outcome. I also learned many new things. Um And now it's recorded. Mm So yeah, I am happy with the outcome. 
+
+31:08
+Guest
+Yeah, great. I actually had a similar introduction to L and MS like I, I like things only when I understand them. So at the beginning, I was like, I don't trust this and then I did a course from my uni about it. It's like this is super interesting like transformers, this is I can do that myself, you know, I can I play with that like I can use porch. Um Yeah. Wow. Yeah. Very cool. Um Yeah, the course is still around so people can check. Um And I go through it. Um So the next question is you've been doing data talks uh full time since almost two years. How's life? Uh would you reverse the decision of leaving corporate or would you change anything? I think we've partially answered that. But maybe you can give and 
+
+31:50
+Host
+actually this is a question from a friend of mine and So um so yeah, um life has been good, like I don't want to change anything. I, I have no regrets. Uh Yeah, there were tough times. Uh There were super good times. There were just a key times. Um I'm so happy with uh where I am right now. So my only hope is uh it continues. But then like there are things that are outside of my control and if for whatever reasons I need to find job, I am, I'm certain that I'll be able to at least find a software engineering job where I'll be useful. Yeah. So I don't have any regret whether I'll be coming to corporate again or not. That's a big question. I am not so sure and not so inclined to go back to working at the corporations. So probably it will be a smaller company if it happens. And also like I was thinking, what would I do if not data do club? Like where would I see myself? And probably it would be some sort of de position where I can teach and I can code, right. So I can do both. So still technical at all. But also lets me uh how to say so I have this passion of educating people, so I'll be able to accomplish that too. So probably it will be something like a developed position. But yeah, I don't know, we'll see. So life has been great. I don't want to, I have no regrets and I, I don't think I want to change anything. 
+
+33:32
+Guest
+Cool. Um And uh what was a memorable moment at the beginning where you knew this will take off? 
+
+33:40
+Host
+So probably it was the first uh uh it's actually a different Dimitry Dimitri. So, hi, Dimitri. Um So Dimitri asks that I think on linkedin and I just put this to the form. So I think when we had our first event, uh that then I understood this is something, there is something so like, no, when I worked at a, there is a part of my contract that says that I am not allowed to do any side projects unless I have an explicit permission from my manager to do them. Right? So the first couple of months they're under the radar, right? So it was not, it was not taking a lot of my time. It just was something like let me set it up and see how it goes. Um So I wasn't actively doing much there, right. So I just set us set up a slack account. But one of the things I did was reaching out to people who joins and asking them why they joined what they want to find here, what kind of things they're interested in and so on, right. And by the way, so I, I met this way, I got in touch and met so many people who later became like these uh co instructors or podcast guests or simply friends, people who I meet, like some of them, quite a few of them were actually from Berlin. Incidentally, I don't know. Maybe because I'm there too. So anyways, I was, uh, talking with people trying to figure out what would be interesting for them. And then I more or less understood what they like. And then another guy, he says, do you know where I can talk? And I say, yeah, I know. And then because I knew what people are interested in and what he wanted to talk about was relevant. So he gave the talk and 100 people joined it. And before that, actually, I was, I thought, OK, now it's, it's not, I think that under the radar thing, it's actually becoming something like a side project. Now I need to talk to my manager. So I spoke with my manager. He said, yeah, whatever. Uh And then this thing happened like the first event and 100 people joined. And then I understood again, like if 100 people joined, then it's something good mate. Of course, like the second event was 20 people. The third event was 10 people. So there's probably this uh novelty effect but still, like I realized that uh I'm on to something. 
+
+36:19
+Guest
+Yeah. So um but like the birth of data talk talk T is also it coincided with the pandemic, right? And a lot of communities were created. So why do you think that data talks is actually still there. Why? While a lot of other communities, I think, you know, died more or less. 
+
+36:37
+Host
+So one thing and I actually consulted and talk spoke with many people who were asking my opinion on communities. So there is there is this idea that you simply create a community and then it will live on earth by itself, which may happen, it can happen. I have seen it happening, for example, this open data science um it became a true community like even the main place after the main place where people hang out disappeared, the community is still there, right? It's so decentralized. Like this is to me it's like the perfect example of a true community. Many communities are not like that. They require active time investment, also money investment like they require work, right? And then there is this idea that you just create a community. People come and start talking to each other, right? It does not happen. So you need to actively make it work for people to come back. If you don't, then they don't come back and then community die, right? So maybe only spammers go there to promote their stuff. And then it's just the place where spammers hang out, they don't hang out there, they just come there, maybe some people are gonna have just boats, 
+
+37:51
+Guest
+right? They each other. 
+
+37:53
+Host
+Yeah. So yeah, maybe that's uh that's one of the things like the community die. If you don't keep it alive, right? So, and I kept it alive um because I was getting so much from the community, like all the feedback people give like it's so rewarding and that's why like if there was no this positive reinforcement, I would have stopped probably too. But yeah, so every time somebody says, thank you, your course is really great. Like it, like it really helps me to continue. 
+
+38:31
+Guest
+OK. Um Cool. So the next question is what do you think about the possibility of A I replacing data analysts? Oh, no, no, it's gone. Uh Did you, did you? 
+
+38:44
+Host
+I might have 
+
+38:47
+Guest
+Yeah, you see the question, did you? It's in the archives, it's in the archives, in your opinion, 
+
+38:57
+Host
+it's back, right? 
+
+38:58
+Guest
+Yeah, let me see. 
+
+39:00
+Host
+Yes. 
+
+39:01
+Guest
+So, so let, let's do it again. What do you think about the possibility of A I replacing data analysts in your opinion? What could be the next level for a data analyst? SML engineer? 
+
+39:14
+Host
+I think partly yes, for simple things, but analyst is not just about uh using SQL to build dashboards, right? There is much more um like there is talking to people component, there is uh business domain expertise component, right? So there are many other things like you can also say that I is replacing or has replaced data scientists, right? Because like you don't need an LLM to build a good machine learning model. Like five years ago, 10 years ago, we had this RML uh packages that would you just throw in a CS C file and you get the best possible model, not maybe the best possible but a reasonably good model, right? So this auto ML packages have been around for quite some time. And like, for example, if you take a goggle competition, if you just take AC C file, you throw it to some, I don't know, Azure, Azure out ML or Google out ML or whatever out ML. It will give you a pretty decent result. Of course, you will not get into top 10 results in uh on the cargo leader board because you need like three months to do that. Um but it will be OK result for a model that is ready to for production, right? But why do scientists are still around? Like for some reason they are still around, right? It means that the job of a data scientist is not just to take AC CC file and train a model there, there is something more, right? Um So yeah, I don't think A I is going to replace data analyst, data scientists or anyone who needs to use their brain for work, right? So building charts here, but uh I can think, I think of A I is not something that replaces people but more like helps them. It's like um when autopilot appears, usual pilots were still need it, right? And even though right now planes, I don't know how much involvement pilots need to, to have. It's maybe they just sit and watch all the time. Right. Uh Like I am sitting near the window and look outside, maybe this is how the pilot spent their, their flights too. I don't know, but they are still needed, they are still sitting there and actually two of them. Right. So there must be a reason why they are sitting there. So I think with data analysts, their job will just become simpler because now you don't need to spend a lot of time writing all this uh nasty uh SQL queries that are super complex. Now you can delegate this world that work or like finding bugs or something. Mm Yeah. But still you need to talk to business, you need to understand what kind of, what kind of things they do. Like when do you think about metics? Right? So when you build a dashboard, you want to show some metics there but like these metrics just don't appear out of the blue, like you need to know that you want to compute this particular metric. How do you do this by talking to business and find out what they care about? So I cannot do that. 
+
+42:24
+Guest
+Exactly. Yeah, it's the same. Like I'm a bit more from the medical field and that the idea that I will replace doctors. But then, you know, people don't only go to the doctor to get a diagnosis, you know, they want to talk to someone they want, like, you know, they want to have, 
+
+42:39
+Host
+they would be able just to talk to a, I, because, like, I don't know, maybe it's just a Germany thing but, like, sometimes I feel worse after going to a doctor. 
+
+42:53
+Guest
+Yeah, maybe that would be an improvement actually. Yeah. 
+
+42:57
+Host
+Yeah. Sometimes. Yes. But, like, for, for certain things, like, when I get the, so, for example, one time it happened to me like my kid was um he just started going to kindergarten and he would bring back a lot of viruses and like different sorts of infections. I was sick all the time. And then I asked the doctor like, hey, like what can I do? And he said, like get rid of the kid. 
+
+43:23
+Guest
+Well, yeah, 
+
+43:26
+Host
+I think I would give me a better, it was fine. Ok, I still remember that. 
+
+43:33
+Guest
+Yeah, 
+
+43:35
+Host
+but like I think a I would give would have given a better recommendation, maybe not as memorable. 
+
+43:42
+Guest
+I also like this doctor having like, you know, so many years of medical school and then this year to give you this answer. Well, 
+
+43:50
+Host
+he said like later he said, cause kids, uh he explained me the reasoning behind this uh behind his answer that kids produce more viruses than adults because of certain things. So he said like it's natural. Like there is no way around that apart from getting rid of the kid, like you will have infections and he said ok, now you can drink less coffee, sleep more. Go to gym, like, you know, the usual stuff. 
+
+44:20
+Guest
+Yeah. Well, yeah, 
+
+44:24
+Host
+I think, well, I need it from him. Like, to be honest, to be fair, like, all I needed from him was, like, just a excuse not to go to work, like, you know. 
+
+44:37
+Guest
+Yeah, that makes sense. Yeah. Um, then, uh, I have one question that is not the, like the next one but I think it's, it's a, it's a 1989 year, year of birth because it's a year of teacher. 
+
+44:52
+Host
+It is my year of I think I'll be 35. Will I be 45 this year? 
+
+45:00
+Guest
+I think because I'm also 1989. I 
+
+45:04
+Host
+turn my birth is in November, it's November 
+
+45:09
+Guest
+and then you, then you would be 35 
+
+45:15
+Host
+like every time I need to calculate how old I am. I need to like do the maths and ok, now it's 2024. I am born in uh uh 89. Yeah, it will be 25 
+
+45:28
+Guest
+3535. Cool. Um And uh what is the biggest challenge or learning you didn't expect to have when scaling the community? I think we've also touched upon this but maybe um 
+
+45:44
+Host
+how much time it will require an effort. So I'm like looking back, I'm still not so sure why I did that because I I think it was just um it was giving me some meaning to what I do, but it was COVID. My work was not what I it was not how to say that is, find me enough. Right. So I was already a sort of managerial, you know, managerial role. And uh yeah, like it required a lot of work and then uh it required also putting a lot of work without getting anything in return was the first, how much was it? 500 or less dollars? It was after half a year, a year and a half or maybe more after two years of the community existence when I finally made the first money. So it required some, some effort. Yeah. And dating. Yeah, it was uh like I didn't think about skating. I was just thinking, OK, what can I do for people to have fun and come back to the community and they, they were coming back? Mm And also actually before it was even profitable, I got an offer, somebody wanted to like there was a company who wanted to acquire the community and I decided not to do that because I thought, hm, now if it becomes uh my job uh and somebody will tell me what to do, I will not like it. So now I really enjoy, like being independent in the sense that I don't need to follow somebody's agenda, somebody's decisions. 
+
+47:31
+Guest
+Yeah. Yeah. That is really cool. I didn't even know that. Wow. Um And like, did you the first 
+
+47:36
+Host
+time I talk to you about this in public, I think. Yeah. 
+
+47:38
+Guest
+Yeah. I think so. Wow. I didn't know that. Yeah. And did you like at the beginning, like, feel like that you were kind of lonely in your mission or something? Because I feel like they are not like 
+
+47:50
+Host
+the community is kind of the, of loneliness. 
+
+47:54
+Guest
+I was thinking more about that, that you don't know that many people who are also creating communities. 
+
+48:02
+Host
+Like, for example, I was uh all quite often in touch with the metros from the M Loops community. We even have, we even had a community mastermind group with um there was uh somebody from uh locally optimistic which is a community for um or analysts, then matres from a mobs community, me and then there was somebody from the D BT community. So we like every week or every two weeks uh would sit together and discuss different challenges. It was interesting. So definitely, like having a community help me have more connections than before. And that's maybe one of the reasons I kept doing this because like meeting new people and not just new people, but like also having these people come back and uh like developing these meaningful connections, it was super good. And I see for example. So Maggie is here an Antonio who is here. Um Hi guys. So it's so cool to, to have you and everyone else to like developing these connections. And then uh also having like, uh for example, with Mehdi, we, he's not in Berlin anymore but we used to have lunches regularly. Um, so, yeah, the community gave me personally a lot of things and being lonely is definitely not, not one of them. 
+
+49:33
+Guest
+Cool. 
+
+49:34
+Host
+So, I think, yeah. 
+
+49:36
+Guest
+Yeah. Cool. And, yeah, I think, uh, having a group of people who want to scale the community. That is definitely cool. Um, and, uh what would you like to achieve in the upcoming years? That's also a good one. 
+
+49:49
+Host
+So I need more sponsors. So that's what I want to do. So probably doing more stuff. I want to try to do more courses because right now we have this course platform. I mentioned the one I did in Django because previously, it was so much manual work. So it was like a bunch of Python scripts, Google forms a lot of manual actions. Um So it required a lot of work to actually run a course right now. It's less effort right now, I can just give access to the admin panel of Django to other instructors and not been involved. So for example, that course the stock markets analytics course happened without me. Also thanks to because of this platform, right? So now I can be less involved into day to day ops of courses and focus more on creating courses. That's why we also did this LM course this year because finally, I could have time to do something else besides this ops behind the courses. Um So I want to do more courses. Uh probably something related to data engineering we will see on specifics. Um It also depends on um like what people want and also what companies want to promote. So I want to find an intersection so it should be useful for companies and for people. So then uh for me also like I can pay for this flat, which is not that cheap. 
+
+51:18
+Guest
+Yeah, it has to be sustainable, right? Like every way. So cool. Yeah. Um So uh is there anything I or others can do um do to help our community to grow and improve? That's from Dayton Day, you know, Dayton. 
+
+51:36
+Host
+Yeah. Um Well, there are many things. So we have um well, first of all, you can be a guest on the podcast, right? You can tell your friends about the community, you can uh help others in luck. You can um we have a thing called Project of the Week. This is a very cool thing where we prepare a plan for a week to study and we follow this. Um This is a super cool project sometimes. Uh Sadly, it doesn't get a lot of traction. Um We can think what can we do similar to um get feedback from community to for community people to be involved and also maybe um get involved into these activities. Like for example, when there is a project over the week, um it's a bit sad sometimes when um Adonis who is one of the people who are here, Adonis again. Um So when he puts um like a lot of effort into creating this plan for the project of the week to see that only one person is doing that together. So many people, I, I think it's not just one person is doing that, but not everyone is uh vocal about that. And maybe what would help is like when you do something like that also be vocal, talk about this. So then it creates a sense of OK, I am not doing this uh alone, right? And then uh maybe there is something else we can do together like this project of the week. So for example, there was an idea to do a hackathon as a part of LLM Zoom camp course. Uh Right now the course is still wrapping up and uh there are like 10 people who are interested in uh doing a hackathon at least 10. So maybe you want to help organize that. So it could be interesting too. So DM means luck if any of these things uh sound interesting and we'll talk about making them happen. But I think so, maybe this hackathon and the project of the week, maybe we can somehow put them together. 
+
+53:43
+Guest
+Yeah. That's super good. Yeah. Yeah. 
+
+53:46
+Host
+Yeah. So I think uh so we had competitions already. So as a part of a long course, we had a competition as a part of ML course, we will have a competition, but we did not have a hackathon yet. So this is something I want to do. And so if somebody wants to get involved, uh, let me know. 
+
+54:03
+Guest
+Yeah. And also, um, I'll add a shameless plug for the podcast. So if you feel um you want to be up here, you know, in the guest chair, then just reach out. Um, it can be about your job, it can be about anything that interests you. Um, so, yeah, don't be shy, 
+
+54:20
+Host
+especially interesting. Um, if it's the first time people appear on a podcast. So for people who have been on other podcasts, maybe it's like, it's easier for them because they have talked all already and they can just talk about the same thing. But it's also interesting when you haven't spoken on a podcast yet. Right? And, uh, everyone has something to share. Uh, I'm sure because, like, when I meet people in real life and we, for example, drink, I don't know, tea or sit and talk and then, uh, I don't know, I have this podcast host and asking questions and it is always so interesting and I'm like, ah, PT, we are not recording this and then I usually invite, uh, them to do a podcast. Not everyone agrees and I don't judge anyone. It's not for everyone. I agree. Um, but yeah, if you want to be here, please, uh, reach to us. 
+
+55:17
+Guest
+Yeah, please reach out. Um There is a question about when the stock market analysis course starts. I think it's already finished, right? But people can. 
+
+55:29
+Host
+I and I we talked about this recently. He wants to do it one more time next year. Uh We haven't decided on a date yet, on a month. Uh So probably around April, what we want to do is two workshops before that. Um something extra that we, that wasn't covered in the course. So we're talking about that. Cool. So you, you will definitely know. So at least soon we will have uh workshops. So one probably in November and one like in February, you will definitely learn, hear about them uh in our newsletter, you will see them, we will also post about them on social media, so you will see them and probably there will be a form where you can sign up, sign up for the course and you just sign up. 
+
+56:19
+Guest
+Yeah, I have um participated in the last one like a little bit. It was really interesting, but I, I'm really interested in finances. So, yeah, but it's really, it's really an interesting one. I know, I know. Um So this is Johanna, how do you prepare the questions for the podcast? Um How did this evolve over time? So, um my qualifying feature to getting this position was that I, I think it was a linkedin, like I said, uh under a post, I, I said that I had listened to all the episodes which was true um of the podcast. And I, I really like the podcast. And then Alexi reached out and asked me whether I want to help prepare them. And that was almost three years ago. And yeah, and how I usually do it is like, um I get the guest and then this is actually the part that I like about it the most. Like I get to uh go through the guest, linkedin, like read material that they provide. So I, I kind of stalk the guest a bit um and come up with a good topic. Um and then I usually also meet them before the episode and I create some questions and uh they usually go through them and agree that they want to be asked these questions and then yeah, they're ready to go and it's a lot of fun because you get to learn about people's careers and uh also about very different spectrum of topics. Um And yeah, that's I think pretty much it. And yeah, it, it usually takes me around an hour per guest from like start to finish. Yeah. 
+
+57:48
+Host
+Yeah. So and uh like were you surprised like because not always the questions you prepare? 
+
+57:59
+Guest
+Yeah. Yeah. Yeah. So yes. So Alexis is quite a bit the questions but they're more like a backup. So I'm Yeah. Yeah. And sometimes I have to say like now, especially when I meet the guest and like, when I get to talk to them, I sometimes don't listen to the episode anymore because I feel like I have, I've heard it all. So. Yeah. Yeah. 
+
+58:22
+Host
+So, now you're kind of podcast host yourself? Right. 
+
+58:25
+Guest
+Yeah. Yeah. So it's usually not my, you know, I like being in the back but sometimes it's also fun to, to talk. Cool. Um, uh, what do we have, maybe do we have time for one more question? We have something around um whether it's too late to start being a data scientist. 
+
+58:47
+Host
+Um No, I don't think it's late as I said again, like a I is just your kind of friend, like as a tool that you use. It's not something that replaces you. It's one of the tools in your tool set. So and if you're, if you now want to become a data scientist, actually with this tool, it's the best time ever to start being a data scientist because previously you had to learn so much to be to, to, to be able to do these things. And now you can just ask J GP D and it will help you. And then like um yeah, you just need to, I guess uh learn to use it to be effective. But I I think being a data scientist is good, like the other thing is um also need to keep in mind like the market conditions right now because it's difficult to be a junior. Companies are very reluctant now to hire juniors, which is kind of weird because everyone wants to have seniors but seniors, they get promoted, they change jobs, uh, they become self employed and then somebody needs to replace them. Right. Because, like, the population of seniors is only shrieking. So companies need fresh blood but they are not high in juniors or high in less. Uh, so, like, in my mind it should be like a pyramid. So a lot of juniors then fewer middle level, then fewer seniors and fewer leads and so on. Right. But the pyramid now is kind of weird. So the foundation, the juniors are 
+
+60:24
+Guest
+up there. Yeah. 
+
+60:26
+Host
+Although it's improving. 
+
+60:29
+Guest
+Yeah. And I do agree. I think, um, you know, it's not going to be less data in the future, rather more data. So, um, and I also think it's a good way for, you know, cross entry like people that have done something else before. Um, because it's rather, yeah, easy to learn how much material 
+
+60:49
+Host
+if you have engineering background, being a data scientist still is a very good idea. 
+
+60:55
+Guest
+Yeah. 
+
+60:56
+Host
+And then it will give you an edge or having some sort of academic background with expertise in certain areas that companies need. 
+
+61:05
+Guest
+Yeah. So, yeah, don't, don't be shy, I would say just start. Um, cool. I think um, we're almost, we're at the hour but there's always the traditional last question which is like, have you, do you have a book recommendation for us or anything that you're reading at the moment? 
+
+61:20
+Host
+Recommendation? Well, what I'm reading. So, right now, actually I'm reading this s Der Jung ge, I ge streif pajama. 
+
+61:31
+Guest
+Oh, it's, uh, is it about a, a boy in a, it's a bit heavy, isn't it? I mean, my, 
+
+61:37
+Host
+yeah. So, right now I am in the part where he found out that there are some people in uniforms who are so, I think it will start being heavy right now. 
+
+61:47
+Guest
+Yeah. Yeah. Well, you're reading like German books that's, that's advanced, 
+
+61:52
+Host
+I guess. I mean, reading maybe is an overstatement. It's in my desk. There is a bookmark. Sometimes I read it. Uh, but yeah, apart from that, like, I'm reading a book about, um, exercises for, um, for back and for lower biding, um, then, uh, like when it comes to courses, uh, I'm kind of biased to give recommendations, of course, but there is one community that does really cool courses. You should check it out. 
+
+62:30
+Guest
+I wonder which one that is? Cool. Uh, well, I think, um, yeah, on that note, um, it was a pleasure. Do you have anything else that we should mention? Anything? Um, 
+
+62:41
+Host
+I just want to thank you personally, Johanna. Thanks for helping. Like, you're such a great help. And, uh, thank you. It's a, it makes my life so much easier to like, I just open, uh, the questions like before the interview, check them out and um yeah, it's, it's, it's really amazing. 
+
+63:04
+Guest
+Thanks. No problem. It's always a pleasure. And now I have my own email address. You can reach me and Johanna at data talks dot club. Yeah. Yeah. So 
+
+63:14
+Host
+if somebody wants to be a guest on the podcast, that's how they email. 
+
+63:18
+Guest
+Exactly. Cool. Cool. Well, 
+
+63:21
+Host
+of course, I want to thank everyone in the community for being around. Like, even though sometimes people join us for a month or two still. That's awesome. And of course all of us have different commitments and then life happens, right? But if you join a hand ground, even for a month, it's really cool. And I want to thank everyone who has been involved or involved or will be involved in the community. So, yeah, and all of you are welcome. 
+
+63:50
+Guest
+Yeah. Cool. Well, then have a nice day. Yeah. Yeah, 
+
+63:56
+Host
+you too. Thanks Ihana. Thanks everyone and um see you on the next Monday when we will have a new episode. 
+
+64:04
+Guest
+Yeah.
