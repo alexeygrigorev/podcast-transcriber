@@ -1,0 +1,503 @@
+0:00
+Host
+Hi, everyone. Welcome to our event. This event is brought to you by Data Talks Club, which is a community of people who love data. We have weekly events lately. They are not so weekly, but we're getting back on track. And this week we will actually have two events anyways. So if you want to find out about all the events we have in our pipeline, which is currently, I think too, there is a link in the description, go check it out. And I think I should already update this number because we have more than 50 K subscribers and if you want to become one of them, so there is the subscribe button. Don't forget to click on that and very important. We have a slide community where you can hang out with other dating with us during today's interview. You can ask any question you want. There is a pinned link in the live chat, click on that link, ask your questions and we will be covering these questions during the interview. That's all the intro. I'm going to stop sharing my screen. Actually, I must admit we didn't, we haven't had the podcast interviews like in a while, maybe in a month. We're getting back on track. So don't worry, we will have soon a lot of new stuff. Uh But today we have Rafael and if you're ready we can start. 
+
+1:18
+Guest
+Yeah, definitely. Yeah. 
+
+1:21
+Host
+Putting in the questions and yeah, so this week we'll talk about ML Os and we have a very special guest today. Rafael. Rafael is a leader in the mo ops space with background in data science and machine learning. You must have seen him on linkedin where he regularly shares content on envelopes. I see him daily. I don't know how often you post, but like every time I open my linkedin feed, I see your face there, which as we found out is A I generated, right? So now everyone knows. Uh so Rafael is currently leading a team of engineers at an EO which is a major sustain sustainable energy provider. And uh 
+
+2:02
+Guest
+yeah, 
+
+2:03
+Host
+welcome to our interview. 
+
+2:06
+Guest
+Hey, yeah. Hi Alexi. Thank you so much for having me today. Good to be here. 
+
+2:10
+Host
+It's a big pleasure. And for the record, like we've been trying to do this for quite some time, but finally, this day has happened. And uh the questions for today's interview are prepared by Johanna Bayer. As always, thanks Johanna for your help. And before we go into our main topic of envelopes, let's start with y ground. Can you tell us about your career journey so far? 
+
+2:34
+Guest
+Yeah, definitely. Um So I've been working in the data space for about 10 years now. Just over 10 years it's coming and I've done a few different things. Um, I, I started as a data scientist. Um, and, yeah, it was quite challenging for me to get into the, to the fields. There were lots of things to learn and, um, I wasn't sure if I could do it and I just sort of kept grinding. And 
+
+3:02
+Host
+what did you do before that? 
+
+3:04
+Guest
+Yeah. So something a bit different. Uh The five years before I worked, I've been working, I guess for just over 15 years now. I worked in sustainable agriculture. So, yeah, I did a few different things first, I was a project manager and a lobbyist uh for a green organization. Um So lobbying 
+
+3:24
+Host
+was not it related, right? 
+
+3:26
+Guest
+No, in the, in the end it was, I saw some things in the big project that they really lacked uh good administration of their data, like lots of farmers having all kinds of data on their crops. That was super important to improve quality and sustainability. It was mostly paperwork or, or old machines. So, yeah, that planted some seeds. Uh No pun intended in my mind like, oh, there's work to be done here. And then in the end I was um working on innovation in agriculture and food like the last year. Um and one of the topics we focused on like uh me and my business partner is actually technology in agriculture and food and, and mostly it and data. So that's really what got me into the field. So I went from sort of project manager and campaigner uh to consultants um just freelancing. And then I was like, hey, there's, there's something to this, I'll, I'll try to do something with data in the field of agriculture and food. Um which, which is quite challenging because it's, it's, yeah, in some countries, it is a highly tech technological sector but it, and data wise, I would say there are a sector that's mostly following. Um So I tried to do the hardest projects first, I think. Um Yeah, and then at one point I, I was working for a client and we did proof of concept, right? Like 10 years ago, uh all data science, it was all proof of concepts. And um the client said like, yeah, we quite like this. Um can you put it in production for us? And I was like, what do you mean? Production? Yeah, like production. Like I didn't even know what that was. So I did some research and uh learned some it concept. So I was like, wow, if I, if I want to do something in this field, I have to learn more about these types of things. So I ended up joining uh it consultancy. It was just a like a Microsoft Platinum partner doing everything in the Microsoft stack. So quite interesting, we had everything in the house, they call it it consultancy, but it it is it implementation. And there um my data career started and I worked as a data scientist in a data analytics team um which was mostly doing B I engineering. So, so this is data engineering and dashboarding. And we were about 3.5 data scientists on a little island in a team of uh 50. Yeah. Yeah, like one was the more on the data engineering side as well. So, so that was challenging. Um And then I moved to another consultancy which was much more data science focused uh which was nice. I worked there for a couple of years, became a lead data scientist um learned about putting stuff in production. And then one of the lessons I uh yeah, I was taught in consultancies that everything takes time. So most of our clients, we were serving at like a year or two years tops and I saw the data science projects, took more time to finish them end to end from ideation to something running in production. So I decided to uh join a company just internally and that's where I started um getting introduced to M Os. So um we have lots of great models there. They were adding lots of business value and they were really well developed like by data scientists talking to the business stakeholders um engineering, some really clever features and, and like, yeah, we, we were making money and mitigating risk, but everything was running as a sort of, yeah, spaghetti script style set up on a old our server. So yeah, I got a chance there to, to um uh give it a bit of a lift and shift, implement some best practices. Got lucky to work with like a really clever guy who was uh helping us once every two weeks. And then I thought like, hey, this, I offing, I quite like it and I also felt um I could add more value there because so many of the data science projects fail. And then, yeah, what was it all for? Right. Some learnings. And I saw that with the envelopes projects, we were not always adding value but most of the time and the engineering side I also quite like. So um then I started getting into envelopes and I guess that's about three, yeah, about three years ago. Now time is going fast. So um yeah, I worked there for a couple of years and then a year ago I started freelancing. Um and here I am, I'm, I'm working as a contractor now for my current company. Um I will become internal uh soon because you have to after a year pretty much. Um And I'm staying with the company for a while because we're in this big reorganization. Uh I built a team. Uh I've done it a few times in a few different companies and I feel like there's so much work still to do. Like, yeah, we're not ready yet and it would be so nice to just, just finish it. I mean, it's never finished. But uh so yeah, um not contracting the coming year or two years, I guess, but very happy where I am. 
+
+8:41
+Host
+Yeah, it's an interesting story and like you mentioned that you started in agriculture and you're from the Netherlands and I know that the Netherlands is pretty advanced in this aspect. So I know that it's a relatively small country and half of this is covered with water yet, like I can see cucumbers from the Netherlands in pretty much every European country. And I don't know how you managed to do that right on such a scale with so so little land like it's some agricultural marble probably but like it's, it's really cool. 
+
+9:13
+Guest
+Yeah, it is cool. It, it's part of the national pride and, and, and you can, you can give it a good spin and you can give it a bad spin. So often we say in the Netherlands, like we're the second largest agricultural exporter in the world. But this is a false statistic because they are, it's also the import going through when you actually count what we produce. Uh We're actually 22nd in the world, which is still impressive because we are tiny. And then if you ask me like, how is it possible? It's like, well, we're highly technological uh there's a lot of knowledge here from like the seed level and the genes level uh to producing the crops growing the livestock. Um So that's something really good at. And then I guess the, the other side of the coin is that the inputs are like really high. So we take all these grains, soy mice, all this stuff 
+
+10:09
+Host
+have to be super effective, right? So efficient. 
+
+10:12
+Guest
+Yeah, we take it from the Americas and, and we feed it to animals and that then the yeah, in a sense, the footprint is also really high, right? So we have a problem that we have too much manure and air quality is bad. And so yeah, you win some, you lose some, I guess. But I feel if we move forward in the right way, we can be like a future proof player that's still really important now. So 
+
+10:36
+Host
+coming back to envelopes so you can open your linkedin and I guess many people who see your posts also open your linkedin to, to just see what you're doing, right? And what do you have under your picture? I think it's called slogan or whatever like the title. Do you have some things there? And one of the things say creating the future's technical debt today. What does it even mean? 
+
+11:01
+Guest
+Um Yeah, it's uh it's a bit of a joke. Um like I couldn't help myself because that's kind of how I am. But 
+
+11:10
+Host
+um you mentioned the spaghetti code that like you had to put in production, I guess. Right. 
+
+11:17
+Guest
+Yeah, but it's also a serious take because I feel um the world is moving so fast and yeah, technology is rapidly evolving, especially in our space that sometimes it almost feels like what we decide to do. Uh And then when we eventually get to implement it is already a bit outdated. So I, I think there's a gap between like making a design decision and actually implementing it. And then, yeah, we've chosen this now. Oh But look at here uh there's another tool or there's another method or there's another model. Um So is that technical depth? I wouldn't call it technical depth per se. Um I would always measure between what you decide to do as an organization and and what you actually have the gap there that is technical depth. So what you have and what is out there in the world. Yeah. No, I wouldn't call that that but sometimes it does feel like that. Mhm 
+
+12:19
+Host
+But it's in avoidable, right? So sometimes like you want to create a prototype, you want to move fast and you don't know like out of 10 prototypes, how many will actually survive? Maybe it's just one. So you don't necessarily want to invest uh like a lot of effort into each of those prototypes. But when one goes off, then you know, OK, like, yeah, like I might have cut some corners there but now like I have to, it's kind of running, it proved its value. So now I have to repay the debt. Right. 
+
+12:47
+Guest
+Yeah. Yeah, I couldn't agree more. And, um, the, these are conversations and decisions. Um, yeah, we're, we're trying to make the right ones every day and we have conversations about this every day between tech leads and product managers, but also amongst tech leads. Like some of the ones we're working at now at the Eco, they really have this start up mentality like cut corner shit fast. Uh You know, is this generating value for the customers? And also are a bit more like, well, this is, this is the correct way. Maybe we should do this for me before we deploy to. Maybe 
+
+13:21
+Host
+we should stop, I think corner site or something. Yeah, 
+
+13:24
+Guest
+exactly. Yeah. So this is an ongoing thing and, and the cliche in engineering is like everything is a trade off, right? And the same is true on a product level. 
+
+13:37
+Host
+And when you were talking about your career path, you mentioned that you have built a team multiple times already. So you're building it again. Um So you have experience in building teams and ops team specifically if I understand correctly. So why did you choose to focus on teams? Like why teams specifically like and what does, what do teams have to do with uh Ave Lopes in general? 
+
+14:05
+Guest
+Yeah, great question. Um I think for me, it was a natural extension of, of what I was doing in earlier parts of my life. Um So playing sports, I always really valued like you're better if you're a well co ordinated team with a great culture and, and everyone helps each other. And then I played some computer games, like some, some really nerdy text based games as a teenager. And in this one game, we're like a group of 25 people having to work together in rounds of 13 weeks. And again, I invested in the team there so we could perform well. And then I was a student. I worked at an Arthouse cinema. There were like 50 of us running the Arthouse Cinema and I was doing sort of the um yeah, like the hr parts. Um And then when I got to data, I was like, well, I've been doing this type of stuff. Um It feels natural for me to take this role and particularly looking at like data science. A IEE Lopes. What I noticed is that um you really need a good team. Like it's, it's hard to deliver something successfully. And you know, I'm gonna mention another cliche story, but it's like if you wanna go fast, go alone, if you want to go far, go together. And I think small teams can be successful and solo people can do a lot. But most um organizations I work in uh are non tech organizations in the sense that they're, they're like non it tech or non data tech. Um And then you're trying to do data and it there and it can be very challenging. So you need all kinds of different roles um to ensure success. And then within your own little group of, of data people, you really need to be aligned and be able to trust each other and communicate well. And I think when I came in, I saw a lot of focus on the tech always like, how do we do things or what, you know, what are we building to build the product we want? And in my perception, like lots of the work is processing people work as well. Um And there were a few few projects where I, I focused uh on the tech like as a tech lead, working with a small team. And then in my experience in the end, we we lost or the project failed because we had no say in, in the strategy process part or people were badly managed, you know, then they leave. Um It's really hard, you know, in these complex projects when the turnover is too high to off board and on board people. So I started focusing more on that part. 
+
+16:58
+Host
+So you mentioned towards good team, good and team, right? So team is clear, right? With a bunch of people together, but what does make a team good, right? So what kind of people do we need inside the team and how we Well, let's start with roles like who, who would do we need in MLS team? Like is it just, I don't know, data scientist, MLS, ML, engineer, data engineer, data analyst or like, how do we even know who we need? 
+
+17:29
+Guest
+Yeah, again, great, great question, thanks. Um So I think it really depends on the context. Um You know, how many people can you hire for such a thing? Is it gonna be the two of you or 
+
+17:44
+Host
+like if we can hire 10 people? Does it mean we should, 
+
+17:50
+Guest
+it really depends on the context of the type of organization and the maturity of the organization. Um I think there are some patterns you can identify. I think one of the roles that is often forgotten is uh the role of evangelists. So either you need someone really rooting for you. Um and it can be someone in the team, right? But it is some someone has to have this role. It's not even so much about stakeholder management. It's, it's before that even and it can be on the side of the team, but it can also be on the leadership side, it can be a sponsor so it can be a sponsor on the executive level, um or just below. And I think this is super important. 
+
+18:37
+Host
+We're talking about non it teams, right? So you mentioned no non it companies where its may be secondary, right? So you said like there in such companies, success is even lower than in, let's say traditional it companies. That's why it's very important to have these evangelists. 
+
+18:54
+Guest
+Yeah. Yeah. Or a sponsor on the executive level just below because the question there often is like, does the company have a CTO or a CD O or CD, Cio or whatever? And if they have one, do they get this particular part because they have a lot on their plate? Um like, like more than machine learning operations. So I think for, for both data science and machine learning operations, you need buy in on that level or if you don't have it, you need a really good, yeah, evangelist supporting your calls. Um And then the team itself, I mean, it's always nice. Um And in some organizations crucial to have like a good tech translator could be a text translator or an analytic analytics translator or both. And this can be your product manager or, or product owner. Uh But sometimes the roles are split, right? Sometimes maybe the product manager is a bit less technical and somebody has to do it because 
+
+19:56
+Host
+like, maybe. Right. 
+
+19:58
+Guest
+Yeah, exactly. Yeah, because there's so many complexities involved in the work um that you need to keep uh explaining them in the right way. So briefly and clearly enough. Um And you also have to understand your audience as a good translator because the audience is changing all the time. It's not just the one story you're putting out there. It's like, hey, are we talking to these executives and understanding what makes them tick and then all the other stakeholders. So these two roles are super important 
+
+20:31
+Host
+evangelist and the team tech translator. Right. 
+
+20:33
+Guest
+Yeah, and a translator. Um And again, it could be one and the same person doing those two roles. But yeah, depending on the skill can get hard. And then if you look at the team itself, of course, it's nice to have an experienced lead, like someone who knows um mo OS principles and components well, uh maybe it's a bit more familiar with the stack you're working in. Um And then yeah, if you look at the team itself specifically for envelopes, like it's a luxury if you can split between envelopes engineers who are maybe really focused on building your platform, you know, like doing the infrastructure and automating away all kinds of parts from the machine learning life cycle building, like little tools around it, interfaces, maybe utility packages if they can just focus on that. And then on the other part, you might have a machine learning engineer who's working closer uh with the data scientists or working in the product teams. Um And this also really depends on the type of machine learning you're doing, I think, because some machine learning engineers, they really need to focus on efficient machine learning in terms of memory, um computes data usage and, and costs with that as well, you know, some models are like €100,000 to train or, or even more. So this is more like in the big data uh uh realm, which is more often unstructured data as well. So you see, yeah, the term machine learning engineer a bit ambiguous. Uh also like when we're getting in resumes, we see like a few different type of categories. So we see a lot of like computer vision, machine learning engineers, for example, there's usually a bit more closer to the academic world and they're really good. But we working more with tabular data and we're working in a product organization. So they need to be able to work with like data scientists and business as well. But I think if you can split between these two roles between mops engineers and machine learning engineers, you're in a great position because what you see in lots of companies is you just see like one centralized M OS team, like a couple of engineers, they have to build something that works. Um And then it's hard to get it adopted um or to have like a good connection with the end users and the business. 
+
+23:01
+Host
+Mhm And then maybe this is something I should have asked even before. What makes a good MLS team, what is the actual role and focus of the ML ops team? What do they do? Because you mentioned that OK, we need evangelist, we need uh translator, we need ML Os engineers MLO engineers techniques, you didn't mention data scientists, data analysts. So I assume that the role of this ML ops team is to help other teams, right? Can you talk more? What does this team exactly do? 
+
+23:32
+Guest
+Yeah. Yeah. Uh So one thing I often repeat is I think the focus should be on three things. Um easy deployment, um easy maintenance and easy monitoring. Um I think those are three key drivers um like for, for what your ML MLS team should deliver. And then there are a lot like a lot of other things they can do. Um what you see in organizations, what usually goes under the radar is you can actually save a ton of costs as well. Um which can be a good success to have as an MS team because in most organizations, they are viewed as cost centers. So if you're saving a ton of costs, you're actually well generating some money in a sense, uh which can validate your team uh from certain perspectives, right? But these three things are, are really important, I think like deployment maintenance monitoring. 
+
+24:31
+Host
+So did I understand correctly that this is a central team that helps other teams? 
+
+24:37
+Guest
+Oh, it depends on the organization, I would say like the scale, but I think it, yeah, it is good to have a central team and it can be small. I think you need some people dedicated um to setting up a platform in terms of in front tooling 
+
+24:54
+Host
+because I imagine like, I don't know in your case, what kind of use cases you have. But I imagine that there are different use case, like demand forecasting, right? Could be 11 use case, right? And then maybe another use case could be maintenance of like whatever energy suppliers, right? So it could be another team and then yet another team could be doing. Um I don't know, like uh something else, right? Um 
+
+25:19
+Guest
+Yeah, 
+
+25:20
+Host
+you have 34 product teams, right? And each of them might have their own data engineers, data scientists and L engineers. I don't software engineers like product teams, but then there is another a separate team that helps all these teams when it comes to ML operations, right? So this is the MLS team, they say, OK, like we want to make it easier for you to roll out models to production. So we have MLS engineers, we have like this ML engineer that can help you with best practices. Uh Is it uh the kind of setup that you see or like what, what do they do? Like what, what is the difference between like a MO S team and like usual product here? 
+
+26:03
+Guest
+Um So we're approaching it from a, from an agile perspective. So we do have a lot of product teams, more than 10 product teams and, and exactly like you're describing, like each product team is a mix of different roles. Uh And then people from the business side as well and then maybe from like web and app development as well. Um And it's not always the same mix. Um And then for us, the MLS team in the, in the agile framework is a little bit more like a platform and an enablement team. Uh But our team is not just like the handful of envelopes engineers, we're actually like one team together with all the ML engineers. So I think at the moment, we have three envelopes, engineers and three ML engineers and two managers of which I'm one. So we do it together. Um And we're working on best practices in terms of like this is how we think it should work. And then we write like design documentation, um all the codes and the tools like the, the, the uh private packages that are being reused. We're sort of doing that together and now we've come to a stage because if you look at our organization, um we're working together with four different departments and I think we have about 45 data scientists in total, but I'm not sure there might be more around uh and then even more data engineers and data analysts as well. Um But we're focusing on our current departments and once we have our house in order we'll find out to the other departments. Um But for us, it's really a luxury to have both a centralized MLS team and the ML engineers working in the teams, like it's not something I've seen uh in other places before. So, so we're in a good spot. 
+
+27:56
+Host
+And I imagine if you have like 45 at least 45 data scientists and data scientists, like usually they're also data science are so diverse. Like there are so many ways to get into data science. You can be like a phd in physics, you can be software engineer, you can be a data analyst, like there are so many ways to do this. And then because of that also the way people write code could be different, right? So the way the physical writes code is different from the way and former software engineer writes code, right? And then you have all these diverse people who create models, right? And then like you end up with like 45 different ways of like having a model, right? And then what you need to do is a model s team to say, hey, like, how about we try to standardize it and have one or two or three ways of doing that, right? 
+
+28:42
+Guest
+Yeah, for sure. I think this is one of the, the interesting and challenging parts of, of our field. Um And you have to find the sweet spot because if you don't standardize anything and you just say like, oh the data scientists do something, they have a notebook or whatever they're doing and they kind of maybe throw it over the fence. Uh or give it to an ML engineer or whatever and you kind of make sure it works. Um Then you're creating a lot of work. Um So, so you do need some frameworks that you wanna work in. But if you are too opinionated, it's like, oh this is this all encompassing envelopes framework and uh we have a template that we are enforcing somehow and only if you, you adhere to this template or whatever, then we will deploy it for you. And also it doesn't work, then you kind of lose uh the larger part of the data science population. In my experience, there's like 25 30% of data scientists that are open to this, it resonates with them and others are more like, well, I'm already focused on this really complex modeling and then I have the business and it, it's too much for me. So you have to find a sweet spot in between those two extremes and you do need some standards um which maybe are a bit opinionated and then you kind of have to find out together with your data scientists and the data science leads like what are the standards are gonna be? And, and do they fit into the data science way of working because they already have their own ways of working in different teams. Um and maybe across their chapter. So, uh yeah, it's, I think it's something you have to be really aware of and delicate about. So I see a lot of small MS team, there's mo teams, they're centralized, they're pushing out the standard and then nobody uses it, right. So there was like, yeah, I don't know, it's taking too much time and then, and it takes time to build the trust and the relationship. Like you're adding all these bells and whistles and engineering practices. So you also have to invest that time in terms of not only writing documentation, but like building the relationship and organizing workshops and doing like pair programming um for people to buy in. 
+
+31:07
+Host
+How do you standardize? Uh when only like only 25 30% is on board with like only for a third of people, the ideas resonate and like how about the rest? Uh like 70% like how do you standardize in such a way that everyone can use your tools? 
+
+31:28
+Guest
+Hm. Uh I think I would say iteration is key. So sort of just like we do in data science, you test um Mostly, yeah, you test your explore but mostly you talk to people. Um So, so you, you have to invest time in this, you have to talk to your end users. Uh Data scientists are really important to end users. Um And you, you have to keep talking and testing and getting feedback. Uh It's gonna take some time and then at one point you meet in the middle, right? You, you can't please everyone. Um But I think some parts, you know, are like a a no brainer, you know, you, you want proper C I for everyone. Uh you want some structure for the repository. Um you want to maybe package your solutions. So these are things data scientists can do for sure. But then when you look at the actual source codes, that that's a big question. I think like, how opinionated are you there? Are you gonna say like, oh, you always need these modules and you always need these functions and they need to be embedded in these classes and that's a bit of the danger zone. I think where you start losing people. 
+
+32:46
+Host
+Yeah. And how do you go about talking and getting feedback? Like, do you just select a few projects that are maybe the most important or maybe not so important because you don't want to touch the important projects, like walk us through the process of like trying to understand uh what kind of standards we can have as a team and what kind of standards will get adoption 
+
+33:13
+Guest
+from data science side. Um I think, you know, in my current situation again, like we, we're in a position of luxury because we have many ML engineers. Um but if you don't have it, if you are just like an isolated A S team, I would really uh approach it as a product manager, uh the process itself. So how products get developed for users, you try to develop your ALOS platform in that way for developers. So people talk about user experience, but I think developer experience is a huge uh driver for success here. Um So I am, I am not a product manager but I kind of do it uh for analogs and I think to create the buy in from the organization, one of the first things you do is you collect the pain points. So what actually are people struggling with? And then you can make a little matrix. Maybe it's like, oh, this is what I the Ml Os lead or whatever, think we should work on. Uh And this is what the others they or the data scientists, they think we should work on. And then in those matrix, you will have four quadrants and yeah, you start with the one where you overlap, you agree just to create some successes and some wins even though if you might not think that's the right thing to do. First, you need to build trust and, and prove your value. And then I think what's really important is once you have the pain points, you also, you have to show a clear uh before and after. So before you start, you have to paint a clear picture. It's like, hey, this is where we are now. I know I'm asking a lot of you now. Uh and it's gonna take time and it's gonna take maybe some time of your regular work. But when we do it look at where we will be the, these are the clear games we'll have um these are the risks we will have mitigated. This is the time we're saving every week or every deployment, every sprint, whatever this is, maybe the money we're saving. And once we save those resources, uh you actually, the data scientist will have much more time uh to do your actual work because what you can observe in a lot of organizations that don't do proper machine learning operations is that at some point, the data scientists get stuck in operations. So the organization starts doing data science, some cool models or some cool analysis systems or solutions get built a few more, a few more, a few more. And then the data science team starts getting criticized by the business because the pipeline didn't run or something is up, you know. And then, oh yeah, they have to debug and they sort of what I've seen, a lot of people do uh over the years is they just go through the codes, run it like chunk by chunk or cell by cell and start inserting uh print statements in between to see what's up. And this, this takes a lot of time. So a lot of organizations get stuck in at the point where there's like so much s work just so much and you kind of have to show them like, hey, this is where you're going or this is where you already are. If we start implementing these tools and practices, we're going to free you up again and you can make, you can improve the models or you can make new A L solutions which you kind of love doing like you don't like fixing these pipelines right then like, yeah, well, let's do it mate. 
+
+36:55
+Host
+So that's why you said you start with pinpoints cause like there are clearly as a data scientist, I don't like debugging my plans, right? And then you kind of figure out, OK, like this is what they don't like because otherwise you would risk like as you were talking, I imagine that you as a platform engineer, you might think, OK? Like there is, this is the best way of deploying models and everyone should just use it. And then, and people like, oh what kind of usage make it and it kind of works like it's not really a problem for us. Yeah. And then like, OK, you have this fancy thing but like it's not really solving any pain points of the like product teams, right? 
+
+37:32
+Guest
+Yeah, exactly. And then you start rolling your amazing practices out and the data scientists will be like, oh these, these tests are not accepting uh what I've just built, you know, or even the pre commit hooks like this. What is this my pie thing? Like I can't even merge my code now. Oh Well, that is if they use branches but you know, and then you lose, you lose the buy in. Um So you really have to show what it's gonna bring. And from the other side, I think from leadership, one thing that is really important and, and hard to do in ML Os is people often want KPIS um or OKRS, everyone's like, oh OKRS these last couple of years, but then they want measurable results. And I think for engineering call centers, this can sometimes be challenging because from the engineering side, it can feel a little bit like, yeah, but if we weren't here, nothing would work. You know, why are you, why are you bugging us with these uh KPIS, we have to present every month or require. Um But you have to do it like you, you have to make things, it could be 
+
+38:41
+Host
+as simple as the number of deployed models through the platform. 
+
+38:44
+Guest
+Right? Exactly. Yeah. 
+
+38:46
+Host
+So like that, I was to, to measure that and I think one of the key points and this is what we just talked about too, like when it comes to pain points is like Kops team is at the end is also a product team, but more like internal product, right? You need to approach it as such. So like talk to users instead of assuming what they need, right? 
+
+39:06
+Guest
+Yeah, for sure. 
+
+39:08
+Host
+S and um we briefly touched what kind of good practices or the set of tools or set of best practices we should have. Um So you mentioned we should have proper C I we should have structure for uh ML repos and packages, right? Packaging. Uh Is there anything else that like would be kind of mass haves for when it comes to standardization and best practices? 
+
+39:41
+Guest
+Yeah, I think it's always good to isolate your parameters um in whatever solutions you're building. So for software engineers, this is maybe like a a no brainer. But I think in, in data science, it's good that we isolate our parameters 
+
+39:58
+Host
+probably in a standard way, right? So every team is doing it, like not like one team is using any files and other team is using young files. Third team is using wi balls but like everyone sticks to the same other. 
+
+40:10
+Guest
+Yeah. Yeah, exactly. Um Then I think, you know, in terms of your testing suite, you can do all kinds of things and it's hard to get like code coverage like unit test for everything you write. But I think whatever you do in data transformation. So the preprocessing and post processing of your data should always be tested. Um And, and these people can actually do on the development side themselves. Um Then another thing to pay attention to, I think um is when people are developing stuff, they do a lot of data exploration and there's a lot of knowledge captured in there. And I think the data exploration holds a lot of keys for uh the monitoring setup. So even if you don't have an advanced monitoring set up, because this is maybe one of the harder things to do and you're gonna uh production as your code that that part disappears. Or well, before we would just comment out that part of the code, right? It would be like uh GG plot or something we commented out and uh we don't run it. But I think if you production is your code, then you want to keep this part because these are like the keys to root cause analysis. So really simple part could be like, hey, I saw you had this notebook or whatever reproduction. I said now, could you maybe just make like an isolated uh exploration notebook uh because it will help us in the future. Uh So this is not so much about the production itself 
+
+41:58
+Host
+more like, right? How we organize code? OK. Here we have like this exploratory stuff here. We have like the deployment stuff here. We have tests, right? And everything is kind of clear where which thing is? 
+
+42:13
+Guest
+Yeah, for sure, for sure. But I think there's a risk of the um exploratory stuff disappearing sometimes and it's like there's production code, it's version controlled. But where's this original thing? Yeah, it was on. So and so's desktop and they left. 
+
+42:31
+Host
+OK. So what do you say is like if we have a GIT repo, we should just have, we just need to make sure that like let's say we have a notebooks folder where we keep our exploratory stuff, even if it's like somewhat messy or like messy, like we just committed there, we just push it there. So even if maybe we will never need it, but who knows? Maybe we will. 
+
+42:54
+Guest
+Yeah. Yeah, for sure. There's usually like loads of value in there. Um So keep it around. Um Yeah, all the best practices I think if you get to a more advanced level reproducibility and traceability is important. So traceability depends on the sector, you're in the the legal framework. But I think reproducibility is interesting and um there's, there's different ways to do it uh and like to have something 100% reproducible, it's hard. But if you can tie the uh codes um that you used to, to do a certain deployments to the data versioning, you already quite good compared to the fields. Um So you need data versioning for that first of course, but then you just kind of need to know like, hey, what version of the data um is connected to this deployment, then we can sort of reverse engineer it when we want to know something else. It would be nicer if you had more stuff, you know, like the model artifact or a Docker image. But yeah, again, it's not for everyone. Um So to really have some like minimal and I, I can't call it reproducibility because it's not officially that. But at least I have lineage there. And 
+
+44:22
+Host
+at what point of organization maturity do we need to think about data versioning? Because like, to me sometimes it feels like too much. Um Like if we just want to have a simple model and maybe we don't, don't have a lot of models in our, let's say portfolio yet. Like do we really need to care about data versioning from the start or it's something we can add later? 
+
+44:46
+Guest
+Yeah. No, I agree with you. It can feel like a lot. And um I, I think it really depends on your sector, uh what you have to do in terms of uh obligations to your, to your customers or in the B to B uh customer domain or legislation. But the, yeah, it's not easy. I agree. Um Yeah, 
+
+45:10
+Host
+we have a few questions from the audience. So the first question is, is it important to first work as a data scientist before moving into envelopes? And maybe here we can also think about like what actually envelopes means in this context and in general, right? Because like, because I think there is this uh idea that Ml Los is strictly about tools, right? So as a data scientist, I start uh doing these tools and then I move into a Alos, right? But we also talked about other things that are envelops related, which is, which is processes um team structure and all that, right? So with this in mind, like what do you think? Do you do? We need to work first as data scientists before doing a mop stuff or it's not necessarily, 
+
+45:56
+Guest
+yeah, you do need these skills in your team. So not everyone has to come from the data science site, but you do need these skills in your team in the mix um 
+
+46:05
+Host
+in the envelopes team. Right. 
+
+46:06
+Guest
+Yeah. And then it's good to have a, a mix of uh skills, I guess, or maybe previous uh professions. So M OS has a lot of overlap with SRE and site reliability engineering, which some people tend to call devops. Um Which, yeah, which is, you know, interesting. I I learned not too long ago that devops is a movement that nobody maybe knows exactly what it is, but SRE is a really well defined practice. So I started calling this SRE as well and envelopes is like a lot of overlap with that. Um So it's, it's useful to have someone from that side. It's also useful to have like good software engineering experience because I think uh at the end of the day as data scientists, we are, we are, you know, quite poor software engineers um in general. And then it's funny because some of these skills like SRE platform engineering, they are actually just called data engineers in a lot of organizations. Um So yes, people are building data pipelines or maybe doing some data warehousing, but then they're doing a lot more So it's also yeah, quite interesting in many use cases to really look at the data engineers, what they can do and maybe add like one or two of them to your analogs team. 
+
+47:33
+Host
+Mhm So in general, like we aim at having a a diver diverse set of skills, having somebody from engineering, having somebody from with platform experience, having somebody with data science experience, right? And then plaster the extra roles that you mentioned. Um So or a specific individual, it's not important to work as a data scientist before doing the ops. But there should be somebody in the team with this experience. 
+
+48:02
+Guest
+Yeah, preferably more than one. But you definitely like this, this uh in the mix I would say, yeah, 
+
+48:08
+Host
+probably the translator or right is uh they should have this experience at least to some extent. 
+
+48:15
+Guest
+Yeah. Yeah, that could help for sure. Yeah, 
+
+48:18
+Host
+a question from Sam, what will you say is the best place to start in terms of implementing mps in a new team? The team has loosely experimented with vertex A I. 
+
+48:31
+Guest
+So what was the question? What is the best place 
+
+48:33
+Host
+is like? Uh you want to start implementing them practices in a new team? How do you do this? 
+
+48:41
+Guest
+Um Well, I think it's important again from a sort of product management perspective to, to think about what is most needed in the organization. So, so what is the um challenge you are trying to solve? Um And I, I'm not too familiar with the verdict. A I it's just, yeah, but I think, you know, I, I it is the requirement that hey, we have models running in production and we don't really know what they're doing. So we want monitoring. Um then you start there or is the challenge like it's taking so much time to deploy new versions of models, we actually want to deploy a new model every month, but the deployment is taking multiple months. Um Then you start there. So that's a hard question to answer uh without more context. But having said that I think there's always um some low hanging fruit in Mo Os. And like I mentioned earlier, for me, it's always the ci I think C I you can set up quickly. 
+
+49:52
+Host
+So basically speaking with users, data scientists asking the them about their pain points, right? I'm going from there. 
+
+50:04
+Guest
+Yeah. Mhm OK. And, and if you want to start with moo, one thing you should do early if you should be aware of the opportunity or not um to build envelopes with the, with the tools you have. Um And if you have tools that you can build it with, you should do it with those tools. Um Sometimes people want new tools depending on the type of company you're in, this can take a lot of time. So if you're in a start up, it's just like, hey, we need this, can we get the credit card number, OK? You have it the same day. But in corporate or semi corporate environments, the procurement processes can take so, so long. Uh So if you want a particular thing, that's better than what you already have, just go with the thing that you have at first. But if you realize that you want to start with envelopes and you actually have nothing to work with, then it's good to realize that early. So if you, if you look at um all the different ALOS components, so maybe the first one is version control. If you have absolutely nothing for version control, OK, like flag that straight away with your leadership like, hey, we need to get a subscription to. So and so because we're gonna start 
+
+51:21
+Host
+and another question that came up right now as you were speaking. So you said, built in a ups with tools you have and like I like this built Ee Lops. And I was, I started to think like, what does it actually mean to build the uh M elope? And how do we know that we have built molo like, is there a set of things we need to have to say? OK, we have some Eve Lopes as compared to elope before. 
+
+51:48
+Guest
+Yeah. Yeah, great question. So, so there are a few different frameworks um for envelopes. And um uh so last year I was writing with Marvelous Envelopes, uh a blog and content platform and there is a framework like uh the envelopes, tool belt. And this is the one I like best uh not to pat ourselves on the back. They actually made it before I joined. So a lot of credits to uh Bak and Maria who did that. But they just um based on the literature out there made their own set of components. And it's like, oh if you have something for all of these, then yeah, you have good envelope set up in place. 
+
+52:33
+Host
+But these are things like experiment tracking or model registry or like monitoring 
+
+52:39
+Guest
+or just a version control C I CD. Uh containerization model registry. Indeed. And uh different variety of that is indeed experiment tracking. Um Then there's your container registry as well. Uh monitoring, compute and serve of course. And something I like to add as well is a package registry. So you you have a private package registry. Why 
+
+53:08
+Host
+do we need that? Like I mentioned packages multiple times but like why do we need to like let's say I have a project and this is, I don't know, demand forecasting. Why do I need to bother with packaging is a is a pack and then like can't they just, you know, put it in Docker and call today? 
+
+53:27
+Guest
+Yeah, for sure you can do it. But what I like about packaging is that you can throw a lot of stuff together and, and package it. So to say, so 
+
+53:37
+Host
+what do you actually like Python Wheel or 
+
+53:41
+Guest
+Yeah, exactly. So most of the time, what we do with Mo is all of Python. So it's Python packaging and then an important part of that is uh version in dependency management and configuration management. And the current setup of Python packages, it's nice because it's lets you configure some of the important stuff in the package configuration. Um And I think it's um a good way to keep your well software compatible. 
+
+54:12
+Host
+But why don't we just use the car? 
+
+54:16
+Guest
+Well, in the end, you can build a Docker image. But what usually happens is you're not working in isolation, so your package might operate um on a scope together with different pieces of software, right? So one nice thing about coming from a package side is that you can, can configure um your dependencies. Um So you can loosely define them in your package, for example. So everything that you're importing, so import something in the in the Python code you put in the configuration and you give it a range in terms of versions that's compatible with the other ones you are using. Um So at the point where all the dependencies are loaded and you sort of pin them and build a Docker image, then you're fine, right? You have, you have a working reproducible thing you can ship. But the point before that maybe your piece of software needs to work together with other pieces of software. So other packages and if you have a package defined with ranges, it is compatible with most of the other pieces of software. If you don't have that, if you like pin everything, for example, you might be like the troublemaker. Uh because you are trying to use different, yeah, versions of the same package uh that are not compatible with each other. Of course, you can also go for a setup where each component is its own container. Um But yeah, it could create a lot more overhead. 
+
+55:54
+Host
+Mhm. Uh OK. I imagine that because uh now when you were talking about that, I was thinking, OK, if everything isn't, is its own container, then like everything has its own pandas or whatever, like numpy, like all this stuff. And when we deploy to our platform, multiple models, then every, each single uh model has its own bunch of dependencies and we are kind of multiply multiply. Well, it adds up quickly, right? While if we just have packages, then maybe like all of these can have the same version of funders. I don't know. 
+
+56:36
+Guest
+Well, hopefully it can be resolved within the ranges. That's that's what we try to. 
+
+56:41
+Host
+Like what I understood from you is like there are some use cases where it's just easier to have a package rather than like build a full container. 
+
+56:50
+Guest
+Uh Well, we usually do both. I mean, now we're, we're using data breaks, but we also have a setup with Cuban. So we actually use our package to build our Docker image uh and run that. But I yeah, it depends on the complexity of your setup. So one of the first things I saw as a data scientist in 2019 was someone advocating for a separate Docker image for each logical component of your ML pipeline. So one for data handling, one for preprocessing, one for modeling, et cetera and then you can easily swap them out if something changes. So I was like, oh this is amazing. But I think the question you have to ask there is like, does it make it easier or more complex for teams to be autonomous and for data scientists to use this type of stuff? 
+
+57:39
+Host
+I noticed that we have a few questions in live chat. Sorry, I wasn't pointing live chat. I was just looking at Slido. Uh Maybe we can do you have time for maybe one more question. 
+
+57:48
+Guest
+I actually have time. I knew we uh originally needed to finish early but I do have time. I have like another half hour. 
+
+57:56
+Host
+Oh, well, hopefully we will not need that much, but we can cover multiple questions, right? It's OK. OK. It's a question from Zanna. I'm about to start on data management site and I like your point about addressing pain points. Uh First to make people use your solution. Do you have some example of when this worked well and when it failed? 
+
+58:20
+Guest
+Yeah. So um a successful example is something you mentioned earlier actually, like showing the frequency of deployments and then just showing the business, we're only deploying a few times a year and then showing them that in the new situation, we can deploy every day. 
+
+58:37
+Host
+So for them, the deployment was a pain point, 
+
+58:40
+Guest
+right? It was taking ages like uh deployment was taking ages. Also training in terms of compute how it was set, it was taking ages, testing was taking ages like it just took forever. So try to sell MLO like, hey, you can all do it within like a few hours that that worked. Um And when it failed, I mean, yeah, for sure. Um uh Once for a client, we built a successful uh uh data science solution in a proof of concept. And then uh for the second part, we sold them a data platform. This was in 2019. So it was like, hey, you need to get a data lake to start the data here. You need to data breaks. It was a bit different back then to run these models. And we successfully sold all of them, these projects and we built them. But where we failed was they had a sort of integration freeze because they had to uh filled migrations on like a storage site and workplace side. So the board had decided that no integrations were allowed. So we had like a this whole data platform, but it wasn't allowed to connect to data sources and we could jump high and low and do everything and, and we completely failed to convince them. And in the end, you know, we worked there for like two years and that was it. 
+
+60:06
+Host
+Oh, that must be quite frustrating. 
+
+60:09
+Guest
+Oh Yeah, you say, did you say? Yeah. Yeah, I had two difficult projects in a row like two times uh a little under a year and this was the second one. And after, after that, I was done for a bit, like I also had some challenges in my, in my personal life, but I, I pretty much burned out on that project. 
+
+60:29
+Host
+Yeah, I can imagine that like this is when there is like a decision that you don't have any power to influence and they just OK, we're not integrating it like, OK, why did I spend two years building this thing? 
+
+60:42
+Guest
+Yeah, they, they made us uh build something that would run on uploaded CS V. So that's what we did, but that's not what you ask. 
+
+60:54
+Host
+And there is an interesting question which perhaps we should have started with at the very beginning of this episode is uh what is the melos in simple terms? 
+
+61:05
+Guest
+Um It is the operational part of building machine learning solutions. So you build machine learning solutions and then they started running uh in your business and you have business operations, you have hr operations and that this is machine learning operations. 
+
+61:25
+Host
+So it's basically a set of tools, best practices, 
+
+61:31
+Guest
+right? 
+
+61:32
+Host
+And other things to make sure that um machine learning models run. 
+
+61:36
+Guest
+Yeah, that they keep running in the right way. This is the tricky thing, right? Because the data is changing all the time. So it's not just the one thing 
+
+61:46
+Host
+and by just adding in the right way, you just made it so much more complex. 
+
+61:50
+Guest
+Yeah. Yeah. It's unfair com compared to other software operations, right? Because of the data part. Yeah. 
+
+61:58
+Host
+Mhm I think you said like the focus was and the focus of ML OPS team is easy deployment, easy monitoring, easy maintenance, right? And this is actually quite difficult to achieve like all three. 
+
+62:15
+Guest
+Yeah. 
+
+62:16
+Host
+So like it has to be quite mature to in order to like make make it easy to do all these things. 
+
+62:23
+Guest
+Yeah. Yeah, it's a challenging field. Um Yeah, you need to know a little bit about a lot and then a lot about a few things. So yeah, 
+
+62:36
+Host
+I have GH profile. 
+
+62:39
+Guest
+Yeah. Yeah, definitely. Yeah. 
+
+62:42
+Host
+OK. I think um that's it for today. So that was a lot of knowledge that you shared with us. Thanks Raphael for doing that. I have a lot of notes like I took this and yeah, that's and I'm super happy that we finally managed to record this. It's amazing and quite actually quite a few people joined us. I say it's above average. So thanks everyone for joining us today, asking questions, being active. And again, thanks Raphel for sharing all your experience with us. I hope this thing uh with like the integration does not happen again in your career because like must be devastating and yeah, thanks for sharing it with us too. 
+
+63:29
+Guest
+Yeah. Thank you so much for today. Thanks everyone for joining and I just want to give a big compliment to you and Johanna for the way you do things like you prepare so well and like the questions you've prepared and the way you're doing this, I, I really enjoy it, like watching all the others as well and so happy to be here today. So big. Thanks 
+
+63:47
+Host
+to you. The credit goes to Johanna. So, 
+
+63:49
+Guest
+yeah, thank you. Yeah, for sure, for sure. Really good. 
+
+63:52
+Host
+Ok. Ok. Thanks everyone. Thanks Rafael and tomorrow actually for those who don't know, we have another podcast episode. So I join two and um see you soon. 
+
+64:05
+Guest
+Yeah, hopefully see you again and have a good day. 
+
+64:07
+Host
+Yeah. 
+
+64:07
+Guest
+Bye bye.
