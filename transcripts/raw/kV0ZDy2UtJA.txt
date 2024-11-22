@@ -1,0 +1,459 @@
+0:00
+Host
+Everyone. Welcome to our event. This event is brought to you by Red Rocks Club, which is a community of people who love data. We have regular events and if you want to find out about the events we have, there is a link in the description, click on that um And you'll see all the events we have in our pipeline. Then very important, do not forget to subscribe to our youtube channel. This way you'll get notifications about all feature streams like the one we have today and we have a great slack community. You can join it. If you want to hang out with other data to us during today's interview, you can ask any question you want. There is a link in the description, click on that link um ask your questions and we will be covering these questions during the interview. Hey, this is the intro and now I am opening the questions that Johanna prepared and if you're ready, we can start. 
+
+0:55
+Guest
+Yes, absolutely. 
+
+0:57
+Host
+Then we start this week. We'll talk about um Anastasia's clear. So we will talk about your transition from working as a physicist at large Hadron Collider to working with MS. And uh yeah, so we have a very special guest today, Anastasia. She is a particle physicist who turned data scientists. She has experience of experiments with at this large Hadron Collider and later at Blue Yonder where she's kot A solutions for global supply chains. She also led N LP N search efforts at Kauf Fund, which is a very big ecommerce uh chain in Germany. And she's also a machine learning A I mentor. She's passionate about developing the next generation of data science talent in Germany. So welcome to our show. 
+
+1:46
+Guest
+Thank you Alexei and thank you for your team for preparing this podcast today. I'm really honored to be here and I mean, I will, I think I follow your podcast for quite some years. I even can say since then. Um But it's, it was always a pleasure for me to watch uh your discussion with guests. I'm happy to be one of them today. 
+
+2:05
+Host
+And finally, yes. And of course, yeah, I want to join you in uh thanking Johanna for preparing the questions for today's interview. So thanks Johanna for help. So let's start with your background. So maybe you can just, we will talk about your experience in more details what you did, but maybe you just can briefly outline, I think I already did that in the intro, but maybe you can just briefly give us like a short outline of your career so far. 
+
+2:35
+Guest
+Yes. Yeah, I mean, you already mentioned, like the major step, let's say in, in my way so far, um I usually describe myself as a mover. So I, I moved many times in my, in my life in my career as well. So like, first of all, I moved from Russia to Germany within Germany, also already moved a couple of times. Um And, and professionally, I was also like given within my research career, I actually switched between three experiments from my, let's say research life. The last uh large Hadron Collider was the largest one in the last top. But before I also work in, in, in multiple experiments before, um and when I decided to transition to the industry, um and where I also was fortunate enough, let's say, to experience also various industry and also apply my knowledge. I, I think it helped me a lot. Uh let's say, with experience, I started to collect opinion in the research going from, let's say one step to another. Uh But also I scaled with so to speak when I moved to the industry. And this is where I realize my strength is and this is how I, I know I can help other people who may be not. So let's say uh brave um to, to start this transition. But I'll probably really want this to do as I mean, I help a lot of people to do kind of or be, let's say um m more certain about the movement we would like to do next. This is, 
+
+3:59
+Host
+yes. Which part of Russia are you from? 
+
+4:02
+Guest
+Um, I'm from Siberia. So, from 
+
+4:06
+Host
+where? Novokuznetsk. Ok. I, uh, well, my knowledge of Siberia, I, I don't know where it is. I'm from far east. So we're kinda, uh, both Asian, I guess 
+
+4:17
+Guest
+from the city. Are you from? 
+
+4:19
+Host
+Uh, it's near Khabarovsk. 
+
+4:21
+Guest
+Yeah. Ok. Yeah, I, unfortunately, like I, when I was living there I had, I had the chance, you know, you, like, when you live there you always try to go west, right? So it sounds like, like ST Petersburg and Moscow, all these cool cities are there. So I always wanted to go, like, more east, but unfortunately it did not happen and right now it's a bit difficult to travel with. So 
+
+4:41
+Host
+you moved to, instead of moving east, you moved west and ended up in Germany, right. 
+
+4:46
+Guest
+Yes. Yeah. I mean, like many people with whom I studied, we moved to this, you know, big city like Moscow and ST Petersburg as usual suspects. Um, and I decided to go, like, far much power, so to speak and move directly to Germany. So I never lived in, well, I lived in the big city in Russia. So in Naib I started to, um, and this is usually the city. I, I tell people, especially if we never have been in Russia because this is the closest largest city and it's quite famous, uh, especially in research because we have a very nice research center. 
+
+5:18
+Host
+Yeah. And the university is quite well known. And where in Germany are you in right 
+
+5:23
+Guest
+now? Right now I'm based in Hamburg. I really love Hamburg. I think it was love from the first side, so to speak. 
+
+5:30
+Host
+So. Yeah, it's amazing city. I was there as a tourist, like for three days. But, like, it's amazing. It's so different from Berlin though. 
+
+5:36
+Guest
+It is. We, we, you know, we have a couple of places we call them. They look like Berlin because you 
+
+5:45
+Host
+uh there is one I think I've been there like the, the, the buildings look similar. Like there is a lot of graffiti and junkies or something. 
+
+5:56
+Guest
+No, I love Berlin as well. I think it's my second favorite city in Germany after Hamburg, obviously. 
+
+6:02
+Host
+Yeah, of course. Uh Yeah. So we look, we took a look at your profile. So Johanna did a great job doing that and you have like great its extensive intro and like there, there is a lot of things there and you said um OK, I, I don't think I should treat this but um so you, you maybe let's start with this Hadron Collider. So you mm uh like uh I'm just trying not to read this but like there, there is no way I think I can avoid. So I see that uh like you saw, you took part in very large experiments with like a lot of people working on this experiment. So maybe you can tell us more about that. Like, what did you do there and why these experiments needed so many people. And uh and also I was always wondering like what actually large Hadron Collider does 
+
+7:02
+Guest
+like, OK. Uh Now we have a dinger to, to listen to, you know, uh So the um kind of a popular science podcast, 
+
+7:12
+Host
+like I remember. So when the large Hadron Collider was just becoming a thing and people just like when it was built, people were afraid that somehow there would be a black hole, 
+
+7:27
+Guest
+it will create a black hole. And the Yeah, yeah, 
+
+7:34
+Host
+why are we still alive? 
+
+7:37
+Guest
+This is a good, good question we're asking ourselves every day. Um I, I mean, maybe I can first start with what particle physics is, right? So because when I usually, when people say I'm coming from research, right? The typical picture. But uh you are someone who was wearing a white coat and sitting in the lab and doing something with, you know, glasses and put some funny, funny things, right? So this image comes from chemistry and from medicine. Um And in physics, it's so neutral. Like I was never wearing white court when I was working there, for example, I was wearing some courts because I was working in the lab, but it was never white. Um And when um in in particle physics, it's essentially about exploring the universe, so to speak, right? And how we do it, sorry, it's very similar to what you do as a child, right? So as a child, if you would like to uh study something, you usually try to bring this apart, right? So you break this apart and see what is inside. This is essentially what was uh grown up physicists are doing this. So we try to uh um kind of break things, right? And these things are usually like particle, we know like proton neutron, you might recall this from your uh let's say lessons in, in school, like, but like a and a consist of some stuff, right? So essentially we kind of take the stuff and, and um they accelerate with because this is how the spin gains a lot of energy. And when we collide with spin, right. So this is what collide is for. So essentially, we have to, we call it beams or two chunk of particles which collide together and create new particles or create something, right? And essentially the 
+
+9:19
+Host
+particles are so tiny. Like how can you when they like, how do you make sure they even collide? 
+
+9:26
+Guest
+Oh, now, I see. Yes. Um I mean to, to, to, to keep on the short, essentially uh you use the um electromagnetic laws, right? So you essentially kind of focus with uh particles because they, you, you, you, you have a lot of magnets on the way and these magnets help you to focus with and this is like the strongest man magnets we have on the planet, I believe. Um So this is to for your first question and, and second thing, what I wanted to say in this, what, what I was doing essentially look what will happen after we collide with beams, right? So with the particles and to do this, you essentially need a lot of cameras, right? So all this huge thing. So usually when you see this big pictures from the LHC, you see picture of a detector. So this is like a big camera. Um it's not quite similar to what you have in your um mobile phone, but it has similar principles. So it's using some physical principles to detect what, what what is happening inside and register with, right? But um here you essentially take a lot of pictures and you analyze those pictures but and in the past people did this exactly like this. So you really have like uh pictures and you look at them manually, right? So as you can imagine, this is not really scalable. Um and now it's everything is done like semi automatically at least, right? So you take all this data, you store this and then you analyze this data later. Um And in terms of a scale, it's it's a lot of data. I mean, there are like billions of such events happen within I would say within a minute, right? So many of them are not so interesting. 
+
+11:03
+Host
+Because that. Yes, 
+
+11:05
+Guest
+yes. So you really kind of try to push, well, I don't remember exact numbers to be, to be honest, but you really collect a lot of data within a second. So um and then obviously you need some algorithms and some methods to analyze this data. And this is why particle physics was always like a front um um or field where you try to apply with data analysis and always, you know, statistical analysis of data and all things we now use to analyze, for example, ecommerce data rights. They were used in particle physics already for quite some time because you, you face exactly the same problem that you have a lot of data which we call events. And you need to understand this. Um this is why particle physics is I would say very close to a data science and maybe much closer to the data science than some other fields. But to be honest, when I was moving to industry, I actually had a hard time to explain this to the people because most of the people think you were sitting in the lap and doing something with, you know, funny liquids, which is so not true for the particle physics 
+
+12:09
+Host
+and liquids. Yeah. OK. Uh So like you said the cameras and then like the particles that collide and uh there are billions of events and most of these events are not interesting. So you need to find first out of all these events, you need to find the interesting ones and then do some like some analysis on top of that. Right. 
+
+12:32
+Guest
+Yes. Yeah. Yeah. Yeah. Yeah. No, you want to talk something? 
+
+12:40
+Host
+Yeah. So like I was wondering why do you need so many people like, and how do you even like, I cannot imagine like for example, if I think about like a typical company, um typical companies. So for example, a company where I worked uh before it had like, I don't know a couple of 1000 people and then a couple of 100 in the it department and only like maybe 2030 data scientists who did the data science stuff. But like if we talk about this large scale experiments with as mentioned, like 500 or 2.5000 people, like how do you like, is it that much work? And like how do you even distribute this work across all these people? And what kind of work do they do? I am 
+
+13:32
+Guest
+pretty sure if they would have more resources, we would hire more people because you always have a lot of work and all people kind of work a lot there, right? Um To answer your question, there are like not all people who are working with data scientists or close to the data scientist to to be honest, right? So as you can imagine this this very unique thing uh also needs very unique maintenance, right? And there is a big team who is just working on hardware, so to speak, right? Because all the things you are building where they usually don't exist somewhere else, right? So you need the expertise, you have very, we have very special conditions, you always work on the improvement with things. Um This is kind of uh I mean, there is a lot of radiation, so to speak, right? So you, you need to exchange with detectors which are inside and so on which you are exposed to this huge radiation, those and so on. So it's like it's never, I mean, it it it's, I I guess it's very different compare, let's say experiments in the space where you build a detector in your center. So here on earth, you try to use this advantage but you can replace things and you always have a lot of people working or thinking about the next steps, right? So this is a huge part of the, another part of the team is working on maintenance and um like operations and so on. And then it's kind of split between people who are doing analysis or as, as analysis. You can have fun and it's similar to Cinderella story, right? So you can't have fun until you're done with housework. So you also have some we call it like service work which you have to do to, to make us detect operational or keep it operational and so on, right? And then you have a lot of system, right? So what I describe like a huge camera in reality, it's several systems stuck together. We all have different principles, we all have to be aligned and so on. So it's like, it's a lot of work, right? So therefore I would say like a few 1000 people who are working there, um they are totally justified. And then it's also about, let's say many people who are learning something, right? So II, I went to LHC um after I was done with my phd, but many people actually write with physics and from master, you can even write a Bachelor of physics and so on. And of course, you need some kind of supervisors and it's kind of, you know, so you, you have it, it's like training machine as well. So it's not only to do the research but also training, let's say next generation of scientists 
+
+16:00
+Host
+that makes sense. So there, there is a lot of uh as I said, hardware and I guess like if I compare this with what I said before about my previous company, I said that there are a couple of 1000 people uh but most of them work in operations. So I think it also applies here, right? So you need hardware, you need to maintain this hardware, right? So a lot of people work on that. And also there are other people who do analytics, right? So maybe not all of these 2.5 K people, 
+
+16:33
+Guest
+people who, sorry, it's a bit interrupted on my side, sorry for interrupting you. Um I, I mean, you, you usually never do just data analytics where, where you usually have both rights. So part of your work is analyzing the data and part of your work might be like working on the next generation of a detector rights, working on detector maintenance and so on. So you like, um you really try to kind of and and most of the physicists were involved in both parts, right? So um you also have like theoreticians, we are officially not part of a collaboration but people who are thinking about all these theories. Um and regarding the data analytics per se, let's say, or data analysis, people are doing where there are also many various ways how you can look at the same data, right? So because there are many theories out there trying to explain what we don't understand yet. And and you need like a dedicated team who will look at this, understand the theory and also understand have a detector in. So, so yeah, 
+
+17:37
+Host
+yeah. So why there was this idea that somehow this large Hadron Collider can develop and create a black hole and destroy the universe? 
+
+17:46
+Guest
+I think it was like misunderstanding, you know, there is uh I think there is a theory but it does create a black holes, but we are really tiny ones and they disappear almost immediately. So you can't really see them. Right. So, the, the, the reason why we built this thing, uh, is on one hand looking for the Higgs and you must probably have heard about Higgs Boson, which was a big thing, which was discovered like 10 years ago and so on. Um, but the second reason that there is some, uh let's say material, we don't understand which is called dark matter and dark energy and it's called dark because no one knows what is this exactly. Well, we have some kind of from, from our friends from cosmology, we have some confirmation it exists, but we don't really know what is this. And we were hoping that if we will have like enough energy to create the particles which may be substitute with material, we can understand this here on earth so far. It did not happen unfortunately, but we keep trying. All right. And, and, and I believe if anything can help us when experiment like this is of course, is very, very nice, let's say laboratory to produce this. But this is where it becomes very difficult because the scale with even more, you will need even more people, even more resources, it will be even more expensive. And there is like a huge debate right now. We never not even to do this. Yeah, to be fair. This is not the only collider on the earth, right? So there are our colliders which exist, for example, I know in Germany, right. Now where our construction. And you think so, if you happen to be near Darmstadt, you can actually visit the construction site where we also built, well, it's not really collider. Um but it's also experiment where we accelerate the particles and investigate them and so on. And you also have like, I think like 500 people or so working there. Yeah. 
+
+19:34
+Host
+Yeah, I think a year ago I went to a planetarium here in Germany and the session was about dark matter and actually it was a German in German. So like I understood it only like maybe 70%. But at the end, they were also talking about uh Hadron colliders different ones and they were showing it like on the map where they are. And I was wondering like, how did they jump from dark matter to Hadron colliders? And now it kind of makes sense. 
+
+20:05
+Guest
+Yes. Yes. Yes. You essentially can. Uh I mean, like you, you build the theory to explain what is this and then you try to prove uh this theory with uh like the experiments in the lab and this is like control experiments well to some degree, right? So it's not fully controlled, but it's kind of your con the the best controlled way you can, you can think of right now. 
+
+20:27
+Host
+And one of the things you mentioned is that particle physics is much closer to data science than people imagine typically. But you also had problems explaining this because the image of scientists that people have is like this, you know, liquids and stuff. So how did you actually do this? How did you convince people that? OK, we actually did data science. We actually followed the best software engineering practices and this software engineering practices have helped us um you know, avoid creating mess and destroy the universe. Like how did you explain that? 
+
+21:04
+Guest
+Right. I I guess it took me some time to actually understand, I need to explain this, you know, and this is this perception when you're coming from some field, you don't understand that no one else knows how it works, right? So because you're surrounded by people who know this. Um and you kind of rubbery, I have to explain what you are doing, right? So like really doing like to this extent, right? So because like most of the time when I had the discussion about my work, it was like what we had right now, right? So what you are doing, why do we need so many people and so on? So, um and when you go to the job market, you actually have to change your story and and then you need to understand with whom you are talking. And I think this was the hardest part because I been in the industry. It was not clear to me what we're looking for and how I can relate, let's say my story to what we're looking for. So this is what, where, where the lesson I had to learn, let's say in the hard way. Um and always think about the software development, right? So what you mentioned, so essentially to operate with huge, think you obviously have a lot of software, right? And I was lucky enough, let's say to be exposed to the best software practices rather earlier because this is was the only way you can control with many thousands of people working on the same thing. I mean, it was not like a monolith uh for all of them, but there are some monolith like things as well. Like there is a software which uh you operate to take the data right, to store it, recording and to process the data. And this is obviously one piece, big piece of software for the entire detector and so on. Um again, back when it was not clear to me, but this is how you do this in industry as well, right? So with github version control C I CD and things like that. Um And I was also fortunate enough people who were thinking in these terms and the experiments I was working in, but it took me some time and I think only when I actually moved to the industry, I understood OK, what were the things which were actually were my selling point, so to speak uh from the science? And this is what I try to help with right now is cement, especially for the people who would like to transition to uh from academia to to industry because this is usually the thing we just struggle the most. Yeah, but it took me some time to realize this. 
+
+23:21
+Host
+So you had all this uh you mentioned github A CD, right? So you already knew all that. 
+
+23:29
+Guest
+Yes. Yeah. So I mean, ii I maybe did not know the the words, the name for this, right? I mean version control, you know. Right. So, and everyone explains to you why version control is important. And I also so old, but I still remember, you know, we think before give up. Um Yes, yes, yes. So it was, and I remember we had in this experiment I mentioned before in dams which is actually where I did my phd, I remember we had a huge debate whenever not we want to move to the um it was back when it was not clear if it will be we think. Uh Right. So and it was just another version control system. So people were quite uh against it. Um Anyway. Yes. So like C I CD uh III, I mean, like I saw how it is implemented and it was actually implemented during my last years, let's say in LHC. Um I think I, I did not know the term for this back when, but I understood the advantage and I was quite happier, let's say to you have this thing because it saved a lot of headache for us as well 
+
+24:31
+Host
+because you probably knew this thing is ok. You push and something happens, right? But you didn't know the 
+
+24:36
+Guest
+and when you have a lot of things which is going know and, and it suddenly sense, I think for me it's the first time when I saw it, it was like a magic, right? So like you suddenly get email, uh which tells you what did you do wrong, right? So this was like 
+
+24:50
+Host
+like failed tests, right? Or something like that, 
+
+24:52
+Guest
+like failed test with explanation. So yeah, 
+
+24:55
+Host
+it 
+
+24:56
+Guest
+was 
+
+24:56
+Host
+really, so you already knew these things. And I imagine also like probably terms terminology that you use in physics is different from the terminology using data science. And you somehow needed to learn this language of data scientists, right? To 
+
+25:11
+Guest
+Absolutely yes, yes. With translation, let's say to a normal language, right? Because you use a lot of jargon. Obviously, there are some things like uh with, let's say machine learning. Um in the beginning, I mean in physics, it was used for many years, let's say the concepts were using in machine learning. Um But the the the whole field was called like Multivariate analysis or something like this because you analyze the data from many uh dimensions at the same time. Um And obviously, but when I mentioned I was working on Multivariate analysis since my master time, no one understood what I was referring to, right. So yeah, so, like the language, you also have to just, 
+
+25:52
+Host
+right. And, uh, like, I imagine that, uh, you come to an interview and you explain how cool this thing is, like a hot dark matter, like Boson Higgs and Higgs Boson and, like, you know, colliding things and then, ok, this is cool. But, like, what does it have to do with our stuff? Right. 
+
+26:11
+Guest
+Right. No, absolutely. I think I failed, like, couple of interviews. Uh I mean, first of all, I did not realize how serious is this and it's, it's not just conversation, right? But it's conversation about some particular job in some particular company and we're looking for some particular experience, right? Which you have to kind of show. Um I think I was lucky, like, I mean, back when LHC was a bit more famous when right now and also there was the situation on the market was completely different, right. So, right now we have like many candidates and very few jobs back when you had a lot of like people in Germany realize what data sciences we think we tried to hire people for this, right? And we did not know exactly themselves, uh what we're looking for and many jobs I interviewed back when was really you, I would be the first data scientist that and where, and we were just wondering if I will be able to do what we think data science can do for them without knowing my data science themselves. So I think I'm pretty hip right now. It did not end up in a place like this because I think I would fail and it will be hard for me to recover. But back then I was very advantageous and just wanted to move to the industry and was going to every interview where I would be invited. 
+
+27:29
+Host
+So did I understand correctly that you had offers to companies to join as the only data scientist? But you decided not to. 
+
+27:36
+Guest
+Uh No, I did not have offers. I wasn't invited to the interview conversation. They realized I don't have capabilities that they know how to do this. Um And I was never selected uh for me, I would say, yeah, 
+
+27:53
+Host
+and then you joined uh was it blue or a consultancy company or what do they do? 
+
+28:00
+Guest
+Ban is a vendor for software vendor for supply chain. Um And it's quite big. So I mean, it's quite interesting company. So it started as a start up in Germany built by the professor of physics. So it still has many physicists, physicists anymore, but still has. And I think this is why uh they understood what I was doing because we were also physicist himself. Um And therefore, and I mean, I already learned a bit about the translation. So I think we saw that they have enough business understanding, so to speak, but we also understood things which I was not, was not able to trans translate back then, right? Uh Yeah. Um Actually, before I joined this company was bought by the big uh US company, like really a big software vendor. Um And then this company was so much impressed by the stuff this German start up was doing, but they decided to rename themselves after the small start up, right? And so now the the entire company is called Blue Yanda, which initially started this, this German company, right? Um And this was a really great place I must say. So, I mean, I right now, uh after I know everything in my, well, what happened afterwards, I would say was really like it to end up in a place like this. 
+
+29:18
+Host
+You're still there, right? 
+
+29:19
+Guest
+No, no, I'm not there since more than a year. Yeah. 
+
+29:23
+Host
+Uh What do you do now? 
+
+29:25
+Guest
+Um Right now I'm mainly mentoring. I would say 
+
+29:30
+Host
+that's cool. OK. Well, tell us about this. So how do you, and, and maybe like first because I see that there is a related question and maybe you can also tell us about your mentoring story, but answer this question because I think this question is related to what you uh help with. So the question is, how can we convince German companies in this field? I have many job interviews. Uh And uh like, it's a long question, like maybe let me try to see how I can. Uh like I skipped the 1st and 2nd interviews. Probably I think skip 1st and 2nd, maybe pass 1st and 2nd and then get rejected. The first thing about German companies is that they don't get feedback. Um, when I get rejected, if, if they have experience on this subject I'd like to hear, to hear it. So, so somebody anonymous has a problem that it's hard to convince German companies. Uh, they have many job interviews. They pass, they manage to clear some steps but then get rejected and get no feedback and just, yeah, so what should they do? 
+
+30:45
+Guest
+This is a very good question. I mean, in general, in, in Germany and in Europe, um people are usually very careful with giving you feedback because they're afraid that you will sue them for this, right? Which is not so typical. I would say it's more like you think to go to the, to the court if you're not happy about something, but still we're very, very happy. Um uh or let's say I'm unhappy to give you a feedback. Um Even if there are some certain things, um the best thing you can do if you manage to build a good relationship with hiring um person, right? So it might be r or maybe hiring manager, you maybe ask them for the call and kind of frankly ask what, what you can do better, right? So for the short call, like 15 minutes or so, um and if you went to, let's say to several stages, usually they might be, let's say, able to help you and, and tell you what was not, not right, let's say in this case, right? So quite often it's also has nothing to do with a candidate, but it's more like that we have someone we feel would fit better, right? So, and, and it's like nothing you can do, right? So if we don't see you as a part of a team, um it's not necessarily something related to you, but more like the picture of whom they mentioned to the, right. So therefore the only advice I can give here maybe reach out to the person with whom you were talking first and ask them if we can have some time for um and, and talk with you, but don't expect too much. We might be also very welcome. There might be also some other reason like we decided to promote someone internally and again, uh like stop the entire process and so on. Um Yeah, unfortunately, like for the feedback, it's really quite typical, but you get just a rejection with something very standard and that's it. Yeah. 
+
+32:36
+Host
+So I remember from my experience working at multiple companies, some of them were German. Um sometimes when you don't get feedback, you, when the companies don't give feedback, it could be Cultural Fit or misfit, right? Um And then like, uh because this is a very good ground for actually, like as you said, potentially suing, right? Because like, you don't feel like this person would fit the team but you cannot say this, right? So you would be on the safe side and not say anything saying, hey, like, sorry, but like it doesn't work out rather than say, hey, we think like and then factual reasons cause like cultural fee and so on. So it's often behavioral questions. So I don't know if these rounds um that you mentioned have this um but could be it too. So this is what I saw. Um even in one on one conversations, hr are hesitant to talk about this. 
+
+33:41
+Guest
+Yes. I mean, if it's, if it's clear, non, non, non feed from cultural perspective, so it's very dangerous topic, we will, we will never phrase it like this, right? Um They usually will try to go to the hard skills, right? And 
+
+33:57
+Host
+you know, like you didn't pass this coding challenge. So like it's kind of, it's as objective as it gets. 
+
+34:03
+Guest
+Right. Right. Right. Yes. It, it also helps sometimes maybe to discuss your experience with someone else. I mean, who have not been at the interview but just tell them how it went. And this is what I do with my mentors a lot. We usually do like a feedback sessions, even if I have not been in any interview. If someone will explain me, how did it go and how they behave and what did we tell to this um question? Sometimes you actually can feel the question, which went wrong, right? Even if your answer was a key, you can kind of be very hesitant. Um And when we do kind of a feedback um session where we discuss this and see, OK, what might, what the person might do differently next time? And usually it helps a lot, right? So not only let's say mock session for the preparation where you do kind of a rehearsal, but also like post uh post more so to speak right afterwards. It's, it's like talking with someone uh who has experience in the field and can tell you whenever it is acceptable or not and referring to my kind of moving or transition experience. I mean, quite often, you just don't understand that things are working differently, right? Somewhere like it might be different country, it might be different field, right? So it might be different uh company simply, right? So having someone who is much closer to this, even if I'm not working in this company might be very helpful. Yeah. And to what you mentioned, behavioral part, I would say many people underestimate this and it's usually the most important part in the interview, right? So it's not like did you solve a cod challenge or not? But it's quite often about how you behave, how you present yourself, how you discuss some particular situation. And if you are not prepared for this part, and many people overlook this, um most probably you want to pass this 
+
+35:54
+Host
+and this is especially true for people um that come from uh Eastern Europe because I think like, for example, in Russia, we put more emphasis on the hard skills and we underestimate the importance of soft skills. We, it was for me the case, I think, OK, like if I know Java, well, then for sure this company will hire me, right? And then they all of a sudden start asking things like, hey, tell us about the time when you help your colleague. And I'm like, what? 
+
+36:31
+Guest
+No, it's true. I mean, I, I would not say it's related to Western Europe per se. I mean, I'm working with people all around the globe and I see the kind of experience you had so far. 
+
+36:44
+Host
+Yeah, because like in university we focus on like solving math problems solving, like programming problems. At least that was my experience uh studying computer science that we just focus too much on um hard skills, but overlook like teamwork and things like that, at least in university. 
+
+37:06
+Guest
+Absolutely. Absolutely. But I guess it's not better in Germany universities to be honest. Um Still ii I believe it's, it's more related to the experience, right? So if you, let's say if you're in the beginning of your career, usually you don't recognize the importance of skills and this is what many people say and I can be one of them, right? So, so skill, soft skills, the most important skills to move excuse me to move our arm, right? Because not how, how good you are in, in, in Java, in Python or whatever does not really matter if you can't really collaborate with our teams and, and, and sort out everything uh which uh might pop up, right? And so on. 
+
+37:47
+Host
+Mhm And uh what do you suggest? Like how can we prepare for this for the 
+
+37:53
+Guest
+first of all, be aware that behavioral part of interview is very important part. So don't underestimate with um I mean, behavioral part requires some special kind of preparation, right? So compared to the hard skills, um what usually helps us kind of have a look at the typical questions, right? So there are many lists out where you can simply Google or just ask Judge GP T to prepare some questions for you and practice them um and prepare some stories you can tell, right? So it might be one story. I mean, you don't have to be very creative and creative stories for every single question you will find in the internet. It might be just one story you use several times to highlight various things, right? If you do it at least once and this is what I like about behavior interviews um compared to the hard skills which you always have to keep free for behavioral, you need to do this once and maybe refresh with sometimes by just like checking your notes for the stories you prepared. Um And that's it. Right. And maybe also think before you go to the interview, what type of a soft skills they would be the most interesting in. So is it like teamwork? Is it being proactive? Is it being supportive? Right. And so on? 
+
+39:08
+Host
+Mhm So what I found helpful for me personally was um interview questions for Amazon. So Amazon have their, they call it leadership principles and they check if somebody is a fit for this particular leadership principles and they are quite extensive and most companies, at least in the commerce space uh in the it space, they have similar things, right? So for me was um like, when I looked up questions for Amazon and these leadership principles, it helped me also with interviews in other companies. So yeah, that was something that maybe for somebody would be helpful. And I think there was a book Groin in Rio, you know, this one, 
+
+39:53
+Guest
+I never, 
+
+39:58
+Host
+but like, I don't remember how it's called but like, like it's quite, 
+
+40:03
+Guest
+I think like seven years, seven years ago with 
+
+40:08
+Host
+the interview. Yeah, so there is a clock on the cover, cracking the coding. So there is a chapter on behavioral um interviews and they give you like some sort of a framework like a table that you need to think and you put stories there. And I think they also suggest to use this star format uh for answering 
+
+40:33
+Guest
+Star format is actually quite contradiction. So many people say you can't really frame your tech experience and star which I don't agree. I think like having some framework is better than nothing because it also helps you to structure your thoughts, right? I mean, especially if you answer the question, you are not prepared for which will happen quite often, right? Like knowing how you can structure your f, right? So the star is a situation, task action result, right? And you just go mentally from this map. Um And uh it's, it's actually amazing because even if you let's say, never told this story before, um because you structured was quite um well, I would say, right? So people will be able to understand this on the table and, and I sense, right? So yeah, so like having this framework helps for more than just star, but star may be the most popular. 
+
+41:26
+Host
+And you said that uh right now you focus on mentoring, right? So you don't do. So how did you decide to focus on mentoring? Because like, I think it would, it was uh probably not an easy decision to just OK, I'm working, but now I just want to focus completely on my thing, right? It's scary. I know because like I'm, I was in the same situation when I was working and doing data talks club and then I thought, OK, now I just need to focus on one thing and then you kind of take the leap of faith, right? Thinking OK. Like fingers crossed, it will work. Let's see what happens. And it's scary like, how did you, how did it happen for you? 
+
+42:05
+Guest
+Maybe to, to be absolutely fair. It's not like I imagine myself being a mentor for the rest of my life. Right. So it's more like right now it was the right moment, right? So, and it was many, many things coming together, which kind of pushed me in this and I was very happy, but uh I could do this because um let's say my, my last workplace did not work out. Um And having mentoring was helping me, you know, to actually see some purpose still in my life. Um and also help something which can fit me, so to speak, right? So um however, it's quite hard job, I must say, right? So like III, I really like being mentor and I really like help people and I think I can do this quite good, right? So, because many people are quite happy and working with me for many months. Um Still, I believe it's quite hard job because on one hand, you are working a lot with uh very motivated and talented people, right? So as a leader, let's say, as a team lead, um I guess it's something people dream of, right? So work only with people who are very motivated, who are eager to grow, who are eager to do things you suggest them to do, right? So like uh every leader will tell you this is not what's usually going on in the working place, right? So here it's very ideal situation. But on the other hand, you also have this people who are constantly challenging themselves and challenging you obviously. Um and you always have this uh OK, I need to do more things, right? So I need to think with more. Um and, and I need to kind of prepare better for this, right? So it's like you, you never stop um learning and this is quite, quite common in our field, but you also always stretch yourself, right? So, and then the stretching might be quite stressful. So you have to find a balance as a mentor where you say, OK, now, I, I know enough. So I don't need constantly, you know, upgrade myself to be a better uh mentor and, and better um person knowing something, you know, 
+
+44:07
+Host
+how did it happen to you? Like, how did you start mentoring? 
+
+44:10
+Guest
+Oh, it was rather accidentally, I would say. So a after I moved to the uh to the industry, um a couple of people approached me and asked if I can help them to understand how to do this because they struggled. And I was like, of course, yeah, because I remember my struggles. So I was glad to help someone and, and make their life easier. Um So it happened a couple of times and when some people at my work, when I was working at blue and approached me and asked me like, formally, if I can become their mentor, I was like, hm, there is a word for this. It's nice. Um And when I was trying to find the mentor myself and notice, but it's not so easy. So like if you have someone who is, let's say advanced in their career, it does not make them automatically a good mentor, right? So especially if we did not want to do this and you just approach them and they say yes, why not? But when you see that it doesn't really work that well. So I think this is what forced me to think first, what is mentoring and, and, and how to do this and and what where the value will be so to speak. 
+
+45:11
+Host
+And what is actually 
+
+45:13
+Guest
+this is a good question. I think mentoring is a way how you can make life of other people easier 
+
+45:20
+Host
+because it's not. Uh So you said like if somebody is more advanced in their career, it does not make them automatically a good mentor because it looks like from what you describe, mentor is a mentoring. Mentorship is an ongoing thing. It's not just you meet for a cup of coffee for 20 minutes and then like, that's all right. It's more regular, it's, 
+
+45:42
+Guest
+it's a process, right? Uh No, it might be but you meet a couple of times and that's it, right? So I I would not call this person, a mentor, but definitely the person who helped for some particular questions, right? But yes, usually it is a process. And here uh it makes sense for the mentor to understand which type of a process we we actually are or what the goal is, right? So maybe not the process because if we knew how to do this, we won't need a mentor. But the goal we need to identify 
+
+46:10
+Host
+myself, like finding a job, for example, 
+
+46:12
+Guest
+yes, finding the job, getting the promotion, uh moving from academia to industry, finding a job in another country, right? And so on. Um And then this, this goal helps you to, to look for, for the right person, right? So like if you want to find a job in Germany and you never work in Germany before, you definitely need a mentor who is working in Germany or used to work in Germany. So we can tell you what are the special things you have to watch out, right? Or how it works and what are the type of companies you can see and so on, right? So, so mentoring for the mentor, it's like sharing your knowledge, but quite often your your knowledge you collected might be not enough. So you also have to constantly look like for example, with what's going on in the on in the German market, um you have to kind of look around because if you're just working in one company, it does not mean, you know, or understand what's going on anywhere else, right? And things like this. So it's also been maybe more uh kind of strategic um uh in your head and, and also find the motivation and explain to yourself what is your motivation to do these things now? Right. Um And coming from physics, I think there are two things which are most important in life. It's like time and energy, right? And I see myself as a helper to save both time and energy. Right? So, or to gain some energy to do things because if someone tells you, if you do this, um it will bring you closer to your, to your goal. Um It's of course nice because right now there is so much information around us, right? So you're bombarded every day by all these advices from random people. So you need to find some kind of lighthouse or some some guidance in this. And I think man, I can help with this. Yeah. 
+
+47:53
+Host
+Mm And um so there is a question and I think you answered that. Did you decide to become a mentor first? Or somebody asks, asked you for mentorship? And you said like it wasn't a decision to become a mentor first for you. It was uh uh somebody asked you and then you OK, this is how it's called. I like it. Let me start doing more of it. Right. 
+
+48:19
+Guest
+Right. M maybe just to add here for me. I also, I, I think back when at that time, I, I struggled a bit with this. I'm very curious person. I learned a lot of things in my free time. I do a lot of courses, reading a lot of books about machine learning data science in general. Um IIIII I was happy to go to some events and talk with people and so on. And I just realized I have a lot of knowledge, I have no use um at my current working place, right? Because I was working on blue and on the demand forecast and solutions, which was very limited. I would say use case even for data science. And I definitely could not use all the knowledge I collected uh about something else. So for me, Mandarin was also a way to share with you to find some uh people with whom I can talk about this stuff, right? So like, right now I have a couple of mentors who are working on computer vision alone and more about computer vision and it's some field where I never worked before myself. Um and it's more like exploring this together, right? So how it works and, and and what you can do there. 
+
+49:25
+Host
+And um so you also said that uh like I'm just trying to remember what you said. But what I want to ask is um so let's say I have a problem, right? The problem is, let's say I want to find a job or get a promotion or whatever. Right. And then I find a person who has done this already. And so somebody moved, let's say, from Russia to Germany did uh took part in a large Hadron Collider experiments. And then uh uh I don't know, found a job in the industry. Right. So I, this person online and I'm kinda already maybe on a similar path, but a few steps behind. So I want to reach out to this person and ask for help, right? How do I make it interesting to that person to actually respond? Because just to explain why uh where I'm coming from, this is sometimes I get requests from super like super random requests on linkedin. Hey, be my mentor. That's it like you like, why should I respond? And like it's such a big ask. 
+
+50:32
+Guest
+Yes, it's, it's it's a really big thing, right? So to be a, 
+
+50:35
+Host
+I 
+
+50:35
+Guest
+don't 
+
+50:36
+Host
+know you like it's the first time I see your face in my linkedin like, no, sorry, like how to like let's say if somebody really wants to ask for, for, for help, for somebody, like how should they approach it? 
+
+50:52
+Guest
+This is, this is a very good question. I mean, like there are 22 ways to find a mentor, right? So like we are paid mentors. So I'm paid mentor, obviously, right? There are unpaid mentors and and there are communities where you can also find for the unpaid mentor, right? So, um regardless whenever or not you're ready or able to pay for this, I would suggest to look for the communities first because where you can find people who actually decided to dedicate a time. And as I mentioned before, like this decision for the mentor to be a mentor is very important, right? So yeah, there might be people who just uh started to do this and they suddenly decided that this is important for them. So they wanted to be a better mentor and they know people like this. But most of the people, if you randomly approach them on the internet, they might be happy to talk with you once just out of curiosity, but it won't be very helpful and will be waste of your time as well as a mentor, right? So like try to find this community first and they usually have some rules what you should mention and how you describe, right? So goal definition, this is very important, why you need this and what you think is missing, right? So, and why you approach this particular mentor, right? So even if I'm paid mentor, I still select people with whom I would like to work because I know that I can't help absolutely everyone, right? So I just can help people to whom I can relate or to whom II I know I can imagine myself how, how it can be helpful in this situation, right? So it's description is also important even for the paid. So who you are, what you want to achieve and why you decided that this person will be a good fit for you. 
+
+52:27
+Host
+Mhm OK. And again, coming back to my personal experience when somebody says a very sends a very concrete message saying, hey, this is what I need help with. How about meeting for lunch next week? Mhm It's like super concrete and then like, OK, I don't mind having lunch and then like, OK, this is something I can help with. Like, why, why not? So then when you make it concrete is better as opposed to like, hey, be my mentor? 
+
+52:55
+Guest
+Yes. Oh, absolutely. I agree. I mean, like if you just say, hey, be my mentor, usually the best thing which can happen to you, people will not respond to you, right? So yeah, that's right. II I doubt that this, this person got actually a good uh reply from anyone. Um Yeah. Uh Yes, being concrete, having some action, so to speak, right? So can we talk uh again, don't ask for too much time in the beginning because people might be very busy. So like having a live conversation of course, helps here but don't expect too much time from my side in the very beginning because it's also a bit. Um Yeah, we if we are successful, we most probably very busy people by now. 
+
+53:37
+Host
+So there's a comment I see on youtube that paid mentorship sounds very odd. I, I don't know, like actually mentors put time and effort to do this. So to me, it does not sound ow, what do you think? Like, 
+
+53:52
+Guest
+II, I mean, this is a very good question as, as, as someone who invests a lot of time who thinks about this a lot and so on, I can't imagine myself doing this for free although I'm doing this sometimes, right? So, so for some people actually uh did this for free in the past, I was also part of this um non paid community and so on. Um And I know there are some disadvantages, right? So there is a reason because if you pay for something, you actually take this more seriously. This is what I notice, right? Because when you say it's not like uh I'm not obliged, it's for me. So therefore, I'm not obliged to do anything and I won't show up to our next call. So if you pay for this, it's kind of, you're like, OK, I'm investing my money into this and my time. Um You also become more serious as a mentor. This is why I usually suggest people who would like to become a mentor, actually consider this option because it will improve, let's say, quality of the people with whom they are working, so to speak. Um Yes. And it's like on one hand, I invest my time on another hand, I spent a lot of time in the past to gain this experience, right? And I do share this for free, so to speak, right? So I post a lot on, on the linkedin and so on. Um But I do see the value and a lot of energy it requires from me, you know, to, to be more personalized, right, to talk with someone and help in that particular situation. And I think it's absolutely worth it, right? But yeah, I if it's not for you, uh it's also fine. And as I said, there are many people who also share this opinion that mentorship must be for free for whatever reason. And we're happy to provide with some people I know like in Germany were actually scared to do uh as a paid mentor because of all this tax things and so on. So yeah, they, they will do this just for free because just to avoid the solution um bureaucracy stuff. Yeah. 
+
+55:44
+Host
+Yeah. And also I, I think he also mentioned that when you were at blue under, people asked you to be their mentor formally and it's also something I did uh uh at my previous company at. And this was a very interesting experience like uh work wise, you get more work, but it's kinda unpaid in the sense that you don't get more salary, but then you kinda still work. So that was uh pretty interesting. So maybe another thing for people to think about is like for, for example, when it comes to getting a promotion or switching like from analysts to data scientists, for example, within the company, getting somebody within the company and there could be already frameworks from each of the hr department for doing that. 
+
+56:30
+Guest
+Right. Right. I mean, in the company, you actually get some additional benefits, right. So if you are a mentor, it's just that like it might be good for your promotion. Um It's also good for expanding your network, right? So, because you usually work with people who may not some someone directly from your team. Um and also maybe with someone who might move to some other department sometime if you're working with a big company. So it's a nice way to establish relationship. And I think this is how init initially the mentorship appeared, right? So it was more like people within one company, they were trying to find like uh people who can guide them, right? And I believe it's still worth it even if you're not paid by your company for this. Uh But if you look for someone outside, you need to understand and I would definitely ask why we, why we decided to become a mentor, right? So, because if you don't understand their motivation, um it might be not clear for you, how far we can help you. 
+
+57:30
+Host
+Yeah. Right. And I remember I did use actually like this my, my mentorship experience, uh mentoring experience uh for my uh promotion case saying, hey, like I, yeah, I did, 
+
+57:46
+Guest
+I was actually, I did not do this back then, but um at some point and we didn't have time to talk about this. But um I realized that um like in Blue Yana, I will not have, let's say, as I, I can't go as far as I wanted or as quick as I wanted to go over a farm and like move into the official leadership positions. Um And I was trying to explore the kind of the world outside and this is why I actually left and eventually to explore this leadership um um positions. And I think like having this mentor uh experience helped me a lot because otherwise, I mean, I had this informal um kind of experience, right? So I was leading the team, I was kind of leading the project and so on, but I never had like official title, like a manager or something, right? So I was an individual contributor and um talking about this mentorship experience actually helped me back when because it's, but I mean, it's not like 100% of what you do as the manager of a team, but some things are very relevant, right? So when people want to develop and I think in in data science and machine learning, many people want to develop themselves. So if you come with this, yeah, I know how to develop people, I know how to talk with them about this. This is a big plus um for many companies who will consider to hire you without a formal leadership experience. 
+
+59:10
+Host
+So, last question and then we call it today. So which communities would you recommend uh where people can find uh like unpaid mentors or volunteers in their data science? 
+
+59:24
+Guest
+This is a good um to be honest right now, since I'm not like part of this community or not active member, I don't remember the names, but I guess it's 
+
+59:33
+Host
+in, right? I, I remember like uh during COVID Times um one, like I, I saw it all over the place in social media. 
+
+59:42
+Guest
+Maybe we can link 
+
+59:43
+Host
+something. Maybe I think it was, 
+
+59:46
+Guest
+I was just thinking is paid or unpaid. Maybe not. Yeah. So mentoring club sounds familiar. I know mentor Cruise, but it is paid. Um So you can find a lot of 
+
+59:58
+Host
+Google is your friend. I think. Well, uh we should rename this podcast through this interview because we, we did not talk about L MS. But like we did talk a lot about other things. I don't know how L MS appear there, but like not important. We will probably rename it to large Colliders mentorship. And I want to thank you for sharing your experience, expertise with us. Um So now I know what large Hadron Collider did no more than before. Uh But luckily, we are all still alive and not like the world, the universe did not collapse because of the experiments. Yeah. Or you never know. Maybe it did. It's just the Matrix anyways. So thanks a lot for doing that. And uh yeah. Well, it was a pleasure talking with you. 
+
+60:52
+Guest
+Yeah, it was a pleasure for me as well. Thank you Alexei for interesting questions and discussion. I mean, I was definitely not prepared to talk a lot about my research career, but I'm glad we talked about this and maybe we learned a bit more. Uh I guess LLM is something everyone is talking about with these days. So maybe LHC deserved attention. Yeah. Thank you for, for inviting me. Yes. And I wish you and all listeners and, and watchers of our live discussion today a great day. 
+
+61:22
+Host
+Yeah. So thanks everyone for joining in and asking questions and uh yeah, next week we have a break but then we will have more interviews. So, yeah, stay tuned and Yeah. Bye bye everyone.
