@@ -1,6 +1,0 @@
-{
-  "job_name": "podcast-bT7-HRNCltk",
-  "s3_uri": "s3://podcast-audio-storage/dtc/bT7-HRNCltk.mp3",
-  "output_bucket_name": "podcast-audio-storage",
-  "youtube_id": "bT7-HRNCltk"
-}

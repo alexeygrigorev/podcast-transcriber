@@ -1,0 +1,499 @@
+0:00
+Host
+Hi, everyone. Welcome to our event. This event is brought to you by Data Docs Club, which is a community of people who love data. We have weekly events and today is one of such events. If you want to find out more about the events we have, there is a link in the description right now. There is only this event that we have right now, but we will be adding more. We will have quite a few podcasting we scheduled, so be sure to check this page. And of course, we will also announce these events like social media and newsletter. Anyways do not forget to also subscribe to our youtube channel. If you haven't, this way, you get notified about future themes like the one we have today and we have an amazing Slack community where you can hang out with other dating to us during the days in the interview, you can ask any question you want. There is a pinned link in the live chat, click on that link, ask your questions and we will be covering these questions during the interview and this is the intro and now I will the document that you have not prepared and if you're ready, we can start. 
+
+1:09
+Guest
+Yeah. 
+
+1:10
+Host
+So this is the time when actually. 
+
+1:13
+Guest
+Ok, great. 
+
+1:14
+Host
+So this week we'll talk about the practical application of generative A I in industry. And we have a special guest today. Maria. Maria is a principal key expert in artificial intelligence at Siemens. She has over 15 years of experience in A I and AC A T that we just saw. Uh uh Maria is known for transforming advanced A I search into practical impact tools. And your work focuses on edical scalable solutions that enhance decision making and streamline process. And the cat is really cute for those who are watching this only in audio, maybe check out the video because there was a cat. Anyways, welcome to uh uh welcome to our and um yeah, the questions for today interviews interview are prepared by Johanna Bayer. Thanks Johanna as always for your help. And before we go into our main topic, let's start with H ground. Can you tell us about your career journey so far? 
+
+2:13
+Guest
+Yeah, thank you for your introduction. So actually I started as a trained linguist. So I studied linguistics many, many years ago, I started over 20 years ago with the traditional linguistics and translation studies. Uh And then I realized that I actually like programming and computer science, but I already had a degree in linguistics. So what I did, I applied for the scholarship and uh got a scholarship to do computational linguistics masters studies in Ireland. Afterwards, I was a research in Frankfurt. Um Then I was also a researcher in uh Darst in the UK P group of Irina Grech for two years. And then I decided to switch uh to industry and uh started working in BMW in a NOP group as data scientist. Uh Then um I moved to cement where I'm currently working. And if I'm at this point, I remember that my legal department makes me say one thing, I'm a Simmons employee. But all my, all the opinions that I'll express in this podcast are solely my own. So and yeah, and since then, I've been working in sin as um an expert in A I. So for first, the senior now as a principal key expert in artificial intelligence. And uh that's where I am at now. 
+
+3:48
+Host
+And um so I, I also work or used to work uh in industry. And usually we have positions like, I don't know, junior data scientists, senior data scientists and so on. So what does key expert mean? Like what, what do you do at your job? 
+
+4:11
+Guest
+This is a great question because uh nowadays, a I expert um started getting a bit of a negative connotation because recently I have a feeling that nowadays there are so many I experts like literally exactly like I can go on the street, close my eyes, throw a stone and I probably hit an A I expert So this is probably exactly, don't, don't hurt any A I experts, but in theory, uh what an A I expert does is uh we say like managers manage people, uh experts manage technology. So uh the task of an A I expert is to be up to date with the state of the art to understand technology. Also, I believe that uh an expert should, should have a critical view and the technology not give into the hype, but to understand the limitations and uh then be able to advice uh management and the company which technology they should take uh which they shouldn't what to expect from this technology and what risks can be connected to that. 
+
+5:28
+Host
+And why do you think there are so many a so called A I experts these days? I assume because we have cha GP T and it became so popular that everyone knows now that A I is a thing, 
+
+5:42
+Guest
+right? I think it's from one side, it got very accessible. So before to be an A I expert, you at least need to know how to code. So there's at least some kind of a mode now you need to be able to talk or to, to spell and then you can become a prompt engineer and prompt engineer is ready for many people. Halfway the A I Expert Bureau, 
+
+6:10
+Host
+you have to spell words correctly because I will. 
+
+6:13
+Guest
+No, no, I'm not saying a Grammatic A I just like that you somehow use the keyboard and then you prompt something, then you create a prop library and Voila, you can call yourself a thought leader and A I. But uh uh of course, that's uh uh going to be not for a long time like this. There are a lot of people will um filter out the demand for these jobs. But currently, and the other point is, of course, currently a lot of people, lots of industry want to do something with A I. It's always like uh the sign that you are an innovative modern company if you necessarily build an A I product and it doesn't matter if A I is actually applicable there. But as I read in one of the articles, if the only thing that you have is a generated I hammer, everything looks like a generated I nail. So everyone's trying to build something to show to others, the investors, to management that they have this and therefore there is a demand for A I experts and uh more of them growing like mushrooms nowadays round. 
+
+7:29
+Host
+Yeah, I just came back from a forest and because the weather is uh it's very humid like there is uh it's like it's not raining all the time. But like when you go to the forest, there are so many mushrooms. 
+
+7:43
+Guest
+I'm a very uh enthusiastic mushroom picker. I have around 10 kg of frozen mushrooms in my fridge. So yes, this year was very good. Like, not only for A I experts but also for mushrooms. Yeah. 
+
+8:02
+Host
+Right. Exactly. This is what I wanted to say. Uh And yeah, because of this Skype, but uh maybe it's also a good thing because like some people who do not necessarily have the programming background now can be how to say and make impact. So we will see, of course, in a couple of years, if this will still be in demand. But while there is demand, um perhaps it's not such a bad thing, right? 
+
+8:24
+Guest
+I, I think that's a normal evolution of uh any area that uh gets popular. People who are successful will stay no matter what their technical background, people who are not successful will go away. Uh We have this um mm Amara slow like Garner's hi cycle that we know that where you have A I at the top, everyone has very high expectations, but then it's uh steadily goes down and it becomes part of our daily routine. Uh And uh I think the same here, but uh I actually have a lot of people trying out uh learning about that. Uh And uh there is uh nothing wrong even with uh thinking you are an A I expert calling yourself an A I expert may maybe you are like uh it's uh who will be so, so absolutely like no, no gatekeeping here for who should call themselves an expert and so on. 
+
+9:20
+Host
+How do you, you said you help a lot of people who try to get into your A I and how do you do this? Like the courses? Uh 
+
+9:28
+Guest
+Well, currently I mostly work uh with this and Simmons. So, uh for example, one of the things I do a lot uh is uh different trainings, I do also a lot of um che notes. And uh another thing that I did um is uh you probably know Gandalf game uh G where 
+
+9:54
+Host
+is the wizard from? Uh lots of drinks, right? 
+
+9:58
+Guest
+Yes. And uh uh there is a game that um uh kind of organized by a start up that uh works on the safety of chatbots and the large language models. So uh what they did uh they asked the people to hack into their bot. So for example, they prohibit the model, say a certain word and people have to prompt it. So the model uh prints out the, the prohibit word. So there is a similar challenge I've done for cement and we had uh 1500 people participating in this. And uh you really, it was really fascinating to watch after the logs of what people are typing in because even at 3 a.m. there were people trying to hack this bot like to show that they're smarter than this 
+
+10:43
+Host
+hack A bot. Like for example, if I use charge GP T. So the, the thing like I used to entertain myself by going to charge GP T copying an art taking an article about astronomy and asking Judge Pit to rephrase this uh article about astronomy as if Donald Trump. Trump was saying it, right. That was super hilarious, right? Super entertaining until they stopped doing that until they recognize that, hey, Donald Trump is a person. We don't want to do that. So we they just um added some filters um saying, hey, we do not want to entertain you this way anymore, right? So does it mean that I still can hack the filters of cha GP D to make it do what I want? And this would be like this sort of hacking you're talking about. 
+
+11:38
+Guest
+Yes. And even more dangerous. It can be when you publish a book as a company for the external use, you probably have heard about the Air Canada that the board created a nonexisting discount and uh they had to give the discount. I think there was a boat of a car company that, that sold the car for €1 and they had to sell it uh for this. And uh this is exactly what you want to prevent. You build the boat. You don't want your boat to hallucinate some services that you don't have because it might be legally obliging for you to provide them or give the discounts and so on. But in theory, you can always find a way to almost always to prompt this model that it tells you exactly what you want so you can force it to give you a nonexisting discount and sell you a car. Or the other thing, 11 of the challenges that we had, um, we hid in the database, like confidential information. That was the name of my uh, Cusco and people had to make the bot tell the confidential information and the boot was prohibited to say it. And uh that was not even a challenge to be honest. Like uh I mean, it was a challenge but around 30 people managed to make the board the tell them the name of the cat. So this is something that um a lot of people or a lot of companies might not think about it that everything that goes into the board can potentially come out with it with the right prompting. 
+
+13:10
+Host
+Can you tell more about this? So how did exactly how did they exactly hide the name of the cat and how it was retrieved? 
+
+13:20
+Guest
+Oh, so, so, so the name was uh basically hidden in the uh knowledge database that 
+
+13:28
+Host
+it was some sort of application, right? So that it was 
+
+13:31
+Guest
+uh yeah, exactly. It was R 
+
+13:33
+Host
+OK. Yeah. 
+
+13:34
+Guest
+And uh the were, so, first of all, do not tell any cat name. There was a uh filtering language model. Another one that was checking if in the output there is a cat's name and uh how the people hack there were so many ways. So for example, some people, some people use Chinese language because Chinese language um has um hieroglyphs and hieroglyphs, they have higher um information density. So they tend to override the uh the system prompt very well. Uh The other ones uh wrote uh some kind of eog request, uh some wrote the Python code uh uh that would like a function that would retrieve there. But in theory, what you need to do is to give lots of pointless instructions. And because uh all those uh language models, they have an attention mechanism behind. So they pay attention to something. And what you want to do is that it started paying attention to something completely random and irrelevant and forget your important instruction you gave before and, and then it will tell you everything and I don't encourage it by any means. But uh honestly, there are lots of boats from airlines and you, I can try to get the discount. They give a very eagerly discounts. Not that I tried, but you, you can, you can see it for yourself. Yeah, just make it, write a poem or like uh write the code distracted with something and it will tell you what you want. So 
+
+15:12
+Host
+the idea is we have a rack application and in the rack application, we typically have a prompt like here is the context and based on the context answer the following questions. Plus we have some instructions like if there is any confidential information, do not like edit this, do not expose it to the user, right? And then there is another step in this uh process uh which takes out with the frack. And also says, hey, like if there is any extra information there, remove it like any confidential information, right? So two steps, people needed to just using the interface of a boat to hack it, to give it to, to um to force it to give the information, right? And they did this, one of the examples you mentioned was to just put so much information in the prompt, not in the prompt in the, in the in the window in the request that it just forgets like the original instructions of not giving away the name of the cat, right? 
+
+16:15
+Guest
+Yeah. Ex exactly. You just uh what, what do you want to get distracted from what you originally told and uh focuses on you and your inr? And it's um I mean, there are many ways to protect um uh the LLM um uh or like the board. For example, you can check if there is something in the query of the user that uh tries to extract something that shouldn't uh then you have it in the system from, then you can check the output, then you can also use no classifiers uh that check if there is any confident. So, so there you might build many levels of um safety before you can. For sure. Say that this, this bot is safe for you. 
+
+17:00
+Host
+Yeah, this is an interesting thing of adding an non LLM classifier because you cannot really take it. Right. 
+
+17:06
+Guest
+Yeah. Exactly. Exactly. It, it can, it can be wrong but you, you cannot drink it. 
+
+17:12
+Host
+It's more difficult to take it. I would say it this way because like, 
+
+17:15
+Guest
+yeah, 
+
+17:16
+Host
+yeah, it's a simpler model. So you cannot like really uh how to say trick, cheat it, right? Convince it to, to do something. that's really interesting. So you said one of the things you do, one of your um responsibilities as a principal key expert in artificial intelligence is advising management on which technology to use and what kind of risks it can bring, right? So, one of the risks we talked about. So um like this, uh if you use AM as a chat board, it can help it come up or people can hack it, right? So then uh the company will have to sell a plane ticket for $1 
+
+18:01
+Guest
+right? Yeah, I think this is not even the main problem because what is like a plane ticket for? Uh it's, it's not the problem. The problem here. That is the reputational damage that this uh bought will cost to your company because it will show that you basically put out a product that wasn't secure and safe and this is what you mostly want to prevent when you release such bots. Another thing with these bots is of course, the question of uh hallucination So imagine if you uh have a friend, who else do you want? Uh Will you ever want to talk to this friend again? Will you ever trust uh this friend again? Probably not, right. You will be like, well, he lied to me. So why should I talk to him? And um it has been uh shown many times that uh there is no way to get rid of uh hallucinations. So there, it's, it's a machine learning um approach. It's a statistical approach. It will always be something will always be wrong there. So here's the problem with the user acceptance. People uh perceive those votes as a friend, as an advisor, as some kind of uh anthropomorphic entity. 
+
+19:16
+Host
+People who do not necessarily have experience prior experience with machine learning and things like that because for example, yeah, we talked about mushroom picking, right? And sometimes um to my son and I, when we were in the forest, we would ask cha pity about mushrooms and then it would invent mushrooms and it's kind of fun, right? So I know that it has this problem and then we would Google some of the mushrooms and like Google doesn't know about them. And to me it's clear that it just made these mushrooms up. But for people who do not necessarily have this prior background, like this prior experience, they would like. Ok. Hm. Yeah, it came up with a mushroom that does not exist like how can I trust everything else it says. Right. 
+
+20:00
+Guest
+Yes. And actually this is a fair, th this is even a more dangerous example because I do try. This is CHA PC. And, uh, once I put a death cap, uh, if you don't know what the death cap is, it's a mushroom that can kill, uh, up to seven people if you eat it, it's a, it's a 95% of the poisoning with the mushroom. They are caused by the death cap and it's a mushroom that, um, if you start getting symptoms, basically, there is no way to well survive unless you've got the liver transfer. So this, this is a very deadly mushroom and we have a lot of those in Germany. 
+
+20:36
+Host
+Yeah, I think we see them quite often plenty 
+
+20:39
+Guest
+and they look very similar to Champignon. Like that's why people get, uh, poisoning with them because they think it's a Champignon and I did try a couple of times to G BT. And indeed this thing gives me a recipe how to cook this, how to the, the, the Champignon and so on. And, uh, uh, well, I believe that people need to be educated by about the I that you shouldn't, of course trust when this thing tells you that the desktop is something that you immediately take a bite from it. But, uh mm, yeah, this is, this is, uh, something that, um, can also be a problem and certain applications of a I, you might want to consider that you probably shouldn't have them. And in general for the public use, particularly, there are certain demographics uh probably to whom it will be very difficult to explain that you should not trust this. Uh um We can do all education, but there are certain people in certain age who might just like blindly, trust it and uh act on it. So this is the problem. And then another problem, the risk uh for the company when you build those chat, what you invest a lot of money, invest a lot of resources and then users just don't want to adopt it because uh every second answer is uh either hallucinated or is too long or is not on point and so on. And this is something that they think we frequently hear about the chatbot. You know, like nowadays everyone wants to build the chatbot, but nobody wants to use the chatbot. So this is something we could um at at least uh I have never heard of a person who calls Vodafone has the chatbot answering to them. And so like, yes, I directly got to a chatbot. So we still do not have this joy of uh using the chatbot. And I think this is something that one needs to consider when you build the use case with that. What happens if the chatbot lies? Will users still want to use it? Uh Will it make them annoyed? Uh can it create serious damage. Like can they eat a death cap because of this? And um uh is there a better way to adopt this technology than build a channel? 
+
+22:56
+Host
+So it's two risks, first, reputational damage. If a company is a product that is not properly, is not secure enough, then it's reputational damage. And then it's also not clear if the return on investment will be positive, maybe users will not want to use it. Is there anything else like what like other common risk factors? 
+
+23:19
+Guest
+I would say this uh might be the major one with uh regarding the child because um as I said, this is fairly expensive uh to build a good one. Um So that's that, that's probably what, what what they usually uh focus on. Of course, there's like for the developer, you can also a risk to uh stacking in an endless loop of prompt engineering trying to figure out the pro prompt that will have the list of the uh of the errors and so on. So, mm So yeah, I would uh probably first. Yeah. So 
+
+24:05
+Host
+it's more like, so the the third one was development time. So it might be might get expensive, especially if developers get really into like nitty gritty uh like in this prompt engineering, which is also kind of dangerous because uh open A I releases a new version of the model and then like all your prompts kinda can. 
+
+24:25
+Guest
+Exactly. That's, that's the exact uh risk too because you prepare all those nice prompts and then they might just not work the same way as you did. Uh In the model plus, we also have seen that even the same model, they are uh nondeterministic, which uh means that uh the same question always get the different answers. 
+
+24:50
+Host
+Mhm Can knowing these risks. Um OK. Maybe like with prompt engineering, this is something we can also talk about but like when it comes to hallucination, yes, it's a non problem. And what do we do with this? Like a part of apart from telling people, hey, like um beat the suggestions with caution. Like what else can we do in charge? GP T it says what does it say? Like A I, 
+
+25:17
+Guest
+I'm an A I, something like this can make mistakes, 
+
+25:22
+Host
+this is what they say but this is not something you put into. Uh let's say I write to Vodafone or my bank and then we do 
+
+25:30
+Guest
+II I would think we should do it everywhere. 
+
+25:34
+Host
+Like I came there with a concrete problem and then the answer I get. Yeah, you can do this this and that and then there is uh like disclaimer uh our bot sometimes can make mistakes, check important information like what 
+
+25:49
+Guest
+exactly. And this is exactly where you have the user story that doesn't fit uh exactly uh the integration of the eye the way you do. So an alternative for this, for example, if you want to make sure that you are um user always get the right answer and they don't get the money. For example, you can use this in a system for uh human support. So instead of having a human, constantly generating the answer or mm writing out the answer, uh there can be a human who looks through the answer. If it's good, it's sent further to the human, uh for example, through a chat or through a ticket. Uh if it's not done the human corrects it. Uh And uh it has been shown that this is actually a very good application because it does save a lot of time. And I think it brings us to the point where many people uh misunderstand the A I as a substitution of humans, of human labor instead as a tool and assistant uh for the current jobs. So, mm and this is a mistake of many chatbots. They assume they can replace uh uh support instead of being an assistant for the people who work in the support. So yeah, the better way would probably be to see how you can make life of your support simple with it instead of trying to eliminate them as, as a whole. 
+
+27:13
+Host
+Mm. Yeah, I think this is something. Mm. So I worked in my previous company, I worked in moderation and the company was doing it. There was an online marketplace. So you want to sell something like, I don't know in this computer mouse and then, um, you put a description, you put like a few pictures and then the, they think the item does not immediately go live. There are a few checks, right? With like it's not fraud and so on, right? For example, for computer mouse, it's ok. But like what if it's a phone and this phone is suspiciously cheap, right? So it could be not a real phone and then you order this phone and instead of getting a phone, you get a potato right then like it's a problem. Um So we had some model um that would check if this transaction uh this uh item, this listing is fraudulent or not. And the worry from people from moderators was that we are building this system to actually replace them, right? Because uh it was quite long before all theses. Um But yeah, so what we had to explain is like, hey, we don't want to actually fire any of you. We won't, won't want to replace you. We actually want to help you like mm um I remember this example. One of our product managers used is um autopilot. That's so when a pilot is flying a plane, they do not necessarily need to kind of steer the plane all the way, right? Most of the work is done by the autopilot. They are just observing and if something happens, they interfere. So that was the metaphor we used for the pans and they liked it. Right. So, I think something like that, the work like that needs to happen with people too. Right. Because like they worry that, hey, now a I will replace like everyone and yeah, we need to tell them it's not a substitution, it's more like assistance. Right. 
+
+29:16
+Guest
+Exactly. And uh we have seen this over the years uh for decades, right. Like machine translation uh in fifties uh was supposed to be completely eliminate the translators and uh look where we are now. And machine translation is also a very good example uh of uh where we still see A I being an assistant because everyone now um kind of think that the trans like human translators, they are in danger. Look how good GP T translates the 
+
+29:49
+Host
+OK. So why translators are not in danger if change? 
+
+29:53
+Guest
+Because uh um a lot of this translation, for example, when you do technical translation, there are two things that uh I needed, for example. So first of all, uh you need that the text is actually 100% correct. Then you need to make sure that it adheres to the company standards. For example, it uses the terminology that company has, it doesn't like rename, you know, some buttons like it doesn't translate full button into like uh editor. You need, you need, you need an editor, you need to like can ver the sanity of this. And um now what happens now if you look at the statistics of the translators uh translators make more translation, uh translation percentage gets cheaper. But the amount of translators involved in the uh job, they are not going down. It just simply you can uh create more translate. And another tendency there is uh translators that are bad, like non trained translators, not technical translation, like basically poor translation can be probably eliminated. So you can produce that translation automatically. But uh translation that needs a technical pt is the understanding of the vocabularies and the company uh specifics you need a human translator there to review it uh again to make sure that you do not distribute any risks because you know, like all these manuals like car manual product manuals, like you don't want the person like sticking two fingers in the socket because uh you mistranslated something automatically. So uh even this one, they don't seem to be as endangered as we expect based on the recent statistics. 
+
+31:41
+Host
+Mhm OK. So when I said you need an editor, what I did not think about was that like actually the person needs to understand the source language too, not just 
+
+31:50
+Guest
+the language. So 
+
+31:52
+Host
+you need to make sure that the translation is actually correct. Right. 
+
+31:57
+Guest
+Yeah. So, so the translation uh uh human translation just becomes uh uh different from how it used to be. It uh heavily relies on automatic tools, it uh gets more productive. Uh but it's uh not going away as a as a as a job except you are a bad translator then yeah, you can be replaced by GP 
+
+32:21
+Host
+T and by the way, I stopped using Google translate. So now I just use judge PT for translation. 
+
+32:27
+Guest
+This is, 
+
+32:28
+Host
+yeah, if you can give it instructions in Google translate, I cannot tell it like, hey, like use the informal plural here instead of like formal one and it's gonna stay it easier. So yeah, like it's super handy thing. And um yeah, you actually started your career with uh computational linguistics and also with machine translation, right? 
+
+32:57
+Guest
+Yeah. Um So I was working a lot on low resource languages. So that's something that uh also probably currently is somewhat of a challenge for large language models because whenever we start a use case, uh we always start, I always say, do you have data in English? Why? Because it's our high resource language, it's uh the language that the model mostly trained on the an and data in this. What I used to work on was low resource language and it was worse. That's historical languages. So for example, gothic, uh middle, low German, middle, high German, middle English, um you know, like um middle English in the sense of uh Chaucer that sounds very, very different from modern English. Uh maybe even like uh a bit more like German, I mean, 
+
+33:54
+Host
+in the original, no, I think Shakespeare in the original is still, still resembles him. It's, 
+
+33:58
+Guest
+it's new English like middle English, I can quote a bit of cer so it will be something like Acne the B and S Urman that from the TV. I first began to read a NK Chivalry Truth and Kur Freedom and K so I think the bus and night there was and that's a wordy man, you know, so this is, this is how different the, the, 
+
+34:24
+Host
+so it's like uh for me, so I had to um things in my mind. So first I thought it's like from the Lord of the Rings, like language or whatever. And then the second was like um maybe it's something Scandinavian, but English is kind of Scandinavian, right? I mean, it's, it comes from like the same family as Scandinavian languages, German language, right? 
+
+34:49
+Guest
+It's a vast Germanic uh family of languages, the uh Scandinavian, the most uh Germanic uh uh languages. So uh the closes the languages to English, uh German um Dutch. So they are very uh similar. English used to have lots of cases. Uh If you um you know, like native accusative, like the whole morphological paradigm, like all 
+
+35:13
+Host
+the 
+
+35:14
+Guest
+Germans 
+
+35:14
+Host
+would drop these things too. 
+
+35:16
+Guest
+Yeah. Yeah. Yeah. The German is dropping it. It's, if you look at the dialect, it's dropping 
+
+35:23
+Host
+the North German dialect, right? Deutscher how it's called like they all have the right 
+
+35:29
+Guest
+uh Blood Ditch. Yeah. Has uh um I think it dropped the uh the genders but I'm, I'm not sure like, 
+
+35:38
+Host
+yeah, So I, I don't think I'll uh live long enough to benefit from, from this. 
+
+35:44
+Guest
+Yeah, but yeah, so, so this is how I started. And of course, you can see for example, if I, I also tried to ask uh cha pt to generate some something in Middle English or go a complete. So 
+
+35:58
+Host
+I want to ask you about this, think you quoted. So first of all, what was that? And second like it's a language that does not exist anymore. How can you actually pronounce it? 
+
+36:13
+Guest
+Mm. 
+
+36:14
+Host
+Like there are, there are no recordings of people saying that, right? You can just only assume how exactly the sounds like how you should make the sounds. 
+
+36:24
+Guest
+That's um so why we um approximately know how it's pronounced? It's uh it's comparative linguistics. We compare it with how the languages are spelled in the other language like other languages. 
+
+36:39
+Host
+So like this is how we imagine how dinosaurs could look like, right? We have no idea. We only have bones and the rest is our imagination. So it's similar with, 
+
+36:51
+Guest
+we take a look. I, I think for example, like let's take uh uh word ane like ane and night, right? So you have um a like a letter in almost all Germanic and Latin languages, it was pronounced as, ah, so you can already assume that it's not a and then you have uh a connect or kni techni I think. So you have K in German, you have Knecht. Right. So, you know, that K was not silent and I mean, it's there, like, why would someone write it if it's uh not there? And you go comparing it with the other languages, how these sounds are pronounced there and then what you start noticing, uh, that there was no spelling reform for a long time in English and there were certain systematic, um, thematic changes that have happened over the year, For example, uh where you have um like uh words like five. What time? Team? Yeah. Uh um uh uh the time it was uh when it was written with E it was long e so it was team back then and there was something called great consonant shift. So basic uh great vowel shift. So when uh uh articulation of all the vowels kind of went up and e became a gift song like I, but in other language, it still stayed. E so you can like the development of phonetic is very logical and very, and you can derive a certain rules depending on the regions, how, how, how the language changes. And based on this, uh linguist can assume how it was pronounced back then and why it's spelled like this now. 
+
+38:38
+Host
+So I, I just recall that this, that there is this poem called Bellwood. Is it in that language? 
+
+38:44
+Guest
+No, Bell Wolf is a um old accent. It's, it's, yeah, I, I used to be able to quote that one too. But I, uh it's, it's, it's, it's, it's uh even uh older and it's almost impossible to understand it without uh actually learning this back then. All the, um, old English was like, so, so, so far away from like, what, what it is now English was greatly influenced by French and by the, uh you know, the occupation of England. Uh So that's, uh it's, uh, it was even before then I 
+
+39:20
+Host
+studied that. Um uh like, when I was learning English, I studied that. So that's why because of the occupation um of England, uh it was the language of um like peasants, more or less like not high society but like just usual people and they were illiterate. That's why they started dropping all these articles and stuff. 
+
+39:43
+Guest
+Yeah. And then 22 for, for a lot of uh languages, for a lot of Germanic, Germanic languages, those languages were uh languages like dialects, they were um languages of um peasants. And what actually built the languages is the spread of Protestant. So when they realize that you need the Bible in a vernacular language so that people can understand it. They start in writing Bibles in uh um in the languages, in the local languages. And this is basically what brought us some kind of uh spelling and orthography and system of those uh languages. So um when I was working in research, like all my texts were Bibles, like uh basically, I would say I read Bible every day because uh that's uh literally uh the only text uh II I had back then. Uh And it's also a great text because it's basically a parallel translation because you have uh Bibles in all the languages. So you can very well trace uh how those things were said back then. And you can figure out like what, which word means there. 
+
+40:59
+Host
+And what did you actually say like this, this quote? So the word connect, which is Knight, I understand. But the rest 
+
+41:06
+Guest
+a anete was there was a knight and thought a bus man and that a worthy man thought from the team that he, he 1st 1st began that from the time when he first started to read and to write out, he alluded chivalry. He loved chivalry. Truth and honor, truth and honor fried and courtesy, freedom and courtesy. 
+
+41:36
+Host
+So now when you say like that, I can see like the resemblance, right? I can see that some words are actually very similar. But when you said that this for the first time, it was just for me, like I couldn't pick anything. Yeah, it's interesting. And we also make transcripts for our podcasts. And I'm really wondering how 
+
+41:57
+Guest
+actually ii I could send you uh the Middle English text of it. And it's very, it's, it's like when you read it, you can understand everything. It's written like English, it's just the pronunciation. And there you see how like uh English didn't have a spelling reform for a long time and how it was supposed to be, uh, read and, uh, where we are at now. 
+
+42:20
+Host
+Mhm. Ok. Um, I see that there is a question from Irina. Did you know the old housemate? I don't know if it means anything but, like, do you use NA, I app to identify the mushrooms? You pick Maria? 
+
+42:34
+Guest
+Oh, if I use an A, if to identify, yes, I used to use one. that was a simple, uh, classifier. So, before I charge GP T and how I used to, uh, use it, I know that, uh, um, you cannot rely on top one gasses. So I would, uh, usually rely on top 10 gasses. So I would look through the top 10 what the mushrooms are and I would look if there are any, uh, poisonous, um, twins of, uh, the, or anything poisonous among the gasses. And then I would just compare, but honestly I would still not eat it because if there's something poisonous, like you need to be wrong just once. 
+
+43:17
+Host
+Yeah, exactly. I mean, I also by default, assume that all mushrooms are poisonous. 
+
+43:23
+Guest
+Mm. Yeah, some very good ones. Yeah. 
+
+43:26
+Host
+But like, because I do not, no, for sure if this is a good one or not. So, for me it's better to assume it's poisonous. 
+
+43:36
+Guest
+Yeah, that's how my husband is. He doesn't eat my mushrooms. You cannot make him try them 
+
+43:46
+Host
+and then he also published an article. So coming back to like our translations because we don't have any other questions from uh maybe Irina will come up with more questions. I don't know. Um So yeah, I just decided to check if we have any questions and then I saw it and then I thought, yeah, we should cover it because Irina has been waiting for the answer. Um But coming back to machine translation and languages and low resource languages. So we talked about like old English or German and we have a Bible. But what about like languages when we don't even have that, like you worked on uh su text. And I looked, I looked at pictures and it just uh plate, not a plate but like uh mhm how we call it like a plate, I don't know, like just a thing 
+
+44:41
+Guest
+made of clay or something. 
+
+44:43
+Host
+And then you have 
+
+44:45
+Guest
+like some, 
+
+44:47
+Host
+you have uh 
+
+44:48
+Guest
+triangles 
+
+44:49
+Host
+rotated in different directions and sticks and it's probably not a Bible, it just a plate with like four rows of different um how do you call symbols? Right. So how do you even attempt to understand what is happening there? 
+
+45:08
+Guest
+Th this was actually quite an interesting project. So that was a project with Mesita Mesopotamian languages, like with uh uniform languages uh uh Sumerian cite and it's, it's, it's been a while. So it was way before um large language models and back then uh and honestly large language models are not gonna work particularly good on this. Uh Because uh of the word large, we don't have large data for those languages. So what happens there first? So there are um uniform uh uh expert linguist who process like who literally like go on the expedition, take pictures of those uh plates, then they transcribe them in um a script uh in a in a Latin, basically, like they, for every character, they have some kind of uh um phonetic representation of it. Sometimes it's not, 
+
+46:09
+Host
+is it like in Chinese, we have a character that can represent a word, right? And think in Ancient Egyptian language, it was also the case, right? So it's not la. So how like it's like that. 
+
+46:25
+Guest
+Uh As far as I remember, there was actually kind of a mix of different uh styles to write. Sometimes it's not even like uh uh solid, like um one language that could be like a mix of different uh um uh hieroglyphs in there. And uh they did have um morphology uh in that uniform, but I'm not gonna like now uh kind of 100% say on this because that's uh a bit um the expertise of the linguist uh who work a lot of what we did back then. We tried to do the machine translation system uh that translate between um uh Sumerian and English to a certain degree, like more like an assistance for the linguist and uh uh it was uh not uh neural machine translation because uh again, we don't even have the data for this. So it was uh old approach like statistical machine translation. And with the translation model and the language model, we do the alignment between words and uh it's surprisingly worked. OK. But um of course, was not particularly spectacular in this. And the other thing that we try to do is to help uh linguists an update uh those text as part of speech. Like what is noun? What is adjective? And the inception was if we can align words uh from English translation to the um summum, we can just say if like a certain noun aligns the noun, then it's a noun. So a fairly simple approach. So the whole project was uh basically to uh help, began as a linguist to analyze the grammatical properties of the, of the language. I eventually left to work in the industry when this project started. So I, I hope it uh kept going. But uh I'm not sure like uh what's the status of this? 
+
+48:26
+Host
+And while um like in the meantime, I was also Googling Somalian language and I found um like I let me share it and chat, I'll put it in youtube. Um Yeah. So there is um kinda a table that says for this character, this is light in D, this character is lighting, E, so it's light in F. Um So actually, um what we have on this tablets is one symbol is one character, right? And then you go from there, 
+
+49:03
+Guest
+I think there was a mix, I think there was like this and like that if I, if I remember correctly, so there were uh characters, but there were also things that would determine a word and were like a non compositional. But maybe if someone speaks uniform in the like a Sumar in the chat, they tell us because I honestly don't know anymore. I, I know that what for hit the case, he is a young language than Sumar. And they had um characters from Acadian, from Sumerian. They were a mix of different languages from Sumar is no language. So I'm not sure like how much interference there was with other languages at work. 
+
+49:43
+Host
+Uh You speak German, don't you? Or 
+
+49:45
+Guest
+uh yeah, I speak German and English. Uh So, I mean, that's, that's mostly what I think. 
+
+49:52
+Host
+And for you, like when you came to Germany, did you already speak German? Yeah. Uh huh. OK. So it was a part of your um training, right? 
+
+50:03
+Guest
+Yeah, it was a part of my translation studies that I like the linguistics. So I studied linguistics before I came to Germany. So, mm that was not too hard to uh learn German to be, I learned at some point uh Korean. And uh this is, this is a whole different level, obviously uh in terms of how we need to learn uh every single word but uh like uh German is so similar to English, as I said, it's from the same group. Uh It has the same, like, basically you already know half of the word um from English. So it was the grammar is uh intuitive. Uh Like we maybe, I mean, if, if, if you compare with uh grammar from like uh other languages, like for example, what Korean does there, like we, um we have all the main concepts like uh we know what the case is. We know what the, the only one is for us probably is the article is the one that we knew. Mm Not bad. OK. 
+
+51:10
+Host
+Yeah, I remember 10 years ago. So like around 12 years ago, I lived in Poland and Polish is very close to Russian, Russian. So Polish for me was relatively easy. Uh So it took like maybe half a year of just leaving here. 
+
+51:26
+Guest
+Actually, I have this book here because I was also, it's a practical course of Polish. If you can see it, 
+
+51:37
+Host
+it's not, it wasn't that difficult just hearing people trying to understand what they say and reply back and then if something is not asking what it means. So Polish was relatively OK for me, not that difficult, but the machine translation back then was terrible because what was happening, I think under the hood is that there was no direct translation between Polish and Russian. So it would first translate Polish to English and English to Russian. And then the result was terrible. Um I think the same was happening with the Ukrainian to Russian. At some point, Ukrainian to Russian translation became like super good in Google translate. But I also remember times when it was like totally butchered like the translation, but these days, it seems much better, like at least when it comes to Polish to Russian or Ukrainian to Russian is like when I translate Ukrainian to Russian, it treats like I can read, it feels like it was written in the Russian already. Like there are no weird phrases. Usually uh only maybe when I try to translate a poem, then sometimes it can be so like it feels to me that the level is kind of quite good already like, is it the case like for example, like I am just curious to know what is the current state of state of machine translation when it comes to like, let's say big languages, for example, Korean, like if we translate from Korean to Russian, is it still OK? Or like 
+
+53:01
+Guest
+so what it's always trained on? Like and I think uh what goes into C GP T as well as what goes into machine translation are called the parallel text. So you have a translation, a sentence in Russian, you have a sentence in Ukrainian, I think to acquire such a peril text uh is not very difficult because we have lots of uh text on the internet that are both Ukrainian and Russian because those, those uh like were or I don't know if they still are uh official languages uh of Ukraine. So you have, you can easily uh acquire this. Uh Russian is also quite good for this because it's, it's in one of the sticks, I think UN languages. So all the text that you have in the UN, there's UN corpus is translated in Russia into Russian, from English to uh like Chinese. And I think like whatsapp. So uh and uh this, this is the reason why uh translation is good for such uh language or like for example, European language is very good because European parliament translates everything into the. Uh 
+
+54:07
+Host
+that's why translation from Polish to Bulgarian is easy. But like from Polish to Chinese, maybe not. So 
+
+54:13
+Guest
+Polish Chinese could be, I mean uh machine translation used to work like this pivoting through the languages for pretty much uh maybe even I wouldn't be shocked if Google translate data that they are pivoting through English for before. Yeah. So all, I mean, there, there's like an approach now with Multilingual models, right? Where you basically train everything together and then you hope that the model will be able to generalize to a new language pair. So even if, for example, it never seen the corpus uh between uh like of uh I don't know Korean to Ukrainian, but it's in the corpus of uh Korean to Russia, it can kind of kind of kind of can figure out how uh it will generalize to Ukrainian. And I think that's, that's what's happening. For example, with Cha GP T because I doubt they had lots of Corpus of Korean Ukrainian, right. Um So I would think this is probably now the the state of the art, so Multilingual models that uh basically trained all together and uh uh we are moving away from the pivoting through English or some other uh similar language. For example, Russian probably would be a good uh pi pivoting language for Slavic Lang languages because it's a fairly high resource. Um So yeah, and of course, the further the language is uh from each other, it's uh frequently the harder it is to uh translate between them. The other thing is um the availability of the digital resources. So for example, translating in African languages like where you do not have um much um text on the internet where uh spelling is not standardized. Uh uh is for example, I try to translate between middle low German and German, two very similar languages. But it was very hard because uh middle low German, even on a small corpus, even statistical machine translation doesn't have uh standardized spelling. For example, you had 16 ways to spell cross in, in German. So the machine translation would translate nicely into German. But from German into middle uh low, German was almost impossible because it simply didn't know which, which cross to choose. And uh out of, uh 
+
+56:46
+Host
+I assume there were 16 people who would do the translation and everyone had a different way of, of 
+
+56:52
+Guest
+course, they, uh it's every village had a different way to write. Uh back then. Uh They, they, there was no concept of uh you know, of grammar, of standardized orthography. There was no punctuation, there was no prescriptive grammar as we have like the institutions that prescribe uh orthography. They appeared just uh in the 19th century, uh the first standardizing languages. 
+
+57:19
+Host
+And then I see that there is another question from Marina and uh this question will probably require another hour. 
+
+57:28
+Guest
+Oh my. 
+
+57:30
+Host
+Uh well, do you have like a couple of more minutes? Maybe you can, can like try to condense your answer. So the question is what was the biggest challenge uh leaving the academy and moving to work for such a big name in Germany, 
+
+57:44
+Guest
+right? I think the biggest challenge was indeed to understand that uh the most innovative approach, the most state of the art approach is really not uh what the industry frequently wants. They want a quick approach that works. Uh They do not care that much about the best possible cures. Sometimes. Uh like Ohora, from the uh research perspective, you can sacrifice uh 10% of EPO for a fast implementation. You do not um you need to deliver and deliver quickly and you always need to think about how you're going to operate it. So you can uh build a very complex model. But if it's a heavyweight model, you cannot uh put it into production, you need to think about return on investment, you need to think about a lot of things. Uh research doesn't really care. That is basically uh a lot of questions that come with, applied A I so applied means can you actually apply it something? So that's uh that was quite, quite, quite a change um for me and uh I, I think I did it fairly well, but uh sometimes I'm still struggling with other stuff. Uh uh But uh I think after so many years it's getting better and better. 
+
+59:14
+Host
+Yeah. Thank you. And by the way, Irina here uh is already. So she has been a guest uh in our podcast and soon she will have uh she will appear again. So we will host her again in a webinar. So thanks Serena for joining us today and I'm really looking forward to seeing your webinar soon. So, and Maria, thanks a lot for uh also being here today for being our guest, for sharing all your experience with us, your stories. Uh I really enjoyed our discussion today. So, thanks a lot. 
+
+59:50
+Guest
+Thank you very much for inviting me. It was a great experience. Yeah. 
+
+59:53
+Host
+And uh yeah, well, have a great day and uh thanks everyone. Uh have a great day.
