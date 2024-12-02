@@ -1,0 +1,675 @@
+0:00
+Host
+I'm just, uh, my geography, my knowledge of France is not, is a bit limited. I'm just trying to remember where Leon is. I've never been there. Let me 
+
+0:10
+Guest
+just, if it take berries and draw a line down it's sort of in the middle of the line. 
+
+0:19
+Host
+Yeah. Yeah. So I lived near Paris. Um, do you know a city called Blois? 
+
+0:27
+Guest
+No, my knowledge of geography is not that great either. 
+
+0:31
+Host
+Um, so there is, uh, the river called Loire. You probably know it. Yeah. Ok. Ok. Yes. So it's there, like, there is this Castle Valley. So, there, there are a lot of castles there and Blois is like one of these, uh, uh, cities in that region. Like there is a castle and, uh, like, it's super small city. 
+
+0:52
+Guest
+Mm. That's cute. The cities can be by Jeremy. 
+
+0:56
+Host
+Yeah. It is charming. Except like, I lived there for, like, nine months and after a couple of months it was already, like, boring, you know, everything you can see in that city and it's like, ok, what do they do now? So, probably, like, are more interesting. 
+
+1:16
+Guest
+Yeah, I, I like living in a big city. I think I would be the same as you after a while in a small city. You, you go a little crazy. 
+
+1:25
+Host
+So I need to prepare a few things. So I'm trying to multitask right now. Yeah, I want to also open it on my phone. Um I uh funny thing so I'm trying to reduce the time I spent on my um device and I uh set a limit on youtube no more than one hour right now. I'm trying to open youtube and say it's like, yeah, come back tomorrow like you, you already used like the hour. 
+
+2:06
+Guest
+I understand. You know, I did that once with Instagram and Pinterest because it's just like mindless curling. And it also happened to me that I was trying to like meet a friend and we were DM on Instagram and why weren't I was about to get there? I couldn't access it anymore. And I had, I panic, I sent, I sent him a message on Discord and he goes like, hi, I don't have access to have discorded your f 
+
+2:31
+Host
+ok. I don't know if I should. 
+
+2:34
+Guest
+Do you want me to take you too? 
+
+2:37
+Host
+No, I think I'll just do it from uh my computer. 
+
+2:42
+Guest
+Ok. 
+
+2:44
+Host
+So I set the limit to like 45 minutes or something like that. Uh mm. Yeah. 
+
+2:50
+Guest
+No reasonable, reasonable. 
+
+2:52
+Host
+Yeah, it is reasonable except like when I need it for work and our uh interview will be like an hour. It's already more than 45 minutes. Right? I see. So now I will create a thing for questions. So I'll try to keep an eye on the chat in uh from the browser. Like I hate when tools change the. So there is a tool called called Slido that we use for questions and now they change the entire interface. Yeah, the I, so how do I do things I usually do? OK. At least buttons are in the same place as before. It's like when you go to a grocery store and all of a sudden, like all the things that you're used to. Yeah, like they are shuffled, they're scattered around the, the store. It's like, OK, how do I find now? Things I think they do this on purpose, right. So then you spend more time in the store and then you buy things you don't need. 
+
+4:04
+Guest
+It could be. But I feel like most stores, at least in like big supermarkets in France they organize in a way that's sort of like an IKEA anyway. Like you have to go through the entire store just to get to the cashier. So you're gonna pass anyway and you're gonna be like, where am I? And I just came here for a sandwich. How do I leave? 
+
+4:25
+Host
+But also you also have Lidl right in France. I think there is little. So what I like about Lidl is like almost every store when you go in. It's like they're almost identical. You kind of know where to look for things. So this is good 
+
+4:40
+Guest
+and they're usually a you like thing. No, you just come in and then, 
+
+4:45
+Host
+ok, I think, um, I have everything set up. So what we will do right now is I'll just do an intro and then we'll start. Ok. And let's start. And today I'm not with my phone, so it's very unusual. Um, yeah. Hi, everyone. Welcome to our event. This event is brought to you by Data Rocks Club, which is a community of people who love data. We have weekly events and today is one of such events. If you want to find out more about the events we have, which are not great. Um There is a link in the description, go there, check it out and see all the you will see all the events we have and we actually have quite a few now or maybe so check it out then do not forget to subscribe to our youtube channel. This way you'll get notified about all the future streams like the one we have today. And last but not least we have a great slack community where you can hang out with either dating into us. So check it out too. And during today's interview, you can ask any question you want. There's a pinned link in the live chat, click on that link, ask your questions. Um I just complained now that slide, I changed the interface. So maybe it will not look like that, but I hope you will figure out how to ask questions. So I'll be keeping an eye on that for the questions for today's interview. And with that, I'm stopping to share my screen opening the questions that Johanna prepared and if you're ready, we can start. Yeah. Yeah, sure. Uh I just also want to make sure I pronounce your name correctly. Is it Isabella or 
+
+6:29
+Guest
+Isabella? Yes. 
+
+6:32
+Host
+So this week we'll talk about continuous learning and data science and we have a special guest today, Isabella Isabella is a machine learning engineer and data scientist with three years of hands on A I development experience. She has previous experience in computational research expertise and she contributes to open source projects and run a newsletter dedicated to showcasing women's accomplishment in data science. Welcome to our interview. 
+
+6:58
+Guest
+Thank you so much. Very happy to be here. 
+
+7:01
+Host
+So, the questions for today's interview are prepared by Hanna Beer as always, thank Johanna for your help. And before we start, um Isabella, let's start with the ground. Can you tell, tell us about your career journey so far? 
+
+7:15
+Guest
+OK. So I come from a somewhat unusual background. I'm I have a, my first degree is a bachelor in biological science and I kind of knew I wanted to be a b informatician from the start and I was very lucky that I was in the uni that let me pick and choose courses from other disciplines. So, what I would do essentially is I would go to the computer science department and I would ask, can I enroll in your course? So I took like all the standard computer science classes like data structure, algorithms and like object oriented programming. Um From that I did a master's degree in bioinformatics and I was co opted for machine learning and I sort of never left, like right about the time I started my master degree, it was the beginning of the boom of machine learning. And then I jumped in and my entire career changed because of that because then I really like it and I never really left. 
+
+8:19
+Host
+So it was a like a coincidence, would you say, was it like a like a coincidence? Like you weren't actively looking for a career in machine learning? It just happened, right? No, 
+
+8:29
+Guest
+no, no, I was an active learning for career machine learning. I, I always, I like data, but I thought I would be more like a data engineer than I would be a machine learning. And kind of like statistics was my getaway drug into machine learning because like once you understand like statistics and distributions, then you said like linear modeling and then you understand functions. And before you know, you were like, yes transformers, they look cool and it kind of just happened for me, but I'm really happy it happened that way. I think if I was starting machine learning because I was really passionate about it. I would be a lot more overwhelming. So I was kind of just in the right place and the right time and completely fell in love with it. 
+
+9:12
+Host
+Where did you study? 
+
+9:14
+Guest
+Um, my Bachelor, my bachelor's degree was in Brazil in a university called Ma Ma. And then I got my master's degree in France in the University of Marseilles in the south of France. 
+
+9:29
+Host
+So, are you from Brazil originally? 
+
+9:32
+Guest
+Yeah. Yeah. 
+
+9:33
+Host
+Your last name does not sound very French, right? 
+
+9:37
+Guest
+No, I'm not very French at all. I've been living here now for about four years. So, 
+
+9:47
+Host
+but do you speak French? 
+
+9:48
+Guest
+I do speak French. 
+
+9:49
+Host
+Uh huh. So you learned it before going to France? 
+
+9:52
+Guest
+Yeah. Yeah, I learned before going to France. I wouldn't dare to move to France without speaking any French. It's very hard, 
+
+9:57
+Host
+especially if it's not Paris. Right? So, we talked about living in France for a bit. So I lived in a small city and with just English, it is very hard to, to arrive there. 
+
+10:08
+Guest
+Well, I used to live in Marseille and Marseille is different because it's so touristic. Like you would hear people speaking Arabic and English and German on the street, especially in summer, in summer. It was, it was a bit crazy. I remember like when their boat stock and they're full of like cruisers and tourists, you couldn't find water in the supermarket. Because the city cannot absorb all the tourists. So it's, it's a very different experience but like around and to get, especially to get administrative work done. You really need to speak, I would say Spanish, but you really need to speak French. 
+
+10:43
+Host
+OK. And um also you didn't mention but we did some research. Well, Johanna did some research. She looked at your linkedin profile and saw that you did quite a few internships while studying and one of them was Indri Andrea is quite well known. Well, I know them because uh this is where I started, but I know that they do much, much more than just, you know, c so what did you work on there at in India? And what is Indri? 
+
+11:14
+Guest
+So India is a French research institute. I think the name is like National Institute of Research and Automation Research Intelligence and automation. And then I remember they tell them automation kind of just means a I now, like they gave this name ages and ages ago. Uh before I did this internship, I, I didn't even knew India was the people who got who saying second learn, I learned like a week before Saturday internship. And I was like, oh my God, I'm in a big place so much pressure. But I got this internship because in my master's degree, there was a career development module and they would invite people to come and talk about their career paths. And especially because when you do like something that's interdisciplinary, it's quite a challenge then to find your, your footing after. And the researcher was Sebastian. He came and he was a mathematician by training and he did apply things into sort of like biomarkers and cancer research. So he came, he gave his presentation and I think two weeks later I wrote to him, I was like, I really like your research. I, I had already, I did my bachelor thesis on biomarkers. And I was like, do you have a project that I could work on? Could I possibly do an internship? And he said yes. And then I work with them, I think for two months on creating models to predict patient response in cancer. So essentially, it's like a um oh my God, I'm not gonna remember, but it's a type of lung cancer, a specific type of lung cancer that they wanted to protect a patient would respond to immunotherapy from just like a, a simple blood draw. And it was really super cool because um the team had like, we, we were at least five and we would all sit in this open space. So like I would be coding my computer and I would have a question and I could just ask the question to the team and I would have an answer right away. It was really super uh super enriching and super cool experience. And I am still friends with some of the people I, I met uh when I was working there and it was really awesome. So I recommend, I think they're super cool. 
+
+13:30
+Host
+Is it in Paris or where is it? 
+
+13:31
+Guest
+No. Uh This one, it was the only team in Marseilles. Like they had just moved to Marseilles when I, I did the internship with them, but they were originally from Bourdeau which is a bit on the coast. 
+
+13:46
+Host
+I have no idea where it is. 
+
+13:49
+Guest
+I like friends is like um a Meagon. Like if you think like this, that VDO is in this corner of the Meagon, 
+
+14:00
+Host
+I I of course know the name. I have heard the name. I just, yeah, even though I lived in France for a bit. But yeah, I only know the places that I visited. OK. And uh does Andrea do anything except machine learning or is just fully focused on the mail and A I and this kind of stuff? 
+
+14:25
+Guest
+No, I think they do. I think they do do other stuff more like statistical fundamental research. I think they just got to be really well known from A I and machine learning because they, they're really the forefront of it right now. Even the, the question, I never remember if it's spatting or splatting, but that was also co published by them. So and also France in general, the government has been borrowing a lot of money into A I innovation. So I think they profit from that quite directly different centers. 
+
+14:58
+Host
+Yeah. And, uh, so like when I think about France, uh, recently, uh, I know it as a kind of center for a I cause Mistral is from there. So, uh, and since I live in Germany, I think, like, ok, why there are not so many German companies that do that? 
+
+15:18
+Guest
+No, I think, uh, Macron was really pushy. Like, yes, everybody, we're gonna do a, I, we're gonna be great at it, but there are quite a few companies, there are Mitra. Um there's just car too which is for evaluating a rack systems or ll in general. It's also based in Paris hugging face. 
+
+15:37
+Host
+Yeah. Right. 
+
+15:38
+Guest
+So Paris is, it's becoming quite of a, a hub. 
+
+15:43
+Host
+Yeah. OK. And uh right now, uh if we open your linkedin and it says that you're a machine learning engineer, but self employed. So what, what do you do? What are you working on? 
+
+15:55
+Guest
+So I'm working full time as a freelancer right now. Um I cannot say the company I'm working for, I would have to get permission from them to do it. I have an ND A in place but I am building um R A um more specifically like RR A system and trying to ate the process of generating um knowledge graphs for a company with direct um applications and into insurance systems. So it's quite a, quite a change from what I did in the past, but it has been quite, quite nice I've been wanting to freelance full time for a while. So I took an opportunity when it arrived. 
+
+16:34
+Host
+So, you've been doing this as ac for like, three months, right. So, it's pretty recent. 
+
+16:40
+Guest
+Yeah. Yeah. But before that I was also freelancing but more as a data scientist. 
+
+16:45
+Host
+Uh, ok. So basically you've been freelancer for freelancing a freelancer for quite some time, except now you changed your profile. Right. So, before you've been a scientist, what did you do before? 
+
+16:57
+Guest
+So before this, um I did a couple of different things. My last freelance before this was an in a company where we were taking um essentially open source data from like geo reference systems and we were aggregating and processing them sometimes a little bit of machine learning. Sometimes it was more based on, on what it was inside like a rule based classical database merging system um to get maps out of a specific region that they were interested in. So this was very data focus different than being more model focused. 
+
+17:38
+Host
+So, did you start as a freelancer? 
+
+17:40
+Guest
+No, no, no, no. I work in first, I worked in a little bit of a research based position. I wanted to, to get more research experience and see how that goes. And it was nice. But I don't think research like fully was what I expected it to be. It's very like it's super cool when you see the papers out and you see the result but on a day to day I felt like I was, I had too much of an engineering and I wanted to get a product done and I wanted to get, you know, that really the final product out. Like I realized it makes me anxious when I'm working with something that, that does not have a clear deliverable. And I don't have like a clear set of what it's like. So I kind of change for freelancing where I could, I could have that. But also as a freelancer, I think I am too much of a, of a researcher in mine. So I'm in the middle of that. That you 
+
+18:40
+Host
+did. You do, did you do some sort of phd. A phd was very a phd student when you were working as a researcher or it was just uh work. 
+
+18:52
+Guest
+No, I started as a phd student and decided it was not for me. 
+
+18:57
+Host
+OK. So basically, um you were doing a phd, you decided it's not for you and then you thought, OK, I want to do to go to the industry and you started as a freelancer in industry. So why didn't you just, you know, join a company as a full time employee? Why did you decide to be a freelancer? 
+
+19:20
+Guest
+Because I wasn't sure what I wanted to do in the first place. Like I, I had an idea but I wanted to experiment things and I think like as a freelancer, like you change projects quite often, you get to meet new people, you see how different companies work. And that was the really like what sold it for me, like the ability to see more and see how things were. Get our hands on experience with different things. 
+
+19:48
+Host
+To me, it looks maybe I'm wrong. But to me, it looks like freelancing is more difficult in the sense that like you need to constantly look for clients. You also usually companies expect that you have a certain level of experience when they hire freelancers. Uh, so to me it looks like getting a full time job as a usual employee is easier than a freelancer. So freelancing is like doing it the kind of hard way. Uh, yet you decided to, to do a freelancer first. So many people actually have problems with, uh, finding just a job after academia. Right. It's not that easy. Uh, but you decided to kind of skip the step to jump over finding like the usual full time employment and just went directly to freelancing. So that's pretty interesting. 
+
+20:38
+Guest
+Yeah, it was a little bit. Um, I, I don't, well, it is a bit stressful to be a freelancer. Sometimes you do have to look for clients. You have, you have to look for offers, you have to contact people, but I feel like it's not as difficult as people make it out to be. I think it's just a different skill set, I think. Like also looking for a job can be quite hard and quite of a challenging thing. But I think it's um I think eventually I want to have like a full time job in a company where I do that. But when I have a more, like, more experience and more, more of a, more of a field, like more of a hands on experience in the sense that I don't know, I, I think if you like different projects, if you are curious about things, work being a freelancer is like a good option. It allows you to try different things to see different topics. And then I think the nice thing about being a freelancer too is that you're very much hired based on what you can immediately offer a company. So if you like learning new things, it can be quite of a good, a good job, like a good career because you, you can stay, like, if you like what is the latest technology? You can, you have enough time as a freelancer to pick that up on your own and see how it goes and immediately apply that to a project. 
+
+22:07
+Host
+That's interesting. How did you go about finding your first client? Like, ok, you, you were doing a phd, you understood that it's not for you and then you decide, ok, I want to do a freelance to be a freelancer. I want to try different things. So how did you get your first client? 
+
+22:22
+Guest
+So I quit my phd when I had enough. Um I quit it and then I was like, I'm gonna look for a job or I'm gonna see if I can freelance. So I post my CV in some places and I was gonna move, like I was gonna relocate from where I was in Marseilles to, to Leon anyway. So I just post my CV S and one day I remember because I was surprisingly, I was at the supermarket and then like, I got a call from somebody saying, oh, we're looking for a freelance. This is what we want. Um Could you like, would you be interested in this job? And I was like, yes. And a week later I had my first client, it was really like everything happened super fast. Hm. 
+
+23:07
+Host
+Ok. Hm. So that's it. 
+
+23:10
+Guest
+Yeah. Yeah. There's no magical story, you know, a side hustle. I just posted my CV everywhere. Um Optimize my linkedin profile and that was kind of it. I, I kind of, I wish I had a more interesting story but really it was just that, 
+
+23:27
+Host
+I mean, it's kind of actually good in a sense that uh it doesn't have to be complicated, right? 
+
+23:35
+Guest
+Yeah, I think it really also, 
+
+23:37
+Host
+they also had a good profile. Right. 
+
+23:39
+Guest
+Yeah, I think I, I was also a little bit lucky because I was always very much involved with projects outside of academia. So I actually had to like the skills for this job because I was part of another project which was a A I for good project co ordinated by Ontina, which was very much based on like geo reference technologies and geospatial libraries. So when they called me, I was like, yeah, I know how to do that because I was involved with this project where we did something similar. And the same thing for like the machine learning part, I got involved into a couple of open sources projects because I wanted to have that more machine learning focus um experience as opposed to like a, a data, a data science or a full time data scientist. And when like the o like when the time come, when I had a client who was looking for that profile, I had the skills that I needed for it. So it was, it was a little bit of luck and a little bit of effort on my side too to 
+
+24:43
+Host
+maybe not a little bit of effort because it sounds like you did quite a lot to actually like, I mean, taking part in an A I for good project and then learning something there and doing something there is quite some effort. I mean, you were also studying, you were working in academia uh doing a phd, you had to do a lot of other things and then finding time and motivation to do and actually I think is quite some effort, right? 
+
+25:13
+Guest
+It is. But I don't know, I think open source can be so fun that it doesn't really feel like um you're putting as much effort, especially like um on some projects, people are so nice and people are so motivating and everybody is really like, passionate about what they do that you just wake up or you just get home to work and you are excited to do that. Or at least I get, I get excited when I have to like, do something. And I know I will talk to these people who are invested in this project. We're really passionate. So I think it's a lot easier, easier to work in those circumstances because you're surrounded by motivated people, you all share kind of the same vision, you're learning something new and it's kind of um a pressure free environment too. If you were learning skills in like an academic setting or in a boot camp, you have like very high deadlines, very high expectations quite often in open source is a lot of like play time, right? You have a model, you have an idea and you just want to play and see what comes out of it. And I end up learning it quite a lot when I have that space and people to share with and so forth. 
+
+26:25
+Host
+Can you tell us more about these open source projects? What are those? And how did you find them? 
+
+26:30
+Guest
+So and like, I wish again, I wish I had a great story to tell. But the first one that I got truly, truly deeply involved was the community chorus from Hugging Face. It was the computer vision community courses and the story of it, it was, I was in the scored and I'm a bit of a chronically online person. I was just on hugging face. Discord. And I saw people talking about this community project. And then I saw somebody saying, oh, we created a channel for it and I joined the channel and on the channel, somebody had OK, so we have the staple of content and we have a spreadsheet if you want to contribute, sign to the spreadsheet, I signed to the spreadsheet. And then I spend the next three months of my life talking about this all the time and just like coming home after work and being like, yes, let's write things about computer vision, let's review pr S and I made great friends on the course, like um like friends that I would have not made otherwise. And then the A I for good project happened because somebody on this was being part of the project and they were like, oh, I'm doing this project, do you want to join? And I was like, sure. And then I did that project and then I met other people at that project who were doing other things. And then before I realized I was doing all these projects that I thought it was super interesting because once, you know, people, then they have ideas and they're like, oh, I have this idea. Do you have time? And then it comes from there and I, I guess it's a little bit weird but I think this is kind of like the side effect when people say you should work. It's because, uh, once you find a group of people who share the same person passion and have the same ideas, then you, you become aware of what's going on and people have like, oh, I want to try this and you're like, sure, I have three hours to you. What do you want to do with it? And things just really took it from there. Like, not a grand story. Just I wanted to do something with open source for quite a while and I didn't know where to start. I saw somebody organizing something and then I jumped on it. 
+
+28:42
+Host
+Yeah. So for me, the main takeaway is um like a summary of what you said is you hang out in communities, you just, and you're being open to uh to opportunities. So you just see, OK, like something is going on. Let me take a look and then you see that it resonates with you and you jump on this and you take part. 
+
+29:02
+Guest
+Yeah, exactly. And it's really not, it's very scary when you never done it. But once you're done for the first time, you see, OK, like this is, this is OK I can handle this, 
+
+29:15
+Host
+especially when it's a community project. Um So the scariest part is uh like when you start something new is like knowing where to start. But when you work with somebody else, it's kind of easier to have a plan and to know your next step. And once you know your next step, you do your next step and it's kind of clear what the next step is and then step by step, you kinda, you finish the thing 
+
+29:38
+Guest
+true. And also like in community, like people naturally gravitate towards certain roles, like certain people naturally become like the editors and filtering out ideas and some people naturally become like the dead liners. And personally, I am not too good to keep tracking of the deadline outside of work. So I always appreciate when there's somebody that's kind of like, OK, but we have to get this done by next week. It's like when do we need to get this done by next week? It's really cool because you see really how different people and how different ways of working can really make a project come together. 
+
+30:12
+Host
+This community course on Hagen face was the discord, right? Was it you said it was about computer vision, 
+
+30:20
+Guest
+right? 
+
+30:21
+Host
+So what exactly did you do there? So it just one of the modules or? Yeah, 
+
+30:27
+Guest
+I work mostly on the first module which is like, what is computer vision? What is image processing? Um how the computers even see images and like what are the classical techniques that happened? And then after that, I sort of became a a reviewer for the course. So we review quite a lot of the other units mostly because the way that of course was structured, like once everybody was done, everybody made the pull request and then it became like, OK have 30 put requests to review like who's available. And then I also contributed to like some parts of like introduction to what is transfer learning and so forth. But it was really based on by the time I joined, quite a lot of the fancy topics were taken and the introductory topics were quite, were quite free. So I was like, ok, I can take an introductory talk about, like, I can work with this and it was, 
+
+31:25
+Host
+and how much computer vision experience did you have back then 
+
+31:29
+Guest
+when I was working in, in academia, like my last internship in my master's degree and the beginning of my academic work, they were both in computer vision. So I was quite, quite familiar with it. 
+
+31:43
+Host
+I'm also curious, um, like in order to teach something or in order to take part in a community course like that, how much, how deep your knowledge should be so that you don't feel like, I don't know, an impostor. 
+
+31:57
+Guest
+Hm. Yeah, I think that's a good question. Like I was very comfortable in the topic that I was working on, but there were definitely like people who were more beginners than me. And I think they did a great job because what they, what they did sometimes is like, oh, I don't really understand it. What do you think about it? And do you have a paper I read, or do you have a book that I would recommend? So, even if they were not experts in those topics, they just put in the work to research about it. And since there was always somebody who knew more about the topic at hand, it was really, like, easy to guide each other to see, like, what to do and like, what was right and what was wrong. And because there was also, like, people reviewing the book requests, you could catch a lot of, like, maybe mistakes or things that weren't so clear. So in the end, I think maybe not all topics are beginner friendly, but definitely they, even in, in complex projects, I think there's always a test that's more beginner friendly. 
+
+32:55
+Host
+Mhm. And also, like, let's say, you know, the topic, uh, you know, computer vision because you did some projects in computer vision, you're not a beginner and maybe some things they seem obvious to you and then you don't have much time explaining them. But when somebody is like, uh, has a fresh perspective on things, they don't necessarily have your experience. They look at the, your content and say, ok, like, I don't understand how did you jump from this point to this point. 
+
+33:27
+Guest
+Yeah. Honestly, that's something that I really like about teaching because like, when you do something on a daily basis, you kind of forget that that has no meaning for people in real life whatsoever. And then like, people like, ask you this question and you're like, oh I see. So like, that's not common knowledge and then you have to like circle back and try to explain it with like more care. And also in a way that's just more understandable too. Like machine learning is one of those fields that there are so many words that mean the same thing and there are so many complicated ways to say things that sometimes are not that complicated. So that's, I think is really important, especially if you are starting the field. 
+
+34:11
+Host
+And um so let's say I want to look to find a project, like you need to take part in an open source project. It could be developing a course or maybe contributing to something I don't know to do some open source project. Uh Some other open source project. Where would you suggest to look for these projects in which places like, could it be just random communities or there are specific places where you can be 
+
+34:41
+Guest
+my? OK. So first if you use a specific model that's open source or a library that's open source, likely they either have a slack or discord. So probably a good place to start is join there and just see what people were doing, see what developers are saying, see when things are being released and then also check the issues, the type of the issues on github. Quite often, there are some issues that are easy to fix, are not so easy to fix. Or like when you are using a library, if you're using it pretty regularly, you spot things that are not, not optimal, You can also open yourself the issue or think about yourself how to, to do it. I think as long as you are really nice about it and really open things work out fine. Another thing that I think it could be cool is sometimes when you are in the documentation, they explicitly say contribute to this or contribute to the documentation or something like that. And that's also a good place to start because everybody kind of wants to contribute to open source and nobody wants to write documentation. So if you, if you're reading to start there and see how it goes, see how it feels. I think that's a good place to start and then on the community side of things, I think uh oa it's Omten A is a good place to start. They also, they have like this local tractors that they organize where you can get like hands on experience if a machine learning project and it's very low stakes like the there's no pressure and training like typically is included in, in this courses, which means like somebody separated a couple of titter notebooks that everybody will reveal together and you can always um take something from that. So I think those are the two main main places to start 
+
+36:44
+Host
+and while talking with you. So when I hear, contribute to open source, to me, the first thing that comes to mind the first idea and or like the way I see it is like there are libraries like second learn pandas numpy. And when somebody says, hey, you can contribute to open source. Uh what I have in mind is OK, there is second learn, there are some issues and I go and fix this issue. But these are tools. But now when we talked about this and you mentioned working on open source projects. So I think these are different sorts of open source projects. So it's not like you're working on a tool, but rather you use this to to solve some other problem, 
+
+37:26
+Guest
+right? Because you can also, yeah, there are dimensions to open source, right? There are open source code, they are open source data, they are open source tools. And I think like it's cool to contribute to open source tools. But I think it's also the most overwhelming place to start because like if you go like to NM PAI and try to see the structure of the code, there are layers and layers and layers of it are like when you, when you have a problem with no pa and you go to their issues and you see the issues, there's probably somebody who's already tagged on that and it's already developing on that. That that's not to say that you cannot contribute, right? But I think like the smaller libraries, they are usually a more welcoming place to start and honestly open source data. It's also I think overlooked a lot of time. Like if you can get a fully like open source project with open source code, open source library and a final product, I think that's a really adds value to that. 
+
+38:23
+Host
+And you also mentioned the course community course at Hagen face. Um I assume it was also like open source fault, which is uh very close to me because this is how we do courses in data cloud. So we use github and like everyone can contribute and while it's not open source in the sense that it's not like a library panda, but it's still open to everyone for learning and for contributing. Yeah. Makes it cool. No. 
+
+38:54
+Guest
+Yeah, it's pretty cool. I like it too. Like I took um I took some of the boot camps, not entirely just specific models that I was interested in. And I think it's really nice because it's, it's getting harder and harder to get like true good sources of information in that space, especially nowadays. Like I feel if you Google something you end up with the first five pages is just entries that look like they were made by touch PT and then things kind of go wrong. So when you have like somebody who truly made the content and thought about it and put something together, it makes a lot of difference. 
+
+39:31
+Host
+Mhm OK. And when it comes to projects, so we talked about courses, but to say I for good, you said one of the places was uh is Adina and this is where you found your project too, right? 
+
+39:44
+Guest
+Or Yeah. Yeah, that was where I found my project. And actually like I had a, so one of the people I met in the first project invited me to organize another chapter with her. So now in December, we'll be organizing a chapter on Green Space Segmentation in Frankfurt. So if people are interested, they can also come join my local chapter. I'll be more than healthy than welcoming them. 
+
+40:08
+Host
+Space segmentation. 
+
+40:10
+Guest
+Yeah. Green space segmentation. 
+
+40:12
+Host
+So what 
+
+40:12
+Guest
+has been essentially like if you have a garden or a forest in the city and you have like 
+
+40:19
+Host
+outer space, it's more like space on earth. 
+
+40:22
+Guest
+Space on earth. Yes, it's not 
+
+40:24
+Host
+out territory, 
+
+40:25
+Guest
+territory. And then you have like there are a couple of different satellites. The most, I think the one I'm most familiar with is Sentinel two which essentially circles around the earth and take pictures for free. And I think for from for food, there is also high aerial like drone high quality images for the area. And the challenge is this from this images, how how are you able to process them to have as a result? A segmentation map of the city? So where are the gardens? What are the forests? What are the green spaces that are available? Can you map this back to what is supposed to be a ground truth and it's really focused on, on that. And our main idea at the moment is to benchmark different strategies like from CNN S to more transformers based slash member based approaches and see like which truly is the best or truly is the best? A bit ambitious. But what is that is actually doable? That's also like I have like, um I think sometimes things perform great in, in research when you try to use it in real life, it's just not do because not, not everybody has access to like the service and if it takes a whole day to input like to predict one image, then how, how much time do you really have for like who has the resources to really do that? So it has that like we wanna get the green space map out. But we also want to find out like if somebody has to do this for another city, like what would be the correct way to do it or like the best way to do it 
+
+42:01
+Host
+as and as, as I understood the project, you did before. Um, it had also like something geospatial, right? And when you were looking for your first freelance job, uh actually the, the company you ended up working for, needed the exact skills that you developed during this uh this project. Right? 
+
+42:24
+Guest
+Yeah. Yeah, that is exactly what happened and maybe that will happen again here. I don't know, maybe my next will be exactly like, like the scenario, but I think that's a really good, good story. Like you learn a skill in a project hands on. And I mean, for dinner, there's no expectation that you work 20 hours or 15 hours is really like if you have five hours in a week, just like a half a day or after work for 2 to 3 days, you just join a project and you work with other people to try to come up with a solution. It's a very, I think it's a cool way to learn new skills and a lot less overwhelming. If you do like with a team, 
+
+43:07
+Host
+would you say that uh it typically happens that the skills you pick up uh on such projects, they are hands on hands on skills that translate to job skills. 
+
+43:17
+Guest
+I think so first, I think, I think everybody gives the same advice when it comes to data science. Like build your portfolio, do this, do that. 
+
+43:27
+Host
+So many ways of doing that. Right. 
+
+43:28
+Guest
+Exactly. There are a lot of different ways of doing that, but like as I grow in, like here, I realized that people are also looking for soft skills, right? When they hire you, they just don't want to somebody who's great at their job but cannot work with anybody else. And I think when you do projects like this, you are forced to pick up soft skills. Because if you have 80 people working on the same project, you have to communicate well, you have to be able to follow up what's going on. You have to be able to access resources and figure things on your own to not be overwhelmed when you open slack and there are 30 messages on one single channel and you don't know where to look for that. I think those, it's also a great place to develop those skills because a lot of, I think a lot of engineering and data science also the mindset that you applied to what you're doing. And the like if you are alone, you're working alone, I'm sure that you're developing very hard skills and very technical skills. But then maybe you are missing out on developing a little, a little bit more of the mindset. 
+
+44:31
+Host
+And also when you work alone, you don't necessarily know what are the kind of good relevant skills you think. And when you work on a project and there are people who already have experience who guide, right? You have those people in the projects. 
+
+44:47
+Guest
+You do, you do have people who, who have more technical skills. But when you have applied projects, usually people who work in that specific field also show up. So for the first project, we were working with um C grass segmentation and there were people who just did cress monitoring for their job, like their life was to understand like where they live and how they model and how to segment them, then they show up and they're really willing to help because that also benefits them at their job. So it's a really cool, cool place because you really are exposed to a lot of different types of people. 
+
+45:24
+Host
+Mhm. And they are probably more in consultant roles rather than hands on roles, right? So they teach you about their expertise about the best way of doing things but then you implement. 
+
+45:34
+Guest
+Exactly. Exactly. And then I say, I think it's cool because like I, I always say this and it seems so silly. But if you're interested in a job, the best way to get information for that job is add somebody on linkedin who has the job title, who works in the way and just ask them questions. And I that can be scary. I understand. But worst case scenario, you just never get a reply. And best case scenario, you get some good free advice, right? And I think with a Dina, what happens is because everybody is mashed into the same project that communication and that question is more free. So you can just ask in case of like, but what do you actually do for your job? Like what is your date today look like? And I think that's very valuable because I think a lot of people when they join data science, I don't think they fully understand the difference between positions and sometimes those names can be quite confusing too. Like a data scientist and company X won't do the same. That company, why and so forth. 
+
+46:39
+Host
+So I find it now if you say company X, it may mean the actual company, 
+
+46:44
+Guest
+not the actual company X because imaginary company X 
+
+46:49
+Host
+and did you say 80 people or 18 like was it 80, 
+
+46:53
+Guest
+80? 
+
+46:55
+Host
+Ok. So that that many people working in overwhelming that so many people. 
+
+47:07
+Guest
+So it starts with 80 then week by week people fizzle out. So I think towards the end, it was a core of about 25 people working on the project all the time. So the beginning is chaotic but things things do settle down 
+
+47:24
+Host
+because uh the the the entrance per year is pretty low, right? Or like what, what do they actually need to to have or to do in order to start working on a project 
+
+47:36
+Guest
+time? 
+
+47:37
+Host
+Ok. Well, 
+
+47:40
+Guest
+so I'm willing to learn and you need to sign a chart like the chart of conduct just saying that you know, you behave like a normal person, you're not Harris people. It's like, and that's it, like the bar is pretty low. 
+
+47:54
+Host
+Ok. And then, like, people realize so maybe it's not for me or I don't have as much time as I thought I would have. Right. And then instead of 80 at the end, like maybe four weeks later, eight weeks later, it's 25. 
+
+48:08
+Guest
+Yeah. But all in my experience, almost all open source projects are like that you have a really good turnover rate because the 
+
+48:18
+Host
+club for most of the activities we have. 
+
+48:22
+Guest
+Yeah, that's just part of doing things open source, like, and in a way I think that's good. 
+
+48:29
+Host
+Mhm. And you kind of have to plan, like, if you're organizing a project like that, you have to plan knowing this. 
+
+48:36
+Guest
+Yeah, exactly. But I, I think that's good people show like, the people that are interested in. I think it's just that when people sign up they don't really know what they are expecting and then maybe this time they won't be able to stay for the full, full court, like, for the food project or they get overwhelmed, but then at least they know how to sign up for next time and then the next time they come they have a better expectation. So, like, there is no, there's no penalty for signing up and three weeks in realizing that you don't have the time for that or like circumstances changes at your work and then you won't have time anymore. But if you learn anything from the project. I think that's already a huge benefit, like having realistic expectations about what you can get out of these projects and how you contribute. I think it's super important. 
+
+49:29
+Host
+So it's not like I join. And then one week later I bounce, I decided to leave and that Dina is forever close to me. So because then later, I don't know, half a year later I realized that it's more clear to me what I want to do and now I do have time and now I have uh more realistic expectations of what to do there. The door is still open, 
+
+49:55
+Guest
+right. Yeah. Yeah, exactly. The door is still open. And also what I realized in this project too is some people they really want to contribute. But what, like the words that you were talking to them, they mean nothing to them. Like if you're a complete beginner, you join a project and somebody goes, ok, I need you to do a push to that French. They have no idea what you're talking about. They, they don't understand what you're talking about. So you have to like, um, you have to be clear about that as yourself too. So I saw a lot of like people saying, ok, I need some hand holding or like I am a complete big eater. What's the first thing that I can do about it? And sometimes like, if you have, um, if you have a good team of people, they will adjust your level. Like, for example, I had the, I had this um student, I think he was 17 tops when I was in the anti project and he would send me a message. I was like, like, I wanna help but I don't know what to do. And then, like, sometimes I don't have like, like the people who have more experience, sometimes they don't have that much time and then people who have a lot of time don't have a lot of experience. Yeah. So sometimes you can just be like, OK, can you just go to the hugging face hub and find me five models that can do this task and just check their model cars if they have their performance. And these people will be more than happy to help to, to do that because they have the time to, to go and check it and they will learn something from it because now they learn like where models are, how do the little model with a model performance. So it's, it's a really a cool way to collaborate with other people. 
+
+51:28
+Host
+And now because we have tools like J GP T, you can just tell them, hey, like this is what you should talk to judge GP T about and perhaps learn from it. 
+
+51:34
+Guest
+Yeah. True, true. But also like um in my experience because I also teach um A I like when people go too deep into judge PT, they get to get more or less because Judge Pt, if you go to Judge PT asking a very advanced question, like how do I validate a segmentation model? Judge PT will give you a advanced answer even if you ask it to simplify, like it's a, it's a matter of vocabulary and it's a matter of understanding like you have an answer, but you also cannot understand the answer that you have. 
+
+52:09
+Host
+Yeah, I have this problem right now. So like for things, I am good at dances usually makes sense, right? Because I have the ground that I need in order to understand the answers. But for things I'm a UB at like, for example, I'm experimenting with Arduino right now, which is like hardware stuff. Sometimes it gives me pretty advanced answers and then I have no idea like, how do I apply? And then I have to like do a step by step understanding and then ask a lot of questions and then I have like 10 chats asking about different things and it's overwhelming. 
+
+52:43
+Guest
+Yeah, I completely understand that that happens to me too. Like sometimes when I'm trying to do stuff, especially I, I'm on Linux and I had a problem with my audio and I was like, OK, um but to like 24.0 how to fix audio issue. And if you try to ask cha PT, like he comes up with terrible advice and you're like, OK, I'm not doing that like where is the forum? Like, where are the best that, what they doing? 
+
+53:13
+Host
+And then you come across something even more creepy. At least that was my experience with the wonder. 
+
+53:20
+Guest
+Yeah. It, it is. But it's good. I really like it. 
+
+53:24
+Host
+It's like, uh, your life is never boring when she speaks. 
+
+53:29
+Guest
+No, no, no. And, you know, like, um, I had some friends in, in college that we, we had this joke that when you know nothing about Linux, you are very responsible. And when you know a lot about Linux, you're very responsible when you do just enough. Oh, that's when, when you have confidence enough to try things, but you have no like a way to tell if you're doing something good or something bad. So you end up doing a lot of weird things. 
+
+53:59
+Host
+OK? So we also wanted to talk about your substack. So tell us about that. What do you do? What do you work on there? 
+
+54:06
+Guest
+So I have a substack called Data like, and it's me and Denny and we created this substack to talk about women in data. Um Data is a broad field, anything from a data analyst to dataviz to machine learning. And it was um again, I wish I could have a revelation. I have a super cool story to tell. But honestly, uh I worked with Denny in the past and I was like, reflecting last year, like it was around Christmas and I was like, I, I really wish we could, like, do something like that again because we had a, a group that we had the weekly meeting about, um, like a, just a study group on machine learning engineer with women from all over the, the world. And you would just find a day in the week and we would study center a certain topic. And it ran for, I did this twice, not in Portuguese, like it focused on Brazil and a lot more open and together they ran for about 3.5 months and then it became like too messy to handle that because then like if, if you do a study group in my experience for more than three months, everything just collapsed because people change schedules and so forth, just quite complicated. So I wanted to do something similar and I was thinking about it and I started researching about like, ok, sir, what are the statistics about women in data? Like what is like? And I came to the conclusion that if I wanted to do something about that, the best way would be just to tell the stories about the people who are working in the field. So in the, the subs, we really just find people who are working in data science and machine learning and we interview how they got started, what they learn in the journey so far. Like what are the aspects that they like about their job? What is their advice. And we've been doing this for about 10 months now. We launched in January, 
+
+56:03
+Host
+which uh it's a really cool thing that we do. Thanks. Um which reminded me of um an interview I think we had one year ago maybe, you know, Sarah from Morocco. No, no, no, no, no, Sara. So, yeah, so we had an interview called Make An Impact through volunteering open source work, which I think is super in line with what we talk and yeah, you should definitely talk because um so what she was talking about, she had a similar idea and uh they had a whatsapp group with just women and uh what they did is they were looking for hackathons to take part and then they would just do one hackathon after another and they would often win there. So, yeah, you definitely need to talk. Yeah. Yeah, 
+
+56:57
+Guest
+it's super cool. I think the, the idea for the stock is just try to make it more accessible because when you do groups, you have a group and then eventually, like, it's just that and I don't know, I feel like it in a way was uh my way to give something back to the community and to have more, more women voices out there. 
+
+57:19
+Host
+Can you tell us um about your last few issues of substack? Like what two last newsletters? What did you talk about there? 
+
+57:27
+Guest
+So, our new newsletter came out today. It was with Bianca Haberman. She's a researcher in bioinformatics. And she was like talking about how she got started and like the projects. Um I think the most interesting part about this interview, like she talks about how hard it is to take a leadership role and how like different it is to manage people on different projects. And she tells a story about the tool that she developed. Um It's a specific research tool that was very impactful for the community. And it took her 10 years to develop this tool like from scratch to the current version that she has right now. And she talk like about how in the beginning people were very skeptical and she has to prove that like this project and the tool really worked that you could use them, like you could do automatically data analysis through this tool. And then our people really like reach out to her about this to like, OK, can you talk, come talk about it? We are having a workshop which would be interesting to, to come check it in. And then the last one was about the second to last one was about somebody who had started working in fake news detection. And she, she was working with I think a fellowship if I'm not mistaken from Google and she was applying the job that she was developing to manage like fake news and toxic content in A I communities. But we had quite a lot of different, quite different profiles. We had the, we had already had people who uh that was Marisa. So she's, she works in A I ethics and sustainability. And she was like, talking about when she started, it took a week to train a logistic regression model and that people in the computer science didn't took a I seriously at all because they thought like there is no, there's no mathematical rigor in A I, it's just experimentation. So people would think that A I is not as valid and I don't think anybody would say that today. So it's like really meaningful. And also there were a couple like one that it's like I thought it was super touching is somebody who started, I forgot her name right now, but she created a youtube channel to teach machine learning in Aruba. So people could learn machine learning in their mother tongue. And I thought it was so nice. Like it's not the kind of thing that you typically think about, but it's super impactful in a real life scenario. 
+
+59:59
+Host
+Where is this country? Is it in Africa somewhere? 
+
+60:02
+Guest
+Yeah, 
+
+60:03
+Host
+because I, I don't like, I heard the, the, the name of the language but I think 
+
+60:08
+Guest
+it's um I think the it's in between Nigeria and Ghana that are 
+
+60:13
+Host
+speakers. So basically each newsletter issue is an interview with a woman who did something and then you want to share their stories, 
+
+60:22
+Guest
+right? Yeah, exactly. I mean, it's really cool because some people, they come from typical backgrounds that people did a total career 180. And like, you can always, like, take something like some valuable advice from, from each of each one of them. And it's always like, uh the ones that I found more interesting is I remember somebody who we interviewed, she was a linkedin carrier me. So how did you get started? And she just tell us there was a form I filled it and they contacted me. So, you know, like sometimes you're like, ok, so I can, I can just do that if I'm interested in doing that. And I think that's a very, it seems like silly or obvious, but I think that's a very valuable career lesson. Like if you want something, ask for it, if you 
+
+61:11
+Host
+and things are simpler than they appear, right? Sometimes 
+
+61:15
+Guest
+they are 
+
+61:15
+Host
+and it's quite empowering, right? It's quite motivating because like now, you know that the only thing between you now and you being a course instructor is this form. 
+
+61:26
+Guest
+Yeah. And, and like, I also think it forces people to put themselves out there, which I think if there's anything I regret about the beginning of my career is I over thought every single thing that I did and I, I regret doing that because you, you have like, we, we can just try things and if things fail things move on, you learn from it, you can try the worst case scenario, you get rejected. But rejection is not the end of the world. So I think as as long as you keep exposing yourself out and out there, like you really grow as a person and you kind of like also learn a lot from it. 
+
+62:06
+Host
+And if somebody wants to, somebody is listening to this right now and think they have a story that they want to share and what's the best way to contact you? 
+
+62:16
+Guest
+You can contact me via linkedin or you can honestly, if you are on substack, you can just write to us on substack on data, like just send us a private message chat and we will take your 
+
+62:28
+Host
+like or like 
+
+62:29
+Guest
+like like like like like 
+
+62:33
+Host
+OK, and then uh we, I don't see a link data like sub probably will, I can Google but you'll send us a 
+
+62:48
+Guest
+Yeah, 
+
+62:49
+Host
+I think I found it. So there is a woman reading a book and it says data alike. We are a newsletter dedicated to put the spotlight on women's journeys and achievement in the data related field, right? OK. Put the link now to the chat and yeah, I think that's uh all we have time for today. So it was amazing. Thanks for sharing your story and uh I think it was motivating and it will be motivating for many people. 
+
+63:23
+Guest
+I hope so. And yeah, thanks so much for having me. And if people want to reach out, I want to have a talk, I'm more than welcome to help. Message me on linkedin on Twitter. I worst case scenario, I take a while to reply, but I usually reply to everybody. 
+
+63:42
+Host
+Ok, Isabella, thanks a lot and thanks everyone for joining us today. And uh well, today is Friday, so have a nice weekend and we'll see each other pretty soon.
