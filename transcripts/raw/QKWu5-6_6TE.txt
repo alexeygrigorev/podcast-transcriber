@@ -1,0 +1,703 @@
+0:01
+Host
+Hi, everyone. Welcome to our event. This event is brought to you by the club which is a community of people who love data. We have weekly events and today is one of such events. If you want to find out more about the events we have, there is a link in the description, click on that link and you'll see a web page with the events we have um in our schedule. Then do not forget to subscribe to our youtube channel. This way you will get notified about all our future streams like the one we have today and last but not least we have an amazing Slack community which you can join to hang out with other dating disa during today's interview. You can ask any question you want. So there is a pinned link in the live chat. Go there, ask your questions and who will be covering these questions during the interview? And that house is kind. Now, I will open the questions that Johanna prepared and if you're ready, we can start 
+
+0:56
+Guest
+mhm 
+
+0:57
+Host
+Ready. And by the way, it's a guitar, right? To the transcript. So because like you can pronounce G like 
+
+1:06
+Guest
+I know, I have a 
+
+1:10
+Host
+um and the inclination is Agita, right? Not Agua 
+
+1:15
+Guest
+uh Agua. Agua like, yeah, depends on which language you are talking. It's usually a matter of preference. I, I understand all of them. Agita. 
+
+1:26
+Host
+Agita. OK. OK. We have a special guest today. Agita Agita has done a lot of things in your career, including devops uh data ops, data engineering management, community building education, facilitation among other things because I, I'm sure it is not the complete list. And she has worked in corporate environment start ups open source in non governmental sectors. And she also founded an NGO focusing on the inclusion of expats and locals in Porto. And I had with chat with Agita uh a couple of months ago. Was it September? Uh We actually connected uh sometime before that uh when she was working at um VM Ware, right? It was VMVM Ware. Yeah. Yeah. And then uh we connected uh a while back and then I was in Port to visiting an amazing conference, data makers fest. And we had um data talks club um event there, data dinner and Agita was there and we had a chat and it was so interesting. So I thought we should definitely invite her to be a guest on this podcast. And finally, she has made it, she's here. And uh yeah, welcome. 
+
+2:36
+Guest
+Thank you. Thank you. Yeah, nice to be here. 
+
+2:39
+Host
+Yeah. So the questions for today's interview are prepared by Johanna Bayer as always. Thank you, Johanna for your help. And, uh, let's start. So before we go into our main topic, which is all the topics came along, career choices, transitions, promotions in and out of tech. So before we start with the main topic, let's start with your background. Can you tell us about your career, career journey so far? 
+
+3:02
+Guest
+Mhm. Yeah. So, in order to kind of understand myself, I made a little chronological uh list for myself. So, yeah, uh after school, like after ninth grade, I went to trade school to actually study art. I, I went into web design and then I learned that I'm not so good at art. I am. Uh Yeah, there, I had my first experience in programming and uh this, on the other hand, I discovered that I'm really good at and uh I managed to get some things done that uh were like, um kind of really challenging. And um I also enjoyed programming. So after my web design education, obviously, I couldn't find a job. Like it's not very easy to, to become designer, especially if you're not very good at it. So I worked as a waitress for a couple of years in um yeah, in the, in the, in the center. I come from Riga from Latvia. So, yeah, worked as a waitress. And uh there at some point came to my mind that maybe I should pursue um bachelor's degree in computer science. Um I moved to another city. It, it all was also kind of spontaneous and very, uh, the 
+
+4:13
+Host
+school was also a bachelor level. 
+
+4:15
+Guest
+No, it was, uh, it was like a trade school. So I finished like 1/12 grade. Got my, all my exams done and also additionally kind of this web design, um, profession, professional education. So, in computer science, yeah, I did. Bachelor's in another city in we. Uh, that's not. And, yeah, it was just nice. I, I enjoyed it a lot. Uh, after getting my degree I went directly to accenture to do the boot camp for programmers in C++, actually C++ was my favorite language. I had a really good teacher. And, uh, yeah, it helped me a lot. I think my teacher just, uh, saved my life or built my career in some, in some way because, uh, yeah, in this boot camp, um, I was the only girl I think it was like 22 guys and me and, uh, they took in, into internship six of us. So that's how I got into accenture. My first project was not C++, at all. It was Python actually. And it was 
+
+5:19
+Host
+everything is easy. Right. Yeah. 
+
+5:22
+Guest
+Yeah, exactly. Like Python was just a nice, you know, and, uh, it was, I was working for nokia. I was an intern for nokia for six months and then nokia, you know, got some bankrupt bankruptcy. I don't know what happened really. But they completely closed the project. So 60 people who were working in this project had to be distributed in, in kind of around, you know, around the place in other departments. And uh actually all the interns, they went into devops and they put us into devs, there was something completely new like a couple of months before that, it was called Pro No Configuration management. And all of a sudden this devops World appeared, you know, and I was sitting all of a sudden this devops like basement, we didn't even have like our team was maximum 10 people and we were just sitting, you know, in the basement doing some automation and that's how it started. Actually, after this devops grew so big in a couple of years, I think it was, we had our own office like uh we were 100 people like uh already in there. So it was the beginning of devops and II, I think I managed to be at the right time at the right spot with that. I worked on two projects. So first got me the first promotion and the second project already, I was for four years, I was traveling to Germany my like on site um I was every Monday, I was going to Germany Thursday back and like a lot of traveling. And after four years in those projects, I was already leading the team supporting project managers directly, like working with the, with the clients and the reporting planning, everything uh kind of that is projects related on the side of this project. And uh I got a burnout. So my burnout was really heavy. Like they wanted to promote me again. I said there is no money that can, that can absolutely, that can make me stay, you know, like no money in the world can stay at work. And uh yeah, I kind of went into this self searching trip to Bulgaria there. I was volunteering for an Erasmus Plus. This was my first encounter and kind of um my first contact with Erasmus Plus World and uh facilitation, 
+
+7:32
+Host
+what is Erasmus Plus is like a master degree or 
+
+7:36
+Guest
+Erasmus Plus is like a program for young people to, to go also educational. So it's traveling and you uh you, you travel for any kind of educational purposes for 10 days to 10 days. 
+
+7:49
+Host
+So it's not like a big thing. 
+
+7:52
+Guest
+No, it's not long. Usually it's something uh very short and uh 
+
+7:57
+Host
+offers so many Erasmus things like that is a Erasmus. Usual Erasmus is like when you do Bachelor, you can spend a semester abroad. Right? Then there is Erasmus Mundus, which is um the program I took part, which is like more like a master's program, you study in multiple universities. So now there is also Erasmus Plus that I heard, I think there are other Erasmus something programs. 
+
+8:18
+Guest
+Yeah. Yeah. Yeah. There are many actually, I just, I don't even know all of them. But there is for sure youth exchanges where younger people go. Uh training courses is for already educators and volunteering where you go for one month and you can help like on the spot. So this was when I found out about this and I was 30 usually it's up to 30 when you can travel, you know. So I just got to know at the last moment of my life, you know, when, when I can, I could join. So one year I spent volunteering, coordinating these Erasmus Plus projects. Then I went to um then I started, I kept volunteering. I just stayed in Bulgaria. I, I kept volunteering. I don't know how, where my money was coming from. To be honest. Now, in retrospective, I was living really well, like everything was fine, but I was volunteering for really three years because I couldn't make myself to go back to, to it or any kind of work. 
+
+9:09
+Host
+So you, you're not sure how you survived this year. 
+
+9:15
+Guest
+There was always money. 
+
+9:17
+Host
+Yeah, I wish it was always the case. 
+
+9:20
+Guest
+Yeah. And I was at some point, I also worked as a community manager. So my friends offered me uh like um a job as a community manager in one office, like uh co-working space. It's called the Networking premium. And this g gave me a really crucial, important uh you know, like um experience in my CV of a community manager which after already VM Ware found me and they offered me, the client found me, they were looking for a technical person with community management experience. They offered me this position in Bulgaria. I said, I'm moving to, to Portugal no matter what. So like I was already on the move and they, they found a way to, to hire me in Portugal. So I was doing this um community management for vmware already open source project, like traveling for conferences and so on. Project was called Versatile Date Kit. And uh yeah, then kind of uh VM Ware got sold, they, they, they let go every single person that was working in Portugal because we, it was only eight of us. And uh that's how actually I am. I got laid off, which is a perfect case scenario for me to be honest. And uh yeah, I, I did it. Meanwhile, I did also while working there, cer certification for facilitator. And I started also doing and facilitating these Erasmus plus projects on the side kind of on in my free time. And now as I'm completely free since uh I think it was March when uh they, they closed, they, they, they let me go. Uh since then I, I opened an NGO myself to write these Erasmus Plus projects with the purpose of inclusion also and doing some work here in Porto between the experts and locals. And now I'm also starting in January mentorship for kids uh like for maybe teenagers between I think 10 and 16 of like also career choices. So that's how it's moving. 
+
+11:23
+Host
+So while you were sharing your story and this is amazing by the way, um really interesting and inspiring. So while you were sharing your story, I was thinking like, maybe we should have called this uh interview. Like first I was thinking maybe from waitress to Dev sleet but then I was thinking from waitress to community manager. No, I'm not sure because like, there are so many different things you've done. Um So for you, like, you really liked um volunteering in Ramos. Plus that's why you're kinda, you're still doing that right? Even now. 
+
+11:57
+Guest
+Yeah, I'm doing that because it's the most, it's just coming like, uh I was, I just wanted to see if I'm good at this, you know, like I sometimes test things and I think it's really important to know if I'm good at it. Like art. OK. Art. Prove me. No programming. Yes. You know, and then like um facilitation seems like yes. And people are inviting me and they want me to do this. So it's like uh I, I'm basing my, also my, my, my journey on where the energy is, where it's positive, you know, 
+
+12:29
+Host
+where energy is positive. OK. So how, how does it work? Like, how do you test and how do you see whether the energy is positive or negative? And what does it even mean to have positive energy? 
+
+12:41
+Guest
+I wouldn't say that it's positive or negative. But the, the theory is very simple. Do I like it? And I'm, and am I good at it? Like, uh, if it is the case, I'm going to enjoy my time doing that thing. And that's very simple. I think if I'm sitting and doing something and the time flies by it's a really, really big sign that this is something that I'm supposed to do, this is supposed to be doing. 
+
+13:08
+Host
+I think it's called the getting into the floor, 
+
+13:11
+Guest
+right. 
+
+13:11
+Host
+Flow. 
+
+13:12
+Guest
+Yeah. Yeah. Yeah. There is a whole theory of flow. 
+
+13:15
+Host
+But like you aren't, you aren't necessarily good at it at the beginning. 
+
+13:21
+Guest
+Actually, I, it turns out that in some things like I am good at it in the beginning, I just kind of have some mindset to, to do this programming. Like my story exactly on how I discovered that I'm good at programming is our teacher just gave us a task to calculate something. It's like a very simple for that. We had to write and he left the room and he said when I come back in 10 minutes, I will check whoever, uh managed to solve this problem is going to get like the highest grade and everyone else just doesn't get anything. And I was the only person in the room who solved it. So I figured, oh, I must be good at it, you know. Yeah. 
+
+13:58
+Host
+What was the problem? 
+
+14:00
+Guest
+It was we had to just uh very, simply calculate some sequence of some numbers and get like, I don't know 1000 number if you like do some summer. It was very basic, very, very basic thing. But uh uh like in order to solve it, we had to write like some kind of loop or for loop or like some, some population there. So it, it was very simple. But I was the only person, Yeah, to solve it. So I was like, 
+
+14:26
+Host
+that's cool. 
+
+14:27
+Guest
+Mhm 
+
+14:29
+Host
+And um so like I'm checking at what uh Johanna prepared and actually she uh went through your linkedin profile and found many interesting things there. Uh And yeah, I, by the way, checked also like you speak Russian, for example, this is something we talked before. Um So and then um for example, you shared that you got a promotion after you automated yourself out of your project. So you created a pipeline that uh basically did um your work. So can you share more about that? 
+
+15:02
+Guest
+Yeah. So that was the first project like uh the first project when I joined accenture already as an employee was a very Yeah, it was OK. So just my first day I, I joined this project and they gave me like seven printed pages that I have to repetitively do and again and again and every day and this was like a migration, I think of some kind of um version of spring to, to a higher version of spring. So some files need to be changed. Some, some things need to remain and and so on. And so some things need to be tested on Linux and Windows and so on. So I was doing this for the first two days in order just to go through the instructions. And uh I think within a week I already learned how to do it. But let's say my, the time of doing this is, is like it takes a lot of time. It is extremely repetitive. And I realized that I can also make a lot of human error. Like for example, I'm just copying folders and renaming them. I, you know, like I realized that's very simple. It's I can just write a code to, to, to move these folders and rename them, right? So I did that. OK? It it takes a little bit more time to, to automate, right? So maybe I was a bit behind kind of my tasks. But uh after I automated it, I don't have to worry about it. And then one by one like piece by piece, I automated the whole thing, the whole process, obviously, if something can be written on the paper, it can be I think written as a code like it is. Yeah, exactly. So I think they were not expecting this. OK? So like by the end of three months, I think the whole process was automated so that it can, I 
+
+16:44
+Host
+or 
+
+16:45
+Guest
+I, I was already an employee but that was like, like, first, yeah, first, 
+
+16:49
+Host
+first 
+
+16:50
+Guest
+job 
+
+16:50
+Host
+position was like, junior engineer or something like this. 
+
+16:54
+Guest
+Yeah, like in the door. Yeah, exactly. So, yeah, I, I think they were just like, there are projects where people are doing daily tasks, you know, and I, I'm not sure if these daily tasks are like this, that you repeat something, but basically after three months I had nothing to do there. And they were like, they were so impressed by this that OK, like we want to keep you for one more month. They kept me, but there was absolutely nothing already to do. There was nothing to fix, nothing to improve. Like uh and they gave me, yeah, and they gave me, you know, like in accenture you, you're writing your own goals and then you are getting evaluation and I got evaluation like above expectations, like on each criteria that I set there. So, yeah, that was like, and like usually the promotion comes after at least one year of work. But I think it was five months and the, the main lead of, of our like of the whole technical like uh department wrote to my career counselor. She, she said uh tell a to do her there, there's some learning to do, you know, like I have to complete the learning, I'm going, getting promoted and I was like, you know, nice. OK, I did everything you know, so within even less than one year I was already promoted. 
+
+18:11
+Host
+So uh like when you mentioned spring migration, it gave me some sort of ptsd because like I was a Java developer at some point. And of course, there was spring and uh uh back then, we didn't really have like this kind of support of uh the box engineers who would do this sort of automations. So, yeah, this is something I had to do myself. Uh So you had to work with Java, right? 
+
+18:35
+Guest
+Yeah, but I have never learned Java, like, I don't know Java, trust me. Like I look at Java and it's extremely difficult. I tried to do a course in Java like uh during that time when I was in that project, but it's just not my thing like, and, and II, I was using like uh yeah, I was using some scripts. I didn't have to actually use Java itself. So I didn't have to know the, the, the language in order to work with it. 
+
+19:00
+Host
+Yeah. What do you say as a Devops engineer or like any, some sort of like platform engineer or S3? Uh Do you need to know the language in which the, the platform you support the system you support is written? 
+
+19:16
+Guest
+No, absolutely not. And, and I could say that I even uh didn't know sometimes the language that I'm going to be working in because every tool like every single uh like um framework that exists is using some other like maybe language. And then at some point it was ruby kind of ruby. Like I was working with Chad, I was learning everything because like I said, like maybe like you said, after, after C++ everything is possible. Yeah. Right. I think I just know, I understand the basics so I can use whatever tool or language I need in order to achieve my goal if I understand. So eventually my, I, I think I understood about myself that my skill is problem solving and then the means that I can use are just secondary 
+
+20:03
+Host
+your problem solving. This is something that I see often see in uh job descriptions. Like, OK, you need to be a good problem solver. But like what does it actually mean? And I was always wondering because like, OK, there is a problem and you solve it but like, how do you even test it? And how can you claim that you're a good problem solver? 
+
+20:22
+Guest
+Yeah. It's, it's still also a question to me. I think that I am kind of getting the clues that it might be the case. You know, like I enjoy problems. Maybe that's why I know that I'm solving. That 
+
+20:35
+Host
+problem is like a challenge rather than a problem. 
+
+20:39
+Guest
+Exactly. Yeah. Mhm 
+
+20:41
+Host
+And then um with devops since you are not doing this and then you said you uh burnt out, you couldn't do any devops, you couldn't look at this and like no money could change your mind. So you went um uh volunteering, but probably you acquired some very useful skills as a devops. And so what was that? In your opinion? 
+
+21:03
+Guest
+I think in general, not just as those like my whole corporate experience gave me a lot of professionalism. I I understand how the processes are really good, how documentation is really important. Like people in NGO S, they don't understand this. Like most of the time everything is being very chaotically, you know, not managed and so on. So when I joined that NGO, I was actually introducing the same, I was doing not not like Jira, but for example, I introduced the ticket system, like I introduced documentation, I introduced like processes, you know, so all of the things that are also agile kind of processes, everything is so useful like retrospective plannings, like everything that is happening, I think in in the corporate it is extremely extremely useful and helpful for, for for all sorts of purposes and uh especially problem solving also like, 
+
+21:59
+Host
+right, like basically organizational skills in the sense in the sense like OK, there is a problem, how do we approach solving it or not a problem but a set of problems like uh or a project like how do we complete the project 
+
+22:15
+Guest
+exactly? It's project management skills because when I was already uh volunteering there, uh at some point, I joined this Open Bulgaria project and it was completely new. So we were building a website for foreigners to find information about living in Bulgaria, moving in Bulgaria, all sorts of things and it was from the right. So we were creating, it is completely volunteers based like that. Volunteers are writing articles and how it's going to be like, how are we going to do this? And at some point, I, I think I used all my skills, like they hired me, kind of hired me in the team as the lead project manager. And uh I was just um yeah, trying to make it uh try to try to create a system for this to work continuously and sustainably. 
+
+23:00
+Host
+And uh like there are these projects, most projects or there were also some physical projects in the sense that you don't need to go. It was like you needed to program something usually, right? 
+
+23:11
+Guest
+Yeah, I wasn't, there was another person but I mean, 
+
+23:16
+Host
+you as a team. Yeah, 
+
+23:18
+Guest
+exactly. Yeah. And then managing people kind of a team of writers who are writing the content for that website. 
+
+23:28
+Host
+And uh I guess managing, you were also managing people as a deli right 
+
+23:34
+Guest
+before. Yes, I was, I was, I think, I think maybe a team of 12 people, we were doing support and the development and support two by two like weeks. So, 
+
+23:47
+Host
+so in your experience like managing volunteers and managing us in place, uh how is it different? 
+
+23:55
+Guest
+Mm Volunteering is a very you know, it's a, you don't have to be at work, you don't have to check in, you know, it's like very fluid and, and then it all, it all based on motivation. Yeah. And motivating people is the main I think question how to motivate people to do, to do something and to believe that this is, this is good, you know, that they would like to spend their free time on this. Also open source is the same open source. If, if it's a project completely, let's say, without any kind of develop developer team, it is completely volunteer based. So that connects also. 
+
+24:37
+Host
+Yeah, because like when you manage volunteers, you don't actually like, I don't know if even the word manage is the right word, right? Because like you're not a manager to them technically, right? 
+
+24:49
+Guest
+No, just structure, we just structure them. Like we gave them the structure when they want to write, they pick up a task and then they can in their own pace, execute it. And when it's in some certain state, there comes a volunteer editor and then they, you know, they, they, they check it and so on. So process. 
+
+25:07
+Host
+So if somebody wants to do something like that, let's say, I don't know, I work as a Java developer and I'm tired of my work, I cannot look at Java code anymore and I want to do something like that. What, how do I go about that? 
+
+25:20
+Guest
+Hm. Like a volunteer, you mean, 
+
+25:24
+Host
+like, uh, you said you didn't need to worry about money for three years and it kind of sounds appealing. 
+
+25:30
+Guest
+Yeah. Ok. That's a good question. I actually like to me how I found it, it was just that I was, uh, looking for, I think I was in that expats group and then I found the opportunity and, you know, like later I'm gonna talk maybe about a bit about personality types and, and traits and stuff like that. And my type like in M BT, I let's say uh is kind of the one that is seeing opportunities. So when I see the opportunity I take it, you know, like and I see them everywhere, for example, I meet you, you know, like uh I don't know why but that, that time when I went to for the dinner, you know, when we met, it was just a feeling that it's, it's good to be there. It's like an opportunity, you know. Yeah. Yeah. 
+
+26:19
+Host
+OK. Seeing opportunities. So this uh personality type is like this four letter abre abbreviation that you can see sometimes somewhere like one is introverted, extroverted and the other three, I don't remember. 
+
+26:35
+Guest
+Introvert, extrovert sensing, feeling, prospecting, judging. Yeah, I don't remember all, all of them also. But 
+
+26:43
+Host
+yeah. Do you think this is like an actually uh useful thing to know your personality type? 
+
+26:50
+Guest
+I think? Yes, I also know that some companies are um typing people before putting them in themes because let's say I am uh one of the types I really alone, I really don't work as, as well as combined with another complimentary type. So they usually put like uh a person who is more communicative with, with the person maybe who is more like uh yeah, introverts and extroverts like you have, if you have people, team of six people, there is a perfect combination of types. Like if you put them, they're going to work and perform like perfectly together. I, I heard this in also in one conference, uh this particular set of types that, that work perfectly together. And I think it's, it's good to know because it's just a, a bit of self awareness, you know, of self, self. Um Yeah, self knowledge. 
+
+27:45
+Host
+Yeah, interesting. Uh because like for me, it's uh more like a fun thing to do, but I never actually used this. So at work, like previously, when I was working at a company, we had uh team buildings and sometimes these team buildings were um we would get together in a room and there was a facilitator who would help us figure out the personality types of each other. So now, like the idea behind that is you kind of learn more about each other uh because you discover your own personality type with your team by answering questions and then you kind of, I don't remember how exactly it was organized, but then like you understand? OK, this person uh doesn't like talking to people, right? So then you understand why they're always, you know, wearing headphones or whatever. Um So it was kind of fun. But then uh practically, I don't think anything changed actually after that. 
+
+28:44
+Guest
+Hm. 
+
+28:45
+Host
+So, 
+
+28:46
+Guest
+so I think it maybe creates a little bit more empathy. I think maybe you can understand that not every single person is like you like for me, in my case, II, I think that sometimes some of the things that we are really good at or like our minds are working perfectly fluently in some direction. It's very easy to assume that everyone sees the world. Exactly like that. For example, I'm very spontaneous and I can change my plans any moment. And for some people, it's so difficult to, to accept this, you know, like 
+
+29:18
+Host
+I need to plan like one week ahead. 
+
+29:20
+Guest
+You see, and I'm like, no, no, no, I just read the questions yesterday, you know. And so I'm here. Yeah. Yeah. It's, it's, it's really, well, it's, I think it's really good to, to understand that there are different types of people and each person is really uh functioning in different ways in order to function a little bit better with them. 
+
+29:42
+Host
+And you published an article or articles and one of them is what personality traits are best suited for data engineering. So what are those 
+
+29:53
+Guest
+that's uh on my, based on my personal opinion completely and experience with working with people that are data engineers. And in general also there, of course, I had some genius people. I think that were just perfectly yeah suited well suited for this. Basically, I understand that for myself, I am not a data engineer and I cannot be because I lack persistence. I lack the detail oriented mindset that let's say for the data to show some answers to some questions, right? Which like usually we read the date in order to, to understand some things and make decisions based on that. I think it needs to be very, very precise. And I think that the person needs to be very interested in, in finding that precision that that is relevant for the data to give those answers. And in my like, I'm obviously not that person. I like there could be rational and irrational type. So I'm irrational and illogical. So like, yeah, exactly. It means that I'm more intuitive and kind of, you know, fluent uh spontaneous, spontaneous and intuitive. And uh yeah, I am absolutely not as uh detail oriented and persistent uh to, to, to, yeah, to deliver that that job. So I could, I, I was also working on my own, like when I was working in the Vers de kit, I had to create the the charts like I had to create the code, the pipeline for my own reports. So for the community stati statistics, right? And I was sitting on it and I love it. Of course, this is so interesting to me when I see my charts, like, I see how many people came to my repository. How many stars I get over time. Like, when I get these beautiful, you know, like charts I'm done but maybe if they are not really precise or something is not working, I really don't want to go back there and fix it and yeah, it's about, 
+
+31:52
+Host
+it's, it's more like you like uh creating something new but maintaining is less fun for you. 
+
+31:58
+Guest
+Absol absolutely not fun. It's just a pain 
+
+32:02
+Host
+and there are people for who it's the other way around. 
+
+32:06
+Guest
+Yeah, I think that there are people who really enjoy that they enjoy to, to create like perfect systems that work and show exactly the like the details like in every, every single part of the day that might be necessary and they want to really make it. Yeah, they, they want to make it perfect, you know, like this perfectionism, perfectionism sometimes is really, really good to, to have in the team. Like, like if that person is the engine, I would say that they're instantly genius. If, if the person just already intrinsically wants to be very detail oriented. 
+
+32:41
+Host
+And would you say that uh if we take like a back engineer who works in, I don't know, Java or Python and a data engineer, do they need different personality types to in order to do their work? Or maybe it's not as important. 
+
+33:00
+Guest
+Maybe it's not as important. I, I think that there are two types. Yeah. I, I think that engineers, they share the same. It's just that where the interest here, the question is gonna be about what is more interesting for them and, and that is, there is an answer usually in what they're do, what they're researching and what's kind of, uh, what are they reading when they are into, into kind of their, it on their free time? You know, like, for example, I know, I think my, my first best friend when I just joined, accenture was really on his free time. Like, OK, so he's working already. He's programming right during the day and then he's going back home and he's like researching conferences about the like security in uh it security, you know, like this is 100% 2 signs like that. He loves it. He's doing it on his free time and this is his topic. So that's just this person is, has full potential to become extremely genius at it. But then, yeah. Yeah. 
+
+34:00
+Host
+All right, because like I was uh we were discussing this and then I'm of course, was thinking about myself because originally my background is a job developer, but then I became a data scientist, but I never really became a data scientist in the sense that uh you know, data people and data scientists specifically, they like to do a lot of analytics. They like to do a lot of experimenting and I was more focus on was more interested in the engineering aspects of that. Even though my title was data scientist, I didn't really enjoy this part of, you know, digging into data then trying to build like the best model. Then I was like, OK, we have a model. How do I go about within the of our action? And probably this is because of the personality type is more like engineer engineering oriented rather than research oriented. 
+
+34:52
+Guest
+Yeah, actually when I was reading about this, there are two types. I don't remember exactly. Maybe I described it better in the article because there are exactly these two that are maybe logical. Both of them. I think I need to be logical. Like one is logical and opportunity. Also you see opportunity in where to put these things and the other one is going to be rational and logical. So they are going to be very into analysis. This is like I'm now thinking about this because both of them are really good at data engineering or or in general, I guess engineering. But uh yeah, I also typed all my colleagues like I asked them to, to fill the the the test and then I then I I found out that usually it's like one or the other one. So yeah, I was basing also my, my whole article based on the actual people that I was working with and I was working with data engineering team, like purely data engineering and one was developers. So, 
+
+35:51
+Host
+so that was at VM Ware where you were a community manager. 
+
+35:55
+Guest
+Yep. Yeah, it was a good thing. I love, I love to work with those people. 
+
+36:00
+Host
+So between the VM, between the VM Ware and you work as a community, community manager and devops engineering being the des lead, it was a gap, not a gap. Like uh you took like three years of this work, right? Of paid work. OK. Like was it difficult for you to actually come back to corporate environment after three years of volunteering? 
+
+36:25
+Guest
+Yeah. Um It was not difficult exactly because I al I already set for myself like um kind of um criteria I said for myself that I will only work in a project only if it's open source and it was an open source. They found me. So they, they on boarded me, they had boarded me already in my kind of uh community like already in more with people, you know, working with people because I realized that yeah, there is something that is about me and this kind of technical part, right? But actually I enjoy more working with people and managing team, like any kind of management and people problem solving for me is way more interesting and that's how community came in. So they hired me on both. Like already, I was progressing slowly into facilitation and people kind of process and community community building also. So it was just a perfect like transition into something already. That was my, my next step. So it wasn't difficult, it was just uh perfect logical conclusion, you know, like or progress. 
+
+37:36
+Host
+What does it does? It actually mean to be a community manager. I also consider myself a community manager. Then you worked as a community manager. And then if we, we also talked about the co-working space there, we also have community managers. But I assume that uh sometimes you, you can take two people whose titles are community managers, but they do completely different things. 
+
+37:59
+Guest
+I think 
+
+38:00
+Host
+that also works like for data scientists and pretty much everyone else. But like, what exactly did you do? 
+
+38:05
+Guest
+Yeah. Yeah. II, I would say that the common things are actually um social media. I really was not expecting this. My, maybe my goal when I, when I'm thinking about community is to kind of bring people together and you know, do some team building, like community building, something that they get to know each other and then things start uh making or becoming more fluent because the people are communicating. But most of the, the stuff involves actually in uh co-working space and both in um um open source project. I was uh doing linkedin Twitter meet up platform in, in the co-working space and uh Facebook, I was creating all the texts. Yeah, it's I was creating all the texts and on youtube, of course, I was also doing once a month uh like a youtube community meeting and writing blogs. So basically, it's content, content, content. And I realized that there is more content creation than actually talking or communication with people. But communication of course is the most maybe important. 
+
+39:14
+Host
+So it sounds like a developer relations kind of position. 
+
+39:19
+Guest
+Exactly. And someone afterwards after I was describing, I think I got a like a random guest in my house, you know, one day brought by a friend and she told me hearing me out a little bit. She said this is what the Dell is doing. So I should probably go in that direction. She told me, 
+
+39:38
+Host
+oh, it, what do you mean by that? Like is it your future career progression? 
+
+39:45
+Guest
+She told me that it's the best uh option for me because probably the the salary is higher. She told me that I'm probably getting underpaid paid just because my position is called community manager. And that was a completely also an assumption. I also don't know. But uh yeah, she strongly recommended, you know, 
+
+40:07
+Host
+so there was uh not a lot of community building but more like marketing activities in order for in order to promote the open source product. Right. Exactly. And um but did you need to talk to users or things like that? 
+
+40:23
+Guest
+Yeah, I was talking to us. So these community meetings maybe were one thing uh talking at conferences and just visiting conferences is another. Um And I enjoyed many the most actually on site team buildings. I I was allowed to facilitate for my team uh goal setting process for actually unifying our ideas about the, the product. Because at some point, we were just making it more and more and more versatile, you know, versatile, it, we were just adding features, features, features, but at some point, we had to sit down and realize that it's not very easy to install. Maybe we should just, you know, work on basics and it was the best I think process ever. We, we set a vision, you know, like what do we want this product to feel for us? Like what is important and then the whole team together, we said easy, we want it to be easy. And uh yeah, II, I think I got really lucky that I, I was, I was there and II, I was trusted by my team to, to facilitate this process of generating ideas. 
+
+41:26
+Host
+I think it just uh maybe for comparison. So what I do is uh is I also prefer to call myself community manager. So it's mostly organizing different things like organizing uh things like what we have right now, even though the questions were prepared by Hanna, I was still like I asked to reach out to her to you uh then set up a date. Uh It's organizing like different things in the community or uh, courses or things like this. So, it's mostly I wouldn't call it like, product management, project management or anything like that. It's more like, ok, like we have a bunch of people who are interested in doing different things. What we can, how can we entertain them? How can 
+
+42:10
+Guest
+we bring them together, in my opinion? Still. Exactly. I think that people want to be together and they want to do things together and then we have great excuses to do those things, right? And if, if those things are meaningful, I think uh they bring more people and that's just it. Now in my NGO, I also am realizing this, it's just a really great excuse to, to come together and to do something. 
+
+42:35
+Host
+So tell us more about that. What do you do in your and how did maybe we can start from? Uh so was it May or March when you said like uh VM Ware made this decision to uh let it go and in December now, so what happened? Like, how did you came uh to this decision to start an NGO and why this particular type of uh NGO and activity? 
+
+43:04
+Guest
+Yeah. So NGO is not an easy thing to open, at least not in Portugal. I don't know how about other countries, but we need 89 people in total. So, yeah, so it wasn't, it, it didn't start in March. I, I kind of, I was already doing this course for career coaching or career alignment course for maybe two years. Um on my own, uh not, not on my own but with a friend, we were, we were doing, 
+
+43:34
+Host
+you mean you were learning how to be a career coach or you were coached by a career coach? 
+
+43:41
+Guest
+I was leading with this guest therapist. The girl that I mentioned in the very beginning, I was leading two day courses for people like uh facilitating them to go through several process and, and methods to understand the career coach. Yeah, exactly. To understand maybe uh their kind of career move or like uh how to align it was literally called align your career with who you are. And we have a specific methods and tools that we use that people are going through through a process that by the end of these two days, they, they kind of understand um for what is their next step 
+
+44:22
+Host
+for it or it's very. 
+
+44:25
+Guest
+Yeah. 
+
+44:26
+Host
+So like I, I don't know, I graduated from school. I have no idea what to do. My parents, uh one of my parents says you need to study medicine, the other parents says you need to go to do it and I don't like any of these options. So then I go to to 
+
+44:41
+Guest
+that kind of course. Yeah. Yeah. Best case scenario. Like sometimes it happened that people came when they are already burned out or they really hate already their job, you know, like sometimes people come when they are. Yeah. Yeah. Moment when they're quitting and something new needs to start. Like, I can't continue the way that it was. So, yeah. And actually in this course, like while we were doing it, we met several people who were on the same wave, you know, like we were really all in kind of this Erasmus plus or inclusion or like events uh creation and um one by one, like, I don't know, we kind of started, you know, a little community. It wasn't intentional, it was just absolutely spontaneous. We got together these nine people and we wanted to do something bigger. And uh yeah, that's how in May we, we actually established, we went through this whole process we needed. First, of course, some Portuguese person who understands Portuguese law, like, and uh all the legal, you know, systems and parts of it like, and people who might be wanting to be willing to be like a treasurer, a president, you know, and, and so on and the assembly board, you know, like it was a big deal. It, it's not, it was like a really difficult preparation maybe. But now it's done. Yeah, all the paperwork it took us like six months maybe to go through because then we need to write regulations and approve them and so on. So that's how it started. It started already some while ago when we met these people, one by one, we met them from different events and things that we were doing with Julia with this girl uh that uh we are working kind of together and um yeah, just from this community it's pawned. Mm And what we're doing, yeah, we set for ourselves as a goal like inclusion, gender equality and sustainability. 
+
+46:43
+Host
+So gender equality, I understand inclusion is for people for, for experts to be to feel more included, right? 
+
+46:52
+Guest
+I think it's important, at least in Portugal. I noticed that there is um divide for sure. Expats are hanging out only with expats and you know, it's really difficult to, to meet local people. I think it's probably in any country. 
+
+47:08
+Host
+Yeah, like in Germany, I mostly hang out in my own bubble and this bubble, he usually does not include Germans most of the time. 
+
+47:18
+Guest
+Hm. Yeah. Yeah, it it's exactly the case. So we wanted to create some events or like places where it would be interesting for locals also to join just to get to know, you know, to because the the stereotypes about foreigners is basically, you know, that foreigners come and rent ex extremely expensive apartments here and then the the price increase. So we're kind of the evil ones. But actually, yeah, just to get to know, you know, when you get to know people, you understand their motivations, you can also ask them why they're here. Like you know, how, how these things, I think just communication between experts and locals is really really important because every single person is who is here and is dedicated to, to improve the something in the place where they live, you know, is bringing um bringing some contribution value, some value to, to the, to the place. 
+
+48:10
+Host
+So that's inclusion then you have gender in and the last one was sustainability. 
+
+48:14
+Guest
+Sustainability. Yeah, we're not doing at the moment so much with sustainability. But uh yeah, it's in the plan. I don't know how like how it's going to evolve. But let's see 
+
+48:24
+Host
+what exactly what does it mean in practical terms? Like what like I am an expert, I come to Porto and I come across your community. Uh What do I get from there? 
+
+48:38
+Guest
+You can just join, you, join the event. Usually that's the the the user journey. Would you just join the event and then 
+
+48:45
+Host
+meet up group or? 
+
+48:47
+Guest
+Yeah, on the meet up and then if you like you, you just stick around like you can become a member. We can, we are now recruiting like board members, not not board members but assembly members. Uh the people who are going to be even making decisions like on a broader scale like with us where we going together as a as a I. Thank you. Mhm 
+
+49:09
+Host
+And what do you do on this meet up uh meetups. 
+
+49:12
+Guest
+Uh We do all sorts of things. Each of us I think has a separate or like different skill. One girl is uh this kind of uh improv theater. We have uh an older man from the US. He's doing M BT I and um storytelling. Uh 
+
+49:29
+Host
+What is, what, what is M BT 
+
+49:32
+Guest
+am BT I is this personality type is this 16 personality. OK. 
+
+49:36
+Host
+This sort of thing we talked about like this four letter thing is 
+
+49:40
+Guest
+Yeah. Combinations. Yeah. Yeah. And uh then yeah, uh then another girl is doing this guest style theater. I'm doing community buildings. Yeah. So each person is doing something and we are just offering these kind of events. 
+
+49:57
+Host
+OK. So I come and then I see a group of people and everyone says, like if you're interested in this, come here. 
+
+50:05
+Guest
+Yeah. OK. Like that. And then they really want to, usually people say, and we, we keep doing, it's like when there is something interesting happening I think and really meaningful uh people want to want to stick around really just and that's how we grew from, you know, 2 to 9. And now we are already like, I don't know, 1011, 12. And so it's just slowly growing, but it's a local physical right community. So it's not online at all. 
+
+50:35
+Host
+So it has nothing to do with A T or anything. So it's not uh 
+
+50:41
+Guest
+no, not whatsoever 
+
+50:43
+Host
+because I imagine that many of the expats are actually uh some sort of developers or something like that, at least in Germany maybe because it's again, uh the bias of my own bubble. But when I meet somebody who is like, I don't know who speaks Russian um they, if they are from Russia, oftentimes it's uh it people like developers. 
+
+51:07
+Guest
+It is, it is the case in my also experience is the case 
+
+51:10
+Host
+because like for, for us it's easier to move around. Like all you need is laptop, right? 
+
+51:16
+Guest
+Mm I see. 
+
+51:19
+Host
+OK. And uh you said that you know the image of a foreigner is maybe if we again talk about the it people so they usually have good money. So they come to, I don't know Porto or rent expensive apartments, the prices go up. Um And locals do not necessarily like them for that. Right? 
+
+51:40
+Guest
+Yeah, I think it's because yeah, of the just lack of actual direct contact. So it's like the prices are growing. Someone must be uh someone must be responsible for this 
+
+51:55
+Host
+and you don't live in Porto, right? You live outside? 
+
+51:59
+Guest
+No, I live, yeah. Yeah. Ok. I live a bit outside of the Port of Porto. 
+
+52:04
+Host
+I, I'm, I'm kind of leading to the story you shared in that uh dinner. 
+
+52:11
+Guest
+Yes, I am. Yeah, I, I bought actually thanks to VM Ware, I managed to, thanks to my layoff. I managed to buy a piece of land in forest and I'm now, yeah, building I built a dome there and I'm moving. I am, I have completely moved there. I have given up all the other options, all options. B and c you know, that I had in Porto are now closed. So I am fully fully living of greens in a, in a forest. 
+
+52:42
+Host
+So you are in the forest right now 
+
+52:44
+Guest
+now, now, right now. No, I came to a French just because I was a bit worried about uh, the internet connection. Uh But uh yeah, 
+
+52:53
+Host
+uh and how is, uh, the internet connection typically? 
+
+52:57
+Guest
+Actually, it's ok. I, I was, yeah, I just maybe worried a bit too much just for the sake of not, you know, having any technical issues. I usually have all my calls there and so on and just, but, uh, you know, it's better to be safe than sorry. 
+
+53:13
+Host
+So, you live in a forest and of grid means that you need to produce your own electricity, get your own water and take care of the garbage and like all this sort of stuff. Right. All these sort of things. 
+
+53:27
+Guest
+Exactly. Yeah. So the electricity part is done. I have a solar panel and uh batteries and so on and then uh yeah, the water, I'm still kind of bi um, I, I want to install uh, like a water collector. I don't know how you call it but like a big kind of big can that is collecting rainwater. Yeah, that can be filtered and, and used and also the drill a hole. But this for that I need uh to, to go through some legal process. So I'm still in process. 
+
+54:00
+Host
+So, you have the same bad project. 
+
+54:03
+Guest
+It's a, it's a, it's a very long term, I think it's, uh, yeah, my life project. So I would say. 
+
+54:09
+Host
+Yeah. Right. Right. Um, do you encounter, like wild animals there? 
+
+54:16
+Guest
+I'm observing animals. It's just that I first saw, like, some insects and I saw some slugs then when I saw one, lizard, you know, and now I saw one snake, like, but not no bigger. I, I maybe saw one squirrel one time they are passing by but it's not absolutely not the, yeah, there are not too many animals 
+
+54:38
+Host
+because, like, I also, even in the city I see. Well, here in Berlin, I don't see lizard but like, in France they are everywhere. Or in Italy. 
+
+54:48
+Guest
+Hm. No, no, I've seen only, I think 11 wizard. I like wizards a lot. 
+
+54:56
+Host
+Cool. Uh, yeah, that's, that's really impressive. Like the one thing I remember from that dinner is like, you're living off the grid and I was like, wow, that is brave. 
+
+55:08
+Guest
+It's an experiment. Yeah. Life is an experiment. I want to see how it, how it goes because, um, yeah, it's gonna be interesting if I can, if I can live like this. I mean, I can always, you know, change my mind. I can always sell it. I can always, like, uh, or I can always upgrade, you know, I can always get a better house. I can always get a better heating, you know, or better something else. That's always a question. But at the moment for me it's like, what is the bare minimum? I like that. I can live with that. I'm comfortable. But, uh, not, yeah, like that I'm comfortable with or is it even possible? You know? So it's gonna be an interesting, interesting journey. I think this winter particularly. I'm really curious 
+
+55:52
+Host
+and in terms of money you need to spend on that. Is it cheaper than renting an apartment in Porto? Because I, I have heard that port is becoming quite expensive. 
+
+56:01
+Guest
+It is expensive. Yeah. Now I was paying for the room 550 I think including uh like everything but uh there I'm paying like 300 something. So it is cheaper. Well, yeah, I'm paying for gas. So, but that I would, I would be paying probably anyway. Yeah. 
+
+56:19
+Host
+Right. Um So I think we still have time for one more question and uh like we didn't cover everything. Um But one thing that uh I really wanted to ask you is there was a post from you on linkedin where you said you, you were doing a brainstorming party? So what was that a brainstorm you like? How does it even look like? 
+
+56:47
+Guest
+Yeah, I'm going to explain. It was like my unemployment party. 
+
+56:51
+Host
+Employment party. Ok. 
+
+56:52
+Guest
+Yeah, I, I like, yeah, when I got to the paradise, I realized that I need to use my own methods for myself. So usually in my course, we do like, you know, based on values, like what is the core value of the person? Then there is like a um kind of um six logical levels, you know, when they go through six questions that tell them what is the purpose of life. And then the next one is like when you know everything, like it's just a mastermind, mastermind uh kind of uh technique. I, I don't know, maybe you, you know about this. It's like when a bunch of people come and they brainstorm for one person. So I say my current challenge is this, for example, my current challenge is that I am uh I am unemployed. I have, I have this, I have forest, like I say all my reality check, right? I, I live in a forest, I'm unemployed. I have all these, these, these, these, these skills like um I have um that much money, you know, like savings. I have that much time that I could just spend, you know, now, for example, without a job and what would you do if you were in my place? And it is really important that uh I, I think I asked this question in a sense, what would you do if you were in this situation? You know, not, not like, oh I think you should be doing this but like each person when they think about themselves, they think from their perspective so instantly already their perspective is on, like, if I would be in this position, I would do this and then each person gives me some, some ideas, you know, they, they take like sticky notes and then they write, like, if I would be in that position, I would do this. And then, like, each person just gave me their, their ideas and what they would do if they would be exactly at that moment. Exactly in that situation. And yeah, it was really, really useful. I, I love this process a lot and I started actually facilitating after that just these mastermind groups also. Um for, yeah, for this purpose because it's always lovely. It's always lovely and it's always really, really useful and it's always really energizing people to, to hear uh other, let's say, possibilities and options for them. How other people see those things. 
+
+59:07
+Host
+This is so amazing and like unemployment party, just the name is already so cool. How did you even could think of a thing like that? Like, it's not something like you just wake up and thought. Ok. Mm. Yeah, I want to throw uh an, an employment party today and this is exactly what we're going to do there. Right. So there, there has to be a process how you arrived at this particular structure of the event. 
+
+59:37
+Guest
+Yeah. Well, so the first thing was that I really was unemployed, right. So I was basically just uh just uh just to quit my job or whatever, like I was laid off. And uh what was my thinking is that I need my own medicine, you know, like I am creating these spaces usually for these masterminds for other people. And this is the first time I really need to hear my friends that I really trust to tell me what to do, like to, to share their ideas. And um that was the, the basic, the basic idea I really understood. Ok, I need this. So what do I do? Ok, I gather them. So how do I call this? Ok, I call this party. Yeah. What, what kind of party? Ok. It's the party is because I'm unemployed. So let's talk about that. You know, like it's just a very kind of for me, very logical sequence from, ok, I'm unemployed. I need this. Like let's gather. 
+
+60:31
+Host
+Did you have uh the, let's say traditional records, uh party aspects there? Like, I don't know, 
+
+60:38
+Guest
+like food. Yeah, exactly. We had food. 
+
+60:42
+Host
+It wasn't just brainstorming. 
+
+60:44
+Guest
+We had food. Yeah, we just, yeah, had some drinks, some chat and then we sat down in a circle like, and, and then I told my whole story since I arrived in Porto until, until that moment. 
+
+60:57
+Host
+Ok, I see at the time and we are taking a bit longer. But uh yeah, so we should be wrapping up and it's been an amazing conversation like always uh thanks a lot for joining us today. I get and I really enjoyed talking with you. So next time I come to port, it will probably be in, um, not sure if next year, maybe because like the conference organizers, they said that they will not organize anything in 2025. So probably, but if you haven't been in Berlin. Yeah, let me know. 
+
+61:27
+Guest
+Hm. Ok. Yeah, I actually didn't know that you're in Berlin. Yeah. So now I not. So, 
+
+61:32
+Host
+anyways, yeah, thanks for uh joining us today, sharing your experience um and like all your career choices you made and thanks everyone for joining us today too, for listening in. Mm. Yeah. Well, have a great week. 
+
+61:46
+Guest
+Thank you. Thank you.
