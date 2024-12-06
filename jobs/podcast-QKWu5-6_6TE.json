@@ -1,0 +1,6 @@
+{
+  "job_name": "podcast-QKWu5-6_6TE",
+  "s3_uri": "s3://podcast-audio-storage/dtc/QKWu5-6_6TE.mp3",
+  "output_bucket_name": "podcast-audio-storage",
+  "youtube_id": "QKWu5-6_6TE"
+}
