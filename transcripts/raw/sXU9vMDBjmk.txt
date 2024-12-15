@@ -1,0 +1,587 @@
+0:00
+Host
+Yeah. OK. So, hi, everyone. Welcome to our event. This event is brought to you by Rox Club, which is a community of people who have data. We have weekly events, and today is one of such events. I think these are the last events we have this year. We don't really have anything planned for the rest of the year. Maybe something. Accidentally will pop up, but probably we will see each other next year. Maybe there will be some surprises, I don't know. But if you want to stay tuned and do not miss our surprise team, if it will happen this year, do not forget to subscribe to our YouTube channel, and we have an amazing slack community where you can hang out with other data enthusiasts. During today's interview, you can ask any question you want. There is a pint link in the live chat. So click on that link and ask your questions and we will be covering these questions during the interview. And so I'm going to stop sharing my screen. Actually, I did not check my audio. It's good, right? 
+
+0:59
+Guest
+Yes. I at least I can hear everything. 
+
+1:02
+Host
+It's like sometimes, um. Zoom decides to use my built-in microphone instead of this one, and I speak, I think I'm speaking to this microphone, but actually the other one is recording and this is annoying because the, the built-in one has echo like it doesn't have noise reduction that are, uh, and then like if I type something it also captures that so. Very well. Anyways, um. Yeah. And the questions that Johanna prepared. 
+
+1:38
+Guest
+Yes, if anybody's listening, I'm sorry that I'm gonna speak with a bit of a sick voice. but we can, we can go through this a bit slower, slower cognition. 
+
+1:48
+Host
+You're ready, we can start, right? Yeah, yeah. So this week we'll talk about linguistic fairness and social, social technical perspective on AI. I don't know what it means, we'll find out. We have a special guest today, Tamara. Tamara works on ML explainability, interpretability and fairness as open source engineer at Probable, and you're the 3rd person from Probable. We Have had in the last year or since probably exists I guess Guillaume right yeah it's really cool to have you. Um, so Tamara is a maintainer or Fairlen contributor to psychic and SK Osca ops, rights, 
+
+2:31
+Guest
+we call it. I don't know. People can pronounce it differently. 
+
+2:37
+Host
+So we will stick to your way of pronouncing, pronouncing itsops. So Tamara has both computer science and software engineering degree as well as computational linguistics background. So welcome to our interview. 
+
+2:50
+Guest
+Thank you, thank you for inviting me. It's lovely to be here. 
+
+2:54
+Host
+And uh thanks as always to Johanna Bayer, who helped to prepare the questions for today's interview. So let's start. Before we go into our main topic of social tech, it's such a difficult word to to articulate technical technical AI, yeah. So let's start with your background. So can you tell us more about your career journey so far? 
+
+3:18
+Guest
+Yes, I think you mentioned what I do right now. So I'm an open source software engineer, as we, everybody we call each other in my team at Probable. Um, and I kind of share my attention, as you mentioned, I maintain Fairlearn, so I have more responsibility there, but I also have been contributing to Scoops, and we can talk about what that is later, maybe. And I sometimes contractually contribute to psychic Learn as well, but in a bit of a lesser um manner. And I also have been involved in computational linguistics research and kind of studying it for at least 4 years, I think it's now more. I'm just about to start a new research project, um, I'm still working on uh figuring out the scope. I want to talk about that a bit later maybe. But in a broader sense, in the last 15 years since I finished my first um computer science degree, I've worked mostly as a software engineer and in multiple areas, um, I spent about 5 years in music tech and before that a few years in civic tech. Tech. Yes, music tech. That's how the, the, the area of people who do music production software and so on is called, and I have in the last few years, I am working in the machine learning and specifically natural language processing area. 
+
+4:37
+Host
+Mhm. OK, tell me more about music texts, like what is that? 
+
+4:41
+Guest
+So I, I, uh, I got, um, I've always produced music. I also have a music background. I play the violin. I went to music school for a long time. Um, but in 2000, I think it was 15. Yeah, 2015, I started a job at Ableton, which is the market leader for music production software, and I worked there as developer relations for a few months, um, doing Oo stuff, uh, interesting enough, and then I went to work at the Harvard team as a software engineer for the rest 4 years or so. And what we did was an instrument, digital instruments. It was really, really fun. 
+
+5:22
+Host
+So this like pedals for guitars or something like that or no, 
+
+5:26
+Guest
+no, 
+
+5:26
+Host
+um, for example, 
+
+5:29
+Guest
+like what can, so this instrument, for example, is a console that I worked on, it's called uh it's called Push and I worked on the Push 2, I think then at the time, yes, um. And it has little pads where you can sequence your music, change it, make patterns, and you have access to the whole other music production. So it is very complicated, the big kind of uh station on it. 
+
+5:55
+Host
+So when I go to concerts and there is electronic music, so usually there is like a person, um, oftentimes there is somebody playing drums and then there is a person with some sort of panel pressing buttons. So that's the console, right? 
+
+6:09
+Guest
+Yes, but they're very different ones. Like they're, they, they have different scope and our scope and my team was to create like a full instrument where you can just lose yourself looking at this and you never have to look at your computer anymore to to recreate this um this state of flow that you have when you play real instruments, um, but there are some consoles which are meant for. Just kind of steering the wheel of your music for live performances, they have smaller, they have smaller scopes. Um, so there's like a really wide range and you can also have DJing consoles, of course, which are different again. 
+
+6:41
+Host
+Yeah. Yeah, I was always wondering how does this actually work because like there. Pressing buttons and then music happens, but I have no idea what exactly is happening under the hood, but it's usually for electronic music. 
+
+6:54
+Guest
+But I can tell you how it is, it's really, it's, uh, so we, so the main software was a legacy software 20 years old, I think when I joined it already, and so it was written in C++. And historically, at some point, long time ago before I joined or even done software professionally, somebody decided that um they're gonna do the hardware bindings with third parties in Python. And so we also follow that um a kind of standard. So we did the hardwood bindings in Python, which I tell someone that they find it really strange, but then the hardwood bindings we had, we then processed on the computer, there was a cable. We're now going to process Python on this device that will be really hard. There is a device now that is standalone by this. Company. I don't work there anymore, of course, but people can check it out. That is done a bit differently. And so this, uh, we would interact through Python with the C plus API and all of that will be, you know, uh, executed on a computer. So in the computer you have access to all kinds of powerful things to do music and sound and all the stuff. 
+
+7:56
+Host
+Yeah, I see usually in these performances, uh, when there's live performance, in addition to this panel, to this console, they usually have a laptop. Right, yeah. This is where the computation is happening, right, for some of the things. OK. 
+
+8:11
+Guest
+A couple of years that there was a trend, there is a trend of making standalone um kind of machines with the instrument in mind or like losing yourself or jamming with others in a space that the computer doesn't distract you because the computer is a distraction, a possible distraction in a sense, um, to break your flow, but those uh devices are quite expensive. They're expensive to produce. 
+
+8:33
+Host
+Mhm it's cheaper to have a laptop and the panel. 
+
+8:36
+Guest
+It definitely is for a user, uh, but a lot of people really this is their life, you know, and they say goodbye and it's still quite a big market. 
+
+8:45
+Host
+Yeah, yeah, right. So you did um this music tech and eventually you got into language and AI like how did it happen? 
+
+8:56
+Guest
+I know it sounds really strange, but this was 
+
+8:58
+Host
+the plan but like let's say this boring stuff with AI. 
+
+9:07
+Guest
+Yeah, I think if we wanna, we wanna talk about how I ended up studying competitional linguistics at at this point in life after doing all these other things like music tech and I was involved with like the NGOTV tech area and so on. And that's it it's like ties so much with who I am, so we have to like revisit my life story in a sense, but um I studied my first degree, I started it when I was 18, like most people I was computer science. And I was, it was fascinating. I did really well, but before I studied computer science and I got interested. I mean, computers were, it was in the middle of the 2000s, so that was quite new. Um, before that, I always have been a language nerd. I went to a language-focused gymnasium. How is it called in school? I don't know. 
+
+9:53
+Host
+I know in German it's called, 
+
+9:55
+Guest
+it's a high school, I guess, yeah. 
+
+9:57
+Host
+But not, not just any high school, high school with, 
+
+10:04
+Guest
+you know, and, and I did, I did ethics, I did all the. Type of languages, looking at language as a phenomenon. I did Latin and other foreign languages. It was great. And then, but computers were really fun and I did a lot of computers working at home, so I decided to go for a computer science degree. But I never really forgot this, you know, first passion that I had that led me to the gymnasium. And later, as I was learning my computer science degree, um, in the, um, late 2000s and early 2010s, a lot of machine learning was kind of emerging, and, um, I was really started to be really interested in machine learning even then, uh, but there was no need to study. I mean, I'm from Macedonia, which didn't really have this kind of things at the time around, uh, so much, or it was very, very little, and, um. I somehow started reading all these books, uh, like there was a book called On Intelligence, I don't know who wrote it, which was, uh, discussing, uh, using, uh, machine learning methods to explore cognition, and it was like such a hook for me because then in my head was like, oh, language is this such a the most human thing that we can think of that the brain does, and what if we explore cognition through language, which was something I, I started ordering myself, neuroscience book from. Amazon at the time in Macedonia, secondhand, uh, and I, I decided to study computational neuroscience, and I did apply to a few places, but it didn't really work out, so I continued working as a software engineer. I had to apply outside of the country and um, yeah, and many years passed by and this never went away, so I had like a moment to So, ah, I can't hear you. 
+
+11:43
+Host
+Yeah, right, because I was muted. Uh, so music happened in between, but like your passion was always learning. Yes, 
+
+11:50
+Guest
+I mean, I went to music school when I was young and um but um it was, it was kind of, it was a kind of a ping back to this old passion, but I really wanted to study. I think my, my biggest reason for coming back to computational linguistics, because I really wanted, I didn't study computational linguistics only, it was a cognitive systems program. So a combination of cognitive science, uh, computational linguistics and machine learning and like knowledge and reasoning module, um, quite complicated in, in the sense of what it all included. It was just a perfect blend for me. I, I, I, the first time I contacted them was 2014, and it took 6 years until I can enroll and I was way For the right moment, so this is, you know, a dream, the dream to do. I'm so glad that I got to do it. 
+
+12:35
+Host
+I still doing anything in related to music or music tech? 
+
+12:41
+Guest
+I still have uh able to live on my computer and um yeah, sometimes, but I have never have been one of those people that have posted or shared music or something like that. I used to DJ when I was a teenager going to parties and and did a lot of that lifestyle, but uh yeah, it's just very rarely and just for for me. 
+
+13:04
+Host
+So you don't do like techno sets and Bur kind. 
+
+13:09
+Guest
+No, no, I think that that there's like the dedication to this like a full-time job. I decided to do it 
+
+13:15
+Host
+seems like. Full time, cause like if we talk about clubs, it's usually at night, right? 
+
+13:23
+Guest
+It is, but getting there, it's the music industry is tough. It's, it's tough. 
+
+13:27
+Host
+Yeah. So. This word that is difficult to pronounce so it's not, 
+
+13:39
+Guest
+well, I call it like this. Let's say I guess somebody can pronounce it with a bit of I guess. 
+
+13:44
+Host
+So what is a social technical approach to modern what is social technical and then like the whole thing social technical approach to modern language? 
+
+13:54
+Guest
+I think there is a lot of um there is this is a kind of a a whole academic study of its own. Uh, but in order not to like waste the time on this, there's a lot of things people can read a link some papers. We can think of, uh, looking at technology from a socio-technical perspective as a It's kind of uh how our technology and the social impact of our technology, and it could be seen in both ways, which is the social uh how when we place the technology that we make in society, what kind of impact does it have, but also what kind of Or the social connotations and context is interwoven in this technology that we've made, so it can be, this can be very granulated and there's like particularly with like thinking types of traps and formalism and solutionism and so on, but at the end it is about the social context of the technology that we make. I think that is the most accessible. 
+
+14:52
+Host
+That sounds quite abstract if I'm being honest. um, we have like some uh uh. Yeah, I mean, social impact of technology is also very broad. So we're talking, what kind of technology is it like we're talking about AI, right? 
+
+15:10
+Guest
+Yes, I guess, 
+
+15:12
+Host
+is it something like ChaGPT now replaces copyrights, that's 
+
+15:16
+Guest
+impact. That is definitely. There's so many, so many different ways to measure this. Um, let's see. I think so in Fairlearn as a some somebody coming to Fairlearn and I came to Fairlearn as an engineer, um, because most of the other maintainers are scientists in the area and professors or researchers at big companies like Microsoft or Google, but um I am still, I'm still figuring out the theory of this particular approach, but in that sense, Fairlearn explores, um. There's really I think one of the the most real use cases that is uh explored because I think that is really tough in this case, because not a lot of people share what they use fairness tools for, but is like credit loan um decisions, for example. This is one of the real impacts, like, we can, we can dissect this and and talk about it because I was just, I was just presenting this to someone this weekend at the pi ladies conference, so it's at the top of my mind. Uh, but for example, let's take making an algorithm that makes a credit loan decision, and it can make a decision. Um, to give it or not to give it based on how trustworthy you are. I forgot, I forget the economic terms I 
+
+16:34
+Host
+guess still use these things, right? 
+
+16:37
+Guest
+They're still use they use people use this and uh so the decision will be most likely made by training a model on previous data points and uh this data. Uh, the, the study that um they wrote a white paper with Ernst and Young, and Microsoft that is featured on the website was made with 300,000 data points. And after using the techniques that Fairlen uh provides for desegregated evaluation, I can explain maybe what's that a bit later, but um it was found out that there are certain groups where the model would perform differently, and in this case it was um sex as were male and female um applicants. And for example, to maybe think about, OK, so there was a certain type of data that we fed into the system that has its own um potential of harm. Uh, but also the types of harm of using this algorithm can be not uh allowing someone to have an opportunity, but getting a loan, or it was interesting to me because I, I have never thought about loans before, um, that I read in the white paper or giving a loan to someone that has very little chance of actually repaying it, which would cascade their life and and throw it into a um. I don't know, uh disarray for forever. So you can get a false positive by saying somebody shouldn't get a loan and then deny somebody opportunity, or you can get a false negative and you can give someone a loan that they shouldn't get, uh, but that also think about that 
+
+18:14
+Host
+that is actually that giving somebody a loan is. Not bad just for the bank, but also for the person. 
+
+18:23
+Guest
+I didn't think about it too. I learned from that. I'm like it makes sense now when you say that, 
+
+18:29
+Host
+but like. In that perspective, it's not just something I thought like I thought for the person. Like they would be happy because they got money for something, right, but actually. Eventually, in the future, they will have a lot more problems. 
+
+18:47
+Guest
+Yes, I think they, they listed things like how these people call it come and take your stuff, the people coming to take all your stuff, uh, losing jobs and opportunities and so on because you are in debt and you cannot pay your debt. Um, and in, I mean, a lot of other, with their parents and so this could be like a more serious, especially in the US, um, so yeah, quite a big deal, and I think this, this really question that you said that we both didn't think about this illuminates one of the core things about fairness, which is that it is abstract. There is not one way to define fairness, um, and while Fairlearn addresses group fairness, which is how, uh, specific. Technology or an algorithm in this case can affect, um, can, can inflict harm on a group. And a sensitive group of some kind, we have to do problem definition and identify the groups affected and interpret the results of, of the models and of our mitigations or assessments ourselves in a context. And uh yeah, that is, it's a lot. 
+
+19:56
+Host
+But again, why do we need that? So if I think about maybe a different example uh of hiring, so in hiring, we, we would rather not hire a good candidate. Then accidentally hire a bad candidate, right? And Like for us, the how do they call false positive when we think somebody. Positive, like when we have anyways, like if a candidate 
+
+20:21
+Guest
+prediction is higher or not higher yeah 
+
+20:25
+Host
+prediction is higher higher and if it's uh. False negative, right? Then it's good. Hire 
+
+20:31
+Guest
+for somebody bad, 
+
+20:33
+Host
+right? We, no, no, like when we hire somebody who is bad, it's not good for the company because it will be difficult to then hire them. Um, so it's better to be more strict and not hire good candidates rather than accidentally hire a bad one. And maybe with credits. Credits, it's similar. So it's better not to give a loan to somebody who is potentially, uh, can pay back rather than give a loan to somebody and this person will not be able to pay back, right? So, like what I'm trying to say is like, why do we even care about fairness? Like we are running a business, shouldn't we be more concerned about like, Doing well as a company. 
+
+21:20
+Guest
+This is such a provocative, this is a trick provocative question. I'm just thinking 
+
+21:25
+Host
+like why where parents coming to. Um, because like at the end, I want to optimize my revenue, 
+
+21:31
+Guest
+right? I understand, yes, but, um, so I watched, so there's another mena called Hilda, she's an assistant professor at the um in the Netherlands. I forgot the university, I'm sorry, Hilde, if you're listening, um, I, I, I think it's um she had this presentation where I listened to her speak about the context of hiring. About this, um, and, um, she said that uh we sometimes want to produce models, um, that model uh the values that we want to see, even if the data doesn't contain them. And it, it comes down to the fairness is absolutely related to the values that we have. And the, the fact that we want to maximize revenue doesn't mean that we need to wreck social havoc on on society because our products are not separate from it. We do have some responsibility and then the interesting thing is that That if somebody sits down and assesses this, uh, properly, the problem definition and or thinking about the problems, not just from a technical perspective but also from a societal perspective, um, they could find, for example, uh, Fairlearn uh has assessment tools, the symmetric frame where you can assess, um. These imbalances by instead of assessing a model with one metric, you assess the model by a specified, you know, metric in for multiple groups where you can find, you know, and then plot and then you can make your own decisions what the model is doing. But if you want to mitigate this, um, there are Several types of ways that you can have like a post-processing, like after you've done everything trained the synthesis and so on, you can uh rebalance the predictions or you can, the results in a sense, or you can uh retrain the model with some like an algorithm it's called exponentiated gradient. I can share a paper. It's the math is a bit, but there is an example of the website. And uh by thinking about the problem, maybe. It is possible to find a way to mitigate these imbalances to also reflect the kind of world you want to see, or the world that you don't harm by not reducing your performance, or not significantly reducing your performance. So I think in the sense, uh, it's very important that there is curiosity and cares to sit down. There, there could be a solution that works OK for both cases. 
+
+24:04
+Host
+OK. So, so I'm just trying to understand what actually Pray learn or other tools in this space give us. Um, so if we talk about this again, it's an example of uh credit scoring, so. Maybe my understanding is not correct and you correct me. So, we have a model. Let's say it's, I don't know, decision tree or logistic regression, something simple that tells us um what should be the loan decision, right? And uh so we have this model and then we use something like Falearn that analyzes the performance of this model across multiple. Groups cohorts, let's say we have gender variable. 
+
+24:47
+Guest
+Yeah, you have to basically sensitive groups are. You have to think about this, 
+
+24:52
+Host
+yes, because I was thinking there are some natural patterns that we want to recover, with the model, right something like if this person is uh from uh a low income group, then it's more likely that they will not be able to pay back the loan, which is kind of. Oh, apparent, right? Probably I don't know or I don't know they have been unemployed 6 out of the last 12 months, something like that but just making this up, um, so this is, these are the patterns we kind of want to use. But there are some patterns that we don't want to use it like gender and um I don't know what else like other things that could be sensitive. So we 
+
+25:37
+Guest
+as anything that's I think um I was asking, I think this is a, it's important here to mention that. I was also struggling myself like, OK, if I have to advise someone now to use this and they have to make like their shape their own problem and so on, how do I, with my very limited worldview and experience, because I've had only one life and it's limited and I don't have all the experiences, how am I going to help someone to figure out which groups, as you say, are. Important here and which group we should protect and there is no right answer to this. You have to understand the domain and the harms you can inflict case by case basis and you can look at the data in an exploratory way to before you assess and pass the certain features sort of to to be this to be segregated by. 
+
+26:21
+Host
+Would it be possible to, let's say, just throw in all the features we have and then have fair learn highlight what could be the problematic ones, and then we think, OK, this actually makes sense, we shouldn't, um, let's say include this feature at all in our training data, or, OK, this is fair because this is actually one of the patterns the model discovered, so we're keeping this feature. 
+
+26:43
+Guest
+I think, um, yeah, the discovery so let me explain this in a, in a way that I also can, um, so when you. So when you ask, um, so for example, if you write a pipeline and you pick like whatever secular model you're gonna pick pick or something, whatever in your pipeline that is going to be making these decisions, and then you pass a um assessment tool from Fairlen and um when you pass this, you also have to pass a bunch of sensitive features and so on. In a demographic case they're more um They're more apparent, I don't know what it will be for some more abstract things, but um you could technically do the segregated evaluation of a model by every single feature if you want to. But the thing is then. What do you learn from it? How do you, uh, interpret this? The, the, the, the understanding is like when you get, for example, when you pass, we have this model and then we pass 6 into it and then we get this little, there is like there's maybe we should have. this little graph so people can understand what you're talking about. And then we can see how the false positives and the false negatives change between groups. And then if we contextualize this by asserting the harms that can be done by it and seeing that this proportion, um, by sex, then this makes sense. Um, I don't think you can automate this fully and you and I think that human is necessary in the loop to make this decision. Um, it's a, I don't think you can just say them all, OK, find all the possible sensitive groups. I saw somewhere somebody using a fairness tool much more granulate. I think it was a Microsoft presentation where they were looking at some data set about housing and their sensitive groups were a combination of several features of some kind, and this is again very contextual. You have to you it it cannot, um, an algorithm cannot tell you. Who's going to be harmed because it's grounded in the real world context, and this is where it comes as the word socio-technical is grounded in society. It's not just a technical thing. 
+
+28:52
+Host
+Like you, you were able to read my mind because I was going to ask how is it connected to social, socio-technical um think we talked about but uh so what I understand is that the end is still a human. Um, some sort of, let's say domain expert who can evaluate, who can, I think you, you said assert the harm, right, who can understand the harm harm, yeah. Uh, that is done. So we look at false positives, false negatives, and uh think, OK, like in the case of false positive or false negative, what is the harm? That the model has on the kind of impact the model has on the individual. 
+
+29:36
+Guest
+If any, right, there might not be none. And also, this is, I think the false positive and false negatives with the equals odds metrics. There were 4 different ones and I sometimes forget them because I'm not a scientist in the area. For example, there's like demographic parity metrics where you want to see like balance and so on. So not everything, not all the uh false positives, false negatives, a combination or a balance uh is matters in every case. You have to decide. I guess you can plot, um. Uh, kind of a distribution with all the different kinds of metrics for the sensitive features, and then you can reason you as a human, OK. Which of these am I supposed to use mitigation for? Like I should strive for balance, is that going to be fair, or should I strive for the reduction of false positive? Is that going to be fair? But um unfortunately, it cannot be only a technical solution, and this is where the socio-technical comes. But if you ask me, I mean, for, for most of the products that we do have a socio-technical component because they're made by people for people, and 
+
+30:40
+Host
+yeah. And who should do this like, let's say if we talk about the hiring. I don't, I don't know if actually hiring. Yeah. Maybe they no longer, I heard that there was a model at uh Amazon, but uh there was some. Stories around this, maybe they just removed it, um, internal 
+
+31:00
+Guest
+that they have. 
+
+31:03
+Host
+I, I, I've heard that they had something like that and then then they discovered some issues, uh, exactly this kind of issues like prejudices and biases with this model. Um, so we, we can probably talk about this loan decision, which as you mentioned, uh, uh, this kind of model, models are still used in the industry, um. So I was thinking where was I going with that. 
+
+31:28
+Guest
+Uh, it is used a lot, uh, I think. I'm gonna check. 
+
+31:33
+Host
+So what I wanted to ask is like, who is going to make this assessment? Like, OK, a false positive is harmful and false negative is not harmful, for example. 
+
+31:44
+Guest
+Oh well, the team creating this should, 
+
+31:51
+Host
+should make it. They should have. How how I as a data scientist can make this call. 
+
+31:54
+Guest
+Yeah, this is also my concern because I, I feel. And you know what is very interesting. I spoke to someone recently that told me that they have been feeling this like freeze and reluctance to even get into the topic of responsible AI or even try to use um the tools because of uh of this fear of like am I really gonna do the right thing? If I start thinking about this, it's very overwhelming and so on, but um I think as as domain experts. Uh, we should understand the impact of our um of our products on other people. 
+
+32:32
+Host
+But, uh, I'm like, let's say I'm a technical person, I'm not necessarily yet or maybe I will not never, I will never be a good tech uh domain expert because I'm a data scientist. I learned how to use, I don't know, support tech machines in my studies. I did not study sociology. So like, but again, then I'm kind of. Shifting my responsibility towards somebody else saying like, hey, this is not my. The main expertise like let's get somebody else to like I'm just wondering how it should work. Uh, 
+
+33:11
+Guest
+I think in bigger companies, sorry, sorry, in bigger companies they have these people that probably do this and assess this. I, I've never worked in a bigger company. I wish to have some insight, but this is all very secret and I, I, I, I should probably talk about this because it's really interesting and shines like on the whole industry part. Um, but in smaller places, uh, I think people's curiosity leads this, asking questions. Um, and this is one thing that, so you don't, these tools I'm talking about this, uh, uh, equals odds or demographic parity or like exponent the gradient or whatever, all these names that I'm mentioning, you don't really need fair learn to. Use these tools. These are techniques that you can just implement in your own notebook. What is, uh, um, a plus in in tools like uh, Fairlen is that you get education and help with, with thinking about the problem. And, uh, that is actually our main uh focus for the next months is improving the learning objectives and education, um, materials, and hopefully people will come also help us and contribute that want to learn because the best way to learn is to teach, I guess. Um, and, um, by reading, if you're, if you're a data scientist, I'm like, OK, there is some tool that I might use, but I would feel very overwhelmed with defining. What do I do? How do I make a decision? And is it gonna be right? Am I gonna do more harm? Maybe just going over the basic uh problem definition theory things already will help quite a bit with the framework of thinking, because there is a framework to think about, um, these things that it's rooted and then in this little tiny components and so on, um, but it doesn't have to be perfect. None of this can be perfect, right? There is no perfect solution. There's no perfect solution for assessment. Because as machine learning people, right, we never can model fully the real world as much as we want to. There's an irreducible error of not modeling the real world that is always there. It's calculated into it. And, um, second, we cannot fully mitigate something. We just don't have the information. I guess we have to uh be curious and live with a little bit of ambiguity. 
+
+35:23
+Host
+Yeah, I'm, I was also in the meantime, reflecting back on my, uh, personal experience when it comes to like making these sort of decisions. I was working in a moderation team and there we needed to make a decision whether something should go. So it was a marketplace, online marketplace, um. And we were making a decision whether something should go live and people could buy it, or it should be blocked and not be visible, right? And then I remember we were talking about things like, OK, like did this seem like there are features like uh oh maybe I shouldn't go into describing features, uh they might still be used, but anyways, like I remember that uh we were looking at the performance of the model and it was data scientists, uh. And product managers and also fraud experts like people who are fraud specialists. So we were sitting together and thinking like also sometimes just looking at things case by case, like, OK, this is the case, this is the decision this model made like was it a good decision and what could be the consequences, right? Uh, so I think that uh. Probably is in line with the curiosity you mentioned, but also kind of as a data scientist, I might not necessarily not necessarily have all the domain expertise. I have the technical expertise. That's why we also have this uh fraud specialists and also product managers. So product managers represented the users and the fraud specialists, they have the domain knowledge of the fraudsters, like how the fraud is actually happening. I think when we were in the group, that was really helpful. Absolutely. Yeah, right, so it's, so sometimes it's not just up to one person to the data scientist who is developing the model but like the, the team. 
+
+37:13
+Guest
+Yes, I, I, and I, and I think you mentioned something really important, that is the human in the loop. Yes, right. A central component to um all AI systems if we want them to be fair, we need the human in the loop. It's necessary. And you were that human in the loop before that this decision can be propagated and do actual harm. 
+
+37:34
+Host
+And also there are moderators in this specific case I was talking about. So there are people who actually look at the output of the models and think, make the final call. 
+
+37:43
+Guest
+Yeah, exactly. This is already quite, quite, quite a big deal. 
+
+37:47
+Host
+Yeah. And uh also, it's like I got on it while we were talking, while you were talking, I got a notification. And then I thought, OK, like it's really good, uh, we were talking about music, right, and this panels consoles that get detached from a computer so you can be like, do the whole thing without a computer because computers can be uh Distracted. Yeah, can distract you. And this is exactly what happened, right? I got distracted. 
+
+38:18
+Guest
+Yeah, and I mean if you want to create music, you really want to be in any art. I mean we programming as well, don't we want to be into when we're doing it. It's the best work that we do when we're, we're really into it for 5 hours when you don't go to the bathroom and you don't drink water and the best work. 
+
+38:36
+Host
+It hasn't happened to me in like for quite some time. 
+
+38:39
+Guest
+I think you have a very multidisciplinary job now and uh this is, yeah, there is beauty in that job though you can also have a flow with working with people that is, I used to call it like I get high from like this joint work that we do sometimes, 
+
+38:55
+Host
+yeah, so when I was a data scientist, not like um data science lead or whatever, like when I was just a data scientist when I didn't have any meetings, I could just come in the morning. Open my laptop and work and then all of a sudden realize that it's already evening. That's really cool. 
+
+39:12
+Guest
+That is the flow that we we are tied to our computer though. So yeah, 
+
+39:18
+Host
+we are. Um, so what actually made you, like how did you get involved in, in the project? Because last time we spoke you were not like probable did not exist at all. Um, so how this happened? Like how did you, you were doing an LPiano. Um, I mean, 
+
+39:37
+Guest
+still, you 
+
+39:38
+Host
+know, and yeah, I mean, it's not a completely, uh, it's not like changing from music tech to, I don't know, doing LLP, so it was in the natural but like tell us how it happened, how did you. End up if it's the right word, like how did you start working uh with failure at probable. 
+
+40:02
+Guest
+Um, I think the story of, uh, joining Propo starts sometime in 2023 in the summer, I guess, but it was very informal. I went to a ladies meetup here in Berlin. 
+
+40:17
+Host
+There was a psycho like when did the company 
+
+40:18
+Guest
+appear? 2024. 2024 is 2023, yes, in the summer, but I met the, the, the guys that made the company there. Um, there was a meetup in, uh, Paids Berlin, and, uh, it was about psyched learning contributor meet up, and, um, I just went for fun. And then the thing I started to work on was really fun, and I made another 34 requests that got merged and I started working with them. That wasn't secondary and that was, I think at the beginning of this year and the end of last year, something like this. I was still doing, um, actually until, um, April this year, I was, um, Uh, doing research with a research group on, uh, semantic alignment, which I don't know if people are going to be interested, but it's, um, we were drafting papers and so on, and, um, that was, and then I was also doing this on the site, so I don't forget how to do programming because programming academia, it, it's, it's not it. And so I, but I've been also, you know, contributing to open source and probably my, my first internship I did Google Summer of Code in 2010, and that was a long time ago. So for me, this was a way to have fun. And then I kept in touch and when they were creating the company, they invited me to apply. They were applying for Uh, I, I think the titles are the same for everyone. I'm not sure we're all called open source software engineers, and if I'm wrong, people can find out on the website. I am not sure because they were kind of forming the open source um team and um people work focus on different things. I think there I can share a link there is like what are open the priorities of the team we'll work on something different. Um, but I already worked at the time on explainability and language models and reasoning before it was really popular right now, and we do it a bit more rudimentary than what it's done right now because I already knew some of those, some of the theory. So they needed somebody to work on the psychic learn inspection package. I don't know if people know it, but it's where you have the feature important stuff and um it's not very big um at the moment. And at the same time, um, the probable was kind of committing or supporting the extended family, how do I call it, of psychic learn libraries or libraries that are compatible with psychic Learn, and some of those libraries were also FairLearn. And uh scopes and inspection. What is that? Is it what's inside the library inspection, I 
+
+42:54
+Host
+guess. What does it, I don't think I know about this. 
+
+42:58
+Guest
+I think it has PCA and stuff like this inside at the moment, 
+
+43:05
+Host
+um, so I'm checking it, so. Inspection, so they have partial 
+
+43:09
+Guest
+yeah I there is like um there's, it's really not yeah yeah and there's um also some smaller other methods and the whole point was that we want to extend this and we might as well it's 
+
+43:25
+Host
+very new, right? I don't remember seeing this inspection, uh, no, 
+
+43:29
+Guest
+I, I, I think I used a couple of years ago, um. I don't know, 
+
+43:35
+Host
+I mean like I started using I could learn more than 10 years ago. OK, 
+
+43:39
+Guest
+yeah, then it might be newer, yes. Uh, but Yeah, I don't remember exactly when it's created. I remember using it at university, but I did university again very 
+
+43:51
+Host
+documentations from Psychic Learn 1.5.2, which has been a while, which has been around for some time, right? 
+
+44:00
+Guest
+Yeah. But it's yeah, it's again not so much time. But I used, I remember using permutation feature importance at a university for a project from here. Um, and I mean, the whole interpretability and explainability in the sense is something that I'm building expertise on slowly, and it's gonna take a little bit of time. I think in the next few months since I'm rejoining a research project, I might work on that a bit less than planned and mostly focus on Fair learn and um yeah, I think that's that's going to end up. But and this last month since I joined in May, I did work on a lot of things. I got to do a little enhancement, which was not and check array and psychic Learn and um some other PRs that are still being reviewed, like the biograph improving some computation, the biograph algorithms and so on, and, and Scopes, um, and Scopes and Fair learn the most interesting thing is that I mostly worked on um. Um, cross library, um, compatibility, which means that I had to make all Fair Lear estimators compatible with Circu learn as well as some of the API and the same thing for Sops now that they're changing to CircuLearn 1.6, I think it was released now, so people that there will be a lot of compatibility issues, people should check it out. And, uh, yeah, but my work has been very engineering kind of focused. And, uh, during this interview, we, we kind of, uh, tested a lot of machine learning stuff, I guess, but at the end, the need was the most for these packages. And to be honest, I was really interested in working with Fairearn anyway, so it was a really a great fit. Um, yeah, so I guess to finish the story, that's, that's how that happened. Uh, most of the other part of the team, they mostly work on Pycuit Learn. If people open the website and check out, there is like an open source priorities they could see, um, that people mostly work on Pycut Learn. 
+
+45:57
+Host
+So I actually asked JGPT when the inspection model in second was introduced, so it was introduced in version 0.22, which was released in December 2019, but it might be hallucinating, so I don't know if it's correct. 
+
+46:10
+Guest
+I remember using the permutation in 
+
+46:18
+Host
+it was like it could also be in a different package, but then yeah, 
+
+46:20
+Guest
+it could be, yeah, I don't know if there was. So what is? Yes, scopes, I, um, yeah, so, uh, I cannot talk so much about the internals, but I can say with this corps was, I believe, um, originated from Athens time um at hugging Space, but it's kind of an independent library, um. And it's the biggest, well, it has this integration with the hugging Space hub where you can publish your second, uh, learning models, basically bring them into production. Um, you can also, I think the biggest benefit is the secure persistence, which basically I believe um you've seen this, there was a big Bloomberg art. about people downloading malware through um um loading models from hugging face and similar platforms. Did you see any big uproar 
+
+47:11
+Host
+in LinkedIn, yeah, I did not read. I don't know the details, but I, 
+
+47:16
+Guest
+I think maybe people that have seen it. Yeah, and so this, for example, was because of the known problems with pickle that can allow untrusted types to be packaged there and then when you basically unpickle the The model, then you run things that you don't want to run and then you may make a mess. But Scopes offers secure assistance where you have to define, you, you basically have full control of defining, and it will won't open all these objects will not load them if they are on the in the untrusted types. 
+
+47:49
+Host
+So. SCOPS stands for psychoops. 
+
+47:55
+Guest
+don't remember. 
+
+47:59
+Host
+Maybe it's like this is like a way to serialize deer products, right? Yes, 
+
+48:03
+Guest
+exactly, secure, I cannot say the word in English.serialization. It's so hard for a Slavic tongue, it's the DCR yeah, whatever, people don't understand secure serialization and de serialization. Yeah, yeah. 
+
+48:22
+Host
+So this is Scoops and Scoops and Fairlon aren't really related in the sense that a common theme, but you still, you're still involved in both like how did it happen? 
+
+48:37
+Guest
+Uh well, how did it happen? It's I signed a contract for it, I guess. And so, but uh I haven't been so involved. I uh we pair programmed on a few things with um adding together and I was um. We, so Selen 1.6 introduces API breaking changes and some other things because things are moved around, I guess people are going to know in the next few days, they should really check out the compatibility guides and the biggest work I did was uh work on um making Scopeyearn um 1.6 compatible, which involved a lot of smaller changes and then a lot of those changes basically spilled over psychic learn. And then Cyearn had to fix them, and then we had to integrate them, and that happened several times. So I, all this compatibility work I did, I also did this with Fairlearn, um, several times. I got to know a lot of psychic learn internals now and especially how the estimators are written and how they should be written. I'm gonna make, um, a talk about custom, creating custom estimators in January in Berlin. But. 
+
+49:44
+Host
+Which made up. 
+
+49:45
+Guest
+Uh, pie ladies, I think exclusively picking them, uh, yeah, I don't think our our meet up, uh, landscape in Berlin is suffering a little bit, I have to say. There are not a lot of places. 
+
+49:59
+Host
+Yeah, it's been a while since I went to meet up. I think the last one was the AI Street Smart. Do you know this one? No. OK. Does it still exist? AI street smart, um. Yeah, I think it was like 3 months ago or 2 months ago. So not that long. I mean before that I went to Pilate, I think. Yeah. 
+
+50:22
+Guest
+I contacted Pie data I think and um by Berlin. I never heard back to have this talk there, so I don't know how active are people, uh, the pandemic kind of rock like broke the system a little bit and fully recovered. That's why I, I love the pie ladies. I've been a pie lady for over 10 years and I'm happy to go there and speak. 
+
+50:48
+Host
+you're also one of the organizers, or you're just, you're just an active participant. 
+
+50:54
+Guest
+I am just. Yeah, I mean, the pilot is, uh, when I came to Berlin in 2013, um, and, uh, worked briefly at Startup bootcamp, um, with the startup. I, um, that was the first contact with the community I had. They let me have a talk there and it was a long time ago and for me like it's a central part of me moving to Berlin, being a pie lady, and I love going back every single chance that I have. Plus the, the people organizer are really doing a great job and sacrificing a lot of the time. We just had a pipily discount this weekend, where I got to have a fair learn sprint, and it was really nice to have people contribute. We don't have so many active contributors because a lot of people find the whole thing we now just discussed, it's intimidating the theory, the the maths behind the approaches, and a lot of the the code base, it's written in a very academic way, we, we're gonna do a big refactoring projects now. Uh, where I get to replace uh pandas with narwhals, which is really cool. And we also refactor the whole metric frame, so people maybe can come contribute. We have made lots of good first issues for the pie ladies Con, so maybe other people would be interested as well. They're not pie ladies. 
+
+52:10
+Host
+Yeah. That's interesting because you were able to read my mind again. I don't know how you do this, because the question I wanted to ask you is if somebody is interested in contributing to Fa learn, how they can do this. And if You live in Berlin, then you can go and join the the meetup, right? And then there would be contributions, um, like I think you just mentioned. 
+
+52:34
+Guest
+Ah, no, we, there should be a sprint, but, uh, where people can come and contribute to Berlin, but it's gonna be probably um in the 2nd month of the year around February, but in January I'll just have a talk, but people can talk to me, of course. I'm so happy to hear. We have a Discord channel which I check all the time. And uh people are free to come and ask questions. There's also the first issues and other help wanted labeled issues that I prune constantly so people can just take. 
+
+53:04
+Host
+OK, I Discord channel for high ladies or Discord channel, 
+
+53:10
+Guest
+it's, it's quite a lot of people are there. It's about uh 370-380 people are there. It's a bit quiet. Um, on the website of Fairlen Fairland.org, there is a link, invite link on the top right. 
+
+53:28
+Host
+Pon.org. 
+
+53:30
+Guest
+We also have a LinkedIn page that I made recently because we didn't have LinkedIn presence and I have been posting uh good first issues there recently 
+
+53:43
+Host
+so I was able to find, so if I scroll all the way down, I see the Discord icon. 
+
+53:47
+Guest
+Yes. 
+
+53:48
+Host
+And then if I click on this then. It brings me to the Discord community. Cool. And then you said in GitHub, you have a bunch of good first issues. 
+
+53:59
+Guest
+Yes, there's good first issues and there's also a label called Help Wanted. I've been labeling a lot of things with Help Wanted, but Help Wanted could be more ideal for people that have some contributing experience that don't need to learn the cycle, uh, GitHub workflows or something or like maintainer reviews and so on. There a lot of people have to learn that too, right? Um, and, um, there are lots of different things to contribute. 11, of course, that would be really nice is for people who want to learn a little bit about the theory and, um, teach other people. There's lots of things to add to the documentation and write and explain. Um, for education purposes, but there's also a lot of statistics work for people that are experienced statisticians, um, there is an issue about testing statistical integrity of the methods and so on, that will be really great. To get some people to work on and um, oh yeah, so I think one thing it's important to mention that the library has this ethos, so to say, of um that was already there when I joined as a maintainer that no new methods are added unless they're peer reviewed because we are talking about um fairness here, and this is already so wishy-washy in a sense and the science is never fully, you know, we don't have a Technical solution that you can, you know, so grounded in contextualized, right? And so, um, the ethos is that a um a method has to make sense, has to be really tested and peer reviewed and accepted by the wider scientific community. So just coming by and suggesting something um that It's not that it's not gonna work. This, of course, 
+
+55:41
+Host
+right? The same, the same ideology with psychic learn like that they, it has to be time proven. Yes, 
+
+55:51
+Guest
+it's so hard. Yeah, this is why writing custom estimators uh makes sense because they have 207, I think the last time I, I was a command you can run to see how many estimators are there in I learn, I think it was 207. And people are like, oh, why would they make a new one, but there are a lot of cases where you want to or you want to make yourself a meta estimator or something like this. So, yeah, and um Fair Lear I guess has the same kind of ethos, but in fairness you want also yourself be really careful about what you want to. What do you want to implement? 
+
+56:23
+Host
+And I just put the link to Discord, uh, so there was a question shared the Discord link please. I just put the comments in the live chat and I will also put it, um. 
+
+56:37
+Guest
+Oh, it's so lovely for people to come and work on this, and then I think um when I first opened the documentation on Fat I was like, oh my God, all this. Academic speak, but once you start working with it, looking at the code, and so on, even for somebody that doesn't come from this particular scientific background, it is more clear. And the nicest thing is that you can use it in psychic existing psychic learn pipelines because the most work I've done this 6 months was make sure that this works and if it doesn't work with your particular pipeline and estimators that you're using, please just do an issue and we will take care of it. We are doing release this week very likely, by the way, so I guess there will be new stuff. I have to do it tomorrow. 
+
+57:22
+Host
+And by the way, final thing is, uh, so next, uh, last time when I was, um, so the, the, the way it works, so we do an interview, then there's a transcript, and I edit the transcript with uh Cha GPT and GPT. Breaks down when it sees probable. It's written with dot so it replaces the name with a line break for some reasons. I don't know if it's fixed or not, but like it really, so the name of the company breaks charge GT so. I know how you did that. 
+
+57:55
+Guest
+This is funny, I guess some tokenization there is like, 
+
+57:59
+Host
+yeah, like a very unusual token because it has a dotted end, right? And then 
+
+58:05
+Guest
+like it's also an issue as well. You have to add it to the dictionary as like a full name. Sometimes I check my stuff there. 
+
+58:14
+Host
+OK. Well, uh, that's all we have time for today. So Tamara, thanks a lot for joining us today, for sharing your knowledge, experience, uh, all the stories about music were also quite interesting. And yeah, it was, uh, really nice talking to you. So it's been a while, and, um, I'm happy we finally talked. And, uh, yeah, and thanks everyone for joining us today too, and listening in. 
+
+58:38
+Guest
+Thank you, yeah, I, I, I hope everyone uh considers coming to contribute if we even if it's for the issues that are less time consuming. Um, and yeah, if you have any questions, I please add me on LinkedIn. I'm really happy to talk to anyone that has questions. 
+
+58:54
+Host
+And if you're in Berlin, check the pi data meet up 
+
+59:05
+Guest
+in January, right? No, I'm gonna talk about writing custom estimators and psychic learn and but I will show a custom estimator from Fairlearn, so I guess sort of. 
+
+59:14
+Host
+Yeah, OK, so, yeah, so. That's it for today. Thanks everyone and.
