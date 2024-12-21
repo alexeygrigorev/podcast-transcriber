@@ -1,0 +1,383 @@
+0:03
+Host
+Thank you everyone for coming to today's today's um uh event. So this event is brought to you by Data Talks Club, which is a club, which is a community of people who are interested in data. We have uh weekly events and uh some of the events which we have usually on Tuesday, they are more technical, they are with presentation. This week, we talked about AWS uh Glue Dare, a new service from AWS. Um, but then we'll take a couple of weeks, uh, uh, a break for a couple of weeks, and then for the next, uh, months, we will talk about in the next month, we will talk about model monitoring and then, uh, a feature store called FE. Also have a live podcast events uh on Friday, like today. Uh, this is more like a, a, a discussion. We don't have slides, it's just uh Q&A. And today the topic is mentoring, and, uh, for this type of event, we will also have a break and then we will come back in the middle of January with a topic on writing. Um, then we'll talk about the developer advocate role and we'll talk about, uh, machine learning, uh, ops in your role. Um If during today you have any questions, uh please uh ask on slider. So slider, this is a special uh platform for asking questions. I will now share the link with you. In chat, so you can just click on it. I think we can start. So just let me pull my notes. So today the topic uh we have is mentoring. And we have a special uh guest today, Rahul Jain. Um, Rahul is a technical leader with uh 20 years of experience in building and training software products. And now he leads a business intelligence and data engineering, uh, units at OMIO, which is a ticket booking company. Also Rahul is a mentor at the mentoring club where he offers guidance and coaching, coaching to engineers and managers. And this is uh the reason I reached out to Rahul and asked to share his experience with us um. Uh, because of his experience in, uh, at, at the mentoring club. Um, thank you, Raul, for coming, um, today, and it's a pleasure to have you. 
+
+2:45
+Guest
+Yeah, thanks. uh, thanks Alexi for having me. 
+
+2:48
+Host
+Yes, so before we go into the main topic of mentoring, um, uh, maybe you could uh you could tell us a bit about your background. Uh, can you tell us about your journey so far? 
+
+3:00
+Guest
+Yeah, sure. So, um, so I grew up in India, uh in different parts of uh Northern India, um and then I graduated in '99, uh in mining engineering actually, so not data mining, but mining engineering. But um I think by the time I graduated, I, I was kinda um not so interested in pursuing a career in mining and um I was more, um, I was sort of interested in computers, um, um, you know, around that time. And thankfully for me, um there was this IT boom, um in the world, so I kind of took the advantage and joined um an Indian IT services company. Um, in Bangalore, India, and I was there for about 7 years as a Java programmer. And I think back then Java was uh almost like how you have Golan and and Rust these days was the cool thing to do. Um, so I learned a lot, um, I worked on in different domains, uh, as a consulting company, uh, mostly in finance but also other domains, um, and then, um, after spending about 7 years there, um, I moved to Singapore, uh, and joined Credit Suisse, which is an investment bank. And I think that was, uh, probably my first uh foray into the data world because, um, as an investment bank there was most of the products and, and technologies that they were working on were all related to data, even though we didn't really call it big data at that time, but I was still, you know, I was part of this, um, team called Market Data and Jess where I was kind of doing ETLs although I didn't know that it was called an ETL at that time. And so I spent again about 6 or 7 years there um working initially as uh a backend engineer and then later as a team leader as well. Um, and then, um, and then I joined ThoughtWorks, which is a consulting company. They have offices all over the world, and I think they, they, they're, they're very, um, very popular for, you know, deep engineering skills, and Martin Fowler, if you're familiar with his name, he's one of the employees. And there again, you know, it's a consulting company, so I worked on different domains, but again, I was kind of very close to data around that time. Um, and then about 3 years ago, I decided to move to Berlin, um, to join OMO, which was, uh, called Go Euro at that time. Uh, as I said, we are a ticketing company, so if you're traveling anywhere in Europe, uh, and also in the US these days, you can go to our portal and book, book your tickets. Um, and then when I joined, I was asked to, uh, lead the BI and data engineering team, and that's, that has been, um, somewhat my journey, um, so far, yeah. 
+
+5:37
+Host
+Yeah, it's uh an interesting experience, especially starting from mining. 
+
+5:42
+Guest
+Oh yeah, yeah, yeah. It's kind of crazy because I started with mining and I'm kind of doing data mining now so it's there's some similarity in those worlds. 
+
+5:53
+Host
+Even though now it's uh not uh called data mining anymore, now it's data science, right. And um you also uh you like today the topic is mentoring and you are also active in uh in this area. You mentor people uh at this mentoring club. And uh what does mentoring mean to you? Like what, what is it? Yeah, 
+
+6:17
+Guest
+so I think the, the, the traditional definition of mentoring is, is about, you know, having, I think they call it a, a partnering relationship with someone who maybe knows a little bit more about a certain topic than you and so you reach out to them and build this kind of, you know, support relationship. Um, maybe there's some questions that you're trying to answer and so on. But for me, I define it a little more loosely, um, and And for me, the definition is just about, you know, reaching out to someone for a different perspective. Um, it, it could be about a problem that you're trying to solve some challenge or some decision that you're trying to make in your career, and it's just about, you know, getting, getting an opinion from someone who may have, who may have a perspective that might be interesting for you. I think it, it would be, that's, that's where I would kind of say that it's, that's how I define it. Um, and I feel that in our industry, especially in tech, it's very important because, um, personally, I've seen that, um, you know, unlike industries like food or retail or law, um, we don't really have a very good tradition of apprenticeship, um, where, you know, you're, for the, for the first few years, you're working with someone closely, they're mentoring you, guiding you, and that's why it becomes very important to have someone to reach out to when you have, you know, some challenges that you, you're trying to navigate through. 
+
+7:40
+Host
+So as I understood for you, it doesn't necessarily mean like a long term activity, it can also be just reaching out for advice, but also can be like um something more uh. How to say like more formal, um, like an apprenticeship, uh, program, uh, at the company which lasts for maybe a couple of years, right? 
+
+8:01
+Guest
+Yeah, it, it depends. So it depends on, on your needs, um, I think traditionally, and I also recommend to have a long-term mentoring relationship. But, uh, quite often people have like, you know, really small, very specific questions, and it's perfectly OK to reach out and, and to a mentor and, and get some advice in that area as well. So it's, it's, it's not like a very, you know, specific definition, it just depends on your needs. Yeah. 
+
+8:25
+Host
+So it can be, let's say I am a Java developer and I want to go to data analysis and then I reach out to somebody asking, hey, do you think this is the right thing to me, uh, this would be a meaning. 
+
+8:37
+Guest
+Absolutely. 
+
+8:39
+Host
+And uh was mentoring an important part of your career so far? 
+
+8:44
+Guest
+Um, well, for the 1st 10 years, no. That's the crazy thing, and in fact, that's probably why I got into mentoring because I realized this huge gap that I went through. Uh, so for the 1st 10 years, I didn't have a mentor really. Um, I didn't even know what, what that meant, but, um, my, um, My foray into mentoring both as a mentor and as a mentee started when I joined ThoughtWorks because ThoughtWorks had a very rich culture of, you know, having a sponsor or a mentor, uh, for every employee, and that's how I kind of got introduced to this concept and, and that's when I started having, um, mentors as well as mentees. 
+
+9:25
+Host
+OK. And how does it work? So basically, the moment you join, you get a mentor who stays with you throughout your entire um employment at that work 
+
+9:36
+Guest
+or? Yes, so I, I mean, they, they, they keep experimenting with different formats, but I think, yeah, that's typically how it works. Um, you're, you're not always appointed a mentor, you're encouraged to find one for yourself. Um, but if you can't, then the organization or the people team, uh, or someone, you know, can, can help you find one for yourself. And it's typically not someone who's, uh, from your team because the idea is to get a mentorship from, from a person who can offer like an unbiased, you know, impartial opinion about your career and therefore it's advisable to seek someone who's not your immediate manager, for example, you know, someone from a different team or, or something like that, yeah. 
+
+10:18
+Host
+And um If you want to uh find a mentor, let's say a thought works, it's nice that uh there is such a thing as a mentorship program, right? But um having such a person to talk to and talk about uh your problems is very useful, especially, uh, there are, there are some things you don't want to talk to your manager about, right? So some sometimes, uh, it's better to ask for an opinion, uh, uh, for somebody else like you said from a different team. How, how to find such a person? Do you have any ideas? 
+
+10:52
+Guest
+I think that's probably the most difficult part of it, all right, because Um, You don't know uh whether the person, um, so first of all, you know, you, you're trying to seek someone who has experience or who can offer meaningful actionable advice in the area that, that, that, that you're struggling with or you have questions around. Um, and secondly, you're also looking for someone who can play that role, you know, just because they have the knowledge does not mean they can, uh, also be a good mentor. Um, but I think it's an iterative process, you know, uh, so, so rather than trying to kind of Spend a lot of time initially searching for the right person, you may have to try it out, you know, with, with a, with a few people so you could ask around in your network, um, if, if, um, similar to thought works if you have a formal program in your. Organization, you could hook hook into that or otherwise, you know, through, through your personal network, you typically come across somebody. But I've also seen people, uh, and, you know, these days we have, uh, programs like the mentoring Club that I'm a member of which uh which have made it a lot more easier to find someone. But otherwise, I've even uh seen people just, you know, directly through LinkedIn reaching out to somebody they know or they've heard of and asking them, hey, I have these questions. Would you have some time to, to give to me, so. Yeah. And I think, uh, as I said, it's a, it's a process so you have to go through a couple of iterations before you can find the right person. 
+
+12:20
+Host
+Yeah, and uh it's interesting. Uh, you, you, you said uh you suggested that you can just reach out to your network and sometimes uh I'm active on LinkedIn and sometimes I have these requests, uh, like, hey, can you help me um on this thing? Um, And uh yeah I cannot always help, like I don't always have the expertise and sometimes I feel like people just send it to everyone and uh in hope that somebody will uh respond. But uh I think maybe there is a better way to target uh uh this message to a specific person, right? So maybe you have some recommendation, let's say um if you want to find a mentor in your network, how do you go about finding this person? 
+
+13:04
+Guest
+I think it's, it's like building a relationship, right? So yes, um, the cold calls would, would, would be, you know, unpredictable. You, you don't know whether the other person has time, they don't know who you are, uh, and sometimes, you know, just investing in those networks a little bit before you reach out to them. It is always better. So maybe there's a meetup group or like the, the, the, the data talk Slack channel or something. So you're building some, some kind of, you know, you're, you're investing in that relationship or that network a little bit. The other person also gets to know you a little bit more and that's the time that, you know, you reach out to them and ask if they are willing to, and if they know you already, if they've seen how you work, if they've seen you participate, then, you know, they may be a little more open to to that kind of uh conversation, right? Um, so I think, yeah, I think one of the, the ways to do that is to just build that relationship. But again, I would also say don't be, don't be afraid of, like if you really have, um, uh, you know, a, a, a good reason to reach out to somebody, maybe just dropping them a line, uh, an email or, or a note with, with specifics would be helpful and don't get deterred by um a lack of an answer. You have to keep trying. Yes. 
+
+14:18
+Host
+And uh Yeah, so this is an interesting topic, like how to find a mentor and you said sometimes like uh what they call maybe uh sending a cold email will still work. I do sometimes get such emails that are interesting. I'm happy to help people. But um, yeah, how this email should look like to increase the chances of a response, um, in your opinion, like what are the emails, let's say when you get an email. And you know that you immediately want to um. To answer and to help this person versus uh uh OK, I don't know if I should spend my time trying to figure out what this person wants and if I want to help. Is there something you can recommend? 
+
+15:04
+Guest
+No, absolutely. I think um being, being a bit more specific in your request helps. So if I put myself in that situation and I get a message from someone and they say, hey, can you help me with this? A little more detail around this is who I am, this is what I am struggling with. Or this is a question I have, what do you think? This is what I have tried. So just showing that earnestness, that authenticity sometimes speaks volumes versus um a very vague message saying, can you help me, you know, uh, because I don't know and I don't really know if I can really help you or not. Um, so maybe just be more specific. It's helpful if you're purely making a cold call. Uh, and, and also maybe sharing a little bit about your background that, you know, this is what I have done, this is, this is how I'm navigating with this challenge right now and so on and so forth that might also be very helpful. 
+
+15:54
+Host
+And um, uh, like coming back a bit to your, uh, this experience, uh, uh, as a mentee that works, at some point, I guess you also became a mentor yourself, right? So first you were a mentee, somebody was helping you, but you spent quite a while there. So at some point you had enough experience to actually mentor somebody. Um, what did this do to your career? Like, how helpful was it? Was it helpful at all or, um, what were the benefits for you as a mentor? 
+
+16:27
+Guest
+There's quite a few benefits that I have seen um in the last few years. I mean, 1st, 1st and foremost, you know, just, just being able to kind of help someone out or or share your experiences is a reward in itself, uh, because it's, it's a way, uh, of, you know, giving it forward. Um, I also felt that it, it made me, um, I'm still learning but it made me into a better listener. Um, because you kind of, uh, have to listen a lot and have to be good at listening. Um. I think it's also, uh, so as a, as a team lead, uh, I'm also leading a team. So in some sense, it also gives me a perspective about leading a team by myself and what that means and, and, you know, uh, for example, if someone comes with a problem or challenge, then I can relate that with my own experiences in my team. And oh, am I also doing the same to my, my team, you know, uh, so on and so forth. And then finally, it's also given me a good network now. So being part of this mentoring club, um, I'm also part of, you know, I'm, I'm kind of networking with other people who are mentors themselves, so that's also uh a, a reward in a way. Mhm. 
+
+17:43
+Host
+So basically you can help others and this is very rewarding and you also get to know their problems and how to finding the solution to these problems is also helpful you know for you to uh. 
+
+17:55
+Guest
+Absolutely, yeah. OK. And patterns and problems, I think that's another, another, uh, part of the learning which is kind of a little subtle, but it happens over time. So what happens is that even though 5 people approach you with 5 different problems, but you start seeing that, oh, you know what, underneath it all, it's the imposter syndrome. And then you start getting more sensitized to, to that as a, as a kind of a more generic problem and you start seeing those patterns in maybe the way you're leading your own team or you're, you're seeing someone else lead it and that also adds to that learning. 
+
+18:29
+Host
+And if somebody reaches out to you and asks for help on a topic where you don't have experience, what do you usually do in this case? 
+
+18:39
+Guest
+Um, I think it's, it's, it's very, uh, simple. You just say that you don't know, you can't help in that area because you don't have much experience and you then try and connect them to somebody you know who might be able to help. I think it's, it's just about that. 
+
+18:54
+Host
+Yeah. The Maybe have you been in a situation where you didn't know like how to solve a problem, but just by listening to somebody to listen, by listening to their problem and then uh you know, asking questions, uh, you were able to help them. 
+
+19:12
+Guest
+Yeah, so that's something that I always try to do, right? So, um, and quite, quite often it happens, um, that someone would reach out to me from, I don't know, they, they, they, they have experience in marketing. They're not necessarily from the same, um, you know, uh, like tech, but Marketing or um I had someone reach out to me from the construction industry. Um, and initially it felt like there isn't much of an overlap between my own experiences and theirs, so I wasn't sure how I would be able to help. But then, first and foremost, you know, giving a listening ear to somebody itself is part of mentorship because sometimes just by that day, they would be able to solve their own problems. And then secondly, as I said earlier, um, you can recognize common patterns. So even if they come from a different background, um, some of these social kind of problems that one sees in, in a workplace are very common, and that's when you can relate and say, hey, I don't know exactly how it works in your environment, but this is something, this is sounding similar to what I have seen and here's what I have done when I had a challenge similar to yours. And, and that's how you try and, you know, start, try and find these dots that can connect these two worlds together. Mhm. 
+
+20:30
+Host
+That's uh pretty interesting. So these people from construction industry or from like some other industries, uh, they found you through this uh mentoring club. Yes. Um, yeah, maybe you can tell us a bit more about this club, what is this, uh, uh. 
+
+20:47
+Guest
+Yeah, so is a, um, is an initiative that was started earlier this year, uh, by a few of my colleagues, ex-colleagues now, um, in, in Berlin, and I think the, the, the, um, the, the motivation was simple. Um, we just wanted to reach out to people who had a need for some kind of career mentorship, mentoring or coaching. And so this is a club, um, call it a club, but it's a group of people have grown to almost 300 people now, 300 mentors. And I don't have the exact numbers, but I think we've, um, we've mentored or we've given close to 1000 sessions, if not more. It's a, it's completely free of cost. Um, so all you have to do is book um uh a session with one of the mentors that's available on the club, and, and that's about it, you know, and then it's just between you and the mentor. The mentors come from all different walks of life. A lot of, uh, the folks there are like CXOs in different companies around Europe, um, as well as outside. There's people from products, from tech, from, uh, marketing, sales, design, um, entrepreneurs, so there's lots of people from different, different walks of life. Mhm. 
+
+22:05
+Host
+And uh which topics do you help with on this platform? 
+
+22:09
+Guest
+I personally help with um things like, you know, career navigation. um, so it could be something like I, I said earlier, some challenges that you're facing at your workplace. There's some career-related decisions that you're trying to make, maybe trying to switch a career or you're, you've just graduated and trying to figure out whether you should go for higher education or not. Uh, I also, uh, sometimes talk to people about more technical topics, so my background or my recent background is in data engineering. So, uh, there are times when people approach me about, you know, what's your data stack or what should be an ideal stack for a, for a startup and so on. So it, it, it varies between these, yeah. 
+
+22:49
+Host
+Yeah. And um if somebody, if somebody is looking for advice and uh somebody who wants to, to reach out to you um through this mentoring club, um, what should they do to best prepare for this, uh, for this mentoring session? Like how to get, to get the most out of this session? 
+
+23:08
+Guest
+So, um, it kind of depends on what exactly are you looking for, I mean, um, initially, so, but let's, let's, uh, let's take a common example, right? So let's say that you have some specific challenges that you're trying to navigate through. I think it helps to, um, to, to reach out to your mentor first, um, and give them as much details as possible about, about your background and what, what is it that you're looking for. Um, but I think it also, uh, helps to do a bit of introspection to see what is it that you're trying to get out of the mentoring relationship or a session. Is it a one-off thing that you're trying to bounce some ideas? Are you looking for some validation about a decision that you've recently taken? Or are you looking for a more long term engagement, you know, so it's good to ask those kind of questions first. Um, I would say also that, you know, don't overprepare. It's not a job interview because sometimes, um, let the conversation flow. So book some time, get, get a basic idea, share these details with your mentor, uh, and then let the conversation flow. Um, one of the mistakes, not a mistake, but one of the misconceptions I've seen, uh, with people who come for mentoring sessions is that they expect, you know, a very kind of specific answer to a problem and, and they, they're often Disappointed maybe when they see that there's no real specific answers to most questions, right? A mental job is more about showing you, giving you some pointers or kind of, you know, planting a seed in your brain in a way, um, asking you to probe something deeper and so on. So it's a process and, and just, just being aware of that before you get into the mentoring session itself so that you know that you, you, you're not, you're not disappointed by the end of it. 
+
+24:56
+Host
+Mhm. Um, if you can share, uh, if it's possible, maybe not something personal, but, uh, from one, from one of the recent uh sessions that you had, uh, what kind of problem, um, uh, you were approached with, uh, like maybe there is something super common that uh comes up. 
+
+25:16
+Guest
+Absolutely. So there's a, there's a few common areas. Impostor syndrome is the biggest, most, I would say more than 50-60% of the people who reach out to me are suffering from some kind of an impostor syndrome. They feel they're not good enough in whatever they're doing. That's very common. Um, I also, um, uh, get a lot of questions about tech versus management, and this typically happens to people who spend their initial 5 or 6 years in technology. And are now either by themselves or uh by their organization being asked to take more leadership roles, and they, they feel, oh, you know, is it a, is it a big choice that I have to make? Like if I do people management, I can't do tech and vice versa. So this is very common. Um, then there's, uh, you know, um, uh, career moves. Should I join this company? Should I, um, you know, uh, should I go for higher education and those kind of questions. 
+
+26:14
+Host
+Mhm. Yeah, that's interesting. Um, like if somebody comes to you and says, uh, uh, or describes a problem and you understand, OK, this person has, uh, this imposter synd imposter syndrome, what do you usually recommend in this case? 
+
+26:30
+Guest
+There's no one answer to it, um, because it depends, um, because impostor syndrome can, can happen for various reasons. So the process that I usually, um, have is to go a bit deeper into what's the root cause behind it, right? And, and then more often than not, this is more of a perception or a myth that gets built up because of, um, mostly external factors but sometimes internal internal as well. So the process is just to, you know, scratch the surface, go a bit deeper and question some of those beliefs. Um, and then, you know, try and, try and, uh, and, and see what are the You know, get to a place where you are able to define that more specifically. And you say, oh, I don't feel good enough, I don't feel I'm fit for working in this team. What does that mean? So I would say I can't give you a specific recommendation um to your question, but I think it all depends on just going down that process and trying to understand the root cause behind the, the problems. 
+
+27:30
+Host
+And uh that uh your answer makes me wonder. Like it seems like to be a good mentor, you really need to understand people to, to go deeper and find this root cause and understand, OK, uh, this is actually like the, the real problem is this impost impostor syndrome. Um, how do you learn that, uh, like as a tech person, because, uh, let's say we, we're usually, um, like you as a Java developer previously, um, I was also a Java developer. We used to Talking to computers, right, writing code. How do we go from uh writing code to actually understanding people and being a good mentor or maybe it's not for everyone. 
+
+28:12
+Guest
+Um, I think, well, I guess, yeah, I, I think you need to have a little bit of an of a natural inclination and helping people, but I, I would also argue that most people have that, right? And as we grow, um, so yes, for the first couple of years of your career, maybe you're, you're spending most of your energies as an individual contributor, but in most work environments, you're always um You know, helping someone out, uh, maybe there's a new person who joined your team and you're helping them with onboarding, right? So there's always that, that, that, that aspect of it's a, you know, even tech programming or or data is still a social activity you're still working in teams. And therefore, um, uh, you do even inadvertently acquire a lot of these people's skills, even if you don't believe that yourself. You do have, uh, always, uh, uh, a personal, you know, way of helping other people, right? And it's just about honing that and bringing that to the table when you're, uh, acting as a mentor. And then there are certain aspects which um Which you learn kind of, you know, tricks of the trade, uh, so to speak, which you learn as you go, like, you know, being a better listener or not jumping like one of my, uh, colleagues from the mentoring club calls it the advice monster, you know, uh, so not immediately jumping into giving advice but listening to what, what the other person is trying to say. So I think it's, it's just about, as you said, it's a skill, it comes with practice, um. But I'm sure if you look deeper, you, you're already doing that uh in, in, in many ways in your current workplace already, right? So it's just about taking that to the next level. 
+
+29:53
+Host
+So basically, do not be afraid of trying. It's not as difficult as it sounds. 
+
+29:59
+Guest
+No, not at all. And, and, and it's, you know, it's um It's a very rewarding exercise I would say, uh, and there's nothing wrong in helping, uh, other people out. It's not about sitting on a high pedestal or, or I have so much knowledge that I'm gonna give it to you. It's just really about giving them a listening ear. Mhm. 
+
+30:17
+Host
+And uh Cenia is asking what are the main motivations for a mentor to mentor someone. We, I think we touched on this topic a bit, so you said like uh it helps you personally, uh, like you, you start seeing patterns, you become a better listener, and then it's also rewarding for you when somebody, like when you have this feeling of uh helping someone out. Is there something else that, uh, that is helpful? 
+
+30:44
+Guest
+No, I, I mean, personally for me it was, as I said earlier, uh, for the 1st 10 years, I had no one to work. I, I did not know what I was doing, so I came from a mining background. Um, there were no engineers in, or, you know, people in software in my family that I could talk to, and there was no culture of apprenticeship or, you know, mentorship in, in, in the first few years of my career. I struggled a lot. I didn't know, was Java the best thing for me, you know, or whatever. Um, an imposter syndrome, for example, I, I, I, I went through that, uh, for many years. So for my personally for me, the motivation came from that, from, from the fact that since I didn't have one, can I provide that space to other people around me, so maybe, you know, so, so you need to find your own motivation, but these are some of the things that motivated me. 
+
+31:32
+Host
+And um you said that through this club, through this mentoring club, some people just want to have like a one time uh conversation um but uh maybe sometimes uh I, I'm, I'm not sure if I got it right, but sometimes people need something more long term, right? Um, how often, like what's uh the, like how often do you have somebody who wants to have something more long term? 
+
+31:57
+Guest
+The long term it's a little tricky honestly because um first of all, So I have a few people who I'm mentoring long term. Uh, some of these are people I was mentoring at Thors when I was working there and, and also through the mentoring club. I think one thing that you have to keep in mind is that long term is um. Um, so you need to, to, to also be mindful of the, the time investment that the mentor is putting into this, right? And sometimes, um, uh, these relationships could also, uh, mean, uh, some kind of a monetary, uh, aspect to it. So there are mentors who do it more professionally, um, so one time mentoring is fine, but if you're trying to, to, to, to build a more long-term relationship, then maybe there's like, um, you know, a fee that you need to pay to them or something like that. Um, But yeah, but other than that, it's just about, um, you know, establishing that, that kind of a contract between you and the mentor. And if they are interested and willing to provide that to you, then, then surely go for it. I would recommend to do long-term mentorship because um um it's difficult to understand the entire context and background um in one conversation. It's always useful to, you know, um. Get to know each other a little bit more over time and then you, you really You get more productive with the mental mentoring class. 
+
+33:23
+Host
+I guess, uh, it makes more sense to find somebody in your company, in your work, uh, workplace, uh, for this kind of relationships, right, for a long term uh membership relationship, right, or not necessarily. 
+
+33:37
+Guest
+If your organization has either a formal program or informally, you know, somebody you can reach out to, I think that works out ones, so yeah. 
+
+33:48
+Host
+Maria was asking, um, how do you set boundaries for long-term uh mentorship relationships? Like, uh, of course, uh uh like you as a mentor, you also, you have other things, right? You cannot uh spend all your time helping, uh, your men and there are perhaps other things. So how do you set up, how do you set these boundaries? 
+
+34:09
+Guest
+Yeah, and that's very good, as I said earlier, right? So, um, and sometimes. It's more meaningful to have a paid relationship in those aspects because, you know, uh, then both parties are more committed to it and, and it's easier to create those boundaries and expectations versus uh just uh uh a, a regular long term mentorship because then you don't know what to expect from each other. Um, if, if that was the question around boundaries, if I understood that question correctly. 
+
+34:36
+Host
+Yeah, I think this is how I understood as well. Um. 
+
+34:40
+Guest
+Yeah. And, and sometimes, you know, it's also about like I have, I have a couple of people I mentor long term and it's, it's, it's also about telling them, look, it, it's not meaningful to have a next conversation unless there is a change in the situation, you know. And, and it's not just about meeting every week and talking about things. It it's not, if, if you're on point it, it starts showing diminishing returns. So just setting those expectations also clearly often helps and question like as a mentor sometimes if someone reaches out for, for regular mentorship, I said, do you really want to talk to me because is there anything different that we would talk about versus what we spoke about a month ago? And if the answer is no, then maybe there is, there's no point in the discussion. 
+
+35:25
+Host
+It's so basically um. Being mindful, uh, like from both sides and uh asking, hey, do you really think we should have this would be beneficial for, for you to have this, uh, uh, extra session. OK. Um, Yeah, so, uh, Rosland is asking what do you think about paid mentoring? I think you already covered that, um. Yeah. Um, is there any, um, Like Is, is it a beneficial relationship for MinT when mentoring is not on a free basis but rather when it costs money. 
+
+36:05
+Guest
+I think absolutely so. It's um it can be more constructive, it can be more, uh, you know, you can set the expectations better. Um, and, you know, it's kind of like paying for, for a gym membership in a way, right? So if it's working for you, um, then it's, and, and, and I think what I've seen with paid, um, paid kind of contracts is that there's, um, there's more accountability, you know, so if you're showing up, um, you know exactly what you're looking for. So there's, there's more motivation from both sides to, to, to, to work on that relationship. Yeah, but it's a, it's, it's not a, it's not, it's not very common from what I have seen, uh, unless I think it's very common for like senior leaders like CXOs, um, but for, um, when, when you're beginning your career, I've not seen a lot of, uh, these kind of paid relation paid mentorship programs, um, being offered. 
+
+37:01
+Host
+You know, maybe not in terms of career, but I saw a couple uh like in terms of technologies, in terms of uh like how to find a job with these kind of things, uh. Basically helping prepare people for a job interview, um, so this is maybe more common for uh for people with less experience. 
+
+37:21
+Guest
+Yeah, so it's, it's like, you know, anything that you pay for, right? So um uh it's like a training sometimes, so as long as you believe that you'll get something out of it and you feel that it's priced rightly, then, then certainly it's, it's worth considering. 
+
+37:37
+Host
+uh, Ruslan also is asking, um, what would you recommend for MET on how to build a two-way connection with a mentor, um, not just question answering, but, uh, something more engaging. 
+
+37:50
+Guest
+Um, so it's like any other relationship, right? So it takes time. Um, so you, you need to start investing in that. Uh, be authentic in, in what you're sharing. Um, it's not a job interview or it's not like, you know, putting only your best foot forward. It's, it's really about discussing. What are your challenge areas, what are your strengths, what are your weaknesses? And also, you know, uh, and I think I've written a blog post about this as well, um, kind of working with your mentor together over time. So even conducting a retrospective if needed after a while and saying this is working, this is not working. Can you give me more, um, I don't know, can you share some books with me that I can read or whatever works for you, right? So making it work for yourself takes time and investment and, and you should invest that. Mhm. 
+
+38:36
+Host
+Yeah and uh we should share this uh block uh in the comments after we uh we finish. Yeah, 
+
+38:43
+Guest
+I, I'll probably share that with you. 
+
+38:46
+Host
+And uh quite a few people ask how to join this mentoring club, so we will definitely put the links uh uh in Slack and also in the comments to the video 
+
+38:58
+Guest
+later. as a mentor or a mentee. So if, if you, if you wanna just be a mentee, then what you need to do is go to the website and then search for a mentor and book some time with them. So each of, each of us has a currently. Link. So you can just go there and, and see when we are free and, and um book a slot. But if you want to join as a mentor, then I think the website has a page which um which has an enrollment form. Um, I don't know the exact process right now, but you basically answer a few questions and then, um, Bastian and Jess who, who lead this project, they'll review your application and, and then they'll, you know, allow you in. Yes, 
+
+39:40
+Host
+thank you. Um, And uh as uh somebody who has quite a lot of experience being a mentor. How do you usually, like, is there a difference between a mentoring somebody who doesn't have a lot of experience like a junior and somebody who is more experienced? Is, is there any difference in mentoring this, uh, Groups of people. 
+
+40:05
+Guest
+I, no, I don't think so. I think it's um It's just about um What kind of challenges they're going through and if you have something meaningful to add to that, to be honest. So I haven't really seen a lot of difference, um. Between mentoring, um, a, a very junior person versus someone with more experience, it's just the problems space sometimes differs. So yeah, I, I, I don't think there's. 
+
+40:34
+Host
+You know, maybe also seniors, maybe they have something more concrete or it doesn't really happen. 
+
+40:41
+Guest
+No, it doesn't, and in a, in a way it's kind of um an interesting lesson because no matter who you're talking to, in their problem space they're as, you know, they, they're struggling as much as the junior person in their problem. The, the, the words might vary, but the, the extent or the nature of, of how they're dealing with it doesn't, doesn't vary much. 
+
+41:05
+Host
+And uh As a manager, do you think a manager should be a mentor or um? Yeah, maybe a mentor should be, it's better if uh like there is a special role of a mentor who is not a manager. 
+
+41:19
+Guest
+Yeah, so, um, so most managers these days have like, you know, one on ones with their, uh, with their teammates. In some sense it's kinda like mentorship, but the relationship is much different because there's, uh, you know, there's it's more delivery focused sometimes and so on, of course, there's a, there's a, there's a career development aspect to it. But I would say as a mentee or as someone who's seeking a mentor, it's It's advisable to seek someone who, who's not your immediate manager because they can give you a much more unbiased opinion, you know, they, they, they can tell you, you know, quit this job, it's not working for you. A manager would probably never tell you that, right? That's good. So, so that's why it's, it's useful. And also on that note, I think it's, uh, we keep talking about one mentor, but you don't have to have just one mentor. You can have multiple. Um, depending on different areas because not everyone would know, like, you know, if you're a woman or, or a non-binary person, it probably helps to also have someone from the same group because they would understand the challenges much better than, than, than maybe someone who's a man or, you know, so, so I think it, it, it, it also depends on um having different people for different aspects of your, your career that you're navigating through. 
+
+42:39
+Host
+I think there is an article from Harvard Business Review, like, you don't need, uh, just one mentor. You need, uh, like a personal board of directors, something like this. Like, basically like you don't have to just talk to with the same person about all the problems. Like it's a good idea to have uh 5 or 6 people who You reach out to and of course then uh like everyone will have their own uh opinion about the thing and then you basically need to, to make this decision yourself at the end. 
+
+43:10
+Guest
+Yeah, yeah, and that, that uh you, you, you said it well, that is the key because a mentor is, the, the real role of a mentor is to show you that direction, right? Um, not to take your decision, so you still need to, you, and it's perfectly OK to disagree with your mentor as well. Right, it's just about getting their opinion, but, but the decisions are still yours, so you still need to get invested more in, in that decision-making process. 
+
+43:35
+Host
+And uh we already talked about like for people who want to start being a mentor, you said if they want to do it through the mentoring club, there is a certain protest and they should talk to the founding members, right? But in general, if somebody just wants uh to start being a mentor, whether with uh the mentoring club or some other platform or maybe just by themselves, what should they do? How can they start? 
+
+44:01
+Guest
+I think the, the from a process perspective it's just about, you know, reaching out to your network. Um, don't give unsolicited advice to people who don't need advice. I think that's one thing to to be mindful of. So just don't just go tapping everyone on the shoulder and say, hey, we should be doing things differently because I wanna be a mentor. Um, but having said that, uh, I think, you know, just reach out and, and offer for this. As an option to people and say in your network and say, you know, um, I, I'm here if you need to discuss something. That's how I started, um. And yes, if you're, if you really want to uh do it more formally, then you can certainly join a club like mentoring club. There are many others, by the way, I think there's Plato and there's a few others. Um, so that's one way to get into it. Um, and in terms of just, just, you know, acquiring the skills of preparing yourself, it's, as I said earlier, it's about, you know, um, having that empathy to, to, to help, um, not always. Giving advice but listening, um, people's, people's uh you know, environmental context may be very different from yours. So, so just be mindful of these, these aspects when you're talking to them. 
+
+45:15
+Host
+And uh Um, I know some people think of mentoring as a way to, um, have, uh, say a side income, to start earning extra money by sharing, uh, the experience. Um, what, what do you think about this, uh, uh, I don't know if it's like the real motivation. I'm not sure if it's money or desire to help, uh, but, uh, in your opinion, uh, when Sometimes mentorship becomes more like a consultancy service and I think Ruslan is also asking uh a similar question. Um. When you just go or pay some money to get an answer. Um, do you think it's uh a valuable thing for, for both parties? 
+
+45:58
+Guest
+Yeah, and, as I said earlier, I think so. I think if you have some value to add, right, um, there's no, there's nothing wrong in asking or charging money for that, like how you would take a, you know, give a training in, in, I don't know, data science or data engineering. It's kind of similar to that. Uh, it also helps establish better expectations. Uh, and boundaries around the, the contract, so there's nothing wrong with it, with pursuing that as a, as a, as a, you know, a side business or, or even a career because there are, there are people who are pursuing this, um, you know, as a, as a full-time career option as well, and there's nothing wrong with it if you can bring that value and people, people get benefited from that. OK, 
+
+46:42
+Host
+yeah, I know some people started this as a side business, um, but then they got uh a lot of mints that that they eventually quit their job and started to focus on this thing called mentoring. I'm also curious about, uh, I'm just curious about your opinion when things like that happen. Uh, when somebody is, uh, hands-on, let's say a developer, creating a lot of code, but then at some point they, uh, become mentor, they start, uh, it, it also happens in the workplace, uh, when people, uh, How to put it like they when they uh get promotions and uh like let's say from a senior to higher levels they start uh mentoring more but they start coding less and uh the fear uh that many people have is they become. How to say less relevant, then they start losing the skills, they get new skills, but uh they may become less hands on. Um, is it something to be afraid of, like, is it uh? Is it maybe just imposter syndrome again uh that kicks in and um It's, it's fine, or what do you think about this? 
+
+47:56
+Guest
+Yeah, I mean, and I get this, this question, um, a lot, um, especially when you're kind of, you know, growing outside that that initial few years of individual contribution, um, typically the expectation is for you to, to, to, to get into more quote unquote, people management, right? And, and mentoring could be part of that. Um. And my answer is, uh, first of all, I think Whether you're, so you, it's very rare for you to be doing individual contribution, sitting in a corner, uh, for the rest of your life. So even if you're not formally accepting those roles, you're still, um, you know, just by the virtue of the, the experience that you acquired, you are helping other people out and you are kind of, you know, doing people management, you know, mentoring junior people and so on. So there's nothing wrong with that. Um, and also for, for some reason, there is this myth in our industry that you, you have to pick one over the other, so you can either become a people manager. Or a mentor, right? Uh, or you can be stay close to tech and programming and, and data science and data engineering. But if you, if you look closely, uh, and especially in the last few years, these two worlds are really converging together. There's a lot of, uh, people and me included, for example, so I write code every day almost, uh, and at the same time, I'm leading a team and I'm also, you know, doing stakeholder management and I'm also participating in architecture deep dives. And it's very, uh, it's not that difficult for you to, to, to define how your own day should look like. And you can, you know, uh, pick and choose your own percentage of programming time and versus people management time and so on. And in most companies, that's, that's, that's not very difficult to do. Um, let's say, um, it's, it's definitely. Uh, a myth that if I do this, then I'll not be able to do that. It's all in your hands how you strike that balance in, in most places. I mean, I have more experience working in, in corporates and organizations, but I'm sure even as freelancers or, or, or people running their own companies, it's kind of something that can be managed. 
+
+50:12
+Host
+Yeah, so basically take control of your time. Otherwise somebody else will, will do that, right? 
+
+50:18
+Guest
+Yeah, yeah, exactly. Um, and, and it's, it's not that difficult to do in my opinion. 
+
+50:23
+Host
+So, uh, is there anything simple you, you can suggest like to do, to start doing to, like I'm surprised that they, you said you still have, uh, like even though you're um a manager and you're leading a couple of uh units, um, you still find time to program. So how do you do that? And is there any advice you can give for somebody else who also want to, who's in a similar position and want to still keep coding? 
+
+50:51
+Guest
+There's no one answer to this, but I say start with accepting that you can manage your time better. Um, it's not like you have to pick one path. There's no truth in that. So, so the day I committed to myself that I'm going to be, I, I have to figure some, some way out, but I'm gonna be, uh, spending time working with my team, but I also want to write code. It all, you know, I figured this out myself, right? Um, and I think what happens is that a lot of us. I'm not taking that first step of, of, of, um, accepting that as a, as a viable option. Once you do that, then you can figure this out by yourself. In my case, um, I, over time, uh, and yes, I mean it varies, so it's not like every day there's 20% coding time and there's 20% something else. It, it varies, but then, uh, over time I also delegated more to my team and that then makes It's possible for me to take out some time to write some code if I want to because my team can take care of certain things that I would have otherwise had to take care of and so on and so forth, right? So I guess the short answer is you can figure that out, but step one is to say there is nothing wrong in me having this, this nice blend of work and, and management, and I'm going to make that work for myself. 
+
+52:08
+Host
+OK. Yeah. Thank you. Um, so there's also a question from Seal. How can, uh, one work out a personal development plan with your manager? And um I think here we can also replace manager with a mentor. It doesn't have to be a manager. It doesn't always have to be, uh, at work, right? You can also have a personal development plan outside of work. Do you have any recommendations how one can do that? 
+
+52:33
+Guest
+Um, again, it depends on what objectives you have in mind, and I, I'm not very prescriptive about, you know, a format or this plan is better than the other. What I would say though, and where I have seen, uh, things fail, is it's very easy to create a plan, but it's very difficult to, you know, look at it every day, and that's where most of us fail. Um, and, and what I would advise is If you're working with your mentor or your manager, look at that plan together with them, you know, every week, you know, one on one or once every month. Uh, keep it printed and in front of you or whatever, right? That's when we lose sight because we all create plans. Um, the manager comes in some day or you go to them. And say, hey, let's create this nice plan. I'm gonna do this and this and this, and then that gets forgotten after a week, right? Um, and, and so the struggle or, or the, the hard work is in making sure that you're always looking at it, you're evolving it, and you're working on it. Um, the format of what one plan is better than the other, and those things, it all depends on, on your needs. 
+
+53:41
+Host
+Which reminds me of this new year resolution that we do every year at the beginning. And then that's the only time when we, at least me, look at this resolution and then throughout the, the rest of the year, it's like just sitting there and, uh, collecting dust. And then at the end of the year when I create a new resolution, and oh, funny, I wanted to do that thing. 
+
+54:05
+Guest
+Yeah, they don't they say that, you know, practice and process. Uh, are more important than planning and, and that's really true about your career as well. 
+
+54:14
+Host
+Um, yeah, so I think we can take one last question and uh the question is um what do you do when you are overwhelmed by something? 
+
+54:26
+Guest
+Oh. What do I do when I'm overwhelmed? Um, well, I wanna say I take a break, um, you know, uh. And not worry so much about and, you know, cut down the, the, the less important stuff and so on. I don't do a great job at it, to be honest. I don't wanna lie, but I think, yeah, I think it's about, um, it's, it's about, um. I guess understanding that overwhelm is also a state of mind, uh, it's a, it's a mental construct. And, and then trying to figure out what is it that overwhelms you because again, overwhelming, uh, the feeling of overwhelmed is a very kind of high level general feeling. But you need to go deeper. Uh, is it because of a fear of something that I'm feeling overwhelmed, but maybe, I don't know, I have a meeting with my CEO and I'm scared about that, or is it that, um, there's a lot of work that is overwhelming me or there are decisions to be made, and then, you know, going, going kind of one level down into that and then trying to, to, to, to kind of split that apart. Uh, into pieces, and that's how I usually try and, and, and navigate. I don't do a great job at a time. I wanna mention once again. 
+
+55:45
+Host
+Yeah. And uh there is a question also, what are some examples of uh value you gained from being a mentor? You answered that already, but uh I can already see that like when you get a question like that, what do you do when you're overwhelmed, you sort of already have an answer to that, you, you, because somebody previously asked you. About this thing, right? And you've uh already probably went through this of like OK, what should I do in this case and when this question comes up again, you're not completely unprepared, right? 
+
+56:19
+Guest
+That is true, yeah, I mean, it it definitely compels you to think about how you've navigated this these situations in the past or how would you do them in the future. Uh, it, it definitely makes you more, more empathetic towards other, other folks. And you know, um, are you still there? Frozen. Oh, you're back. I quickly wanted to add is, you know, um, this year has been rather difficult for for most of us, and, um, so that's another. Another kind of motivating factor to, to be able to connect with people from like different parts of the world, um, and I got calls from folks in Australia, in India, and in many other places where they, someone lost their job, uh, and they just wanted to talk to somebody, you know, and, and that was personally very kind of, um, nice to be able to talk to somebody and share their, their pains and then. Maybe 
+
+57:21
+Host
+Yeah. Thank you a lot Rahul for coming uh to us and sharing your experience uh of being a mentor with us. That was very valuable. Thanks a lot and I hope you also like it. 
+
+57:34
+Guest
+Thank you. I enjoyed it a lot. Thank you so much for inviting me. 
+
+57:37
+Host
+And thanks everyone for, for attending and for your questions. And I will share the recording soon and also uh Raul, if you can share the link to your uh to the blog post you mentioned and also to the Mandarin as well. I'll put it I will put this in Slack. 
+
+57:55
+Guest
+And I'm, I'm a member of the Slack, um, group as well, so if you have any questions, any of the listeners, they can always reach out to me and I'll be glad to help. 
+
+58:05
+Host
+Thank you. Well, have a nice day and have a nice weekend. 
+
+58:08
+Guest
+Bye. Bye-bye everyone.
