@@ -1,0 +1,471 @@
+0:01
+Host
+Everyone, welcome to our event. This is our first event in 2025. Happy New Year, everyone. And yeah, I'm really excited to start the new year with this team. And uh, but before, like I would do the usual thing, so we have a lot of uh things, a lot of events planned. Uh, so there is a link in the description. You can go there, click on that link and see all the events we have on our pipeline. Uh there are a few, like there's one workshop, that is uh a few other things, so check it out. Uh, then, of course, if you have not subscribed to our YouTube channel, now it's the best time to do it. So click on the subscribe button and then you get notified about all future streams like the one we have today. And last but not least, we have an amazing Slack community where you can hang out with other data enthusiasts. The link is also in the description. During today's interview, you can ask any question you want. There is a pin link in the live chat. Click on that link, ask your questions, and we'll be covering these questions during the interview. Um, it's good that I still remember this thing. I think if you just wake me up in the middle of the night, I'll still be able to do this introduction, hopefully, even though it's been roughly one month since the last, maybe slightly less. But anyways, um, So now, I will open the questions that we prepared for you. And if you're ready, we can start. 
+
+1:23
+Guest
+Yeah, I should have. 
+
+1:25
+Host
+Yeah, so then, uh, this week we'll talk about AI infrastructure, everything around that. Uh, maybe we'll slightly talk about, we'll talk a bit about trends in AI infrastructure, but we'll see where the conversation goes. So we have a special guest today, Andre. Andre is the founder and CEO of DSec, which is an open source alternative to Kernetis and SLAM. I don't know what the slam is. I know what Coperana is, but we'll probably talk about that. Uh, and the idea behind this tag is it's built to simplify the estation of AI infrastructure. Before this tag, Andre worked at Jet brains for 10 years, uh, helping different teams make the best developer tools. So welcome. 
+
+2:06
+Guest
+Thank you, I say, uh, for introducing me and yeah, also for inviting me. So yeah, uh, pretty excited uh talking about the infra and everything that is related. 
+
+2:18
+Host
+Mhm And we've actually known each other for quite some time, so it was long overdue to actually invite you. So thanks for accepting the invite. And uh, as always, the questions for today interview are prepared by Johanna Bayer. Thanks, Johanna for your help. And let's start with our main topic. AI infrastructure. And before we go into the main topic. Let's talk about your background. Can you tell us about your career journey so far? 
+
+2:46
+Guest
+Sure, uh, well, um, I started my professional career as a, uh, software engineer, and back then I didn't call it even professional career, I just, um, liked coding, um, and I even skipped sometimes going to school because, uh, I was working on some coding, uh, problem, uh, 
+
+3:07
+Host
+started coding at high school. 
+
+3:09
+Guest
+Yes, yes, and I miss those days, uh, when, uh, I coded it only for fun, um, mm. 
+
+3:17
+Host
+Don't we all miss those things. 
+
+3:20
+Guest
+Then I switched to professional um software development, um, and yeah, worked in, uh, different companies, uh, one of the companies was mentioned was the experts. Um, I lived in Saint Petersburg, the company was uh making professional tools for traders, uh, like options, stocks, everything, um, and that was quite fun, so. Well, that was professional development, uh, I really enjoyed, uh, that, and then I, uh, joined JetBrains and it was uh basically uh a dream job, uh, as a programmer, um, at least for me, uh, and I know for many other people, uh, well, JetBrain tools are the, the best, uh, and, um, when I was invited to, to join them, it was super, super cool, um. Um, thing, um, and yeah, um, I, like you mentioned, to spend there like 10 years, uh, working with different teams. I started working with IntelliJ, then also, um, was, um, helping launch a data group uh this an ID for, um, for working with database, and then also worked with other IDs as well, helped launch a Goland as a goal ID and and eventually. Eventually I uh joined the Pychon team as a PM and uh what I was working on was uh called uh Data Spell. This is actually a dedicated ID for data analysis and data science, um, and it is also a part of Pycharm, uh, and this is how I was introduced to machine learning and that, that's what eventually caused me to, to leave JetBrain is to fully focus on this. 
+
+5:09
+Host
+How did this idea of actually. Um, focus on this tech, come to you. Why, why this tech, why this topic? Why you thought that, OK, like this is the problem people have and I want to focus full time on uh solving this problem. 
+
+5:27
+Guest
+Right, um, yeah, this is, uh, I mean, this is certainly a topic that we can uh talk about longer than we, we, we have time for, for this one, but maybe if, if you ask me for very few, uh, specific reasons, uh. Um, 11 is, uh, I remember very specifically, uh, I, I was, um, I was doing quite a lot of interviews with different MI teams, and I, 11 topic that I've heard, uh, a lot, um, I was always curious like, OK, so what is, uh, standing in the way, in your way, what is standing in the way of your ML team? Um, and, well, you can imagine there are so many problems, right, uh, as an MI team, uh, you can deal with, uh, but one that, uh, struck me like a super interesting one is, uh, um, there, there, there are two ways and there are still two ways to, to do machine learning today. One is on-prem, another one is cloud, and, um, um, there were some teams that uh could not do. Either of them because uh the cost was a big topic like for example uh on-prem infrastructure is, is, is fixed cost you have to invest a lot of time and then you have to utilize that the hardware and that's uh quite hard to, to make this decision about investing this uh this money and before you do that investment, um, um. I mean, in order to do that, you have to clearly understand how you would uh utilize that and um how to make this uh process straightforward for the entire team, so there is a lot of risks associated with that, right? And that, that's why a lot of companies are not that uh open to, to using on-prem and the other one, the cloud, um, cloud, uh, what, what we know about cloud is it's expensive, right? Um, and when it, when, when it comes to machine learning, uh, it's a bit more expensive. Uh, so if, if you look at, uh, the cost structure for, uh, well, those teams that do, uh, cutting edge, uh, development in AI, uh, it's, it's very costly. Of course, uh, companies is very concerned about that and um. But the more I worked with different teams, the more I learned that there are ways to work this around. Um, but, but again, there were no straight war between, for example, when, when it comes to cloud development right now, everybody knows that it's thanks to the tools like Terraform, like Uh, Kubernetis, um, and Docker, it's, it's not, uh, rocket science anymore when it comes to going to, to cloud. Now it's predictable. I mean, of course, cost is a, is a concern, but, but, uh, thanks to this open source tools is a lot more uh straightforward process. And that's why originally I thought, hm, there should be something for it now, uh, that would greatly reduce the costs uh of ownership and the entire process that that, that's why I started working on this day. 
+
+8:25
+Host
+Yeah, there is something for ML, but uh, you know, all these tools like sage maker, but I guess when we talk about costs, then this is become, becoming an issue, right? 
+
+8:35
+Guest
+It's a, it's a good counter example. Uh, while, while SageMaker is one of the best, most mature, let's say MLO platforms for working with AWS, um, of course they certainly like not addressed by that tool at all, and that's also why people are afraid of using clouds in the first place. 
+
+8:57
+Host
+Yeah, because I, I remember when I joined my previous company. Um, as a senior data scientist, it was like um 6 years ago, yes. So the first thing I wanted to do is get a a machine with a GPU with a couple of GPUs, and then, yeah, like, I don't think they still have it because like I, I, I wrote a proposal saying, hey, like I want to have this uh. A machine with this GPUs and then uh everyone approved it, but then it never just happened. Because like the cost of ownership of this, like this GPU needs to, this computer needs to stay somewhere, right? Somebody needs to look after it. And with the cloud, sometimes it's way simpler to just, you know, you go there, click a button. But then when you click a button and then a month later, you see the bill is like, OK. It's expensive. So one of the first tasks I had as a senior data scientist at the same company was porting some code from Sagemaker to Kerns. So I guess this is. How people used to do this, right? 
+
+10:00
+Guest
+Yes, and while many of these, um, much of this, uh, is, is still, um, um, actual topic today causes still a problem and it's not solved. Um, there are even more challenges ahead right now since, since, uh, basically how they say Cha GBT moment there are even bigger challenges and that, that makes AI infra even more important topic today. Mhm. 
+
+10:27
+Host
+For how long have you been doing this? Um. 
+
+10:31
+Guest
+It's, uh, it's uh, now, um, 2 years, uh, maybe just a bit, yeah, uh, but it's 2 years. 
+
+10:41
+Host
+I think we have known each other for 2 years, maybe slightly more, right? So basically, I Managed to see this starting. 
+
+10:50
+Guest
+Yes, yes, I was, I was, uh, basically doing, um, doing some experiments even though I was, uh, I was still with Jed brains, um, and, uh, and yeah, uh, it went, uh, like what I call official the day we did ged brains. OK. OK. 
+
+11:09
+Host
+So, Um, so the question I have the, the next one is how did you begin working on on AI infrastructure, but I think you partly answered that, right? So you started to SAPM at jet brains, right? Uh, you saw some things related to machine learning and then you understood that there is a problem, you started this tech and this is how it happened, right? 
+
+11:32
+Guest
+Um, yeah, in a, in a rough sense, uh, well, what, what I can, uh, tell about Jet Race is that it's very flat company, uh, where. Well, well, of course, everyone has a dedicated role, uh, still, it's, it's very close to programming. So for example, a lot of marketing people that work with jet brands, they were originally programmers, and that's why they, they were hired to do marketing and that's how I got into Jetbrains to, to do marketing and product management eventually. Um, and then also everything you do at Jetrans is mostly around developer tuning, um, and that's why you, your full-time job is to think about the developer experience, taking feedback from the community to the development team, and then spreading the word. So basically, um, for me this, even though it was a bit like challenging decision to, to live to brands, uh, at the same time, it didn't change much things for me. Uh, I was, I was still working on developer tuning. Uh, it, it's just that I focused more on, on very specific topic of AI infrastructure, uh, and yeah, just title maybe changed on Twitter and nothing more. 
+
+12:47
+Host
+Mhm. Well, now you have to figure out where to get money yourself, right? Well, previously 
+
+12:53
+Guest
+it 
+
+12:53
+Host
+was 
+
+12:53
+Guest
+different. Especially working on open source, for sure. Yeah. 
+
+12:58
+Host
+So speaking of open source, that's actually the other thing like I wanted to ask you why open source? Why did you decide to work in the open? And I see this is a trend, many companies actually start working uh in open source. Some start as closed source, but then they make their code open eventually. So why did you make this decision of uh To follow this model, to work on open source to um open all your calls from the beginning. 
+
+13:29
+Guest
+Uh, right, um, yeah. Well, I think Um, it's a, it's a clear pattern, right, a lot of, uh, for example, um. Uh, we, we know a lot, a lot of developer tools are open source, uh, and even without knowing the actual reasons why people decide to open source, uh, we can, we can see the, the clear pattern that, that a lot of developer tools are open source, so there, there must be a reason, right? Uh, that would go beyond uh someone's personal opinion about like whether something should be open source or not. Of course, in the end, the company has just as you said, commercial. Um, interest, um, uh, uh. Not so many uh fully nonprofit companies. Uh, one we know is OpenAI, uh, which is, as it comes not non-profit anymore. They 
+
+14:32
+Host
+they recently changed their model completely, right? 
+
+14:36
+Guest
+Uh, true, uh, yes, uh, again, I, I don't know the story, uh, at, at full detail, but, uh, it's, it's a known fact that, uh, they started as nonprofit, uh, and it was, uh, financed as a nonprofit, uh, but at certain point, uh, the model has changed. Again, the motto is, is always a reflection of, uh, Uh, what is the best way to achieve the goal, right? Uh, sometimes goal change, uh, change, or sometimes, uh, we change our minds about what is the best way to get where we want. Uh, so it is totally fine. I, I think, and again, well, this, I, I would not rant, to be honest, now that I mentioned OpenAI that, well, no, uh, commercial, non-profit is better than commercial or the, the other way around. I would just say that. Um, we, we see, uh, normally we see a pattern that most of the turning point has to go commercial way, and we know that a lot of the opportunitying companies leverage open source as the way forward. Now, now, but getting back to, to, to the question that you asked, um, for thise, well, we This was not their, um, let's say obvious decision for, for us, for example, when we started, we were not really sure whether it should be open source or not, uh. But uh the more we talked with different teams that were using different tools, uh, the well, the more we learned from that and one of the learnings was that uh open source uh has uh one advantage, um, when it comes to infra, for example, when it comes to using something within the company that uh is sensitive to. To the infrastructure, uh, there's typical pauses and, uh, well, in order to move the tool forward and, and increase this adoption, you, you need to bring adopters or early adopters of the tool and then most importantly you need to get feedback from them to, to the team so you can uh improve the tool and open source um. I uh one of the best frameworks that allow you to set up this process. Um, again, there could be different ways and there's no way to say that open source is better than something else, um, for me as a, as a, as a someone who has always been working with Volpertuli, um, To me it's, it's a lot. I, I understand better how developers think so for me it's much easier to, to communicate directly to the development team rather than for example to go through this sales cycle and uh work with uh decision makers that that are not technical at all, um, which. Which is the way that also works, but, but for me, uh, due to the background and everything, it's, it's a lot easier to, to communicate to the developers and really relate to the problems that that's why open source is the, is the best, one of the best approaches to that. 
+
+17:33
+Host
+Hm. And I, I think, uh, I don't also know the story behind OpenAI and what they were doing, but I think at the beginning they were actually open. They were releasing, uh, many things that they were doing, open source, I think GBT2 was open source, right, if I remember correctly. They also did a lot of things like Whisper, uh, clip, right? So many, many things were actually open source. But then when they realized that they're sitting on a gold mine, right? When they released GPT 3, they thought, hm maybe this is the cow we should milk, right? We shouldn't just release it. Uh, but then, of course, people started to uh Reproduce it, like that, there was, I don't remember the name of the company, but basically like, there were people who repeated GPT GPT 3 as open source, and they were on par when it comes to performance. And then, of course, um what I see now, GPT is releases something, is releasing something, and then open source community tries to catch up. So what is your opinion? Um, so we have some closed source solutions like uh OpenAI and Troy, right? So that Give really good performance, right? They, they give models, um, but they also hosted models versus you have do it yourself, uh, open source like uh so many different models with different uh characteristics, uh, with different, uh, I don't know, patterns of usage with different use cases. Uh, so what's your opinion on that? Like, where is the industry going with all that? 
+
+19:08
+Guest
+Right, right, yeah, this is, um, um, it's a pity that, uh, we, we have to discuss it, uh, super briefly. Uh, this is one of the topics that uh that uh we could uh talk hours, uh, um, and I, I, I've, I've, I've done some, some talks recently about closed source models versus uh open source models, um, and I had a chance to, to think and reflect on that, um. And what I, what I think is, um, a lot of people get confused, uh, because people, uh, I mean, maybe it sounds as like I'm getting old, but um it seems that a lot of people live in a bubble, um, and, uh, for example, there's a lot of conversations, OK, so what is better, proprietary or open source, we open source reach up. Um, and to me it, it seems like people live in a bubble, uh, because the, the, the world basically is very small and they think, OK, so which is better. If you think of it a bit more, uh, you'll realize that you cannot even frame the questions like that. It doesn't even matter what is better, or like uh there are so many different dimensions here to this, to this question, um, and It's not even a question of what is better like at all, nobody really cares what is better. It's, it's not even a question that is important at all, like worth discussing. Uh, the question is like, sorry. 
+
+20:39
+Host
+OK, yeah. I, I'm just wondering where is it going. 
+
+20:43
+Guest
+Right, um, so, um, um, if, if, if you think of, um, um. Like of Proprietary models and um and open source models, you see that those are two different um different businesses. Uh, business is about, uh, more of a service. Uh, and it's monolith, it's centralized. It means there's one company and it offers you a service, and they, it's a very big company. There's so many engineers working on different aspects of that service and AI is a service, it's, it's not just a model, it's uh, it's so many things. In the end, it's a service that uh as we see impacts every part of Our life, 
+
+21:34
+Host
+right? So GBT is much more than just a model, right? Yes, 
+
+21:37
+Guest
+it's, it's a lot more than the model. It's um, it's a, it's a, I don't know, for me it's a new Google, right? Google changed our life. uh, now we Google everything. We can Google anything and just the fact that we can Google anything changes so many aspects of our lives. So now that we can change GBT things. Um, it's, um, it changes, uh, not even how we, I don't know how we search for something, but, but how we work in general. So like it is like super, uh, disruptive change, but if you think of uh open source AI, uh, open source AI is a totally different business. It's, uh, it's a business of decentralized. Uh, approach where, um, um, where it's not all done by one company, but it's all, but it's when, um, different aspects of that. Let's say business can be done by different companies. And different stakeholders, um. Just one little example here, let's take privacy, right? You can see their bank and for bank it's very important to control every aspect of um what they call AI or what the employees call AI um and they think totally different way. They think of control, they, they think of privacy, um, and this, this monolithic project just simply doesn't work, it doesn't work at all. Um, but then it's not only one like bank, there are so many industries, um, where control and privacy matters. And yeah, and then it's not only control and privacy, it's also competition, right? You'd like to compete uh and uh uh bring your own value, uh, otherwise, uh, if AI will disrupt everything and then your margin of margin of every business will shrink and shrink and shrink, and then you are not able to even compete. So you basically protect your business uh by leveraging open source. That's why open source AI is such a big thing. And it doesn't even matter whether open source AI is better than ChenGBT or not at all. So that's a bit ranty answer to your question, but 
+
+23:45
+Host
+that's it's more like uh it depends, right? depends on your use case. 
+
+23:51
+Guest
+Um, yes, but, but the whole point here is decentralization. Open source is about decentralization and it's a mega trend and it's mega trend uh that is not influenced by the even the quality. The quality is the result of that mega trend. We, we see that open source models are better. It's not that people use open source models because they are better than JGBT, they are better because people need that. 
+
+24:20
+Host
+But it's not like they are better in terms of performance, but they are better. In terms of other aspects like being able to control the data flow or like other things, being able to control wait and see if you host it 
+
+24:34
+Guest
+yourself. Yeah, yeah, and then, and that's when we can then we can can compare some of the aspects of, of models, uh, um, but, but again to me it doesn't make sense to compare them side by side uh and what is certainly makes Sent for open source models is um Um, whether they are customizable and that's why we use them because they are very easy to customize and but what even more important is that there's another mega trend here is that um it's getting less rocket science. Uh, the process of retraining and post-training is done, getting easier and simpler because this decentralization trend going on. We want, we may like it or we may not like it, but this trend is there and we cannot even influence that. 
+
+25:36
+Host
+And do you know if these big companies like uh to have meta meta releases uh meta contributes a lot to the open source community, uh, especially when it comes to AI with models like LA. Uh, do you know if There is any, if they put any information in public, how exactly uh they train these models and what their AI infrastructure uh is. 
+
+26:03
+Guest
+Well, I wanna answer for sure, uh, but I would say yes, um. Um, well, typically, typically it's called the technical report, right? Um. Even Open AI while they're not open sourcing. Uh, most of what they do, uh, still they are sharing some of the information on how they they contributed significantly into the community, um, and it started even before that. So like, for example, if you remember, uh, this attention is all you need is like it it's dated guess if I'm not mistaken, 17th year, so it was so, yeah, 2017. Um, and even though it was an open source, but, but, uh, the, the paper on, on, on this algorithm on this transformer thing, uh, was, was open, um, and of course me, um. Went even further, for example, with the Lamma model, um, with at least with the, with the 3.1, they open, they opened the weights again, again, sometimes people rant about this word whether open source actually applies to models and some people prefer to say open ways, to be honest, I, I'm not that picky, um, um. But, but the thing is, um, uh, even OpenAI shared a lot of details on how they do post-training or pre-training, uh, and of course LAA, uh, shared, uh, this, um, technical report on on how they trained it, so there are so many details on, on how this is done, and this is also how the community learns, um. And uh from it and it's a very good example of um of uh what I mean with decentralization. It's not even about the moral in the end. It's not so much about the moral. It's, it's about sharing, um. Uh, the details on the technical details of how the training and post training was was done, how many GPs were used, um, what was the, this, what was the architecture of the model. So, a lot of details are publicly available and this is also one of the best ways for learning how we understand by by reading technical reports. Uh, might seem that, uh, it's, um, it's a boring thing, so some, some people might think, oh, it's too boring, maybe I'll just read some high level overview, but I personally encourage everyone to read those technical reports, so they are not that boring. Uh, they are super interesting and, um, well, I mean, I, I'm actually a big fan of books and um I, I used to read a lot and well, most of that was fiction. Uh, but, but nowadays, uh, written fiction is super boring for me, so actually I find written reports a lot more entertaining. 
+
+29:06
+Host
+OK. Uh, yeah, right. Uh, and, uh, so since you like this way of entertaining yourself, I'm just wondering what are the challenges these companies discuss and uh whether these challenges, uh, apply to small, smaller companies like I don't know, of course, there are metas, there are Googles, there are. Uh, I don't know, open the eyes, but there are companies like small enterprises or mid-sized companies or like small size companies. They probably have different training challenges, right? So what are these challenges are in general, how does this affect the, the trends in AI infrastructure? 
+
+29:44
+Guest
+Uh, yeah, well, um, I mean, uh, I, I, I prefer to call myself a generalist, that's why I always, uh, try to at least, I'm interested not only in the technical side of things, but also the other one, the other side of things, that, that's why, for example, when, when you say, OK, so what are the challenges I'm like, Um, probably there are technical challenges in every, every team, uh, which is focused on very specific thing has their own challenges, like, for example, there's infra team, there's this, uh, AI team, there's data team, um, 
+
+30:16
+Host
+well, maybe we can talk about, since we talk about AI infrastructure, maybe we can focus on that. Like in order to pay a model we need thousands of GPUs, right? So how do we get them in the first place? How do we coordinate? Like I guess these are all the questions we need to think about when we embark on something like that. Yes, 
+
+30:35
+Guest
+yes, yes, uh, which is still why we have to think not only about technical problems but also the other side, where, where do we get money from? Uh, because, uh, because, well, what, what we know for sure is that, uh, without GPU we cannot do that, um, you know, simply not just impossible challenges or not challenges, uh. For example, like uh Lamma 3.1 was trained like uh 16,000 GPUs using 16,000 GPAs. Uh, just for you to compare, um, well, Um, I, I guess meta, uh, has, uh, And order of magnitude more GPUs in general. So if they use only a fraction of small fraction of what they, what they actually have um to train this lambda 3.1. Um, But getting back, uh, so 1st, 1st question is, is you need infra. However, I would still like to mention one thing like, um, we, we tend to think that it's, it's GPU that that we need to in the end to train frontier models, right? But what was quite interesting recently was uh Deepsig. Uh, release this V3 model 
+
+31:57
+Host
+in it on my social media feeds. Like, um, a couple of days ago, I just started seeing these posts all over my feet. 
+
+32:06
+Guest
+Yeah, it was basically end of December when, when I seen the report, uh, they, they used, uh, a small fraction of what meta used to train lambda 3.1, and they trained a model that uh is, um, well, in order of point to better, I mean. Mhm. Maybe not in order, but, but, um, significantly better in terms of the benchmarks uh compared to LamA.1 and then also given the, the, the size of the model. So what I'm, I'm trying to say here is that um GPR are important uh and uh and money are important, but it's not, it's not all of it, so there are other aspects, but, but back to your question. Uh, by no means, I, I would aim to, you know, kind of answer your question at depth. Uh, it's just super, super. Challenging even to generally answer your question, but, uh, but basically you can think of uh like when it when it comes to to like Retraining, um, it is high scale and uh a lot of GPUs are involved, means that it's distributed and basically man distributed training is is a big pain in the ass, uh, and it's basically it's a, it's a, it's a um. If if you, if you speak with some of these people, they are, they, they are, yeah, they, they can share like how uh. Close to horrible, the, the, in terms of the complexity, the, the, the process. Basically just you have um tons of GPUs and you need to run a process which is coordinated uh on all those uh infrastructure and then something doesn't work and that's the main challenge basically something doesn't work on some of the nodes, you have to deal with that. 
+
+33:59
+Host
+Yeah, the more bus you have, the more chances that somebody, something will go wrong, right? 
+
+34:05
+Guest
+Yeah, and, and you need to manage that at scale and uh of course there are so many other issues uh and you still need to address this one. 
+
+34:13
+Host
+Mhm Uh, do you know how does it actually look like? So probably there are computer, I don't know, there's a computer with 4 or 8 GPUs, there's another computer with 4 or 8 GPUs and all these computers are a part of a network, and somehow you need to um distribute your training process across all these computers across, and each computer has a bunch of GPUs and then like each of these GPUs needs to compute something and then sends the weight. Or gradients, I don't know what whatever it does somewhere back to the central location, right? So this is how roughly it looks like or? 
+
+34:46
+Guest
+Uh, yes, uh, but, uh, again, just like any, any complex problem, uh, any, any complex problem can be, um, split into smaller problems, uh, and then be solved, uh, on different levels of abstraction. Um, generally speaking, there's Pytorch, right? This is a framework again. Mostly by meta, uh, um, built to, to do training and distributed training is basically just the general use, general use case, well, the one of the main use cases for, for training. So that's 
+
+35:25
+Host
+what we, what is used for LA and other models, right? It's by dodge. 
+
+35:33
+Guest
+I, yes, uh, again, I, I, I, I only, uh, based my reply on, on the latest, uh, Lamma uh training, uh, report, but, um, it, even, even though the, the previous versions were trained with something else, even though I don't think why they. 
+
+35:54
+Host
+I think when we download models from Hagen face hub, um. And we use this transformers, uh, package, right, and it's based on Pytorch. Yeah, 
+
+36:03
+Guest
+but, but again, the, the point here is not that it's Pytorch, it is just me is using Pytorch mostly and a lot of other people are also using Pytorch. Uh, for example, Google, uh, is not using that, again, I, I invite people to correct me. Um, I, I'm, I'm not that aware of, of the, the process like, uh, Jimmy, for example, was trained, but I assume that Pytou was not used there, um. But because again, it's, it's a different topic uh for a discussion why and maybe we touch upon that if we have time for talking about different chips. Uh, but, uh, basically, even if it's not Pytorch, there's another framework. But again, it doesn't have to be Pytorch. It can be any other training framework. It's, it's one level of abstraction, but on their, on their beneath Pytorch, there is a back end which is responsible for communication. Between those. For example, one of the most famous ones is, is called Nicko. Um, and this is what uh is responsible for the most challenging part, communication of nerves. Uh, and for example, if you talk to like uh folks uh training frontier models, this is what caused a lot of frustration and they had to basically reimplement that needle from, from scratch maybe, uh, to, to make sure that this process is optimized. 
+
+37:35
+Host
+Uh, so if I just summarize what you said, uh, you've said many things. So, um, there is this trend that when it comes to training these large language models, uh, while previously it was mostly using blunt force like, OK, we're meta, we have a ton of GPUs, we can just take a fraction of them and just throw, I don't know, this problem on these GPUs and they will process it. um. Not everyone, not all companies can afford that. Not all companies have the same amount of GPUs like Google and Meta. Uh, so there are smaller companies like this DeepSeek who try to Like the, the trend is being smarter rather than just using blunt force, right? And this is what we see now when it comes to uh actually large scale training that, OK, like how can we optimize if we don't have access to so many GPUs and we don't have so much money? How can we train. Uh, similar model, right? So that that's the One of the trends that we see. And how about, yeah. Yeah, I was just thinking, uh, OK, this is one thing, but like most of people, most of the companies, most of the use cases, they are not about training these models. So if I need a model. Right, and he, I don't have a specific use case. I take this model and maybe I pay tune or maybe I don't even need tuning. I just host this model. So the challenges in AI infrastructure I have are very different from the challenges that these companies like Meta or Deepsig uh that they have, right? So I'm more concerned about uh I know how do I fine tune the model and how do I serve the model and the challenges are different, so I'm wondering what these challenges are and where do you see the trend is going with like, you know, small or medium companies that do not need to train a model, they just want to use a model. 
+
+39:30
+Guest
+Um, correct, even though I would say, mm, I maybe I'm a bit picky here on the terms, but I would not even split them into small and medium size and large ones. Uh, I would talk about AI first and not AI first.y first and policy first. Um, once we figure out that, then everything is so much clearer, at least to me, um, AI first company, then you wanna customize your model to make sure that the performance is optimized. And then you choose between uh which part of the process you wanna optimize depending on how much resources you want. Um, uh, if, if you have a lot of resources, you indeed can go into either pre-training or heavily fine tune that, uh, and you don't, if you don't have that much resources, or if you are not AI for first, uh, company, for example, you can be a very big bank. Um, and you can be concerned a lot about the privacy, but because you are not AI first, I mean, some banks gonna go AI first and I couldn't even predict that. Um, it's like a lot of banks went software first or mobile first, right? Um. 
+
+40:43
+Host
+And you go AI first, like, cause for that you need a new company, you know? 
+
+40:50
+Guest
+Um, again, sorry. Some companies, some companies, some, some banks, if, if we talk about banks, some banks may decide to make that decision to, to go at first, and then they have their own idea what what they mean with that. Um, some banks might not and there might be some new banks. Uh, on the market that actually, you know, focus on just that and again some companies go, um. Leveraging over GPG model and some companies will will go uh customize the model. But getting back now to your actually main question which is, OK, so, uh, what are the challenges and uh your assumption is that most of the companies do not need to, to go that matters way and, and pre-train the, the model, um, and my assumption is that yeah. And yeah, uh, uh, obviously if they don't uh buy GPUs, uh, um, on the daily basis, um, um, then yes, uh, but. Then they it's all about customization. Of the models and it's, it's um certainly in France is it becomes a very important topic, um, and then also uh customization of the post, basically fine tuning, if we can use the word fine tuning for now to, to simplify and not go into how exactly this fine tuning works. Um, not not even because of, I don't know, uh, we even need that, but I would even say that we would go there simply because we can. Imagine you are a team in a bank, uh, you are not AI focused, uh, sorry, AI first, but you still wanna, wanna leverage uh AI and you wanna, you know, uh, introduce AI into services that your bank offers. Um, of course, uh your team would be interested in how do I make that more efficient, how can I improve the accuracy, and then engineers will figure out, OK, so I need to fine tune or I need to align or um. And, and, and, and then again, if you are not AI first, you would seek for um for already existing solutions, right? You're not gonna implement your own influence framework. I mean, unless you are AI first team, you would go and um and use some of their existing tools as well, thanks, thanks to the open source community, uh, we, we have quite a few infrared solutions and also the fine tuning. Solutions, uh, but what I wanna say here is that even if you are a first, you would still go that way. Even if you are a first, you would still be looking for ways to optimize your development and you would use open source tools. That's why open source community is the that is the is the main winner of the process. Yeah. 
+
+43:52
+Host
+Mhm. And for this tech, the clients uh or the users, let's say, the users are mainly this uh non-AI first category, like I mean the, the companies who um are looking for existing solutions rather than Well, I guess otherwise they would be implementing this type themselves, right? 
+
+44:12
+Guest
+Uh, funnily enough, uh, well, those that, that use this de originally were implementing it themselves. Uh-huh. Oh. 
+
+44:22
+Host
+this classic, uh, right, so people try to implement something, then they figure out that there is something else there that's solve the problem and then OK, like we don't feel like maintaining our own thing. Let's just 
+
+44:33
+Guest
+switch. Yes, yes, for sure, everybody is looking for ways to do what they do already better without investing that much effort. Um, at the same time, I would, would have What I, how I like to think of this that is not in terms of we are doing it for smaller teams or not AI first teams or AI first teams, um, um, um. Take Kernes, for example, as an example, and we actually. We publicly say that, that we are building an alternative to that. Um, you can't really say that cooper analysis for cloud first companies or Uh, not cloud first companies. is for everyone, like it's a, it's a. Uh, foundational, um, it's a platform, foundational platform, uh, and it doesn't really matter whether your, your use case is an expert use case or um even beginner use case, the platform is designed in a, in a, in a way that it's, it's universal and then foundational. So that's exactly how we think of this stack, um, and there's all, there's never black and white, uh, it's, it's always spectrum. Um, sometimes you need to train a large models, sometimes you need to fine tune that, sometimes you, um, needed something very simple, but, but you don't want to use different solutions for this and that and then and something in between, right? So that's how you reduce the cost of ownership by investing into one tool that is universal. And that sounds challenging and that's actually challenging to make such a universal tool and that's what the most challenging about building these decades is to, is to make it universal and flexible. But again, the question, the, the, the idea here is to make it universal, um. 
+
+46:28
+Host
+Mhm. OK, and um, so we already have Cernetis. Why do we need uh another universal tool? Well, I, I know you have an opinion on that, and I remember from my days like I was, when somebody would mention Cubernetis, I was like. Sounds scary. Like, I don't want to go there. When I figured out how it works, it was way easier, but like my first impression was, yeah, it's something complex, I want to stay away. But then as I got into that, it turned out to be quite easy. Maybe not easy, not, not the the manageable, I would say. But we had a team who was looking for after the Kuberne cluster. And then I guess that's the main problem like. Not everyone has a team that can do that. 
+
+47:16
+Guest
+Totally, yeah, um, I mean, again, this is one of the topics that, that's, uh, that deserves that that would need more time to, for a more fair and more, let's say, specific discussions. But, but on that high level, um. Um, we are focusing on teams that are constrained by Kuberne or OEM, um, um, 
+
+47:44
+Host
+which they cannot moves they want. 
+
+47:48
+Guest
+They are challenged by that or they, they experience a specific pain uh there and so again, because this is focused on AI um. Well, you can guess that most challenges are around AI making it work for yeah, for example, the Kubernes, um, there are two topics, uh, that pop up, uh, a lot. First one is, uh, well, Kubernetis, um, itself, it like AI is not first class citizen, right? Kubernet, um, Kuberne is designed for, for containers, uh, for ports, basically ports is a, is a deployment, um, um, is a. Is it deployment paradigm. Um, And For example, when it comes to AI, there's always training involved, uh, and even if we take just training, just training for training, um, as an AI engineer, you certainly don't, don't think in terms of ports, right? Mhm. Uh, you would think in terms of their, that's why, for example, SLRM exists, right? Because it simplifies that and a lot of people enjoy slurm in the first place because it simplified that, that thing. Uh, instead of uh going DevOps, uh, and learning curbernas, they only had to learn SLARM because it's a specialized tool for yeah, engineers. Um, and that's, that's an advantage, right? For example, why don't we use assembler? I mean, is, is assembler worse than rust? Of course it's not worse, but there's one more aspect very important that cost and development speed. A very important points in the process and they are not only good to have, they are a must for the model process. That, that, that's why we're talking about orchestration, if we talk about container orchestration, um, and that's our thesis that container orchestration should be rethought. That's the this that drug. It simply should result. We can go the, the, the old way, where we should rethink it, and that that's what we try to do. And again, we, I wouldn't claim that we are doing it better or um we are certainly interested in rethinking it, and we see a lot of people that are very much interested about that as well. Um, that's why we work on that, um, and it doesn't mean that that could, well, I mean. Uh, for example, I mean, maybe assembler is not used today, but, but, uh, Prolog is certainly used, uh, and I, I, if we compare, for example, C++ and Python and, and the rust, we see that RAST usage, uh sorry, C++ usage is only growing. Mhm. Uh, seriously, if, if you, if you look at the usage, C++ usage is growing. Regardless of Python, regardless of go, regardless of, uh, rust, well, it's just to tell that, uh, that Kuberne's, uh, adoption is gonna grow as well, but, uh, we see this, uh, super vibrant, uh, niche, uh, of, uh, engineers that are interested in the infrastructure. 
+
+50:59
+Host
+Mhm. So as an engineer, as a software engineer, I still should uh Not stay away from Kuberators and it's still a good tool in your tool belt, right? 
+
+51:10
+Guest
+Um, that's the only tool when it comes to deployment. Oh, 
+
+51:15
+Host
+right. 
+
+51:16
+Guest
+Uh, it is, it is the only one, whenever, regardless of what you use AWH Azure, or even, uh, Alibaba Cloud, um, you in the end use Cooperdas. Mhm. 
+
+51:31
+Host
+I mean, I personally don't, but the projects I have are smaller. I don't want to pay like, I don't know how much per day of a go cluster, but for companies that are more than I know one person, then perhaps it makes sense, right? 
+
+51:46
+Guest
+Yeah, yeah, I, I mean, of course there are age cases and uh I'm, I'm probably use uh more general average so 
+
+51:56
+Host
+that there is a question. Um, do you think that the future is hybrid bare metal plus cloud, or cloud only? 
+
+52:06
+Guest
+Well, predicting future is a super uh easy thing. Uh, uh, and some people even like that, uh, 
+
+52:17
+Host
+if we extrapolate the trans right now. 
+
+52:21
+Guest
+Um, Cloud is the trend and the only cloud is the only trend. Yeah. 
+
+52:32
+Host
+Because people don't want to have a GP machine under the desk or what? Oh, 
+
+52:38
+Guest
+I don't know, 16,000 of them. Um. Well, um, it's more predictable for enterprises to use cloud, uh. On the other hand, on the other hand, AI is kind of a black swan here. Mhm. Um, so nobody really knows, uh, what will, what, what will happen, um. And A lot of companies right now are investing into on-prem, so we see trend because of AI because of AI we see content trend here. A lot of companies are very much interested in, um, but, uh, but again, um. Again, I'm maybe not the best uh not like a real expert in that particular in the discussion of that particular term but Personally, personally, I prefer not to use, again, I'm, I'm using the word on pram, but when I, for example, you know, like, like with myself, I, I don't like the word of pram. Because, uh, it's very confusing term. Um, um, for example, Um, you can, you can have your own rack. Uh, in your building and then you can call it on prem. On the other hand, you can call it a data center. However, when you call data center, you can also call it a cloud cloud. Mhm. Right, there are difficulties in in these terms. It's why there's no, there's when I'm with myself only I, I don't, I don't even say on-prem or cloud. I just say different versions of cloud. Mhm. OK. 
+
+54:28
+Host
+So what I 
+
+54:28
+Guest
+think, yeah. 
+
+54:31
+Host
+So what I think um when I hear on-prem, when it comes to data teams, data science teams, ML teams. So in my first company in Germany, we actually had a machine with GPUs there and everyone had access to these machines. We would just asSH to this machine and do things there and then we would need to figure out like how to Uh, Uh, blame the GPUs. OK, I'm using this GPU so you cannot use it like you have to wait. And then, uh, yeah, it was like at the end, it was terrible, like coordinating this stuff. So this is what I think about on-prem and the challenges. OK, now you have these machines, and how do you actually split on, now I use this machine. But then your project is more important, doesn't mean I need to stop my training and you can start training like these things. So this is what I think, um, this is what comes to mind when I think on on-prem, on-prem GPU machines. 
+
+55:22
+Guest
+Yes, I think you are right actually, here you are more in accurate uh here on prem is is is when you have to deal with a lot of challenges yourself uh of maintaining those servers and you have to think about updating the software. You have uh to think of managing um. But basically the orchestration there yourself, uh, with the cloud is done by as a service, uh, with, with your, uh, hardware is done by you. 
+
+55:52
+Host
+Mhm, and then maybe also it's kind of on prem when you're. A machine that you rent is somewhere remote on the remote location, but you have access to this machine. Uh, so for example, there is a provider called Hetzner in Germany, maybe you know it, right? So where you can, there you can just rent a machine for a year, and this machine can have a GPU or maybe like a bunch of powerful CPUs. But basically, what you have is SH access to this machine and nothing else, right? So there is a machine. It's not physically under your desk, but you can always SSH to that. But because all you have is just DSSH. It comes with uh all these challenges that we talked about, right? So when there is a team, there are 4 machines and there is a team of 10 people and somebody wants to train their XG boost models there, right? Like how do you coordinate that? So that's kind of also on prem, right? 
+
+56:46
+Guest
+Uh Well, uh, 
+
+56:51
+Host
+bare metal, uh-huh, OK, 
+
+56:53
+Guest
+metal, metal is a service, and there are companies that offer better metal as a service. Uh, this is where the managing the split. Uh, they still allow you to provision those sometimes machines as a service programmatic. You can just say, OK, so I need it, since next week I, I need the top machines, uh, and you have access to that, and that service will promise you that the firmware will be up to date, uh, and you don't have to update the firmware yourself. However, for For example, now imagine that you would like to run a service yourself and then you'd like to run bare metals from, from this provider from that provider. You now need to automate that process and ensure that, uh, even though these bare metals come from different providers, they are up to date. Uh, now you have to deal with that. So basically it's split between bare metal provider and then, and you, but yes, basically you have to, have to think of it yourself as well. Mhm. 
+
+57:48
+Host
+So the best example of on-prem is a GPU machine under my desk, right? 
+
+57:53
+Guest
+And uh, uh, by the way, we, we didn't talk about that, um, um, I don't know how much time we have, but, 
+
+58:04
+Host
+uh, it's time we can talk like for 5, 10 minutes. 
+
+58:07
+Guest
+One maybe that that might be last uh last one to speak about uh edge. Uh, and cloud and how this is different. 
+
+58:18
+Host
+So what is that? Is it like uh homes like this one? 
+
+58:23
+Guest
+Um, yeah, well, to be entirely fair, again, um, maybe there are experts that will correct me, uh, but, but based on what I know, um, um, there's nothing that Agreed By everyone, what we call edge. I would even say that there's a lot of confusion 
+
+58:47
+Host
+and most people because it could be a raspberry pie, right, or maybe. 
+
+58:52
+Guest
+Uh, yeah, so edge can be any customer facing device or Sight facing device. It's any device which is somewhere not in the in their um in their. In their, let's say cloud, but, but some people even call original cloud services as edge. For example, uh, there's uh such a thing as edge AI and some cloud companies refer to Edge AI. Well, it's just normal cloud, it's just that they offer original compute. So in a way, for example, when you use AWS I mean following that logic, you can call it AGI because you have AI in your region, right? On the other hand, we have, uh, exactly like, like you said, uh, mobile devices or your laptop or I don't know, some, some device in your smart, um, house or some video cams here or some let's say drone that is flying around, uh, that 
+
+60:00
+Host
+Hopefully nothing is flying around. Um, 
+
+60:04
+Guest
+uh, maybe, but The point is that yes, this is edge. Edge is uh when it's a remote remote device and of course you can there as well. Mhm. And this is where, where you need actually small models. Because Because it's really hard to to ship on on on these devices. 
+
+60:30
+Host
+I think uh uh there are companies who do federated learning, right? So this is when you need to do learning on the edge. Like, uh, let's say there is this customer facing device, I don't know, a drone or a, I don't know, a probe somewhere and then like you cannot really send all the data somewhere. You just do the training on the device and then you can somehow centralize it. I don't know if it's a thing in uh LLMs in EI in general, but that's certainly I think in some manufacturing uh setups. 
+
+61:04
+Guest
+Well, a lot of people will hate me for that, uh, but I would say that federated learning is a very orthodox and, um, let's say very Uh, niche use case, um, I just, again, it's, it's like, uh, debating on, um, on, uh, uh, G5, uh, versus I don't know, some cloud, basically it's a, it's a debatable topic, um, it's, it's, it's called distributed compute. Well, it's used to call to be called by Federated learning. Today people uh say distributed compute. Mhm. OK. And uh It is, but, but then it goes in the also in a similar direction as as blockchain into the decentralization and then it's, it's becomes a religion. Uh, science. I mean it's still but it's more religion. If you see what I mean, and then you have also, um, some evangelists, let's say, let's use that word, that, that's preach that idea that everything should be over blockchain, um, and we see you, we are not there even with blockchain yet, but, but we see a lot of stuff, not a lot, but maybe some stuff going there, right? We, we see some stuff going blockchain, but not all stuff going blockchain. 
+
+62:35
+Host
+Yeah, I'm not really following that uh domain, let's say. Well, maybe last question for you. 
+
+62:42
+Guest
+Yeah, yeah. Just closing this down. This is a big topic as well and uh quite a lot of experts that that really believe in uh in a distributed computer as well. 
+
+62:51
+Host
+Mhm. So last question for you. So you mentioned you like science fiction. So what's your favorite book? 
+
+62:59
+Guest
+Uh, well, that's one of the most difficult. It's much easier to talk about, I don't know, challenges and distributed, uh, training rather than picking one best book. Yeah, 
+
+63:10
+Host
+well, 
+
+63:11
+Guest
+uh, I don't know. 
+
+63:12
+Host
+3. 
+
+63:13
+Guest
+Yeah, it's, it's, uh, it's, it's still fun to, to just pick one. well, if we talk about science fiction, um, certainly a 3-body problem. By 3. 
+
+63:28
+Host
+Yeah, 
+
+63:28
+Guest
+that's, that's, that's the, yeah, yeah, 3. 
+
+63:34
+Host
+OK, by who? 
+
+63:36
+Guest
+Uh Luicine, if I pronounce the name correctly, it's a Chinese, um, um. Um, also, sir, um. But again. Yeah, but I'm not saying anything new, so like, for example, whether you are into science fiction or not, but it's, it's a name that's pretty much known to anyone who is who is into science fiction, uh, I guess, uh, 
+
+64:02
+Host
+I have not heard about, I'm not into science fiction. I, a year ago I read Ringworld. I didn't know about this book, but it was quite interesting, so I'm looking. To expand my, 
+
+64:16
+Guest
+yeah, totally can recommend, uh, that one. It's actually 3 books. It's not just one, it's uh 3 books. 3 body problem is just it's a, it's actually from math, uh, 3 body problem is a geome it's not geometrical, but it's a math problem. It's you have 33 physical bodies. In splitting. Uh, for example, 3 sons. And then there's a grade and then uh you need to come up with a um with a, with a formula for to predict the movement basically uh to you need to come up with an equation uh uh it's known as a known solvable problem. 
+
+65:05
+Host
+Uh-huh. So I'm reading, I'm looking at the article right now. It's called Euler's Three Body Problem in physics and Astronomy, Euler's 3 Body Problem is to solve the for the motion of a particle that is acted up. OK, it's difficult technique. 
+
+65:20
+Guest
+The book is interesting because it goes beyond math and it, uh, goes into. Philosophy and politics, um, and, uh, basically existential, um, problems, uh, it's certainly a good way to kill time, uh. 
+
+65:38
+Host
+OK. Andre, thanks a lot. Uh, we haven't, we only talked about the portion, part portion, like only a fraction of topics we wanted to cover today, which is not a surprise, right? Because we wanted to talk about so many things. Um, but yeah, it was awesome. It was really great. Thanks for being here. Thanks for accepting the invite. I really enjoyed our conversation and uh looking forward to working more with you. 
+
+66:04
+Guest
+Thank you and I and everyone else, uh.

@@ -1,6 +1,0 @@
-{
-  "job_name": "podcast-1aMuynlLM3o",
-  "s3_uri": "s3://podcast-audio-storage/dtc/1aMuynlLM3o.mp3",
-  "output_bucket_name": "podcast-audio-storage",
-  "youtube_id": "1aMuynlLM3o"
-}
