@@ -1,0 +1,683 @@
+0:00
+Host
+Any minute. 
+
+0:01
+Guest
+Awesome. 
+
+0:02
+Host
+OK, right. So you don't like uh cold water, 
+
+0:07
+Guest
+no, no, no, I don't. 
+
+0:10
+Host
+So yeah, I wanted to go yesterday but couldn't. 
+
+0:13
+Guest
+Yeah, OK. So you have this opportunity nearby, right? 
+
+0:19
+Host
+Um, yeah, I like the. Around in Berlin and around Berlin and in general in Germany, there are so many lakes. Like you can just go and uh swim and So yeah, I want to go. OK Are, are you still here? Yeah, 
+
+0:37
+Guest
+yeah, I'm, I 
+
+0:38
+Host
+am. OK. It's like the the video froze a little bit. Uh let's see what we can do about that. 
+
+0:46
+Guest
+OK, yeah. 
+
+0:47
+Host
+Um, I'll, I need some water, so I'll be right back. 
+
+0:52
+Guest
+OK, yeah, I'll be here. 
+
+1:54
+Host
+You have water? 
+
+1:56
+Guest
+Yeah, yeah. 
+
+1:57
+Host
+Because you'll be doing most of the talking, so probably, 
+
+2:01
+Guest
+yeah, thank you so. 
+
+2:04
+Host
+Yeah. I need to share a few links so I'll be multitasking. OK, so already some people are watching, so hi everyone. Hi everyone. So now let me open it on my phone, so. See everything. OK. Cool. So. It's uh 12:30, so I guess we can start, um. Yeah, so what we will do right now is I'm going to share my screen. Do an intro and then we can start um with the, with the interview. Uh, do you hear me well? Because I see that, uh, internet connection is 
+
+3:03
+Guest
+sometimes, yeah, yeah, I can hear you and, uh, nothing's fro frozen. 
+
+3:11
+Host
+OK, and people who are watching, please let me know if there are any problems with uh connection. So recently, my internet in this room is acting up um like. It's funny sometimes like the speed drops. But anyways, uh, so let's start and see how it goes. So I'm going to share my screen. Into the usual intro and then we'll start. When it looks, OK. Hi everyone, welcome to our event. This event is brought to you by Dataox Club, which is a Community of people who love data. We have weekly events and today is one of such events. If you want to find out more about the events, we have, there is a link in the description. So go there, uh, click on the link, check it out. Um, I think right now there is only one event, this one, but there is going to be a workshop which we will add soon to this link, so keep an eye on that. Then, very important, do not forget to subscribe to our YouTube channel if you have not subscribed yet. This way you'll stay up to date with all our future streams and then we have an amazing Slack community where you can hang out with other dating ss. During today's interview, you can ask any question you want. There is a PIN link in the live chat. Click on that link, ask your questions, and we will be covering these questions during the interview. And I think my nose is blocked a little bit. I hope it's OK. It will not interfere with our interview. Uh, my name is, um, right now I'm going, yeah, I'm going to open the document. With questions that we prepared for you. And if you're ready, we can start. 
+
+4:55
+Guest
+Oh really? Awesome, yeah, that's that. 
+
+4:59
+Host
+This week, we'll talk about competitive machine learning and teaching, and we have a special guest today, Alexander. Alexander is a machine learning engineer with 10+ years of experience. He's also a Kago Grandmaster, ranked 5th globally, and the teacher to more than 100,000 students. It's amazing. And as a teacher myself, I can really appreciate the Uh, like the number and also the effort, so it will be very interesting for me to talk about that personally. OK, and Alexandra also leads data science and software engineering teams and contributes to open source machine learning tools. So welcome to the interview with Alexandra. 
+
+5:38
+Guest
+Yeah, hi. Uh, thank you for having me. Really great to talk to you 
+
+5:42
+Host
+today. And uh I just want to also say thank, uh, I want to thank uh Marina. uh I don't know if she's watching right now for. Making sure we get in touch. So for me, actually, I've been following your work for quite some time. And, uh, more than 10 years actually, so long time because like when you were active on Google, I was also active on Google. So for me, it's actually a good moment to be able to talk to you. So thanks, Marina. And also the questions for today's interview are, as always, prepared by Johanna Bayer. Thanks, Johanna, for your help. So, before we go into talking about teaching and competitive machine learning, let's start with your background. Can you tell us about your career journey so far? 
+
+6:28
+Guest
+Yeah, sure. So, uh, my career started, I guess, about 10 years ago, uh, when I was like a student at the university here in Moscow, and, uh, I was looking for an opportunity to learn machine learning because I thought it's kind of exciting new field was pretty new, I guess, years ago. And uh I found that the opportunity on Google, then I moved to industry. I worked as data analyst uh at some at classifier company, then as data scientist and uh right handling ride sharing services. Uh, in the index, then at, uh, Mechanic AI which was startup focused on uh bringing machine learning to industrial enterprises like factories, plants, uh, like we flew to like some small cities in Siberia to find like product engineers and plants to figure out whether they need our machine learning or not. And uh eventually I was I worked at iterative, uh which is uh like company ventures startup, uh, San Francisco. They create open source, uh, tools for machine learning engineers and data scientists. And after that, I moved uh here back in Moscow to work at Central University. It's a new, uh, kind of university here, which And it's interesting because uh always education was my hobby. I was teaching like for almost 10 years now uh and uh finally that hobby became, uh, like my, my career full-time job. 
+
+8:06
+Host
+And since you mentioned IEIF, so I just wanted, I don't know if your colleagues or ex-colleagues from ITI are watching this now or will be, I just want to say, I just want to thank you, thank them, uh, because at some point II was supporting this community and, uh, uh, because of their support, it was possible to grow the community, to bring it to the place where it is right now. So if they're watching it right now, so I want to say thank you. So, and I think when we collaborated, you were actually a part of the team, right? 
+
+8:36
+Guest
+Yeah, yeah. There was a talk, uh, another, like, 11 friend of mine, Mikhail Sveshenka, was giving a talk, uh, at your podcast or like, uh, some other event you were hosting on, uh, a tool we were building, we were building MLEM like a tool for deploy ML models. Yeah, 
+
+8:55
+Host
+yeah, it was small, right? So it's a sound that a cat makes or what's like, I think that is like a weird, uh, uh. It's an interesting uh origin for the name, right? 
+
+9:07
+Guest
+Yeah, yeah, yeah. So there is an internet meme when uh a dog sticks his tongue out and does like this with, with his tongue or, or a cat and that's that's called Mlim, yeah. Yeah, we were trying to be funny. 
+
+9:25
+Host
+Yeah, um, are you still doing anything um when it comes to open source? 
+
+9:31
+Guest
+Uh, not right now. Yeah, mostly I did that when I was working at literacy. 
+
+9:39
+Host
+Yeah, yeah. And you mentioned you started your career as a student 10 years ago and it was with Kaggle. So for me, personally, Kaggle was a place, uh, I don't know if I actually pronounce it correctly, Kaggle or Kaggle. Anyways, so this, this is the platform for competitive machine learning, uh, which, yeah, which hosts machine learning competitions, so there's like, uh, a data set and you prepare a model and the model needs to be as good as possible. So for me, it was actually the way in data science too, and um I was already working as a data scientist and then I uh was uh lucky to work with uh also uh a person who was active on Google, who introduced me, Abhishek. Um, and yeah, for me, this opened like a new world of Google and I was like, wow, awesome. Uh, and for me the first thing was like I thought I am good at machine learning. I was good at machine learning, but when I attempted my first gaggle competition, I found out that I don't know anything. And for me it was like um. I don't know, refreshing because like uh my model, I like I studied 2 years, I studied machine learning and things like that, and then I take part in my first competition. And then, like, ah, I overfit. A lot and my model was like somewhere on the bottom of the leaderboard and I was like, OK. That's interesting. Yeah. And then I started doing more and more and then of course your name at some point uh started to appear because you were doing very well there, like you were ranking quite high in these competitions. You were getting a lot of gold medals. So I, I can really appreciate, like, I know it's not easy. It's very difficult to be, uh, to get good positions there. So tell us how it actually started and how did you manage to Be quite good at that. 
+
+11:41
+Guest
+Uh, yeah, so like it started, um. I was, I was studying at university and uh I was required to select uh like scientific advisor and uh a lab where I can uh like write my bachelor's diploma. And uh I just selected machine learning lab because it was really kind of fascinating for me among everything I saw, uh, so I decided to, to try. But I quickly figured out that uh it's, it's pretty hard, you know. And uh we, we, we had uh like amazing lectures, uh, amazing teachers, but the problem was that uh they taught like theory of machine learning and it was really hard for me to understand everything. There are like a lot of mathematics, a lot of like everything going on. And I was trying to find out some place where I can uh test my practical skills, learn something. I didn't uh didn't know anything at that point, so I found Kegel, and then we had a great, uh, like Kegel community in Moscow. You, you should recall like uh uh Kegellu like Mal training at the Andex, uh, then there was like great, uh, Alexander Diakonov who told us, uh, like weekly. 
+
+13:05
+Host
+Uh-huh. I, I think you had weekly, uh. Sessions where you talked about solutions like uh how somebody approached the problem, so they would share the solution uh with everyone, right? And this way you uh Get some ideas of what to do, right? I, I think I watched a few of them in the recording back then. 
+
+13:26
+Guest
+Yeah, yeah. So there were like weekly sessions and, uh, it was really important that some people that won this competition that came and explained how they did that and how they approached the problem. Sometimes, uh, someone just, uh, like wants to tell about new, I don't know, framework on GitHub. So he comes and explained it. And it was really, really interesting and really insightful. Uh, yeah. And, uh, it just, uh, I, I just, uh, spent a lot of time on that. So, uh, I guess, uh, it was my 3rd year, or 4th year in university, and I skipped, I was skipping most of my lectures and, uh, classes at, at university. I was just so many competitions. So there is, there is actually one secret to put a lot of time on something. 
+
+14:18
+Host
+Uh-huh. Yeah, so skipping lectures, huh? That's the secret. OK. Like, but you didn't get kicked out of the university, right? 
+
+14:33
+Guest
+I was like. 
+
+14:35
+Host
+You managed to stay. Yeah. It was, so what's the secret? Like how did you manage to both compete on Google and stay at university without getting kicked out? 
+
+14:47
+Guest
+I guess, uh, it was like, uh, it, it was due to the educational system we have, uh, here in, in, in my unity headed. So when you can skip most of your, your work during the semester and then you need to have, you have to prepare, prepare to your exams and then go and just pass them. Yeah, that was, uh, 
+
+15:11
+Host
+yeah, in Germany, it's actually similar. Uh, so when I was doing my master's, uh, so what matters is how well you passed the exam. It doesn't matter how well you studied, uh, during the semester, right? Mhm. 
+
+15:24
+Guest
+Yeah, yeah, yeah, it's mostly doesn't matter. Like maybe now it's changing like the educational system here is changing, so it makes sense, uh, when like it matters uh for you to, to do something. During the semester, sorry, I need to quote this because. 
+
+15:42
+Host
+Yeah, yeah. Yeah, so now you're not um Becoming blind because of the sound, right? Mhm. Um, so you said the secret was, uh, putting a lot of time in these competitions. And actually I can confirm that like, uh, I did well in one of, uh, in one competition. It was competition about duplicated action and this competition uh was. By Vita, yes, exactly. And so this competition uh was uh. Uh, for 3 months, so the duration was 3 months. And um, so I started almost like on the first week. And continue taking part in these competitions like for all 3 months. And like every week, I would put a lot of effort in this and only this way I managed to stay on top because like if I don't put in any effort, then somebody, you know, takes over. Uh, so only by consistently putting, I don't know, 5+ uh or even more 10+ hours of work per week. I only managed to do this and this is super difficult and like, but the amount of things I learned there was insane. Like I, I think you can confirm, right? 
+
+17:10
+Guest
+Yeah, yeah, I think this is one of the great benefits of Kegel, yeah, like if you put aside like winning a gold medals, like to, it just, uh, makes your, can your understanding of machine learning feel broad. You learn a lot of new frameworks, domains, tasks, and I think it's something really, really helpful that Kegel gives to you. 
+
+17:34
+Host
+Mhm. For how long did you do this? Cause like for me, only one competition, I could, I could do only one competition this way because I was exhausted and I thought like, I don't want to see Cale again. 
+
+17:45
+Guest
+Yeah, yeah, but you had the 
+
+17:46
+Host
+job, but you, you, you managed to continue. Yeah, I had a job. 
+
+17:50
+Guest
+Yeah, uh, I, I didn't, and, uh, I, I think it was around the year, about the year of yes. So that was a lot. Yeah. Eventually, I managed to find my first job and uh still participate in Kegel, but it was much harder. And my first job was like 3 days a week, uh, so I still had time. 
+
+18:14
+Host
+Uh-huh. OK. Was it the, the data analyst position or something else? Yeah, yeah, yeah, 
+
+18:18
+Guest
+at the Avita actually, 
+
+18:20
+Host
+uh, Avita, yeah, and this duplicates actually like it, it helped me. Throughout my career. So like I was, uh, doing some site consulting because people found me on Google on this competition. And then at work, I was working at Alex, which is, um, which at some point, uh, was the mother company of Avita, where I also had to deal with the duplicates. So it was like super, uh, just one competition was so useful. Um, do you remember your first competition? 
+
+18:54
+Guest
+Uh, I guess my like very first competition was something like Titanic or first cover type prediction, you know, those competitions when you know the ground truth you you can just download it from the internet. It's just kind of for playground. Um, uh, I, I, I 
+
+19:10
+Host
+would say your first serious competition. 
+
+19:12
+Guest
+Yeah. My, one of the first competitions, I mean, maybe it wasn't first, but, uh, at all, uh, like first serious one. But the first I won at, it was half hour after I started actually, so it was my first. But it was at crowd analytics platform. The, were this, there was this platform, uh, Asian platform. Uh, the quality of competitions wasn't, uh, as high as on Kegle, but there were a lot of them. And Uh, then, like they were less, um. Like cool people participating. It was easier. And uh that competition, I remember, uh, the training set was pretty small. So it's, it was kind of weird competition when you are given just like 300 points in training data and maybe 100 points in this data. So it's really uh uh luck, a matter of luck. And I managed to train like 300 models, like, you know, in live an old fashion. And then uh make a mistake and uh over it. And uh I thought that it was really cool, but uh I don't think it was. No. 
+
+20:25
+Host
+Yeah, 
+
+20:25
+Guest
+but it was 
+
+20:26
+Host
+fine. So, like 3300 points, data points and 300 models. Yep, yep. Amazing. Uh, speaking of, uh, like I remember, so that my solution was also not something you can easily put to production cause it was like uh. 2 layers or 3 layers of stacking. Which is not really um. Useful, let's say, uh. But still, you learn a lot from competing, right? 
+
+20:57
+Guest
+Yeah, yeah, you do, you do. And eventually you, you are getting, usually you're getting bored to, it's getting boring to build this techniques, so you're trying to find simpler solutions that work. Yeah, at some point 
+
+21:10
+Host
+and Yeah, sorry. Please 
+
+21:13
+Guest
+continue. Uh, yeah, at some point, I remember, uh, there were some competitions where like top places were taken by people with huge ensembles, uh, like a lot of steak and layers, but there were some, there always was some, uh, smart guy on the like, I don't know, let's say 10th place who like trained the single model and still managed to be the 10th. And that was really awesome to, to read these solutions to understand how people think, uh, what they do. 
+
+21:42
+Host
+Mhm. Did you do anything special to prepare for this? Like you mentioned Tamal trainings, you mentioned reading solutions, um, did you do anything else? 
+
+21:53
+Guest
+Uh, in general, uh, I guess, uh, you just need to iterate. I mean, I just was iterating when you like solve one dozen of competitions, it's much easier to solve the next 1 dozen. Uh, yeah, it's, uh, I, I don't think you really need to prepare to Kegel competitions, uh, like in advance because they, they, as you said, they can take like 3 months, so you have plenty of time, uh, during the competition. But it's always like useful to prepare for let's say hackathons when you have just 2 days and uh it's worth to set up like infrastructure, I know rent the server, create baselines, learn from organizers what type of problem uh there will be if you can and uh just I don't read some tutorials about the problem. 
+
+22:41
+Host
+Mhm. Do you take part in hackathons? 
+
+22:45
+Guest
+Uh, I did, yeah, uh, earlier, but now I'm mostly on, on the other part, on the part of organizers speakerphones. 
+
+22:55
+Host
+Yeah, we will talk about that too, uh, like I'll take a note. Um, but so you took part in gale competitions. You were pretty successful there. And um yeah, you also put a lot of effort there and at some point. You moved to industry. Um, so how exactly cargo was helpful because we also talked about, you know, all these ensembles that are not realistic, people in real life don't do that. Uh, people sometimes like there's other, um, there are other things like people use leaks, people use, you know, other things that you're not supposed to use and you cannot use in production. Uh, yet despite all these critiques, there are still a lot of useful things that you get off Kago, from Kago. What were for you, this useful things and how exactly it help you get your first job. 
+
+23:51
+Guest
+Uh, I guess, uh, like there are a few things that, uh, Google help you, help you with. The first is, uh, like really broadening your perspective on machine learning, like when you solve, uh, a dozen or maybe a couple of dozens of competitions, then you know like different domains, different models, different frameworks, and that's, it's really great because when you come to your job and you see some problem, you already know how to, how to try to tackle it. And uh that also helps you to choose your first job. So for example, when you come to interview, they ask you, OK, uh did you solve any camp, like any practical task, and, uh, for example, we are having such kind of task at the at the company, and then you can tell, yeah, I, I was solving this kind of task already on Google. It's not like, uh, yeah, it's important, but still. And uh the other thing I think Keogo was helpful uh is kind of trying to learn some special things about the data, for example, as leaks, you said, leaks aren't useful in production, but you do this kind of mistakes yourself. So when you build your solution, sometimes you just uh Uh, add like the ground through somehow to your training set and then you push this to production and you see it doesn't work. And you're trying to debug it. And, uh, when you're on Kegle, you're solving competitions, you find these leaks, uh, you really kind of trying to understand how people on the other side can do them. So this is helpful. And of course, uh Kegel is a great place to kind of talk to other people, learn something from them, maybe build your public profile. This also helps. And eventually, um, I got to Avita thanks to competitions as well, so I had some, um. Like friends in this uh ML community like Mikhail Draimov, uh, who invited me to get an interview to Avita and uh well, uh, I was successful and I, I started internship there. 
+
+25:51
+Host
+Mm. Yeah, understand. And uh do you think it's still useful today? So compared to 10, 8 years ago when we were starting our data science career, compared to those times, do you think it's still useful to take part in competitions and specifically cargo, uh, or there are other better ways of You know, kickstarting your data science career. 
+
+26:18
+Guest
+I think it's a, it's a great question and it really, as you said, it just depends on, I mean, as you said, there are different ways, there are always alternatives, right? And it really depends on what, what, what alternatives are available for you. So, uh, If you are from, I don't know, for example, from Kazakhstan, I'm initially from Kazakhstan and there is uh not a lot of, uh, not many places you can get a great education, machine learning. So Kegel is still valuable. And uh also Kegel has another plus, it's international. So if you participate in Kegel, if you win, it's great you can get a job in another country. So it's something, uh, some, something that shows your level. But if you are like, I don't know, starting your career in the USA or Europe, maybe Kegel is not the best option you have. Actually, we had, uh, like small talk with the, uh, I know the one of the people who organized Kegel Club at Oxford, uh, in the UK and, uh, he was like, he, he told me that there are no a lot of Interest. I mean, there are people who are interested in Kegel, but I, I got the feeling that in Russia and in some other countries, you have more interest, uh, in Kegel. And I think it's because of opportunities. So if you study in Oxford, you can get, I don't know, to some top AI labs, you can get to internship to in a top company. Uh, so why you need Kegel? 
+
+27:49
+Host
+Mm. Um, but also I think, uh, in Eastern Europe, we just like competitions like all these Olympiads, uh, competitions like things like that, cause, uh, also, you know, there, there are these programming competitions, uh, um, I know there are, there are math competitions and for some reasons people in Russia and people in the neighboring countries, uh, in, in, in general, in Eastern, Eastern Europe like those kind of things, maybe in the UK not so much. Yes, 
+
+28:23
+Guest
+yeah, maybe it's because of like strong, uh, mathematical mathematics in school, I think like, uh, it, it can be correlated. 
+
+28:35
+Host
+Mhm. But also when studying in Germany, I noticed that uh here there was a lot of focus on group work compared to Russia when it was more individual. Maybe it's also, it also plays roles, a role. 
+
+28:51
+Guest
+Yeah, yeah, maybe, maybe I didn't think of that. That's interesting. 
+
+28:57
+Host
+And, and speaking of that, so I see a question, um. From Asin, should we do competitive machine learning alone or should we form a team? 
+
+29:08
+Guest
+Uh, I guess it's, uh, like, it's much better to form a team, uh, but not in the sense that you, you know, you enter Google and, uh, you build a team there, uh, but rather having the community where you can talk about this, you can discuss some ideas and stuff, and because it's really helpful, um, yeah, it's just easier to win, even to win competition or to learn is much easier. So that's what they think. 
+
+29:39
+Host
+Mhm. Yeah. And also cause, uh, like at the end, you still might need to do stacking, right? And it's good when there are multiple people on the team. Everyone has their own model, right? And then you combine all these models into one. 
+
+29:54
+Guest
+Yeah, yeah, because different people like explore different ways, different models, different solutions, and even, even you, you may not go into stacking, but you can just have predictions, for example, it may be enough sometimes. Yeah. 
+
+30:07
+Host
+Mhm. And I, I remember this IV to duplicates detection competition. So the team who won, it was um. Um, sta, who is also very famous, um. Yeah, like he competed Stannis Simonov, yeah, he competed in a lot of cargo competitions back then. Uh, so he wasn't uh particularly good at computer vision, so he teamed up with a person who was. So they kind of come to, they knew that like, OK, I know I'm good at this one, I'm good at this thing, so they united and then they won. 
+
+30:45
+Guest
+Yep, yep, and they, they found the leak leakage in the data. I just, I just remembered this because yeah, now I teach, uh, the school children to kind we have now this international Olympiad in AI and they teach, uh, like school children in Russia how to participate and then, uh, I was trying to create a lesson about leakages and I found that competition and I watched it like the, the be inside. 
+
+31:14
+Host
+Mhm. School children. Um, so how? How old are them? Are they? 15 years, 16, 
+
+31:24
+Guest
+1617, and uh 18, like those who are still in school. 
+
+31:29
+Host
+It's like high school, right? 
+
+31:30
+Guest
+Yeah, yeah, yeah, it's like, uh, yeah, yeah, if you want to talk about this, we can do it now or later, uh, because it's really interesting. Yeah, the, the, there is, you know, the, the very like, uh, international Olympiad in mathematics, uh, in informatics, and now they're trying to create. Uh, such kind of Olympiad and AI and uh it's really interesting because I never thought that there are like some school children that can actually like solve these competitions on such high level. So yeah, because I, I started my career in data science like in 22 maybe and uh I think you also like maybe a bit later but still uh. Yeah, it's really interesting when people at 16 can solve competitions and win prizes. 
+
+32:22
+Host
+Yeah, and I'm also like I'm trying to remember, um. What I knew at school, so when I was at school, I could solve quadratic equations. Mm, I'm like some other basic things, but like machine learning, no. Like, oh, and we also, we were learning Pascal, uh, and Excel and Word today in our classes. I guess school children these days are very different, so. Does it mean they learn machine learning? Like, uh, in 10 or 11, by themselves, OK, so it's not, 
+
+33:02
+Guest
+yeah, yeah, it isn't. 
+
+33:05
+Host
+Well, not yet, maybe, 
+
+33:07
+Guest
+yeah, maybe. 
+
+33:09
+Host
+OK. And how did you start your teaching journey? Like you were, you, you said I think you were sharing solutions from cargo, right? 
+
+33:19
+Guest
+Yeah, yeah. So I was, uh, when I ended up, um, at AI lab, I was talking about at the university, uh, and understood there are like a lot of theoretical machine learning courses. I was trying to find an opportunity to learn some practical things. So I, uh, came up across one class, uh, that, uh, Victor Counter held in, uh, Like our university, so I just come to the class, uh, and, uh, yeah, it was just like usual class of machine learning, but, but from practical perspective, I just, I just come there, uh came there and asked if I can join, and he told me like uh. Uh, are you that guy from Kel, so you, you shouldn't come to these lectures. You should teach and I decided to try and, uh, yeah, first, 
+
+34:09
+Host
+so you wanted to join as a student, 
+
+34:11
+Guest
+yeah, yeah, yeah, I want, I want it. Uh, like I said, I was overqualified. I, I still attended because I, I wasn't overqualified, obviously. I didn't know a lot of, a lot of stuff back then. Um, yeah, but I, I was, I, I was like, yeah, teaching how to solve Kegel competitions even, um, doesn't mean that don't win because, uh, winning is much harder, but just solving. 
+
+34:38
+Host
+Mhm, mhm. And I think it also benefits because in order to be, you need to exploit all these leaks, uh, build the samples, which does not directly translate to, you know, being good at work, but just having an OK solution, a good solution that works is already super helpful, right? So you can understand the problem, you understand what kind of feature engineering you can do, you understand how you can do cross validation, right? And once you do that, That's sufficient to actually say, OK, now I know how to solve this problem, let's move on to another one, right? Yeah, 
+
+35:12
+Guest
+exactly. 
+
+35:15
+Host
+And uh so it started with you. Uh, with that class, and what happened after that? Like you, you understood you like teaching or what? 
+
+35:25
+Guest
+Uh, yeah, yeah, I, I found it, uh, like interesting and, um, yeah, fulfilling in some sense. So I feel like uh explaining people some stuff and I like when they understand this. So I was just, uh, continuing. And uh also I learned that uh I, I wasn't good, uh, back then I wasn't good at machine learning theory, uh, for example, and I didn't understand a lot of, uh, details about the algorithms, how they work. Uh, I, I knew a lot of stuff from Kegel, but I wasn't good at theory per se. And I found out that when you teach, you need to figure it out. You need to understand it if you want to come and, uh, explain people. So it was really stressful for me, but it was, uh, it was insightful. So I like that as well. 
+
+36:21
+Host
+Mhm. So the best way to learn something is to teach that. Yeah, 
+
+36:25
+Guest
+yeah, I think that's that's true, totally. 
+
+36:30
+Host
+And uh speaking of theory, so I remember, so when I had machine learning classes, uh. As a student, I attended them. So we were covering things like patient, uh, machine learning or uh support vector machines or what else. Like I remember it was a lot of uh theory and we would solve all these uh complex equations. Hm. 
+
+37:08
+Guest
+OK. Let me try to reconnect. Hm. Yep. OK. Mm. Yeah, let's wait for Alexe to return. Yeah, meanwhile, I'm trying to find your questions if you have some, uh, but Yeah, it takes time. 
+
+38:27
+Host
+Hi. Uh, 
+
+38:30
+Guest
+so. 
+
+38:32
+Host
+Uh, the stream is still happening. Good. Uh, so I had to switch to my mobile internet, um, something happened with my home internet. Um, OK. I do not remember the question I asked. So maybe you have some memory of it. 
+
+38:51
+Guest
+Uh, yeah, you were asking about teaching like, um, 
+
+38:56
+Host
+practice, right? Yeah, 
+
+38:58
+Guest
+yeah, 
+
+38:59
+Host
+yeah, yeah, 
+
+39:00
+Guest
+you were actually talking about an example of yours. Mhm. 
+
+39:04
+Host
+Yeah, so I was, uh, I remember studying, so first I studied uh theoretical machine learning and then I attempted to do practical machine learning on cargo too. And we were learning like Bayesian methods, uh, we were learning support vector machines and none of these things were useful. Uh, in practice, like when you actually do cargo or when you work as a data scientist, uh, we didn't learn, we didn't study, uh, gradient boosting, um, like we didn't study many things. Um, and for you, so for me it was first, uh, theory and then practice, and for you it was first practice and then theory. So I'm wondering how it affected the way you approach theory and the way you teach, uh, the, this theoretical skills. 
+
+39:51
+Guest
+Uh, yeah, it, it really, uh, has an impact because I, I, I still don't like a lot of theory, to be honest. So I, I really, uh, believe in that, that to, to learn something you need to see how you can apply it. So what is the eventual application? Uh, and because of that, when I teach, uh, first of all, I don't teach, uh, like classical machine learning classes, for example, and, uh, I, I don't know how to actually, uh, be good at that. So I teach mostly something about industry like uh production machine learning, which is like similar to MLOs, like how to use, uh, I don't know, uh DVC ML flow, STPI Docker Kernate is how to deploy your models, how to monitor them, that kind of stuff. And uh when you teach this, uh you can just teach on examples. You can show the tool, you can show the problem that you need to solve with that tool, and then you can show how you solve it and then give a homework. Uh, so that's really something that, uh, from a different angle, you show some. There is a problem, let's figure out how to solve it. 
+
+41:00
+Host
+Mhm. Yeah, that's uh like for me it's also the best way to learn, uh cause I remember like I think the example uh we used to when doing machine learning was like Something related to fish. I don't know, for me, it was not relatable at all. And I think if we just use even this Titanic data set. That would be way better. Like I don't really like the titanic data set cause it's. Kind of weird, right, because you predict who would survive and who would not like to eat. Uh, like, it's a weird, like it's a super strange problem, but like I don't know, like take any other classic uh uh data set like Boston housing, right? Then yeah, it's, it's very relatable. And uh one of the things you mentioned, um, so you teach practical things? And uh industry machine learning, not classical machine learning, and then you said Doctor Mellow, uh DBC Kerna. So this is definitely something or not maybe not definitely, but I suspect this is not something you picked up on cargo, right? Um, so you probably learned these skills elsewhere. So how did you actually develop the skills, uh, and, uh, yeah, like for a person starting a career year of Google, like how do you actually go into this direction of productionizing machine learning and learning more about envelopes? 
+
+42:33
+Guest
+Yeah, it's, it's actually, I think it's a very interesting example. I mean, if, uh, like how I moved away from Kagle. So I moved to, I, I started, uh, my career, like industrial career in Ibita as a data analyst, so there. Uh, I, I still was participating in Kegle, but I saw that you cannot like make up, uh, for living in Kegle competitions. So I decided to start, uh, a job in the industry. And at Avi I understood pretty quickly that, uh, My Python skills are lacking, and my machine learning theory and understanding is like and it's, it's how it's, uh, vice versa compared to your example, when you were working at some, uh, job as data scientist, then you come to Kegle and then you see, you can't compute. This was like, vice versa, exactly. And, uh, I understood that there is like a lot of machine learning outside of Kegle. So that was very interesting for me. Uh, so I decided to continue. I started the position in Andex Go as a data scientist there. I learned a lot of, uh, about like, let's say statistics, uh, a test and um also I learned something about Python as well. But there I understood that, you know, when you work in a big company like uh Yandex or Google or like Meta. Uh, you always are like small part of this big machines. So there are a lot of people who do this machine learning and the pipeline is pretty big. There are maybe a dozen of people who are involved in, uh, rolling out some new model or maybe more than a dozen. And uh your skills are pretty narrow and I wanted to learn uh outside of this. So I moved to Mechanica where uh I had to learn Python like Docker, uh Python packaging, uh Kerne is fast API and it was painful, but it was really interesting because Yeah, I understood there that I'm kind of becoming a full stack in the sense I can talk to business, I can understand their problem. Then I can build a like solution, uh, then I can put it in production, I can conduct a testing. I can measure results, I can report these results, set up monitoring. And that was really fascinating because you are not staying in one like simple, I don't know, a small task, but you are only in all of the pipeline. And, uh, that, that, that was really cool. And then at Well, that's how my career developed. So some people, you know, uh, take 11, I mean, I, I have good friends like Mikhail Shika, who we are talking about here, right? And, uh, he is like Python developer and machine learning. He's a god of Python. He can do like so, so complex, so complicated things. And uh he's like Python developer in machine learning for 5 or 6 years, maybe even more, and he's like really great at this. And I isn't that type of person. I'm trying to pick up like uh different challenges for myself during my career. 
+
+45:42
+Host
+Mm. Yeah, that's interesting. Well, eventually you, both you and Mikel, um, ended up doing similar things. You just started from different positions, I guess. 
+
+45:55
+Guest
+Yeah. 
+
+45:56
+Host
+Exactly, that's interesting. And so speaking of teaching, so teaching is a topic that is very um. Close to me personally because I've been. Doing, um, I've been teaching for, I don't know, the last 4 or 5 years. Um, so I'm really curious, uh, so we talked about like how you started your teaching, uh, journey, which is a really interesting study. Um, but, uh, how do you approach teaching now? So you're working for a university. And with the practical and uh with the focus on practice and uh industry orientation. How do you approach uh coming up with the curriculum, with what to include in the courses, what to teach? 
+
+46:41
+Guest
+Um, that's a really great question, and uh I think there are like different ways of doing this, but what I found for myself is that I'm trying to, um, To come up with some problem that's interesting for students to solve during the class. Uh, and then, uh, build curriculum around it. So for example, for like MLOs class of production machine learning, uh, I like, I want students eventually what I want them to do, I want them to learn all of these tools like again, the flow, Docker, fast API graphana Prometheus, whatever. And uh it's, it's really can be boring if you just give the tool and give the task. So I'm designing the competition. I mean, it's, it's again can be a competitive ground, I guess. Uh, I'm, I'm designing a, a problem for the whole semester. So they need to build a classifier that can, uh, like given a dialogue between two people. Uh, the classifier can tell who is the like bot, uh, AI model, whatever LLM, and who is the real person. And we, we like we are building a platform where these classifiers can uh like get data from and then we'll have like them competing with each other. And during throughout the class, uh, like students just, uh, build the same, like build upon what they did previously. So they start with some dummy classifier that just, uh, uh, gives a random number, uh, random probability. Then they add, uh, like uh they collect data, they use label studio to label the data. Then The train model the log, they experiments in the flow. Then they wrap it in first API they deploy, uh, machine learning model and they see metrics on the leer board, technical metrics, not actually machine learning metrics, uh, but like technical, how well their, their classifier, is it online, like the up time, the speed of response, uh, stuff like that. And uh I think like this is a really good approach, just uh find out something interesting for students and build curriculum around it. So yeah, if you allow me another example we have another class currently of machine learning. OK, thank you. So we have another class like machine learning system design and uh it's kind of a broad topic like what what you can teach in machine learning system design practically how to, how to approach a problem in like business problem is machine learning how to like do everything, build prototype, uh, conducted the test and whatever. And uh we are suggesting students to find some idea they can work at, they want to work at during the semester. Maybe they want to do the AI startup, maybe they want to uh solve smaller problem. And I think when people select uh something they like, they are more like they tend to tend to this, to actually uh like this problem and like spending time on it. 
+
+50:02
+Host
+Yeah, that's really interesting. In this, in the second example, uh, sorry, my internet is not really good. That's why there's a bit of luck between, 
+
+50:10
+Guest
+uh, that's good. 
+
+50:13
+Host
+There is a bit of luck. So, uh, for the second, uh, problem, um, when, uh, you encourage students to select uh the problem to solve themselves. Do they form teams or they work individually? Yeah, 
+
+50:26
+Guest
+yeah, they form teams, yep, because, uh, well, yeah, uh, we also want to teach them, uh, let's say working with Git, for example, we still want them to do prototype and, uh, we also want to learn them how to communicate between themselves because it's really part of your of your job. 
+
+50:48
+Host
+Mhm. That's amazing. And um in the in the first problem, you said you want to make it competitive, so you design a competition. I understood the problem that um OK, they need to eventually build a platform for classifying who is what, who is a real person, and then you iteratively progress from a classifier to like a full platform with metrics and whatnot. But where is the competitive aspect? 
+
+51:16
+Guest
+Yeah, yeah, I think, um, I wasn't clear enough, so what they built, they built a classifier which uh like is just let's say faster pay service which can uh receive requests and then they uh plug it in into the platform. We are building outside of the class. So we have some uh extra project in the university. We are building this platform and student just deploys the classifier and on the platform when you like different students attach different classifiers, uh they will be able to see some metrics, right? Uh. So it's really something similar. I, I guess it's a bit similar to production. So you can like SML like engineer whatever, where you just build something, you can add, I don't know monitoring to it. You can add retraining, you can add CICD like uh whatever. And then there is some system that consume your predictions, that gives you data, consume your predictions, and you need to make your like your classifier work with it pretty well. 
+
+52:22
+Host
+Mm. Yeah, that's interesting. And then uh do you have some sort of leader board? 
+
+52:27
+Guest
+Yeah, yeah, it's, uh, there are like two types of lizard board in this, uh, there is an ML metrics lizard board like which classifier is like smarter at the detection bots, and there is a second lizard board like technical lizard board with up times, uh, like, uh, times of responses, error codes and stuff like that. And on this class, I want to focus on the technical lizard board because I don't want like uh actually Kegel competition there. I want to For students to try to build the most reliable solution. 
+
+53:00
+Host
+Mhm. This is an amazing idea. Maybe we should also try to do something like that in our classes. Uh, but I, I'm wondering, so for you and the, so these are master students, right? So your classes are not large. 
+
+53:16
+Guest
+Yeah, yeah, yeah. Uh, they are not large. Like currently, the university isn't big. We have like around 200, uh, students, uh, in master's degree, but they are like in different uh uh directions like in machine learning, we have around 1100, maybe a little more, uh, 1150 students. And so on the class, uh, There will be like 80 students or something, so a lot, no, but not that 
+
+53:44
+Host
+this is still a lot. Yeah. So it's a significant number compared to like I don't know, usual classes, at least the one I had. But uh it's not like the same because you also have experience in teaching uh in uh online courses, right? Yeah. 
+
+54:04
+Guest
+Right, 
+
+54:05
+Host
+because this is where the number of 100. OK. Yeah, it's like you, you, in your bio, it says 100,000. Which is obviously not university. It's Coursera, was it Coursera? Yeah, yeah, yeah, 
+
+54:17
+Guest
+yeah, it's Coursera actually. So I think it's, uh, and Coursera is totally different format. You just build the class, uh, you just publish it you design like some automatic procedures to check solutions, and then you have, uh, some people on the platform who answer questions and maybe you sometimes sometimes answer questions, but when there are like Uh, so many students, it's hard to, to do something, I mean, uh, otherwise. 
+
+54:48
+Host
+Mhm. And uh was it a class on how to win Kaggle, how to win the medal competition or something like that? Uh-huh. I can't remember this class, uh, this, this course. I didn't take it. I remember that you were doing it. Yeah, that's amazing, great work. Thank you. OK, uh, and I, I really like the idea of, um, you know, building a platform and then letting students take like plug in their ML models and, uh, since we're doing online courses, maybe it's not as simple to implement this this cause you have more like closed environment with students, so you kind of know the The amount that the number of students. But maybe this is something we can uh borrow to in some of our classes that that's really interesting. 
+
+55:41
+Guest
+Yeah, maybe, maybe you want to to use this platform we can discuss it as well because 
+
+55:47
+Host
+it is it is it open source? 
+
+55:49
+Guest
+Uh, it, it isn't open source, but I think we'll host it like so anyone can, can use it in, in this way. But it's, uh, because I, I want to, like we actually want to reuse it in some other classes outside of the university, both in Moscow and in Europe. So maybe it will be like uh good, good, good option to, to try it, maybe. 
+
+56:16
+Host
+Yeah, let's talk. Uh, do you actually take part in developing this platform 
+
+56:22
+Guest
+as a developer, uh, no, rather than, uh, yeah, who asks to develop it actually. Yeah, but, but, uh, yeah, I'm, I'm still closely connected, so yeah. 
+
+56:38
+Host
+Mhm, mhm. Are students developing it or it's like professional software engineers, 
+
+56:47
+Guest
+the students, it's just like, uh, in the university, we have an idea that students, uh, before they find a job, they can test their skills and get like close to job experience at some projects at the university and some projects are from external, uh, like companies and some projects are from internal. Uh, people, and this is this kind uh of project we actually have 3 students developing it, uh, and they're really great. I mean they are like junior or middle level, so I, I, I, I was, I was happy to, I was lucky to find them. 
+
+57:28
+Host
+Do you, I, I'm just curious how it's organized cause uh students, they are not experienced, so they need mentors. Uh and also students uh maybe do it for half a year, but then, um, I don't know, they graduate or they finish the class or whatever. So then there is another student who spends again, like I don't know. Another half a year. Uh, so this work needs to be organized in such a way that, uh, new people can come, old people leave, uh, but the process is still ongoing, and then there is somebody who can mentor all the students, 
+
+58:03
+Guest
+right? 
+
+58:03
+Host
+Yep, yep, that's true. You get somebody from the industry to mentor or, 
+
+58:10
+Guest
+yeah, yeah, for, for each project we have, uh, a mentor and in this case, uh, we have a mentor from uh like uh Tan which is kind of company. And uh he's also like spending a lot of time with students. He's reviewing his their pull requests. He's helping them to fight some challenges there. And uh regarding like uh if some of the students want to move out from this projects and we want to find another one, we're trying to kind of, again, as with any software project, we try to document things um like. Make God like look easy enough to understand and stuff, but uh we're only doing this project for like 3 months, uh, I think, and we are launching it, like launching it. One week later, I mean, in the end of January, we actually have uh like 5 days hackathon for master's students at the university where they'll try to build the best machine learning solution. If on the like MLOPS class, we want them to build the best technical solution here, it will be the best model and we'll test the platform and uh I think it will, well, maybe. We'll have uh to maybe some of the students will go out of the project in a few months, but then we'll, we'll solve this somehow. 
+
+59:40
+Host
+Yeah, that's pretty interesting. Thanks. Uh, there are a few questions. Uh, do you have, uh, maybe I, I see that we should be wrapping up soon. Do you have like maybe 5 more minutes? Yes, 
+
+59:50
+Guest
+of course. 
+
+59:51
+Host
+OK, OK, because uh there are um there are a few questions that perhaps we should address. So one of them is uh pretty interesting. Uh, what is the best way to convince your managers about the value of Kaggle and ML competitions? 
+
+60:08
+Guest
+Yeah, that's a tricky question. Um, I think uh I think things like that, they are easiest to, to, to go with by using some example. Maybe you can find someone uh like. In, in, in your company who sold Kaggle and who's pretty good and uh show this as an example, maybe you have someone at industry who's well known for your company or your managers, uh, maybe some advisor uh who so Kegel quantifications maybe you can use that as an example. Otherwise, um, I saw, I mean, It also it's, it's important to understand what, what the value you're trying to get out of this, right? If the value is just to, for example, to introduce Google as a side activity to your company, uh, I've seen these examples and it's usually um Well, you, you can just show that other data scientists are interested in solving Kegel competitions on some like uh basis like a little Kegel club at the company and uh sometimes there, there is a green light for these initiatives. So, yeah. 
+
+61:28
+Host
+Mhm. So basically show them a good example, right? Yeah, 
+
+61:33
+Guest
+I think, I, I think that's it. I don't, I don't have a better answer, to be honest. 
+
+61:38
+Host
+Yeah, that's a good answer. Uh, another question, uh, is there any secrettique that works, uh, Almost always in conditions. 
+
+61:48
+Guest
+Yeah, that's, that's also a great question because, um, you know, the, the competitions are unique. I mean, in the sense that we are talking about being competition, right? And if you take a look at the top solutions on the lizard board, they usually unique in some sense and uh they, they, they really heavily depend on the data on the problem, on the information organizers gave you. So it's really hard to come up with a single trick. Um, really, but what I, what I, what I can say is that there are some things that almost all of, uh, competition winners do. They explore the data, they do that carefully, they try to do EDA, they try to understand the domain and uh build the careful validation, let's say, all, all the usual things, but when you put this together and do very carefully, it works. 
+
+62:46
+Host
+Yeah, right. So the secret trick is just. Be careful the last time, right? Yeah, 
+
+62:53
+Guest
+yeah, and, and this time. That's, that's really important. 
+
+62:56
+Host
+Yeah. Uh-huh. OK. And uh what is your opinion about generative AI? Like how does it affect uh competitive machine learning? Like, do you see that people use it more often, less often? 
+
+63:11
+Guest
+Mm, that's, that's a really good question. I mean, uh, if we are talking about, uh, I don't know, Cha GPT or uh like a pilot, uh, cursor. I think people use it, but uh it's not um it gives you some age maybe to, to your productivity, but it really Uh, it really can't be in competitions. I mean, in after my sense, let's say, um, but I see it's really useful. I mean, uh, for example, myself, when I solve some problem I don't know with can boost, for example, I just copy paste the, the error lock and put it to charge GPC, and it, it helps me some time to, to fix the problem. So in this sense it's useful. 
+
+63:57
+Host
+Mhm. OK. Um, I remember, so back in the day when I was taking part, there were people who were doing these autom solutions. Um, I think one of them was Casanova, maybe you remember the guy, uh, so he wrote some weird Java code that would just take a problem and then train like a lot of classifiers and then do ensemble on top of that and that. That gave a good baseline and then eventually he would just improve this and he this way he won a couple of competitions or at least he, he got a gold medal in any competitions. Do you think this approach uh still works these days? 
+
+64:34
+Guest
+Yeah, it still works. Actually, uh, just recently I was talking to Alexander Rushkov, who is, uh, like I think now he's uh grandmaster in every category on Kegle like um competitions, discussions, kernels, so what is the last category and uh he develops, uh, yeah, data sets. Thank you. And he develops uh optimal solution, uh, like LA, uh, Optimal, and he told me that it's really gives you good baseline. You just put it, you get the baseline, and you improve, and then you can win. So it's, uh, it works, but it, it cannot deliver you being solution alone. 
+
+65:13
+Host
+Mhm. OK. So it's just like before, maybe it was some obscure Java code that somebody developed and didn't want to share with anyone, but now these days it's because we have access to this, this AI solution, so LMs, these tools become more mature and also more complex, right? 
+
+65:34
+Guest
+Yeah, and some of them and open source, 
+
+65:35
+Host
+yes, yes, 
+
+65:37
+Guest
+is open source, so that's. This is pretty cool actually. 
+
+65:44
+Host
+What's your current Kegel rank? 
+
+65:47
+Guest
+I don't know. It, it, it's, it's bad. 
+
+65:51
+Host
+I, I just checked mine. It's uh. 9,575. So you're probably better 
+
+65:58
+Guest
+but but not not not a lot I think. 
+
+66:02
+Host
+Because they have only one gold medal. And do you have like, I don't know 10 or how many 
+
+66:08
+Guest
+mm around that. I don't remember that. OK, yeah, yeah, but it, it doesn't matter anything now. I mean it doesn't uh mean anything now. 
+
+66:20
+Host
+Yeah, people still recognize you, you know. 
+
+66:22
+Guest
+Yeah, yeah, I mean, it, it was really useful in this sense. So, and I was really lucky to, to start competing on Google, and I think it's, you see, even today's, uh, today's interview, it's happening in like the title is, I know, competitive data science, although I'm a machine the engineer now for 5 years or so, uh, we're still talking about this. 
+
+66:47
+Host
+And you don't actively compete now, do you? 
+
+66:49
+Guest
+Uh, nope, nope, no. I, I'm teaching some of the things I still find valuable, uh, to, to students, but I don't compete. Actually, I have, you know, maybe you know this guy, there was, I mean not, not the, there was one, person, uh, from our like community at that time, Sergei Ay, he was actually from Saint Petersburg, but what's amazing about him, he's still competing and like 8 years passed and he's still competing and he, this is his only occupation and he makes enough money to, to live. And uh I find it amazing. He 
+
+67:31
+Host
+wins money, enough money to actually live off the prizes. 
+
+67:37
+Guest
+Yeah, yeah, yeah, he does, and, uh, I found, yeah, and, uh, I was, uh, like I teach, um, Kegel, uh I mean some something about Kegel for my students at university and I was trying to find the person who actively participates and who can teach not just outdated things but something really uh like current. And I found him and uh he's really great. He's winning competitions in Kegel and uh like here in Russia, the like the competitive competitive level is lower than in Kegel, so he makes up for the living. 
+
+68:18
+Host
+Mhm. Yeah, I checked the current uh leaderboard and I recognized only 1 person out of, I don't know, top 25 that I checked, so everyone is different now. Yeah, yeah. OK. Alexander, it was uh really great to have you here. Here to talk with you, to ask you questions and to get your perspective on things. So thanks a lot for finding time and joining us today and also thanks everyone for joining us today, asking questions, being active. So, yeah, it was amazing. Thank you. 
+
+68:54
+Guest
+Yeah, thank you, Alex. Thank you, everyone. 
+
+68:57
+Host
+Right. And sorry for the connection problems. Uh, yeah. Have a great week.
