@@ -1,0 +1,523 @@
+0:01
+Host
+Hi everyone, welcome to our event. This event is brought to you by Datados Club, which is a community of people who love data. We have weekly events, and today is one of such events. If you want to find out more about the events, we have, there is a link in the description. Click on that link and you'll see all the other events we have in our pipeline. Um, do not forget to subscribe to our YouTube channel. This way you'll stay up to date with all our future events and you'll get notifications when they start. And last but not least, don't forget to join our Slack community where you can hang out with other data enthusiasts. During today's interview, you can ask any question you want. There is a link in the live chat, click on that link, ask your questions, and we will be covering these questions during the interview. They also open. This on my mobile phone, so I'm still sharing my screen, right? Um, so then, uh, I see if something is in the live chat. But yeah, I don't know if you're ready, we can start. Definitely. So, this week we'll talk about trends in data engineering and we have a special guest today, Adrian. Adrian is a returning guest. Now it's Third time, if we just count podcasts, but if we count other things like workshops, open source demos, and like I don't know what else. People probably know you already and have seen so many times. So Adrian is a co-founder of DLT Hub, and which is the company behind DLT and this is one of the things we will talk about today too. Uh, but in general, we wanted to talk about transcend data engineering cause this is um When we launched our course recently, data engineering Zoom camp. Uh, one of the questions um there from the audience, from the participants was. How do you see data engineering evolving and what are the terms in data engineering and I I realized that I don't know the answer to this question. I cannot really answer and I thought who might have the answer and then of course, I thought about you, Adrian. So welcome to our event. Welcome to our podcast interview. It's a really great pleasure to have you again here. 
+
+2:23
+Guest
+Pleasure is mine to join. Um, I don't have the answers either, you know, I just have my view of what I can see and, you know, I can speculate a little bit. I can talk about what I observed. 
+
+2:35
+Host
+And this is what it. What, what makes it interesting, right? I mean, everyone has opinions. uh, so, uh, and you're way closer to data engineer than I am. Uh, so we can talk about that. And uh, as always, the questions for today's interview are prepared by Hannah Beyer. Thank you, Hannah for your help. And before we go into talking about trends and data engineering, maybe, I know it's the 3rd time you will need to do this, but maybe you can give us, uh, tell us about your backgrounds. Can you tell us about your career journey 
+
+3:10
+Guest
+well? Sure. Um, so, um, I was born in 1987. No, I'm joking. Um, so, basically, um, I started in data in 2012. I did five years of startups in Berlin. Um, so building lots of data warehouses, then I joined, um, uh, enterprise. I didn't enjoy working for an enterprise, so I became a freelancer for 5 years. And after 5 years, I wanted to do more than just being a freelancer. And the agency wasn't it, since I don't enjoy managing agencies. Um, so I decided to go for uh building DLT, which is the tool that I wish I had as a data engineer, um, and, um. I guess this is the introduction. 
+
+3:56
+Host
+Mhm. I, I like a tool I wish I had as a data engineer. Is it something you often use? 
+
+4:03
+Guest
+I use it all the time. So, um, you know, when it comes to data engineering, you probably mostly do data ingestion as a data engineer. And there the challenge is getting data from, um, weekly structured format like JSON from an API into a strongly structured format. So since DLD automates this process much more, there's really no reason to do something else. 
+
+4:26
+Host
+Mhm. Do you remember last time we spoke, when was it on the podcast? 
+
+4:31
+Guest
+Just 
+
+4:31
+Host
+over 
+
+4:31
+Guest
+a year ago, I think, 
+
+4:32
+Host
+over 
+
+4:33
+Guest
+a 
+
+4:33
+Host
+year ago. So you already were at DLT and we were talking how um. Yeah, so I, I'm just looking it up quickly. The entrepreneurship journey from freelancing to starting a company. So DLT was already there and we were talking about your journey, like how exactly the switch from being a freelancer to being a founder, co-founder, uh, how it happened. So I'm just looking at it's season 17, episode 1, so you can go to our podcast and check it out. Um, so what changed since then? So, it's been a year and uh Uh, it's for me personally, like before you answer this question, uh, I really like coming to your office and you organize, you always organize this nice, uh, events, meetups, and then I really like coming to your old office. And for me it was like, cool, you have such a cool office. And then more and more people were joining the LT Hub, and then at some point, it was just the office, the old office was just too small and then you moved to another one which is like even cooler. And it's always such a big pleasure for me to come to your office and like see. Like this vibrant uh company that you built, so it's amazing. Uh, but this is just an outsider view of somebody who just comes to your office maybe once in a couple of months. Can you tell us more what is actually has been happening since, uh, last time we spoke? 
+
+5:53
+Guest
+So, uh, you know, the office view is interesting cause we started with squatting, uh, like, no joke, we were basically working from other people's offices. But, uh, what happened was, if you remember, I was talking about, uh, trying to create a standard in ingestion with DLT. And essentially, I think we succeeded with that. Um, DLD has become an ingestion standard with Python. Um, and I would say we managed to truly commoditize this market. So what do I mean by commoditization? Because to some people say it, but they don't really understand what it means. And let me spell it out, what are the implications. Well, commoditization in any market, when you do that, it means that you are turning, um, you're, you're basically lowering the cost of production or something, uh, to become accessible for everyone. Um, and basically we've achieved to do this with DLD not only on Short tail where vendors are already, uh, competing, so like on SQL databases, Salesforce, and you know, the general connectors, but on. Long tail as well, so basically people creating their own sources. And what this means fundamentally for the industry, it means that the value of what vendors offer currently these days is going down. So this is a challenge to the entire market to, um, let's say get better at their offering and offer things that are not just. Um, here's a connector which is kind of like low value but actually uh value proposition that is beyond just moving some SQL data. 
+
+7:33
+Host
+OK. And uh, so right now, you are not, like, can we say that you're actively working as a data engineer these days or like what do you actually do at work? 
+
+7:45
+Guest
+Uh, to be honest, what I'm doing right now at work is I'm working on a DLT plus and figuring out what, how we can make a meaningful product there. And, uh, what I mean, basically, we've been, um, We've been, uh, building DLT and we've been looking at what people build around DLT and, um, essentially, we are building the same thing that, uh, all these other smart people are doing, uh, just in our version. And our version basically means the same thing that it means for DLT. So like best practices, um, high quality, and we try to go for innovation. So, you know, just like DLT basically offers superior quality to almost and I think to any integration that you can currently buy because of schema of alerting metadata. Um, DLT plus aims to do the same. Uh, DLT plus basically being the, let's say data platform that you'd end up building with DLT. 
+
+8:47
+Host
+Um, but in terms of, so your actual work is figuring this out like how exactly the DLD plus will work. Um. 
+
+8:55
+Guest
+Yes, so the founder, basically, it's all kinds of things from, um, let's say deciding which risks you're going to take to explore different initiatives, right? Um, listening to people, um. Testing things. And one of the things that I'm actually working on in preparation for DLT, uh, plus product is opening up a partnership network. So basically, just like I wanted to create a freelance, um, agency if you remember back when I was a freelancer, now I'm trying to create a partnership network where let's say everybody wins. So basically that is aimed at maximizing value delivered to the customer. Um, which will also be, let's say the, it's the current, uh, consulting partners are basically people who are already deploying DLT and want to get more value out of it. 
+
+9:50
+Host
+And uh well, since you mentioned that uh this is not something we planned to talk about, but I'm uh I'm sure maybe there are some freelancers who are listening to that, to our conversation right now. So if you want to reach out and learn more about like this partnership network, what, how should they find you? LinkedIn? 
+
+10:07
+Guest
+Um, they can reach out on LinkedIn, they can find the partnership links on our website and apply. Essentially, this is mostly something for people who already use DLT. So if you already use DLT, you know, just come forward. 
+
+10:21
+Host
+And as you said, part of your job is listening to people and I imagine it's also listening to their problems. And you've been in the industry, in the data engineering industry for 10 years or more, because you mentioned like working at startups for 5 years, then enterprise and also 5 years of freelancing, and now you're running a company, so you've been in the industry for quite some time. And you probably remember like Hadoop times and uh I don't know. Um, so what's happening in the industry right now? Like if you compare data engineering 5 years ago and data engineering now, um, how does it look like? Like what are they? But things changed. 
+
+11:03
+Guest
+We have multiple fronts to discuss. So I would first start with the people, the data engineer. So I would say 5 years ago, um, there was a huge shortage of data engineers and just about, let's say, anyone who could do, um, let's say, functioning integration could be called a data engineer back then. Um, I would say this is slowly changing. So the field is transitioning from, um, I can make something run to a specialist. So what I mean here is I'm seeing more and more data engineers specialize into, let's say, data governance engineers or data quality engineers or, um, streaming data engineers. And many of these skill sets actually have very little overlap outside of engineering. Um, Part of this is driven basically by, uh, requirements of the industry, like how you should deals uh, with sensitive data or things like that. Um, or, for example, the energy changes in Europe, where now everyone and their grandma can have a solar panel on their house, and the system needs to understand what is the production, how can we bid for this, right? So it's completely different use cases. 
+
+12:17
+Host
+And in terms of um well, since we have a course on data engineering, like in terms of um. Let's say junior data engineering, um, like is a junior data engineer, I think these days, or? So you need to be an experienced software engineer now to enter the field. So 
+
+12:37
+Guest
+I would say yes, but it, um, depends. You basically need to find a sweet spot of where you can help people. Um, so specifically, I would say there is actually a huge opportunity now. Um, just like it used to be 7 years ago with data science when people didn't know what data science was and they just hire a data scientists, don't know what for, but, you know, just get them on board. Um, something similar is happening with AI and I would say this is not happening yet in Europe. Uh, I'm seeing it happen in the US and Asia. And, um, basically, people are, they have this idea that, um, they will get huge ROI out of AI, um, and they're trying to figure out how to do that, how to go there, basically. Uh, speaking of, this is another, um, of those specialties. It's kind of like data engineers that for AI. So I think this is an opportunity for some. Um, another opportunity could be just, you know, um, there are still new startups being opened every day, and they need to build a modern data stack. Um, this has become way easier now. You can literally, if you look, for example, in DLD's, uh, dependence on GitHub, you will find multiple free open source data platforms you can just drop in. Uh, yeah, so the help here is basically being the person that can interface between technical and business. It will always. 
+
+14:08
+Host
+Yeah. You mentioned one thing, this modern data stack. So how modern is it? It actually is, cause like I've heard this term some time ago. And I guess it was created like as a kind of the opposite of like this slow Hadoop, uh, stuff. Uh, perhaps, maybe correct me if I'm wrong, but like, what it actually is and how modern is it? 
+
+14:32
+Guest
+Basically, modern data stack is pure marketing. It's not modern. It's just, um, before modern data stack, there were people doing all kinds of things to build data warehouses. Uh, vendors came and they created, let's say, packages of software, um, between other vendors that you can put together to build the data platform. So, for example, 5Tre with Snowflake and, uh, Luer. I don't know, just an example. Um, and basically vendors needed a way to communicate this and to be able to sell together, and this is what the modern data stack is. I would say it was very effective as marketing because people identified and they talk about this concept. Now, is it modern? I would say it never was, uh, uh, now people are talking about postmodern data stacks. I would say a modern data stack is a data stack where you're not just like human middleware. Deploying some kind of vendor software, but rather something that is way more efficient than we were doing things 10 years ago. So this is actually something that we think we're working on. Uh, people call this, we don't call it anything. People call it the postmodern data stack, which is basically using open source technologies, uh, put together to achieve way better, higher quality, better efficiency, lower cost, and anything you can get from them. 
+
+15:56
+Host
+Because what you mentioned is 5-tron, uh, snowflake, uh, what was it looker. None of this is open source, right? 
+
+16:04
+Guest
+Yes, pretty much. I mean, um, not, not those actual tools, right, but you can put together various stacks of such tools that will build the same purpose. 
+
+16:15
+Host
+Mhm. OK. And what do you think, um, which things we will see more and more. So you said that there is this, uh, postmodern air codes, data stack. Uh, she gets references, uh, like there was some modern postmodern in art, right? Uh, so which things, uh, do you think we'll see more, uh, is like in 2025 and beyond. 
+
+16:40
+Guest
+So I think we'll see a lot more AI like uh the whole field is just starting, um. There is, let's say a baseline level of use cases that can be solved currently, but this is growing with knowledge graphs. So basically, you know, going in the direction of being able to solve more complex tasks um with less hallucination. Um, from what I can tell, I would say this is probably. The biggest thing happening right now in the data market, and I would say AI is entering the field of data engineers. So basically, it used to be first that, oh, only AI engineers, whatever those are, um, are doing AI. Uh, right now, it's going into the direction of software engineers are doing AI engineering, and this is right now data engineers and many teams, and prompt engineers are building, uh, last mile products, right? So it's kind of like two different groups. Um, another technology direction is basically iceberg. Uh, so I would say this is also big. What we're seeing is before it used to be mostly hype. Uh, somehow this hype is basically transforming into, uh, reality and production deployments. So in the beginning of the year, we were hearing every now and then about iceberg, people were getting excited about, let's say, what my iceberg could mean. Um, so, you know, Pythonic iceberg. 
+
+18:08
+Host
+Can you tell us more what this actually is, what is iceberg? Cause I've heard iceberg people throw this, uh, like what is it exactly? 
+
+18:17
+Guest
+OK. So, um, basically, you know, databases, like a SQL database, for example, these databases have multiple layers. They have a storage layer, they have a compute layer, and they have an access layer, metadata, you know, we can describe them in many ways, but essentially what Uh, iceberg is, it's a file format. It's a table format, we call it. Uh, it's a way of storing data independent of these databases that simulates, uh, let's say the storage layer of a SQL database. So it's kind of like a file, but you can have some logic on top of it that allows you to update it. You're not actually updating it, right? You're actually just writing some data and invalidating the old one, unless you do cleanup operations. 
+
+19:03
+Host
+So it's, uh, would I be correct saying it's just a bunch of packet files on S3 organized in a special way? 
+
+19:11
+Guest
+You could say it's a bunch of packet files along with some metadata files. Yes, and tell you basically which records from which files are valid. Um, so, yes. It's very similar to Delta. Uh, it's very similar to hoodie, and I would say the industry is super excited because this means the decomposition of the database and You might be aware that in software engineering databases are heavily vendor locked. Uh, so basically what this means is they are not competitive because vendor lock allows vendors to set prices that are maybe 10 or 100 times higher than what the product is worth. So breaking this, uh, apart would mean, um, freeing this in the software space. But one thing that people are kind of getting wrong is, here, we're talking about the storage layer. We're talking about data, but really, the way we interact with data will always be on the access layer, right? And we have vendors that are trying to sell us their compute in the middle, but fundamentally, um, this whole movement and this whole discussion about file formats, table formats, and where this is going is driven by vendors. Uh, so while. Basically, vendors are still trying to use these table formats and capture value through a vendor log, through the catalog, and I guess what is really big and what people are really excited about is the concept of headless. Uh, table formats. So basically, what this would mean is that you're no longer using a catalog, uh, that you are really free from the vendors and that you are writing, let's say, iceberg files, uh, without using any kind of vendor service. You're just using those files with open source technologies on top. This is actually something that we're working on as well. 
+
+21:10
+Host
+I just want to take a step back. So you said that database are 4 things if we Obstruct many things, but like essentially it's for things storage, compute, access, and metadata, right? And by catalog, you mean this metadata, right? 
+
+21:27
+Guest
+Yes, in fact, actually, no, I mean access. Um, there are like, what 
+
+21:32
+Host
+are so 
+
+21:32
+Guest
+storage 
+
+21:33
+Host
+is, let's say a bunch of, uh, pocket files on S3, right? So this is storage compute is what we use to actually go through these files and take things out of there, right? It could be 
+
+21:44
+Guest
+Spark or 
+
+21:47
+Host
+or Python. Mhm. OK. And then we have uh metadata and access. Metadata is like Hive or something 
+
+21:54
+Guest
+like 
+
+21:54
+Host
+that 
+
+21:54
+Guest
+or what? It's more like an information schema from the database. It is telling you, you know, what you can find there. And also it's just like, imagine when you are writing to a table, when you're updating the record, to do that to a file, you would need to read the file, rewrite the file, and delete the old file. So this is like a huge amount of data being throughputted when all you want to change is one record. So actually, how this is handled is you add the information in another file and then you say that this specific record should be consumed from the new file instead of the old file. Basically, this, this is also a layer of metadata that solves the problem that files cannot be updated. 
+
+22:35
+Host
+Mhm. OK. And taxes is what? 
+
+22:40
+Guest
+Access is basically the online thing that allows you to, you know, access the data query it control who has access to it, package it with huge engine that will be used. 
+
+22:51
+Host
+So it's basically the thing that puts storage, computer and metadata together. 
+
+22:56
+Guest
+Yes, it's the thing that basically turns it into a usable product online. 
+
+23:02
+Host
+And when you say catalog, what is it exactly? 
+
+23:05
+Guest
+There are two types of catalogs. Basically, some catalogs serve the function of access, so it's just like a service that maps to data somewhere and to compute somewhere and allows you to access this data with this compute. You have access control, so you can actually manage that. And then there are catalogs that actually handle metadata that do all kinds of interesting things like lineage and so on. Those actually have a lot of, you know, built-in utility that is useful for the developer. 
+
+23:36
+Host
+Mhm. And in terms of tools, uh, what would it be? 
+
+23:41
+Guest
+Um, I, off the top of my head, I don't know all the names, so, 
+
+23:47
+Host
+like, let's say, um, so I remember from my days when I worked, um, so for metadata we use these hive tables, I think. And then the files for market files on S3, right? Um, so catalog is kind of similar to these hive tables, or there was another tool where it was actually described. 
+
+24:08
+Guest
+If you were doing, um, data lake, you might not have had the concept of catalog. But if you've ever worked with data lake on Amazon, maybe you worked with the Blue catalog. OK, right? So this is just like access. Um, but other catalogs have stuff like lineage so you can understand, you know, uh, where is PIA data or something like that. 
+
+24:32
+Host
+And by lineage, you mean uh there is a table and then there is something we compute based on this table and maybe some other table and to know that. 
+
+24:41
+Guest
+Imagine a data source that contains PII and this data source is then consumed to create various reports or data products. So you want to know that the BIA probably ended up there. 
+
+24:52
+Host
+Yeah, personal information. Yes. Mhm. And uh so, and then, so iceberg is the storage layer in this case, compute could be anything, could be, I don't know, data bre, snowflake, uh DDB, uh, I don't know, bunch of like a Pandas, Python script, right? So something that gets the data, um. Back to B would be compute, right? Yeah. 
+
+25:20
+Guest
+It would also be like uh local access, but, you know, that's irrelevant because, uh, you want an online catalog, not local. OK. 
+
+25:30
+Host
+Uh, what do you think about DacDB? Will we see, cause what DDB allows, maybe I'm again not correct in understanding what it's doing, but it allows you to do. Uh, things locally that previously would otherwise not be possible, like you would need to have like a spark cluster or I don't know, you speak query, but now with WDB, it can just fetch a bunch of packet files and quickly go through these files and uh give you the results, right? 
+
+25:58
+Guest
+I think it's amazing and for us it's actually a key technology. Uh, so what I really love about it is, think about a SQL Alchemy, sorry, um, SKite databases, right? If you're using a mobile phone, which I believe everyone is, you probably have a few dozen or a few 100 SQL databases running on your phone. Right, this what what this is talking about, it's talking about the embeddability of this compute engine. So what does this mean for us? It means that we can actually assemble this as a building block into our own product. So one of the things that we do with DoDB besides, you know, just using it for demos and stuff like that is. Basically, I was telling you about putting these layers together. Uh, we released an interface in DLD where you can query the loaded data through, uh, a universal interface like SQL or Python. And, um, why I say universal is because whether you're loading the file system, creating the data lake or a SQL database, it behaves the same. And what we do basically is when you don't have a real SQL database, we use a memory, uh, DDB for that. And we have an abstraction layer on top to basically make everything behave the same way under the hood or whatever's under the hood. And, yeah, basically, this enables you to access data. On the flight anywhere. 
+
+27:32
+Host
+So, do you think uh WDB, uh, the appearance of WDB is changing how we do data engineering these days? 
+
+27:40
+Guest
+Yes, uh, absolutely. So one of the things that I noticed is, um, People are really challenging the concept of having to pay silly amounts of money to vendors for data movement, uh, or for data work. And, uh, one of my favorite setups that I've seen using DocDB is basically, uh, leveraging DocDB and files on GitHub actions. So literally, there is no database. It's just all Python code, DDB running on GitHub actions, uh, free tier, an entire data stack, data lake for a sizable company, uh, cents per month over three tier, right? So. 
+
+28:23
+Host
+So what with WDB, what we can do is, uh, let's say we have some sort of data lake, which um uh bunch of files in uh SD or Google storage or whatever, right? With WDB we can get them, them, save the results somewhere again maybe back to the storage, and then have another script that gets the result and runs it. 
+
+28:44
+Guest
+And because it's portable, this means you can take advantage, so just like the LT plus, by the way, uh, it means you can take advantage of um. Let's say arbitration between compute vendors, right? So if I want to use GitHub Action Serverless, which is probably 100 times cheaper than doing the same operation on a rent, always on machine, whatever it is, whether it's, you know, running snowflake or post-grass, it doesn't even matter at that point. Um, yeah, it, it helps you, you know, do new patterns and, uh, Um, take advantage of technologies and computes that you couldn't do before. 
+
+29:26
+Host
+And uh is it related in any way to this headless uh tables format that you mentioned? 
+
+29:33
+Guest
+Um Yes, basically. Look, uh, when I'm talking about these 33 layers, you have the access layer, and the access layer is typically online because this is where the tools are, because this is where the consumers are. But when you're actually working in the data pipeline, you don't need to go online. If you had a local access layer, this would be good enough. And data, uh, sorry, DocTB gives you this. So basically, you know, it enables you to do whatever you want. On local, which local to me means something that's deployed on production, running on a production worker, or it could also mean on my machine when I'm developing. Um, Sorry, I lost my track. Got excited. 
+
+30:18
+Host
+But uh so you were talking about this headless uh table format and you were talking about that uh with uh DBT uh DLT sorry, with DLT this is something where you want to go. 
+
+30:31
+Guest
+Yes. So basically, this is something that we're already serving. So last year we were working with Pohog, uh, they're like an open source, um, analytics tool, and, uh, they wanted, uh, headless delta lake. Uh, so we worked with them on this. Uh, we did this for them basically, and, um, you know, this, this is kind of like, um. Common pattern that we see. Uh, we, uh, help create these, uh, data lakes, whether it's iceberg, um, Delta or whatever. Um, then people do some kind of compute with their own compute engines, whether it's Clickhouse or DDB or something else. And then they push this data to an access layer. And this access layer might be snowflake at this point, right? Because this is where the business people interact with the data. 
+
+31:23
+Host
+Mhm. Instead of processing everything in Snowflake and paying a fortune. 
+
+31:28
+Guest
+Exactly. 
+
+31:29
+Host
+Uh-huh, cause like in Snowflake, uh, what's the, what's the business model like you pay. 
+
+31:36
+Guest
+You, you, you pay for, well, I don't want to go into details because I will probably say something wrong, uh, but it's expensive, right? And, um, fundamentally, there are also benefits of doing it on your side, uh, that relate to portability. So what I mean is there are many organizations that use diverse data stacks. And they have multiple access interfaces. So ultimately they would like to do the compute in a portable way that is technology agnostic and then just serve it where people use it. 
+
+32:10
+Host
+Mhm. Yeah, and other things that appeared uh maybe not as recently as DDB but pretty recently if we talk about grand scheme of things like, for example, you've been around data in the the engineering um industry for quite some time, is uh it's DBT, right? So 5 years ago, nobody used it, um, people were trying to come up with their sort of schedule or whatever for SQL queries. Um, but now we have, um, I don't know if I can call it the standard, but, uh, we have this tool now which is quite popular. So how did DBT change the way we do data engineering and do you think it's going to continue changing that? 
+
+32:52
+Guest
+Um, That is a good question. I cannot speak for the future of DBT. Um, they have some very interesting plans, and I don't quite understand them because there are a couple of directions. Maybe they're trying to broaden their offering, um, but essentially, yes, DBT changed a lot. Not just how we do data engineering, but how people think about it. Uh, so before, it used to be that people orchestrated their own SQL queries. And, um, this led to people writing boilerplate code all the time. And it was horrible. Lots to maintain, lots of bugs. Uh, and, you know, you're reduced to like a typing person at that point. Um, And what, what it changed, it's kind of made people think, how can I do this better, right? So when it comes to the actual, like, uh, SQL person, I would say for them, probably not much changed. They're not thinking about the overall picture. They're just trying to do their work in the SQL database. But for the people outside of that, um, you know, now there's no more boilerplate code. There's no more garbage to maintain. So it significantly improved, let's say, the quality of engineering in a project. 
+
+34:08
+Host
+And there are alternatives to DPT, right, like sequel me and others like what do you think about them? 
+
+34:14
+Guest
+Well, just like any product, there are, you know, many alternatives and, um, that's not a problem, right? Um, what a competition is healthy, uh, it means there is demand, and it means that there are diverse groups of people with different needs. Um, what I think about DBT is that DBT is in a unique place because they were first, uh, so, you know, the. Let's say growth was rather because of the concept than the product, um, I would say. And at this point, uh, DBT is pivoting in a different direction, right? So they're doing more, uh, of an open core offering where they're offering things around DBT. And then there are tools like SQL Mash that are actually doubling down on what DBT, DBT core was offering, which is A way for developers to work with their transformation code more effectively. And for example, if you're a data engineer that does a lot of SQL development work, you might be more effective in uh SQL match. 
+
+35:21
+Host
+OK, yeah. And so we spoke a bit about SQL orchestration, but what, what about workflow orchestration if we wanted to start a data engineering project today. What should we use as workflow orchestrator? Should we use any? 
+
+35:37
+Guest
+So that is a great question. Um, we actually explored this topic in depth, and the conclusion is, um, basically it's like ice cream. Pick the flavor that you want. And I would say it's not you picking the flavor that you want, but it's rather pick the flavor that your entire team can eat. Right? So, um, different vanilla, vanilla. Yeah, so actually, you know, this is the reason why people, uh, choose airflow many times because it's the. It's basically the common denominator that everybody wants. And I would argue just like with DBT, there are many competitors out there that do specific things better. Uh, when it comes to our team, for example, um, if they haven't been exposed to airflow before, I would say they gravitate to Dexter simply because it kind of captures their software development, uh, way of thinking and so on. If they have used airflow and they want something better, they might go to prefect. Right, so It's yeah, uh, personally we actually often use GitHub actions. So no, it's really like it depends what you do and uh there's no unless you have a very specific use case. 
+
+37:00
+Host
+If you need a simple workflow, uh, sequential workflow, then GitHubb actions would be sufficient, right? 
+
+37:08
+Guest
+The reason why I love GitHub actions is because it's actually serverless. So it's literally like 100 times cheaper than, you know, putting it on some kind of always on orchestrator. 
+
+37:21
+Host
+We have a few questions. I think it's, uh, it would be good if we go to the questions from the audience. Um, would it be effective for my learning journey and career development if I pursue multiple disciplines, for example, data engineering, data science, and AI engineering at the same time? 
+
+37:38
+Guest
+I don't think so. I think you should get clear on the type of role that you want to, uh, do. So basically, look, what kind of company do you want to work in? What kind of colleagues do you want to have? What kind of challenge do you want, and what kind of problems do you want to solve? And then learn for that space. Uh, you have time in your career to learn the other stuff, just when you're starting out, stay focused. Mm, 
+
+38:02
+Host
+yeah. And also when it comes to AI. Um, A lot of AI engineering is actually data engineering but called differently. Because like, for example, if we take crack, and if we think what exactly we need to do that, to do there, is connecting a bunch of things and one of these things is a database where we store like where our knowledge base, our knowledge is, right, our knowledge base. And at the end, if you look at this, it's like, OK, we move data from here, this point to this point and then from here, then we need to retrieve this data. It's kind of like, you know, data engineering. 
+
+38:38
+Guest
+It's kind of what I'm thinking, right? So what I mean is, fundamentally you have a few moving pieces, you have data, uh, you have, uh, some kind of algorithm, which is the LLM, and then I would say there's something you haven't mentioned, and that's semantics. So what I mean is, you know, there is this concept of raw intelligence. So like if you have some neurons in a Petri dish, they will do things. They can solve problems. But, you know, it's a very basic thing that they can do. And if all the neurons are the same, then, you know, there's no specialization. But in the human brain, uh, sometime, I think like 60,000 years ago, um, because humans evolved in the context of concepts. We started to develop specialized brain structures that deal with these concepts. So the way you could think about it is the brain has a semantic map. Data should also have a semantic map. And basically, this would help an LLM understand how to work with the data. To give you an example, if you are trying to, let's say, work with an LLM to place an order for a screw. And you give it a text. It doesn't actually understand what you want because the screw has dimensions. It has diameter, length, it has a type of cap. So in order for the LLM to understand how to work with that, you need to tell it, Hey, this is a screw. This is what can be done with the screw. It has dimensions. It has diameter and so on. And then the LLM can actually help you place an order for the screw. 
+
+40:13
+Host
+Uh, let's say deep thought. But um speaking of, uh, well, again, coming back to the to the topic we're talking about trends. Uh, another question is like there are so many tools in the field of data engineering and also we have so many companies and the company is promoted to like the, I don't know, snowflake will say, ah, our computer is the best one, and data breaks will say no, ours better, and then you have like, I don't know, 5 trons and air bytes and like. There are many tools and then there is this postmodern data stack right where we talk about um TLT and other tools. So, There are many tools and it's confusing like I'm just, let's say I'm just entering in the field and I want to. Select which tools they need to master in each domain. Uh, how do I select them? 
+
+41:06
+Guest
+So, if you're just entering the field, I would discourage you from attempting to master any tools at this point. So I would say the most important thing is that you get the concepts of what you're doing right. So, kind of like, understand the problems in a generic way, and you are that you are able to add value. You to a company by solving problems. Then when it comes to actual tooling, you know, you can decide that later. Um, ultimately, you, if you want to work in software engineering, you need to adopt a different, uh, attitude than learning upfront. And that is, you need to learn how to learn. And you need to have the attitude that, uh, this is how you succeed because you will have to learn every day, and you shouldn't be afraid to say, Hey, we're gonna solve this problem. I haven't reached the technology decision yet. And when you get there, you might spend half a day to explore options and then. 
+
+42:00
+Host
+Mhm. I would say I don't work yet, so, OK, like adding values to the company is a good thing, right? There is a problem. I want to solve this problem and then like get up with the team, we select the best way to solve this problem, but I'm just I just want to, let's say, build a portfolio. OK. 
+
+42:21
+Guest
+Um, ignore the vendors. Uh, don't worry about it too much. Um, no one will hire you as a specialist on Snowflake when you're just starting out. So, you know, don't, don't go there. Rather learn SQL, right? Learn Python. Learn data ingestion, learn data transformation, modeling. But most importantly, learn how to capture business requirements and solve problems because this is what you're hired for. And, um, the reality is that unless you're joining a senior team that can give you a framework, uh, you're, you're gonna have to figure that out and technology is secondary. 
+
+43:03
+Host
+And would you say just picking, for example, we have a course, right? And the course we say, hey, there are these components like I don't know, you need to um have a data lake, you need to have some sort of workflow station, you need to know SQL, right? And then like, I don't know, present data somehow. Would you say just selecting any tool for each of these uh sub problems would be OK? 
+
+43:28
+Guest
+So I would say when you are solving problems, you will have requirements that come up, right? So I encourage you to try these tools and learn them upfront, any in each category, ultimately. But when it comes to visualization, You have a decision to make. How am I going to deliver data to this company? And depending on who the consumer is, you should consider them as a person and can I get them to access data through this interface? Will they understand what they're doing, right? So, like I keep saying, um. If you know some basics of how to do things, that's enough to start, right? So if you're joining a company and your idea is that I will display data in notebooks, this is not wrong. It's not the best way, but it's better than what they have, probably, right? So, ask them, do you want your data in notebooks? And they're gonna say, what's a notebook? I don't know what a notebook is. Can I have a dashboard? And then maybe you're going to go to the Google Data Studio and you're going to do some dashboards there, and then you're going to find some limitations. And then maybe you'll ask somebody who has more knowledge and they will give you a way to think about it. Mhm. 
+
+44:38
+Host
+So basically just try things and see where it's going. 
+
+44:42
+Guest
+Yes, basically, the modern data stack is extremely interchangeable. It's extremely commoditized. Um, many, I would say if there's one thing to take care of is that in a commoditized market. Revenue is hard, which incentivizes vendors to adopt black hat tactics. So this is something that I would look out for. I would look out, are these reputable vendors or are they going to rip me off? What does their cost structure look like? 
+
+45:11
+Host
+Mm. Yeah, interesting. And um well, you said that um. At that you're an engineer, and then you think you should think about. Problems and how you solve these problems and how you add value to the company. And then you don't need to be a data engineer for that, right? So, and uh, so the reason where I'm like, I'm going. So there is a question, how challenging it is for a senior backend engineer to transition into a senior data engineering role. And I was thinking that as a senior backend engineer, so they probably already know how to translate, uh, you know, these problems into solutions and thinking about adding value to the company, right? 
+
+45:56
+Guest
+I had a specific experience. So actually, when we were building, uh, DLT, we tried it with different people. Um, and I would say the knowledge gap for, uh, software engineer is, of course, not software, right? But it's going to be in understanding the business case of what they need to do. So what I mean is, if you ask a random software developer, give me a pipeline that brings my HubSpot data into BigQuery, they will do that. And you will have some kind of output, and then you'll have to chase them, Hey, this is not fine. This is not fine. This is different. This is not logically working properly. The business logic here is wrong. And, um, if you give it to a data engineer, they will work back from the requirement. I need to produce these reports because this is the business requirement. For this, I need to grab this data. This data has this logic of incrementing, and then you work back and you build the pipeline, and it's usually fine. 
+
+46:54
+Host
+Mhm. No. OK, so basically like uh. A senior engineer can transition into a senior data engineer role. 
+
+47:04
+Guest
+Quite, I would say it's quite easy. So, and I would say technology is not the obstacle usually unless you're going for something like super specialized, but you know, that's not an entry. 
+
+47:17
+Host
+Mhm. OK. So if you want to position yourself as a like spark expert, and maybe you will need some time. To actually understand Spark in detail, but if you want to position yourself as an engineer who can solve data problems, then it's another thing, 
+
+47:32
+Guest
+right? I would say if you're trying to position yourself as a Spark expert, I will look at the portfolio of your work. So if you're doing this as a junior, I will have a giggle. 
+
+47:45
+Host
+Yeah, I understand. Uh, another question, I'm a senior data engineer from the UK and I don't see any data engineering jobs here. Is the situation same across Europe and elsewhere? How is the job market world? I don't know if you have exposure to that, but maybe you have some visibility, you have some ideas. 
+
+48:04
+Guest
+I don't have firsthand, uh, exposure since I'm not looking, uh, but I hear about it from people. And, um, basically, what I hear about is that if you're a senior in the field, there's no problem to find work. Um, and I actually have former colleagues that, um, have recently, uh, gotten jobs, like, because they wanted to transition or change, um. So I would say. I would try to look at where those jobs are, what kind of jobs these are. Um, then maybe try to look at what could I do. So if I'm a senior, uh, sorry, if I'm a junior data engineer in the UK and I cannot find any junior data engineering jobs, maybe I can find, I don't know, BI manager, maybe data scientist. Maybe something that will allow me to, you know, get a job, and then, uh, once you have a job, it's way easier to get a second one. 
+
+49:00
+Host
+Yeah, right. And then uh there are quite a few other questions I wanted to ask you personally and I wanted to come back to them and um So first of all, uh, we talked about Apache iceberg and then we also, you mentioned Delta and hoodie, um. I like what are these things? So iceberg is this uh as uh we talked about, this is a special ways of organizing packet files in such a way that if you want to change something, instead of changing your append to this data and then there is like a smart way of saying that this record is no longer uh good that there's another more fresh one, right? So this is Apache iceberg. So what are delta and hoodie? 
+
+49:42
+Guest
+The same thing. And basically, where they differ is a little bit in design. Like, where is the metadata stored? What kind of, what kind of things is it good at? Is it optimized for streaming? Is it optimized for badge? What does the maintenance look like? Because there is the maintenance operation of cleaning up the redundant data, right? Um, so I would say Delta is probably the most mature implementation, um, uh hoodie is quite specialized in the open source, um, iceberg, I would say if you're using Spark, it's fine. If you are waiting for by iceberg maturity, I would say don't hold your breath. Um, yeah, so, um, I would say these file formats, you should consider them more or less interchangeable and go for whatever you can work with right now. Um, you can always convert them later. 
+
+50:40
+Host
+Mhm, mhm. OK. And um Are they all, so since it's a bunch of files at the end in some sort of file storage, I assume the way we process these files and access these files is in a batch way, right? So there are, there are, there are some files we scan these files, we produce some answer and we maybe do this every hour or every day or like, um, are there. Like, oh, this is. Batch, but what, what, what, what, what about streaming? Like can we use these things if we have uh a stream of data? 
+
+51:19
+Guest
+Yes, it's basically exactly the same thing. Uh, what is streaming? Unless you have a very hard SLA, it's microbatching. Right, so everything that is streaming without the hard SLA is micro patching. So, you know, when it comes to these file formats, I would say the distinctions of how well they can handle streaming is on, let's say, the speed of read write operations and maintenance. 
+
+51:46
+Host
+Hm. OK. Uh, but, um, 
+
+51:50
+Guest
+so we don't try iceberg with streaming right now, uh, you know, we have lots of people telling us it's a bad idea. 
+
+51:58
+Host
+So it will produce a ton of small files, right? 
+
+52:01
+Guest
+Uh, performance is a problem, basically, but, um, you can use Delta, for example. 
+
+52:09
+Host
+That. So, what I was trying to say is or figure out, uh, find out is if we need to do something like this and if we want to use this sort of um access storage layer, then it's mostly suited for batch workloads, right? For steaming, we need something else. Uh, what do people use for streaming these days? 
+
+52:31
+Guest
+For streaming, first of all, you need a buffer, right? So because you need to have some kind of service that is always available very quickly, um, that use that ideally implement some kind of protocol with the retries. Um, so that's gonna be probably Kafka or SQS. Um, and downstream of that, it could be anything. So, for example, I would say Kafka is actually one of our top sources in DLT, right? So, you talk about streaming, I would say people don't think about streaming in terms of strict SLAs, and it's usually micro patching. Uh, I would say the tightest deadline that I've seen, um, outside of pure streaming is 60 seconds. Um, many people talk about streaming on 15-minute intervals. 
+
+53:21
+Host
+Mhm. OK. Um. So what, what kind of uh tools do we, so we use Kafka sequel, right, for SPS for, for streaming, what, what do we usually solve? What kind of problems? So what I'm trying to ask you is, OK, we have batch, we have streaming, when do we actually need streaming and uh like have the tool changed because Kafka has been around for Long time, right? See SQS also has been around for a very long time. Like, are these tools going to stay or you see some other trends when it comes to steaming and like new tools appearing, 
+
+54:03
+Guest
+um. You need, you need the buffer. It's not negotiable, so B is correct. Yes, so you can use a different buffer. You could write things to S3, for example, but if you do that, the API cost of doing that will be ridiculous. Right? So it's just, I don't think this will go away. I think what will change is, um, maybe how people use it. And what I mean is initially Kafka was very much used for streaming, for capturing events and then doing something with them. Nowadays, I'm seeing people literally throw everything in Kafka. Um, just now they have a standardized layer and they work with that. Is it a good idea? Depends on the team. If you can only handle Kafka, then yeah, it's a great idea. 
+
+54:50
+Host
+And uh then in order, so Kafka is just a buffer, right? So we can put some data there and it can stay there for some time. Uh but then usually we use something else to read data from Kafka. So it could be I know. Yeah. Uh, 
+
+55:07
+Guest
+I don't actually know that much about, uh, how Flink is used, but, uh, I know that some people use KSQL, uh, to read from. Uh, other people use, uh, basically just DocDB, uh, to take it out and process it before loading it somewhere else. 
+
+55:24
+Host
+DoD can also do that, can it? Yeah, 
+
+55:28
+Guest
+I mean, you everything with Python ultimately, so. 
+
+55:31
+Host
+Yeah. And uh DLT too, right? You can connect to, I think you mentioned that. OK. Um, so basically, Yeah. 
+
+55:42
+Guest
+We are quite heavily used as a Kafka sink because, you know, if you're using, uh, Kafka as a standard layer, then, you know, having a standard ingestion downstream is just nice. 
+
+55:54
+Host
+Mhm. Yeah. OK. And um Yeah, I see a question which is related to what I also prepared. So the question is, will, do you think data engineering will be automated by AI? And to like, in general, how does AI affect data engineering? 
+
+56:15
+Guest
+Great question. I think it goes in the direction of this commoditization and having to offer innovation. So basically, AI is speeding up the commoditization. By making it easier for developers to work with AI. So for example, we see some of our users are using um cursor or continu or windmill IDs uh to develop um 2 times faster essentially, um. And basically what this will do is. I like to call this the era of disposable code, basically where people are generating, let's say, basic code that is very disposable, um, and The, let's say. Differentiate differentiators that will, uh, have to exist will be around use cases. So basically, I think data engineers will go deeper into their specialties. They will learn how to use AI more. One of the things that we're doing is, um, many people in the industry call us AI enablers. Um, the reason for that is basically because we provide an easy way to feed data to LLMs, AI, and stuff like that. We're also working, um, As part of this, uh, on topic, uh, startup program, uh, uh, for the MCP, uh, so basically what this does is this adds that semantic layer that I was talking about that you need together with your data and with the algorithm, uh, to be able to create intelligent AI agents. I mean, beyond just the rag or just the, you know, engineering, um. Yeah, this, this is something that I'm actually quite excited about because it will enable you to, uh, feed the LT data into a standard that, uh, accepts metadata that will then be used by the, uh, AI. So I think the data engineers will end up uh building AI agents. 
+
+58:20
+Host
+OK. Yeah, understand. I think recently, I think you published an article, right? Uh, I saw it on your LinkedIn from somebody, um. Maybe from this um. From your, from the network you mentioned or from the partnership um companies who use TI to make things way faster, right? Yes. 
+
+58:46
+Guest
+Um, so basically, the, uh, what that article talks about, you can find out, find it on our blog. It's literally a guide of how to do it yourself, uh, coming from a data, a senior data engineer that is using DLT and, uh, cursor together. 
+
+59:01
+Host
+OK. OK. 
+
+59:04
+Guest
+Uh, we have, 
+
+59:04
+Host
+do you have a couple of more minutes? Yes. Cause, um, so the last question I wanted to ask is the place of DLT in the ecosystem. So you said it's already, it has already become a standard for ingestion. And right now, you also shared some plans that you want to maybe go uh to, to give more focus uh to become this AI enabler, enabler. Uh you already are but like maybe double down on that. Um. So what are your plans for, let's say 1 year and where you see DLT in 5 years? 
+
+59:42
+Guest
+So, one year is DLT plus. It's basically building out this data platform around DLT. Um, it's portable, it's really cool. It enables new things. Um, what it also does is it enables you to package data products in a portable way. So, Um, and this is the reason I mentioned it is because it plays into the bigger vision. What I mean is, I was telling you about this tech agnostic access, right? So if you build on top of this tech agnostic access, it means that you can use the same code on any technology, which means that now you can reuse things across organizations. Uh, so this is actually, you know, um, part of the commoditization story is 5Tran, um, and all the other vendors commoditized maybe 300 sources. And if we are to talk about them in the concept of raw data or bronze, as, uh, data BRICSs would call it, and then silver and gold, you could say that the industry is currently selling bronze or silver data sets, and it's 300 of them. What we're trying to create is the infrastructure that will enable uh participants to the industry to create a marketplace for. Bronze, silver, and gold data sets. So what I mean is essentially data products, whether they are sources, transformers, or, um, AI agents, uh, we want to create a marketplace that will enable people to offer, uh, their creations and, uh, have them reused. Hm. So that's the LD hob, that's the long term vision. 
+
+61:19
+Host
+Mhm. So this is in 5 years. 
+
+61:22
+Guest
+I hope sooner than that, but, uh, yeah, in 5 years, hopefully it will already have been around for some time and, uh, got into some. 
+
+61:32
+Host
+Well, um, so since, uh, it looks like, uh, we already have a tradition to talk in January every year, so probably we will have another interview in one year and see uh how things, uh, will have played out by then. So it was amazing as always talking to you. Um, thanks Adrian for joining, sharing your opinion, uh, on how things have developed and will um develop. It's very interesting for me personally, for the students. I see a lot of actually engagement. Um, so thanks everyone for also joining us today, um, and being active, uh, for questions. And yeah, it's been fun. Thanks, Adrian. 
+
+62:15
+Guest
+Thanks, Alexei. See you later. 
+
+62:17
+Host
+Goodbye. Bye, everyone.
